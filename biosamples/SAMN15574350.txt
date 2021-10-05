@@ -1,0 +1,18 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15574350; Sample name: AC1633
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AC1633"
+    /collected by="Hospital Sultanah Nur Zahirah (HSNZ)"
+    /collection date="2016"
+    /geographic location="Malaysia: Kuala Terengganu"
+    /host="Homo sapiens"
+    /host disease="hospital-acquired pneumonia"
+    /isolation source="blood"
+    /latitude and longitude="5.3296 N 103.1370 E"
+    /host age="60"
+    /host disease outcome="death"
+    /host sex="female"
+Accession: SAMN15574350	ID: 15574350
+
+

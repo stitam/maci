@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09667779; Sample name: MH2
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="MH2"
+    /collected by="Sheng Chen"
+    /collection date="2010"
+    /geographic location="Hong Kong"
+    /host="Homo sapiens"
+    /host disease="unknown"
+    /isolation source="missing"
+    /latitude and longitude="unknown"
+Accession: SAMN09667779	ID: 9667779
+
+

@@ -1,0 +1,12 @@
+1: The micro sample of Acinetobacter baumannii strain WCHAB090197
+Identifiers: BioSample: SAMN08031281; Sample name: The micro sample of Acinetobacter baumannii strain WCHAB090197; SRA: SRS2691466
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="WCHAB090197"
+    /host="Homo sapiens"
+    /collection date="2017"
+    /geographic location="China: Chengdu, Sichuan"
+    /sample type="Pure Culture"
+Accession: SAMN08031281	ID: 8031281
+
+

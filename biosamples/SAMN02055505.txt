@@ -1,0 +1,15 @@
+1: Pathogen sample from Acinetobacter baumannii TG15240
+Identifiers: BioSample: SAMN02055505; Sample name: TG15240
+Organism: Acinetobacter baumannii TG15240
+Attributes:
+    /latitude and longitude="N/A"
+    /collection date="2008"
+    /host sex="N/A"
+    /geographic location="N/A"
+    /isolation source="sputum"
+    /collected by="N/A"
+    /host="Homo sapiens"
+    /strain="TG15240"
+Accession: SAMN02055505	ID: 2055505
+
+

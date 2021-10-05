@@ -1,0 +1,17 @@
+1: DNA sample from a human female participant in the dbGaP study "STAMPEED: Northern Finland Birth Cohort 1966 (NFBC1966)"
+Identifiers: BioSample: SAMN01876488; SRA: SRS427917
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="STAMPEED_NFBC"
+    /biospecimen repository="STAMPEED_NFBC"
+    /study name="STAMPEED: Northern Finland Birth Cohort 1966 (NFBC1966)"
+    /study design="Prospective Longitudinal Cohort"
+    /biospecimen repository sample id="H_HY-01551"
+    /submitted sample id="H_HY-01551"
+    /submitted subject id="3860"
+    /sex="female"
+    /analyte type="DNA"
+    /subject is affected="No"
+Accession: SAMN01876488	ID: 1876488
+
+

@@ -1,0 +1,14 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07236631; Sample name: 29R1
+Organism: Acinetobacter baumannii
+Attributes:
+    /geographic location="Poland"
+    /sample type="tissue sample"
+    /isolation source="rectum"
+    /strain="29R1"
+    /host tissue sampled="rectum"
+    /host="white stork"
+    /collection date="2014"
+Accession: SAMN07236631	ID: 7236631
+
+

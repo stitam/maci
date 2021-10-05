@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN03450127; Sample name: AB210M; SRA: SRS908473
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB210M"
+    /collected by="Troy Hammerstrom"
+    /collection date="2012-08-17"
+    /geographic location="USA: Texas"
+    /host="Homo sapiens"
+    /host disease="intra-abdominal infection"
+    /isolation source="laboratory"
+    /latitude and longitude="29.7604 N 95.3698 W"
+Accession: SAMN03450127	ID: 3450127
+
+

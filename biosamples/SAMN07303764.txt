@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07303764; Sample name: IHSS3526; SRA: SRS2424749
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="IHSS3526"
+    /collected by="Instituto Hondureno de Seguridad Social"
+    /collection date="2016-02-11"
+    /geographic location="Honduras: Cortes, San Pedro Sula"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter infection"
+    /isolation source="Endobronchial tube"
+    /latitude and longitude="missing"
+    /host age="11 yrs"
+    /host sex="male"
+Accession: SAMN07303764	ID: 7303764
+
+

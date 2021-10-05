@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH184_309
+Identifiers: BioSample: SAMN03084802; JCVI: ABUH_SP_0077
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH184_309"
+    /collected by="Robert Bonomo"
+    /collection date="2008-10-23"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Urinary tract infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH184_309
+Accession: SAMN03084802	ID: 3084802
+
+

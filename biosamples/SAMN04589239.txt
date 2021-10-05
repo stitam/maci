@@ -1,0 +1,15 @@
+1: Acinetobacter baumannii Isolate B
+Identifiers: BioSample: SAMN04589239; Sample name: Isolate B
+Organism: Acinetobacter baumannii
+Attributes:
+    /isolate="AB-B"
+    /collected by="Max von Pettenkofer-Institute"
+    /collection date="2013-12"
+    /geographic location="Ethiopia"
+    /host="Homo sapiens"
+    /host disease="inguinal abscess"
+    /isolation source="wound swab"
+    /latitude and longitude="7.6846 N 36.8554 E"
+Accession: SAMN04589239	ID: 4589239
+
+

@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07268441; Sample name: 1920 CNR
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Ab_12"
+    /collected by="Pasteur Institut of Ivory Coast"
+    /collection date="2013-11-21"
+    /geographic location="Cote d'Ivoire: Abidjan"
+    /host="Homo sapiens"
+    /host disease="Urinary tract infections"
+    /isolation source="urine"
+    /latitude and longitude="5.1894 N 3.5733 W"
+    /host sex="female"
+Accession: SAMN07268441	ID: 7268441
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN16812330; Sample name: MH-ABH008
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABH008"
+    /collected by="Masoumeh Douraghi"
+    /collection date="2012"
+    /geographic location="Iran:Tehran"
+    /host="Homo sapiens"
+    /host disease="not known"
+    /isolation source="not recorded"
+    /latitude and longitude="32.4279 N 53.6880 E"
+Accession: SAMN16812330	ID: 16812330
+
+

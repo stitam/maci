@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii S15 AB2C8
+Identifiers: BioSample: SAMN07977790; Sample name: S15; SRA: SRS2661131
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="S15"
+    /collected by="Yohei Doi, MD, University of Pittsburgh"
+    /collection date="2008-02-26"
+    /geographic location="USA: Pittsburgh"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter Infections"
+    /isolation source="BAL"
+    /latitude and longitude="40.4406 N 79.9959 W"
+    /genotype="ST208 (Oxford), ST2 (Pasteur)"
+    /alternate-name-alias="AB2C8"
+Accession: SAMN07977790	ID: 7977790
+
+

@@ -1,0 +1,14 @@
+1: Sample from a human participant in the dbGaP study "The Cancer Genome Atlas (TCGA)"
+Identifiers: BioSample: SAMN00893020
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="TCGA"
+    /biospecimen repository="TCGA"
+    /study name="The Cancer Genome Atlas (TCGA)"
+    /biospecimen repository sample id="TCGA-61-2610-02A-01W-1092-09"
+    /submitted sample id="TCGA-61-2610-02A-01W-1092-09"
+    /submitted subject id="TCGA-61-2610"
+    /subject is affected="1"
+Accession: SAMN00893020	ID: 893020
+
+

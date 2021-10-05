@@ -1,0 +1,17 @@
+1: BJ6
+Identifiers: BioSample: SAMN02911268; Sample name: BJ6
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="BJ6"
+    /host disease="None"
+    /latitude and longitude="missing"
+    /collection date="2012"
+    /geographic location="China: Beijing"
+    /isolation source="sputum"
+    /host="Homo sapiens"
+    /collected by="Yuying Zhu"
+Description:
+isolated at the 306th Hospital of People's Liberation Army in Beijing, China
+Accession: SAMN02911268	ID: 2911268
+
+

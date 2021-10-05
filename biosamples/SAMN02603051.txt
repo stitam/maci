@@ -1,0 +1,8 @@
+1: Sample from Acinetobacter baumannii AB0057
+Identifiers: BioSample: SAMN02603051; Sample name: CP001182; SRA: SRS922877
+Organism: Acinetobacter baumannii AB0057
+Attributes:
+    /strain="AB0057"
+Accession: SAMN02603051	ID: 2603051
+
+

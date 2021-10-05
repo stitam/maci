@@ -1,0 +1,10 @@
+1: Sample from Acinetobacter baumannii AB_TG27331
+Identifiers: BioSample: SAMN02471233; Sample name: AMIP
+Organism: Acinetobacter baumannii AB_TG27331
+Attributes:
+    /strain="AB_TG27331"
+    /host="Homo sapiens"
+    /isolation source="sputum"
+Accession: SAMN02471233	ID: 2471233
+
+

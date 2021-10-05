@@ -1,0 +1,12 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07236635; Sample name: BAuABod-3
+Organism: Acinetobacter baumannii
+Attributes:
+    /geographic location="Germany"
+    /sample type="environmental sample"
+    /strain="BAuABod-3"
+    /host="turkey"
+    /collection date="2015"
+Accession: SAMN07236635	ID: 7236635
+
+

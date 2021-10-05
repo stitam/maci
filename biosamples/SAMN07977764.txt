@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii S2 AB1A6
+Identifiers: BioSample: SAMN07977764; Sample name: S2; SRA: SRS2661145
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="S2"
+    /collected by="Yohei Doi, MD, University of Pittsburgh"
+    /collection date="2011-02-05"
+    /geographic location="USA: Pittsburgh"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter Infections"
+    /isolation source="BAL"
+    /latitude and longitude="40.4406 N 79.9959 W"
+    /genotype="ST208 (Oxford), ST2 (Pasteur)"
+    /alternate-name-alias="AB1A6"
+Accession: SAMN07977764	ID: 7977764
+
+

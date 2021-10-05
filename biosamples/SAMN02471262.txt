@@ -1,0 +1,10 @@
+1: Sample from Acinetobacter baumannii AB_515-8
+Identifiers: BioSample: SAMN02471262; Sample name: AMHU
+Organism: Acinetobacter baumannii AB_515-8
+Attributes:
+    /strain="AB_515-8"
+    /host="Homo sapiens"
+    /isolation source="sputum"
+Accession: SAMN02471262	ID: 2471262
+
+

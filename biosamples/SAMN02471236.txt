@@ -1,0 +1,10 @@
+1: Sample from Acinetobacter baumannii AB_TG5064
+Identifiers: BioSample: SAMN02471236; Sample name: AMIU
+Organism: Acinetobacter baumannii AB_TG5064
+Attributes:
+    /strain="AB_TG5064"
+    /host="Homo sapiens"
+    /isolation source="blood"
+Accession: SAMN02471236	ID: 2471236
+
+

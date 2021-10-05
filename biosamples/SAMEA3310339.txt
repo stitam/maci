@@ -1,0 +1,18 @@
+1: 19468-sc-2107540
+Identifiers: BioSample: SAMEA2710946; SRA: ERS531903
+Organism: Mycobacterium tuberculosis
+Attributes:
+    /Alias="19468-sc-2107540"
+    /ENA checklist="ERC000011"
+    /INSDC center alias="SC"
+    /INSDC center name="Wellcome Sanger Institute"
+    /INSDC first public="2015-01-08T09:43:25Z"
+    /INSDC last update="2018-03-09T12:03:36Z"
+    /INSDC status="public"
+    /SRA accession="ERS531903"
+    /sample name="ERS531903"
+    /strain="Thailand"
+    /Title="Mycobacterium tuberculosis"
+Accession: SAMEA2710946	ID: 3310339
+
+

@@ -1,0 +1,11 @@
+1: Acinetobacter baumannii 1195185_80
+Identifiers: BioSample: SAMN02692957; Sample name: PACIN_1195185-80; SRA: SRS579329
+Organism: Acinetobacter baumannii 1195185_80
+Attributes:
+    /geographic location="USA"
+    /isolation source="sputum"
+    /host="Homo sapiens"
+    /strain="1195185_80"
+Accession: SAMN02692957	ID: 2692957
+
+

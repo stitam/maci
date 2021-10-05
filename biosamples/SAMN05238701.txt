@@ -1,0 +1,17 @@
+1: Sample of Acinetobacter baumannii ABUH810
+Identifiers: BioSample: SAMN05238701; SRA: SRS1504131; JCVI: GCID_ACINM_00125
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABUH810"
+    /collected by="JCVI"
+    /collection date="2016-03-04"
+    /geographic location="Unknown"
+    /host="Homo sapiens"
+    /host disease="urinary tract infection"
+    /isolation source="Unknown"
+    /latitude and longitude="40.5 N 82.5 W"
+Description:
+Sample of Acinetobacter baumannii ABUH810
+Accession: SAMN05238701	ID: 5238701
+
+

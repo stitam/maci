@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii A-71.198
+Identifiers: BioSample: SAMN13622395; Sample name: Acinetobacter baumannii A-71.198
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="A-71.198"
+    /host="Homo sapiens"
+    /isolation source="tracheal secretion"
+    /collection date="2016"
+    /geographic location="Brazil"
+    /sample type="whole organism"
+Accession: SAMN13622395	ID: 13622395
+
+

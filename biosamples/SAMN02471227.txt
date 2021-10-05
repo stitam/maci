@@ -1,0 +1,10 @@
+1: Sample from Acinetobacter baumannii AB_909-05
+Identifiers: BioSample: SAMN02471227; Sample name: AMIA
+Organism: Acinetobacter baumannii AB_909-05
+Attributes:
+    /strain="AB_909-05"
+    /host="Homo sapiens"
+    /isolation source="sputum"
+Accession: SAMN02471227	ID: 2471227
+
+

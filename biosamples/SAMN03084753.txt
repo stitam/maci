@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH236_87
+Identifiers: BioSample: SAMN03084753; JCVI: ABUH_SP_0028
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH236_87"
+    /collected by="Robert Bonomo"
+    /collection date="2007-11-25"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Biopsy"
+    /isolation source="Tissues"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH236_87
+Accession: SAMN03084753	ID: 3084753
+
+

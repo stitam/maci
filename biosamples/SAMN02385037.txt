@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 397971
+Identifiers: BioSample: SAMN02385037; Sample name: PACIN_397971; SRA: SRS494477
+Organism: Acinetobacter baumannii 397971
+Attributes:
+    /strain="397971"
+Accession: SAMN02385037	ID: 2385037
+
+

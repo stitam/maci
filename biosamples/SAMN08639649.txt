@@ -1,0 +1,12 @@
+1: ACB92
+Identifiers: BioSample: SAMN08639649; Sample name: ACB92
+Organism: Acinetobacter baumannii
+Attributes:
+    /isolation source="pets"
+    /collection date="2015"
+    /geographic location="Italy"
+    /sample type="cell culture"
+    /strain="pet_ACB92"
+Accession: SAMN08639649	ID: 8639649
+
+

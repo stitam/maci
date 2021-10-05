@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15010615; Sample name: H202
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="H202"
+    /collected by="FFUP"
+    /collection date="2010"
+    /geographic location="Portugal: Porto"
+    /host="Homo sapiens"
+    /host disease="unknown"
+    /isolation source="unknown"
+    /latitude and longitude="41.1579 N 8.6291 W"
+Accession: SAMN15010615	ID: 15010615
+
+

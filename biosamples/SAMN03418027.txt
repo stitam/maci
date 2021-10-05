@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii M1
+Identifiers: BioSample: SAMN03418027; Sample name: M1
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="M1"
+    /collection date="2009"
+    /broad-scale environmental context="Not applicable"
+    /local-scale environmental context="Not applicable"
+    /environmental medium="Not applicable"
+    /geographic location="Malaysia"
+    /latitude and longitude="3.1333 N 101.7000 E"
+    /isolation and growth condition="Not collected"
+    /number of replicons="Not applicable"
+    /reference for biomaterial="Not applicable"
+Description:
+Keywords: GSC:MIxS;MIGS:5.0
+Accession: SAMN03418027	ID: 3418027
+
+

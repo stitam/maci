@@ -1,0 +1,19 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07520231; Sample name: Acinetobacter baumannii 5845
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="5845"
+    /collected by="Hospital Ignacio Morones Prieto"
+    /collection date="2009-12-31"
+    /geographic location="Mexico: San Luis Potosi"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter infection"
+    /isolation source="wound"
+    /latitude and longitude="missing"
+    /host age="57"
+    /host sex="male"
+Description:
+Clinical isolate from Hospital Ignacio Morones Prieto, San Luis Potosi State, Mexico in 2009.
+Accession: SAMN07520231	ID: 7520231
+
+

@@ -1,0 +1,11 @@
+1: Acinetobacter baumannii 23037
+Identifiers: BioSample: SAMN02692963; Sample name: PACIN_23037; SRA: SRS579335
+Organism: Acinetobacter baumannii 23037
+Attributes:
+    /geographic location="USA"
+    /isolation source="perirectal"
+    /host="Homo sapiens"
+    /strain="23037"
+Accession: SAMN02692963	ID: 2692963
+
+

@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH487_64
+Identifiers: BioSample: SAMN03084745; JCVI: ABUH_SP_0020
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH487_64"
+    /collected by="Robert Bonomo"
+    /collection date="2007-10-21"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="Not Applicable"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH487_64
+Accession: SAMN03084745	ID: 3084745
+
+

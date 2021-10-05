@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11584673; Sample name: B45
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Ab45"
+    /collected by="Shunde first people's hospital"
+    /collection date="2014-04-09"
+    /geographic location="China:Gungdong"
+    /host="Homo sapiens"
+    /host disease="pulmonary infection"
+    /isolation source="Sputamentum"
+    /latitude and longitude="22.61 N 113.06 E"
+Accession: SAMN11584673	ID: 11584673
+
+

@@ -1,0 +1,20 @@
+1: MIGS Cultured Bacterial/Archaeal sample from Gilliamella apicola
+Identifiers: BioSample: SAMN05603549; Sample name: N-22
+Organism: Gilliamella apicola
+Attributes:
+    /strain="N-22"
+    /collection date="2011-07"
+    /broad-scale environmental context="fields"
+    /local-scale environmental context="Beehive"
+    /environmental medium="Gut"
+    /geographic location="Norway:Aas"
+    /host="Apis mellifera"
+    /isolation and growth condition="missing"
+    /latitude and longitude="Not collected"
+    /number of replicons="Not applicable"
+    /reference for biomaterial="missing"
+Description:
+Keywords: GSC:MIxS;MIGS:5.0
+Accession: SAMN05603549	ID: 5603549
+
+

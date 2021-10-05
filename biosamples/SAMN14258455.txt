@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14258455; Sample name: Ab17
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Ab17"
+    /collected by="Iolanda A. Braga"
+    /collection date="2016"
+    /geographic location="Brazil: Montes Claros"
+    /host="Homo sapiens"
+    /host disease="unknown"
+    /isolation source="Rectal swab"
+    /latitude and longitude="16.722820 S 43.856922 W"
+Accession: SAMN14258455	ID: 14258455
+
+

@@ -1,0 +1,6 @@
+1: Acinetobacter baumannii 25681_5
+Identifiers: BioSample: SAMN02644666; Sample name: PACIN_25681-5; SRA: SRS558777
+Organism: Acinetobacter baumannii 25681_5
+Accession: SAMN02644666	ID: 2644666
+
+

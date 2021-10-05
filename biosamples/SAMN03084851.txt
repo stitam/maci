@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH41_491
+Identifiers: BioSample: SAMN03084851; JCVI: ABUH_SP_0126
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH41_491"
+    /collected by="Robert Bonomo"
+    /collection date="2010-04-20"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Respiratory infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH41_491
+Accession: SAMN03084851	ID: 3084851
+
+

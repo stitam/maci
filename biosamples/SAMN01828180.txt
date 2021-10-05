@@ -1,0 +1,12 @@
+1: Generic sample from Acinetobacter baumannii NIPH 1362
+Identifiers: BioSample: SAMN01828180; Sample name: Acinetobacter baumannii NIPH 1362; SRA: SRS415304
+Organism: Acinetobacter baumannii NIPH 1362
+Attributes:
+    /geographic location="Czech Republic: Praha"
+    /collection date="2000"
+    /host="Homo sapiens"
+    /isolation source="tracheal aspirate"
+    /strain="NIPH 1362"
+Accession: SAMN01828180	ID: 1828180
+
+

@@ -1,0 +1,10 @@
+1: Sample from Acinetobacter baumannii AB_2008-15-45
+Identifiers: BioSample: SAMN02471271; Sample name: AMHL
+Organism: Acinetobacter baumannii AB_2008-15-45
+Attributes:
+    /strain="AB_2008-15-45"
+    /host="Homo sapiens"
+    /isolation source="bronchoalveolar lavage"
+Accession: SAMN02471271	ID: 2471271
+
+

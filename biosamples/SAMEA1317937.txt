@@ -1,0 +1,16 @@
+1: DNA sample from a human female participant in the dbGaP study "Framingham SHARe Inflammatory Markers - OPG"
+Identifiers: BioSample: SAMN01317937
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="Framingham_SHARe"
+    /biospecimen repository="Framingham_SHARe"
+    /study name="Framingham SHARe Inflammatory Markers - OPG"
+    /biospecimen repository sample id="26138"
+    /submitted sample id="26138"
+    /submitted subject id="26138"
+    /sex="female"
+    /analyte type="DNA"
+    /subject is affected=""
+Accession: SAMN01317937	ID: 1317937
+
+

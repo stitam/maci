@@ -1,0 +1,15 @@
+1: Pathogen: environmental/food/other sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN16629668; Sample name: B238; SRA: SRS7647416
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="B238"
+    /collected by="NPHL"
+    /collection date="2020-01"
+    /geographic location="USA: Nebraska"
+    /host="Homo sapiens"
+    /host disease="wound infection"
+    /isolation source="missing"
+    /latitude and longitude="missing"
+Accession: SAMN16629668	ID: 16629668
+
+

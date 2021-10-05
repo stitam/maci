@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN06650261; Sample name: SSMA17
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="SSMA17"
+    /collected by="KARMS"
+    /collection date="2013-10"
+    /geographic location="South Korea: Seoul"
+    /host="Homo sapiens"
+    /host disease="not collected"
+    /isolation source="Bronchial washing fluid"
+    /latitude and longitude="not collected"
+Accession: SAMN06650261	ID: 6650261
+
+

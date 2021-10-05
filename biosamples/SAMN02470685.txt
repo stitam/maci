@@ -1,0 +1,13 @@
+1: Sample from Acinetobacter baumannii ABNIH13
+Identifiers: BioSample: SAMN02470685; Sample name: APBB
+Organism: Acinetobacter baumannii ABNIH13
+Attributes:
+    /strain="ABNIH13"
+    /note="PT2-Rb"
+    /host="Homo sapiens"
+    /collection date="2007"
+    /isolation source="tracheal aspirate"
+    /geographic location="USA"
+Accession: SAMN02470685	ID: 2470685
+
+

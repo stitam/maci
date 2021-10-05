@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11513661; Sample name: ab8; SRA: SRS4676118
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ab8_HL"
+    /host="Homo sapiens"
+    /isolation source="sputum"
+    /collection date="2015-03-11"
+    /geographic location="China: Beijing"
+    /sample type="sputum"
+Accession: SAMN11513661	ID: 11513661
+
+

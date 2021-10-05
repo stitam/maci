@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN03197109; Sample name: 1153_ABAU; SRA: SRS746316
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="UW clinical laboratory"
+    /collection date="Unknown"
+    /geographic location="USA: WA"
+    /host="Homo sapiens"
+    /host disease="missing"
+    /isolation source="missing"
+    /latitude and longitude="missing"
+    /strain="1153_ABAU"
+Accession: SAMN03197109	ID: 3197109
+
+

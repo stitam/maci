@@ -1,0 +1,21 @@
+1: Non-tumor DNA sample from Blood of a human female participant in the dbGaP study "Sequencing of Targeted Genomic Regions Associated with Smoking"
+Identifiers: BioSample: SAMN03138279; SRA: SRS848328
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="NCI_CIDR_SmokingTargetedGenomicRegions"
+    /biospecimen repository="NCI_CIDR_SmokingTargetedGenomicRegions"
+    /study name="Sequencing of Targeted Genomic Regions Associated with Smoking"
+    /study design="Case-Control"
+    /biospecimen repository sample id="200544546@0124028672"
+    /submitted sample id="200544546@0124028672"
+    /submitted subject id="376482"
+    /sex="female"
+    /tissue="Blood"
+    /histological type="Blood"
+    /analyte type="DNA"
+    /is tumor="No"
+    /molecular data type="SNP Genotypes (Array)"
+    /molecular data type="SNP Genotypes (NGS)"
+Accession: SAMN03138279	ID: 3138279
+
+

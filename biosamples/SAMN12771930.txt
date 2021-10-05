@@ -1,0 +1,20 @@
+1: MIGS Cultured Bacterial/Archaeal sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN12771930; Sample name: AMA4
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AMA4"
+    /collection date="2015"
+    /broad-scale environmental context="not applicable"
+    /local-scale environmental context="not applicable"
+    /environmental medium="not applicable"
+    /geographic location="not applicable"
+    /host="Homo sapiens"
+    /isolation and growth condition="missing"
+    /latitude and longitude="40.813604 S 62.989841 W"
+    /number of replicons="missing"
+    /reference for biomaterial="missing"
+Description:
+Keywords: GSC:MIxS;MIGS:5.0
+Accession: SAMN12771930	ID: 12771930
+
+

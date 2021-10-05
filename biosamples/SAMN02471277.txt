@@ -1,0 +1,10 @@
+1: Sample from Acinetobacter baumannii AB_2008-15-34-7
+Identifiers: BioSample: SAMN02471277; Sample name: AMHK
+Organism: Acinetobacter baumannii AB_2008-15-34-7
+Attributes:
+    /strain="AB_2008-15-34-7"
+    /host="Homo sapiens"
+    /isolation source="sputum"
+Accession: SAMN02471277	ID: 2471277
+
+

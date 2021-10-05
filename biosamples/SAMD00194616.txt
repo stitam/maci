@@ -1,0 +1,16 @@
+1: Sample from a human participant in the dbGaP study "The Cancer Genome Atlas (TCGA)"
+Identifiers: BioSample: SAMN00194616; SRA: SRS156233
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="TCGA"
+    /biospecimen repository="TCGA"
+    /study name="The Cancer Genome Atlas (TCGA)"
+    /study design="Tumor vs. Matched-Normal"
+    /biospecimen repository sample id="TCGA-39-5029-11A-01W-1488-08"
+    /submitted sample id="TCGA-39-5029-11A-01W-1488-08"
+    /submitted subject id="TCGA-39-5029"
+    /study disease="Neoplasms"
+    /subject is affected="Yes"
+Accession: SAMN00194616	ID: 194616
+
+

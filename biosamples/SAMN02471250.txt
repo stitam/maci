@@ -1,0 +1,10 @@
+1: Sample from Acinetobacter baumannii AB_2008-15-70
+Identifiers: BioSample: SAMN02471250; Sample name: AMHO
+Organism: Acinetobacter baumannii AB_2008-15-70
+Attributes:
+    /strain="AB_2008-15-70"
+    /host="Homo sapiens"
+    /isolation source="tracheal aspirate"
+Accession: SAMN02471250	ID: 2471250
+
+

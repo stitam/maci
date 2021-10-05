@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09241862; Sample name: DA33098
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="DA33098"
+    /host="Homo sapiens"
+    /collection date="unknown"
+    /geographic location="Spain"
+    /sample type="unknown"
+    /serotype="ST350"
+Accession: SAMN09241862	ID: 9241862
+
+

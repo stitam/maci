@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04145689; Sample name: ABBL067l; SRA: SRS1099632
+Organism: Acinetobacter baumannii
+Attributes:
+    /host disease="Bacteremia"
+    /strain="ABBL067l"
+    /geographic location="USA: Chicago"
+    /latitude and longitude="41.89 N 87.62 W"
+    /host="Homo sapiens"
+    /collected by="missing"
+    /isolation source="blood"
+    /collection date="2008-01-16"
+Accession: SAMN04145689	ID: 4145689
+
+

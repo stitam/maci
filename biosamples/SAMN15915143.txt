@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15915143; Sample name: A92
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Alexandria Main University Hospital"
+    /collection date="2010"
+    /geographic location="Egypt: Alexandria"
+    /host="Homo sapiens"
+    /host disease="Infection"
+    /isolation source="missing"
+    /latitude and longitude="31.201778 N 29.904147 E"
+    /strain="A92"
+Accession: SAMN15915143	ID: 15915143
+
+

@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN02951536; Sample name: A33405
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="A33405"
+    /collected by="Marisa Almuzara"
+    /collection date="2012-08-28"
+    /geographic location="Argentina: Buenos Aires"
+    /host="Homo sapiens"
+    /host disease="Surgical site infection"
+    /isolation source="mini bronchoalveolar lavage"
+    /latitude and longitude="34.34 S 58.33 W"
+    /host health state="65"
+    /host sex="male"
+Accession: SAMN02951536	ID: 2951536
+
+

@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10261538; Sample name: TG28340; SRA: SRS3954060
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="TG28340"
+    /collected by="LSA"
+    /collection date="2012-02-23"
+    /geographic location="USA: Arizona"
+    /host="Homo sapiens"
+    /host disease="unknown"
+    /isolation source="trach asp"
+    /latitude and longitude="34.0489 N 111.0936 W"
+    /host sex="male"
+Accession: SAMN10261538	ID: 10261538
+
+

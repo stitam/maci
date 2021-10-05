@@ -1,0 +1,15 @@
+1: Acinetobacter baumannii isolate MRSN5540 collected within the U.S. military healthcare system
+Identifiers: BioSample: SAMN04254729; Sample name: MRSN5540; SRA: SRS1162478
+Organism: Acinetobacter baumannii
+Attributes:
+    /isolation source="blood"
+    /host="Homo sapiens"
+    /latitude and longitude="39.0017 N 77.0947 W"
+    /host disease="bacteremia"
+    /geographic location="USA: Maryland, Bethesda"
+    /collected by="United States Army"
+    /strain="MRSN5540"
+    /collection date="2011-01"
+Accession: SAMN04254729	ID: 4254729
+
+

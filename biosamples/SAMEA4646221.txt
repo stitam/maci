@@ -1,0 +1,10 @@
+1: Sample from Saccharomyces cerevisiae
+Identifiers: BioSample: SAMEA4290164
+Organism: Saccharomyces cerevisiae
+Attributes:
+    /sample name="source wt-sv079-a"
+    /genotype="wild type"
+    /strain="BY4742"
+Accession: SAMEA4290164	ID: 4646221
+
+

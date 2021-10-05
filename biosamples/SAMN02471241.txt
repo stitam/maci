@@ -1,0 +1,8 @@
+1: Sample from Acinetobacter baumannii TG19582
+Identifiers: BioSample: SAMN02471241; Sample name: AMIV
+Organism: Acinetobacter baumannii TG19582
+Attributes:
+    /strain="TG19582"
+Accession: SAMN02471241	ID: 2471241
+
+

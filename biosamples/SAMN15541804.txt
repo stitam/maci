@@ -1,0 +1,13 @@
+1: Acinetobacter baumannii strain 36-1512 clinical isolate
+Identifiers: BioSample: SAMN15541804; Sample name: 36-1512; SRA: SRS7054302
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="36-1512"
+    /host="Homo sapiens"
+    /isolation source="respiratory tract"
+    /collection date="2013-01-01"
+    /geographic location="Russia: Moscow"
+    /sample type="mixed culrure"
+Accession: SAMN15541804	ID: 15541804
+
+

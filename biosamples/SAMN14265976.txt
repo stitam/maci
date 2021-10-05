@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14265976; Sample name: ACIN00156
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ACIN00156"
+    /collected by="University of Pittsburgh Medical Center"
+    /collection date="2017"
+    /geographic location="USA: Pennsylvania, Pittsburgh"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="sputum"
+    /latitude and longitude="40.4406 N 79.9959 W"
+Accession: SAMN14265976	ID: 14265976
+
+

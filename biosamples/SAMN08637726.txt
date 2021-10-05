@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08637726; Sample name: SGH0823
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="SGH0823"
+    /isolation source="Endotracheal aspiration"
+    /host="Homo sapiens"
+    /collection date="2008"
+    /geographic location="Singapore: Singapore General Hospital"
+    /sample type="whole genome sequence"
+Accession: SAMN08637726	ID: 8637726
+
+

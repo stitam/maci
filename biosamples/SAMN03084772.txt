@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH134_167
+Identifiers: BioSample: SAMN03084772; JCVI: ABUH_SP_0047
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH134_167"
+    /collected by="Robert Bonomo"
+    /collection date="2008-04-14"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Urinary tract infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH134_167
+Accession: SAMN03084772	ID: 3084772
+
+

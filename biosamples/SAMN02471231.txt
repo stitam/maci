@@ -1,0 +1,8 @@
+1: Sample from Acinetobacter baumannii AB_TG27323
+Identifiers: BioSample: SAMN02471231; Sample name: AMIN
+Organism: Acinetobacter baumannii AB_TG27323
+Attributes:
+    /strain="AB_TG27323"
+Accession: SAMN02471231	ID: 2471231
+
+

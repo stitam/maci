@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09708293; Sample name: Ab-Pak-Pesh-07
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Pesh-07"
+    /collected by="CMH Peshawar"
+    /collection date="2015-04"
+    /geographic location="Pakistan: Peshawar"
+    /host="Homo sapiens"
+    /host disease="Not specified"
+    /isolation source="Nasobronchial lavage"
+    /latitude and longitude="34.0151 N 71.5249 E"
+Accession: SAMN09708293	ID: 9708293
+
+

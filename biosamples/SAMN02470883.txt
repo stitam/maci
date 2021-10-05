@@ -1,0 +1,13 @@
+1: Sample from Acinetobacter baumannii 48055
+Identifiers: BioSample: SAMN02470883; Sample name: AOSP
+Organism: Acinetobacter baumannii 48055
+Attributes:
+    /strain="48055"
+    /note="extreme drug resistance"
+    /host="Homo sapiens"
+    /collection date="2010"
+    /isolation source="tracheal secretion"
+    /geographic location="Denmark: Rigshospitalet, Copenhagen"
+Accession: SAMN02470883	ID: 2470883
+
+

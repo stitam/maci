@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15915098; Sample name: A8-T
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Alexandria Main University Hospital"
+    /collection date="2015"
+    /geographic location="Egypt: Alexandria"
+    /host="Homo sapiens"
+    /host disease="Infection"
+    /isolation source="missing"
+    /latitude and longitude="31.201778 N 29.904147 E"
+    /strain="A8-T"
+Accession: SAMN15915098	ID: 15915098
+
+

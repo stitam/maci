@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii AB405E4
+Identifiers: BioSample: SAMN02471180; Sample name: ANND
+Organism: Acinetobacter baumannii AB405E4
+Attributes:
+    /strain="AB405E4"
+    /host="Homo sapiens"
+    /collection date="2006-10"
+    /isolation source="blood culture"
+    /geographic location="China: Hong Kong"
+Accession: SAMN02471180	ID: 2471180
+
+

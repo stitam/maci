@@ -1,0 +1,17 @@
+1: Sample of Acinetobacter baumannii CCF35
+Identifiers: BioSample: SAMN04993415; SRA: SRS1437082; JCVI: GCID_ACINC_00035_biosample
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CCF35"
+    /collected by="Sandra Richter"
+    /collection date="2015-06-12"
+    /geographic location="Unknown"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="40.5 N 82.5 W"
+Description:
+Sample of Acinetobacter baumannii CCF35
+Accession: SAMN04993415	ID: 4993415
+
+

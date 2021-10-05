@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH7607
+Identifiers: BioSample: SAMN02597386; Sample name: AYFH
+Organism: Acinetobacter baumannii UH7607
+Attributes:
+    /strain="UH7607"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="urine"
+    /collection date="2007-11"
+Accession: SAMN02597386	ID: 2597386
+
+

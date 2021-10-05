@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii Genome sequencing
+Identifiers: BioSample: SAMN02714232; Sample name: Acinetobacter baumannii AC29
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AC29"
+    /collected by="Lean Soo Sum"
+    /collection date="2011-07-31"
+    /geographic location="Malaysia: Kuala Terengganu, Terengganu"
+    /latitude and longitude="5.311737 N 103.119912 E"
+    /host="Homo sapiens"
+    /host disease="Endotracheal Aspirates"
+    /isolation source="Endotracheal Secretion"
+Description:
+In this project, multidrug resistant isolates of Acinetobacter baumannii were obtained from the main public hospital, Hospital Sultanah Nur Zahirah, in Kuala Terengganu, Malaysia, for characterization. Strain AC29 was isolated in 2011 and is resistant to the carbapenems, meropenem and imipenem, and also resistant to ceftoxitin, gentamycin, clindamycin, erythromycin, fusidic acid, oxacillin, penicillin, rifampin, vancomycin, tobramycin, trimethamycin, amikacin, kanamycin, chloramphenicol, neomycin, streptomycin, mupirocin, tetracycline, ciprofloxacin, teicoplanin, iinezolid, and norfloxacin. However, this strain was susceptible to polymyxin B.
+Accession: SAMN02714232	ID: 2714232
+
+

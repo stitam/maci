@@ -1,0 +1,21 @@
+1: Sample of Acinetobacter baumannii ABUH80286
+Identifiers: BioSample: SAMN03268797; SRA: SRS798795; JCVI: GCID_ABUH_00012
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABUH80286"
+    /collected by="Robert Bonomo"
+    /collection date="2008"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="bloodstream infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /host health state="Diseased"
+    /host tissue sampled="Blood"
+    /phenotype="Unknown"
+    /genotype="Unknown"
+Description:
+Sample of Acinetobacter baumannii ABUH80286
+Accession: SAMN03268797	ID: 3268797
+
+

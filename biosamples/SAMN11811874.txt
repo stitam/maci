@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11811874; Sample name: NSAb12
+Organism: Acinetobacter baumannii
+Attributes:
+    /sample type="Nasopharynx"
+    /strain="NSAb12"
+    /isolate name alias="8"
+    /collected by="Tian Qin"
+    /collection date="2017-12-25"
+    /geographic location="China: Beijing"
+    /host="Homo sapiens"
+    /host disease="influenza"
+    /isolation source="nasopharynx"
+    /latitude and longitude="39.9 N 116.3 E"
+Accession: SAMN11811874	ID: 11811874
+
+

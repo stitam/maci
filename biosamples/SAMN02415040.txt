@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 1117819
+Identifiers: BioSample: SAMN02415040; Sample name: PACIN_1117819; SRA: SRS504752
+Organism: Acinetobacter baumannii 1117819
+Attributes:
+    /strain="1117819"
+Accession: SAMN02415040	ID: 2415040
+
+

@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 3390
+Identifiers: BioSample: SAMN02404533; Sample name: PACIN_3390; SRA: SRS502888
+Organism: Acinetobacter baumannii 3390
+Attributes:
+    /strain="3390"
+Accession: SAMN02404533	ID: 2404533
+
+

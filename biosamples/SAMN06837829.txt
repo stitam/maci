@@ -1,0 +1,17 @@
+1: PRIMERS3 Sample - PR384
+Identifiers: BioSample: SAMN06837829; SRA: SRS2167254; JCVI: biosam_GCID_PABU_84
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ARLG-1301"
+    /collected by="Unknown"
+    /collection date="Unknown"
+    /geographic location="Unknown"
+    /host="Unknown"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="Unknown"
+Description:
+PRIMERS3 Sample - ARLG-1301. Old Name: PR384
+Accession: SAMN06837829	ID: 6837829
+
+

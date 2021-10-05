@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07258672; Sample name: 11A1314CRGN088; SRA: SRS2304656
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="11A1314CRGN088"
+    /collected by="National Microbiology Laboratory (NML)"
+    /collection date="2013"
+    /geographic location="Canada"
+    /host="Homo sapiens"
+    /host disease="Not applicable"
+    /isolation source="Not applicable"
+    /latitude and longitude="Missing"
+Accession: SAMN07258672	ID: 7258672
+
+

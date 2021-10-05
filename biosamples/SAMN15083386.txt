@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15083386; Sample name: MRSN488800
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="KAB3"
+    /collected by="USAMRD-A"
+    /collection date="2017-06-14"
+    /geographic location="Kenya:Nairobi"
+    /host="Homo sapiens"
+    /host disease="Urinary tract infection"
+    /isolation source="missing"
+    /latitude and longitude="1.2921 S 36.8219 E"
+Accession: SAMN15083386	ID: 15083386
+
+

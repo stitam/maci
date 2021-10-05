@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14944010; Sample name: GD0302
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="GD0302"
+    /collected by="Houming Liu"
+    /collection date="2016-10-01"
+    /geographic location="China: Shenzhen"
+    /host="Homo sapiens"
+    /host disease="Lung Infection"
+    /isolation source="missing"
+    /latitude and longitude="22.6416 N 114.1352 E"
+Accession: SAMN14944010	ID: 14944010
+
+

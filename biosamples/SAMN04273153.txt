@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04273153; Sample name: ATCC 17978; SRA: SRS1166156
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ATCC 17978"
+    /collected by="not collected"
+    /collection date="not collected"
+    /geographic location="not collected"
+    /host="Homo sapiens"
+    /host disease="Nosocomial infection"
+    /isolation source="blood"
+    /latitude and longitude="not collected"
+    /culture collection="ATCC:17978"
+Accession: SAMN04273153	ID: 4273153
+
+

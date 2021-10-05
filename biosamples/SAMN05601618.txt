@@ -1,0 +1,16 @@
+1: XH198
+Identifiers: BioSample: SAMN05601618; Sample name: XH198
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="XH198"
+    /collected by="Xiaoting Hua"
+    /collection date="2014-03"
+    /geographic location="China: Hangzhou"
+    /host="missing"
+    /isolation source="missing"
+    /host disease="NA"
+    /subsource note="serial passage ATCC 17978 in MH broth, the mutant resistant to colistin was isolated"
+    /latitude and longitude="30.3 N 120.2 E"
+Accession: SAMN05601618	ID: 5601618
+
+

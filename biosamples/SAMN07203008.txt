@@ -1,0 +1,20 @@
+1: Gram-negative bacteria from clinical infections in Thailand: 20-SIPA14
+Identifiers: BioSample: SAMN07203008; SRA: SRS2263962; JCVI: 20-SIPA14
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABCRPSTH02"
+    /collected by="Unknown"
+    /collection date="2016-09-24"
+    /geographic location="Thailand"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="sputum"
+    /latitude and longitude="13.7583 N 100.4854 E"
+    /host age="39 year"
+    /host health state="sick"
+    /host sex="male"
+Description:
+Gram-negative bacteria from clinical infections in Thailand: 20-SIPA14
+Accession: SAMN07203008	ID: 7203008
+
+

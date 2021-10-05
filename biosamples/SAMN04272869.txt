@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04272869; Sample name: HUG_BS323
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AC002-1-R4-S1"
+    /genotype="ST208"
+    /isolation source="rectal swab"
+    /geographic location="Switzerland: Geneva"
+    /host disease="Not applicable"
+    /latitude and longitude="46.1936 N 6.1489 E"
+    /collection date="2015"
+    /collected by="Bacteriology lab of HUG"
+    /host="Homo sapiens"
+Accession: SAMN04272869	ID: 4272869
+
+

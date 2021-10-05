@@ -1,0 +1,19 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii AB5075
+Identifiers: BioSample: SAMN02713669; Sample name: gabab5075
+Organism: Acinetobacter baumannii AB5075
+Attributes:
+    /investigation type="bacteria_archaea"
+    /strain="AB5075"
+    /collection date="2008-09-01"
+    /geographic location="USA"
+    /isolation source="bone culture"
+    /collected by="WRAMC (Walter Reed Army Medical Center)"
+    /isolated_by="MRSN, WRAIR (barcode #MRSN959)"
+    /latitude and longitude="38.906189 N 77.0172653 W"
+    /host="Homo sapiens"
+    /host disease="osteomyelitis"
+Description:
+Sample SAMN02713669 and SAMN02435946 are the same strain.
+Accession: SAMN02713669	ID: 2713669
+
+

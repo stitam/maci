@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11607786; Sample name: B185
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB185"
+    /collected by="Shunde First People's Hospital"
+    /collection date="2018-05-23"
+    /geographic location="China: Gungdong"
+    /host="Homo sapiens"
+    /host disease="Severe pneumonia, urinary tract infection"
+    /isolation source="Sputamentum"
+    /latitude and longitude="22.61 N 113.06 E"
+Accession: SAMN11607786	ID: 11607786
+
+

@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH22908
+Identifiers: BioSample: SAMN02597400; Sample name: AYFV
+Organism: Acinetobacter baumannii UH22908
+Attributes:
+    /strain="UH22908"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="wound"
+    /collection date="2008-05"
+Accession: SAMN02597400	ID: 2597400
+
+

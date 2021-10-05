@@ -1,0 +1,13 @@
+1: Sample from Acinetobacter baumannii ABNIH6
+Identifiers: BioSample: SAMN02470695; Sample name: APAX
+Organism: Acinetobacter baumannii ABNIH6
+Attributes:
+    /strain="ABNIH6"
+    /note="PT5-Sb"
+    /host="Homo sapiens"
+    /collection date="2009"
+    /isolation source="bronchoalveolar lavage"
+    /geographic location="USA"
+Accession: SAMN02470695	ID: 2470695
+
+

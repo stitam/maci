@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH19908
+Identifiers: BioSample: SAMN02597403; Sample name: AYFY
+Organism: Acinetobacter baumannii UH19908
+Attributes:
+    /strain="UH19908"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="sputum"
+    /collection date="2008-05"
+Accession: SAMN02597403	ID: 2597403
+
+

@@ -1,0 +1,18 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07284119; Sample name: 7847
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="7847"
+    /collected by="Hospital Universitario de Nuevo Leon"
+    /collection date="2008-04-28"
+    /geographic location="Mexico: Monterrey, Nuevo Leon"
+    /host="Homo sapiens"
+    /host disease="A. baumannii bacteremia"
+    /isolation source="blood"
+    /latitude and longitude="not applicable"
+    /host age="0"
+    /host sex="female"
+    /host tissue sampled="blood"
+Accession: SAMN07284119	ID: 7284119
+
+

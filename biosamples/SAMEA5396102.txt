@@ -1,0 +1,10 @@
+1: Sample from Bos taurus
+Identifiers: BioSample: SAMEA4576693
+Organism: Bos taurus
+Attributes:
+    /sample name="GRR-40012"
+Description:
+GRR-40012
+Accession: SAMEA4576693	ID: 5396102
+
+

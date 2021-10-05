@@ -1,0 +1,12 @@
+1: Sample from Bos taurus
+Identifiers: BioSample: SAMEA4575300
+Organism: Bos taurus
+Attributes:
+    /population="NewZealand cattle"
+    /sample name="GRR-21486"
+    /sex="male"
+Description:
+GRR-21486
+Accession: SAMEA4575300	ID: 5396120
+
+

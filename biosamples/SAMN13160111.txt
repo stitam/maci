@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN13160111; Sample name: ACI42
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ACI42"
+    /collected by="HRTN"
+    /collection date="2016-08-30"
+    /geographic location="Brazil: Belo Horizonte"
+    /host="Homo sapiens"
+    /isolation source="tracheal aspirate"
+    /host disease="missing"
+    /note="hospitalized patient"
+    /latitude and longitude="19.817422 S 43.948424 W"
+Accession: SAMN13160111	ID: 13160111
+
+

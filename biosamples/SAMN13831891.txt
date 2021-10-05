@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN13831891; Sample name: Blood-1139
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="DT-1139"
+    /collected by="Dr Joel Manyahi"
+    /collection date="2017-11"
+    /geographic location="Tanzania: Dar es Salaam"
+    /host="Homo sapiens"
+    /host disease="Blood stream infection"
+    /isolation source="patient in hospital"
+    /latitude and longitude="6.49 S 39.16 E"
+Accession: SAMN13831891	ID: 13831891
+
+

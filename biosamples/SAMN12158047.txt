@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii strain J9
+Identifiers: BioSample: SAMN12158047; Sample name: J9; SRA: SRS5069337
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="J9"
+    /collected by="Westmead Hospital"
+    /collection date="1999"
+    /geographic location="Australia: Westmead, Sydney"
+    /host="Homo sapiens"
+    /host disease="unknown"
+    /isolation source="unknown"
+    /latitude and longitude="33.80 S 150.98 E"
+Description:
+ST49 (Institut Pasteur scheme) ST128 (Oxford scheme), multiply antibiotic resistant.
+Accession: SAMN12158047	ID: 12158047
+
+

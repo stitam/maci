@@ -1,0 +1,20 @@
+1: Host-associated sample of Acinetobacter baumannii
+Identifiers: BioSample: SAMN03771550; Sample name: B11911
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="B11911"
+    /collected by="CMC, Vellore, India"
+    /collection date="2014-04-14"
+    /geographic location="India: Vellore"
+    /host="Homo sapiens"
+    /host disease="Bacteremia"
+    /isolation source="blood"
+    /latitude and longitude="12.92 N 79.13 E"
+    /host age="45"
+    /host sex="male"
+    /passage history="none"
+Description:
+A multidrug resistant clinical isolate
+Accession: SAMN03771550	ID: 3771550
+
+

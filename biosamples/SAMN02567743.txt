@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 1552389
+Identifiers: BioSample: SAMN02567743; Sample name: PACIN_1552389; SRA: SRS523990
+Organism: Acinetobacter baumannii 1552389
+Attributes:
+    /strain="1552389"
+Accession: SAMN02567743	ID: 2567743
+
+

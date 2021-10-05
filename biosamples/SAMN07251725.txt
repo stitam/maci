@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07251725; Sample name: AB162
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB162"
+    /collected by="Qiong Chen"
+    /collection date="2015-12-15"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Stomachache"
+    /isolation source="sputum"
+    /latitude and longitude="missing"
+Accession: SAMN07251725	ID: 7251725
+
+

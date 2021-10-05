@@ -1,0 +1,10 @@
+1: Generic sample from Acinetobacter baumannii OIFC035
+Identifiers: BioSample: SAMN00761235; Sample name: 1132038283059 Acinetobacter baumannii OIFC035 ACIN38-PE-ILI43-1 Sample; SRA: SRS281442
+Organism: Acinetobacter baumannii OIFC035
+Attributes:
+    /strain="OIFC035"
+Description:
+Reference genome for Acinetobacter baumannii OIFC035 
+Accession: SAMN00761235	ID: 761235
+
+

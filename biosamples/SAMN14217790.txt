@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii ATCC 17978
+Identifiers: BioSample: SAMN14217790; Sample name: NCCP 16007
+Organism: Acinetobacter baumannii ATCC 17978
+Attributes:
+    /strain="ATCC 17978"
+    /culture collection="ATCC:17978"
+    /collected by="National Culture Collection"
+    /collection date="2011-01-01"
+    /geographic location="South Korea: Seoul"
+    /host="Homo sapiens"
+    /host disease="None"
+    /isolation source="urine"
+    /latitude and longitude="37 N 126 E"
+Accession: SAMN14217790	ID: 14217790
+
+

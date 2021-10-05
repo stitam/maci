@@ -1,0 +1,10 @@
+1: Sample from Acinetobacter baumannii AB_TG2031
+Identifiers: BioSample: SAMN02471264; Sample name: AMIK
+Organism: Acinetobacter baumannii AB_TG2031
+Attributes:
+    /strain="AB_TG2031"
+    /host="Homo sapiens"
+    /isolation source="sputum"
+Accession: SAMN02471264	ID: 2471264
+
+

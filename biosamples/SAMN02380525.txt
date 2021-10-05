@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 4749
+Identifiers: BioSample: SAMN02380525; Sample name: PACIN_4749; SRA: SRS492971
+Organism: Acinetobacter baumannii 4749
+Attributes:
+    /strain="4749"
+Accession: SAMN02380525	ID: 2380525
+
+

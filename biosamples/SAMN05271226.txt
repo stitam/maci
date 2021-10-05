@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN05271226; Sample name: 28
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="28"
+    /collected by="Artemiy Goncharov"
+    /collection date="2002"
+    /geographic location="Russia: St.Petersburg"
+    /host="Homo sapiens"
+    /host disease="burn infection"
+    /isolation source="burn patient"
+    /latitude and longitude="60.18079435106721 N 30.368270874023438 E"
+Accession: SAMN05271226	ID: 5271226
+
+

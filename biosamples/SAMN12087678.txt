@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN12087678; Sample name: MRSN32865
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="MRSN32865"
+    /collected by="MRSN (WRAIR)"
+    /collection date="2007"
+    /geographic location="Germany"
+    /host="Homo sapiens"
+    /host disease="missing"
+    /isolation source="wound"
+    /latitude and longitude="missing"
+Accession: SAMN12087678	ID: 12087678
+
+

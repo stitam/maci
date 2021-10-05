@@ -1,0 +1,10 @@
+1: Sample from Acinetobacter baumannii AB_TG2023
+Identifiers: BioSample: SAMN02471239; Sample name: AMIG
+Organism: Acinetobacter baumannii AB_TG2023
+Attributes:
+    /strain="AB_TG2023"
+    /host="Homo sapiens"
+    /isolation source="blood"
+Accession: SAMN02471239	ID: 2471239
+
+

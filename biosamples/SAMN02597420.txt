@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH0807
+Identifiers: BioSample: SAMN02597420; Sample name: AYGQ
+Organism: Acinetobacter baumannii UH0807
+Attributes:
+    /strain="UH0807"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="sputum"
+    /collection date="2007-09"
+Accession: SAMN02597420	ID: 2597420
+
+

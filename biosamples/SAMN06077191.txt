@@ -1,0 +1,17 @@
+1: Sample of Acinetobacter baumannii AF-401
+Identifiers: BioSample: SAMN06077191; Sample name: GCID_ACINM_00021; SRA: SRS1848528
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AF-401"
+    /collected by="not available"
+    /collection date="2009-07-01"
+    /geographic location="Mexico"
+    /host="Homo sapiens"
+    /host disease="not determined"
+    /isolation source="Small Colon"
+    /latitude and longitude="not available"
+Description:
+Sample of Acinetobacter baumannii AF-401
+Accession: SAMN06077191	ID: 6077191
+
+

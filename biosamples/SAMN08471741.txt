@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08471741; Sample name: HZ-S90
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB-HZ-S90"
+    /collected by="Lihua"
+    /collection date="2013-05-03"
+    /geographic location="China:Hangzhou"
+    /host="Homo sapiens"
+    /host disease="cerebral hemorrhage"
+    /isolation source="sputum"
+    /latitude and longitude="30.16 N 120.114 E"
+Accession: SAMN08471741	ID: 8471741
+
+

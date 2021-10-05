@@ -1,0 +1,8 @@
+1: Sample from Acinetobacter baumannii AB_TG19617
+Identifiers: BioSample: SAMN02471228; Sample name: AMID
+Organism: Acinetobacter baumannii AB_TG19617
+Attributes:
+    /strain="AB_TG19617"
+Accession: SAMN02471228	ID: 2471228
+
+

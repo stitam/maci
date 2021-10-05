@@ -1,0 +1,11 @@
+1: Beta-lactamase sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08123211; Sample name: JX111
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="JX111"
+    /beta-lactamase family="ADC"
+    /carbapenemase="not collected"
+    /EDTA inhibitor tested="not collected"
+Accession: SAMN08123211	ID: 8123211
+
+

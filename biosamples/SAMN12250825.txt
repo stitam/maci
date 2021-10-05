@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN12250825; Sample name: AS012506; SRA: SRS5539141
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Curetis GmbH"
+    /collection date="2015-08-16"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Pneumonia"
+    /isolation source="lung"
+    /latitude and longitude="missing"
+    /strain="AS012506"
+Accession: SAMN12250825	ID: 12250825
+
+

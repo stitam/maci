@@ -1,0 +1,21 @@
+1: UOS_7186-sc-1922717; 13681_142
+Identifiers: BioSample: SAMEA2626877; SRA: ERS496787
+Organism: Streptococcus pneumoniae
+Attributes:
+    /ENA-FIRST-PUBLIC="2014-10-15"
+    /ENA-LAST-UPDATE="2014-07-03"
+    /ENA-LAST-UPDATE="2017-06-22"
+    /sample name="ERS496787"
+    /anonymized name="1922717"
+    /collection date="2013-03-19"
+    /geographic location="United Kingdom"
+    /host health state="Carraige"
+    /isolation source="Nasophaynx"
+    /serovar="24F"
+    /host="Homo sapiens"
+    /strain="3063STDY5801818"
+    /supplier name="UOS_7186"
+    /unknown="Sample Description"
+Accession: SAMEA2626877	ID: 3146526
+
+

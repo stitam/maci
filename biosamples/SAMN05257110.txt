@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN05257110; Sample name: 192/2C_sample
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="192/2C"
+    /host="white stork nestling"
+    /collection date="2013"
+    /geographic location="Poland"
+    /sample type="tissue sample"
+    /host tissue sampled="choana"
+Accession: SAMN05257110	ID: 5257110
+
+

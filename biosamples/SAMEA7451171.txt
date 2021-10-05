@@ -1,0 +1,14 @@
+1: Sample_Sorted_p24_title
+Identifiers: BioSample: SAMN07451171; Sample name: Sample_Sorted_p24; SRA: SRS2408045
+Organism: Pseudomonas fluorescens
+Attributes:
+    /strain="ATCC 948 mutS naturally deficient"
+    /isolate="Sample_Sorted_p24_MA_line"
+    /host="N/A"
+    /isolation source="lab evolved"
+    /collection date="2013-06-01"
+    /geographic location="USA:Bloomington, IN"
+    /sample type="Mutation accumulation lines"
+Accession: SAMN07451171	ID: 7451171
+
+

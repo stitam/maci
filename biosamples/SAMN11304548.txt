@@ -1,0 +1,17 @@
+1: Microbe sample from Acinetobacter baumannii ATCC 17978
+Identifiers: BioSample: SAMN11304548; Sample name: Acinetobacter baumannii Lab-WT
+Organism: Acinetobacter baumannii ATCC 17978
+Attributes:
+    /strain="ATCC 17978"
+    /isolation source="missing"
+    /collection date="2018-01"
+    /geographic location="South Korea"
+    /sample type="single cell"
+    /biomaterial provider="MEM laboratory"
+    /collected by="Bora Shin"
+    /culture collection="ATCC:17978"
+    /subsource note="continuously cultivated for more than 8 years in the laboratory on luria agar plate"
+    /substrain="Lab-WT"
+Accession: SAMN11304548	ID: 11304548
+
+

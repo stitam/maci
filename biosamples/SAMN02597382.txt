@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH8107
+Identifiers: BioSample: SAMN02597382; Sample name: AYFD
+Organism: Acinetobacter baumannii UH8107
+Attributes:
+    /strain="UH8107"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="bronchial wash"
+    /collection date="2007-11"
+Accession: SAMN02597382	ID: 2597382
+
+

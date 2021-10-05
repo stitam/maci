@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 121738
+Identifiers: BioSample: SAMN02567733; Sample name: PACIN_121738; SRA: SRS523986
+Organism: Acinetobacter baumannii 121738
+Attributes:
+    /strain="121738"
+Accession: SAMN02567733	ID: 2567733
+
+

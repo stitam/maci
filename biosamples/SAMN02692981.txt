@@ -1,0 +1,10 @@
+1: Acinetobacter baumannii 24860_9
+Identifiers: BioSample: SAMN02692981; Sample name: PACIN_24860-9; SRA: SRS579357
+Organism: Acinetobacter baumannii 24860_9
+Attributes:
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /strain="24860_9"
+Accession: SAMN02692981	ID: 2692981
+
+

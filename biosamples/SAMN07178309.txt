@@ -1,0 +1,18 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07178309; Sample name: SMGC-AB2(RS)
+Organism: Acinetobacter baumannii
+Attributes:
+    /isolation source="sputum"
+    /host age="34"
+    /strain="SMGC-AB2"
+    /collected by="Shenzhen Third People's Hospital"
+    /host sex="male"
+    /host disease="Avian influenza H7N9 virus infection"
+    /collection date="2014-02-06"
+    /host disease outcome="Death"
+    /geographic location="China:Shenzhen"
+    /host="Homo sapiens"
+    /latitude and longitude="22.64 N 114.12 E"
+Accession: SAMN07178309	ID: 7178309
+
+

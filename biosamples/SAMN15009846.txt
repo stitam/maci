@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15009846; Sample name: H735
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="H735"
+    /collected by="FFUP"
+    /collection date="2014"
+    /geographic location="Portugal: Porto"
+    /host="Homo sapiens"
+    /host disease="unknown"
+    /isolation source="unknown"
+    /latitude and longitude="41.1579 N 8.6291 W"
+Accession: SAMN15009846	ID: 15009846
+
+

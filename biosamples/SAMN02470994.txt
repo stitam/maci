@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii ZWS1122
+Identifiers: BioSample: SAMN02470994; Sample name: AMGR
+Organism: Acinetobacter baumannii ZWS1122
+Attributes:
+    /strain="ZWS1122"
+    /host="Homo sapiens"
+    /collection date="2011-11"
+    /isolation source="blood"
+    /geographic location="China"
+Accession: SAMN02470994	ID: 2470994
+
+

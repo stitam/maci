@@ -1,0 +1,12 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09404816; Sample name: TUMA
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="TUMA"
+    /host="Homo sapiens"
+    /collection date="2017-05"
+    /geographic location="France:Tahiti"
+    /sample type="pure culture"
+Accession: SAMN09404816	ID: 9404816
+
+

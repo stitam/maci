@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07251704; Sample name: AB56
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB56"
+    /collected by="Qiong Chen"
+    /collection date="2015-11-04"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Infectious fever"
+    /isolation source="Vaginal secretion"
+    /latitude and longitude="missing"
+Accession: SAMN07251704	ID: 7251704
+
+

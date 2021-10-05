@@ -1,0 +1,16 @@
+1: Acinetobacter baumannii
+Identifiers: BioSample: SAMN12603273; Sample name: PG20180064; SRA: SRS5301922
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="PG20180064"
+    /collected by="Canadian Food Inspection Agency"
+    /collection date="2018-05-18"
+    /geographic location="missing"
+    /isolation source="mouse gut"
+    /latitude and longitude="missing"
+    /replicate="replicate 1"
+Description:
+Commensal bacteria
+Accession: SAMN12603273	ID: 12603273
+
+

@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04924813; Sample name: ABNH8; SRA: SRS1569074
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABNH8"
+    /collected by="Al-Noor Hospital- Makkah"
+    /collection date="2014"
+    /geographic location="Saudi Arabia: Makkah"
+    /host="Homo sapiens"
+    /host disease="Infection"
+    /isolation source="Wound swab"
+    /latitude and longitude="21.23 N 39.51 E"
+Description:
+Clinical isolate
+Accession: SAMN04924813	ID: 4924813
+
+

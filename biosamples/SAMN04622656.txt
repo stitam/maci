@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04622656; Sample name: Isolate C
+Organism: Acinetobacter baumannii
+Attributes:
+    /isolate="AB-C"
+    /collected by="Max von Pettenkofer-Institute"
+    /collection date="2014-01"
+    /geographic location="Ethiopia"
+    /host="Homo sapiens"
+    /host disease="asthema/laparatomy"
+    /isolation source="wound swab"
+    /latitude and longitude="7.6846 N 36.8554 E"
+Accession: SAMN04622656	ID: 4622656
+
+

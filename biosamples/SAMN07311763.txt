@@ -1,0 +1,15 @@
+1: Multi-drug resistant Acinetobacter baumannii 554S
+Identifiers: BioSample: SAMN07311763; Sample name: 554S
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="554S"
+    /collected by="Saeed Shoja"
+    /collection date="2013"
+    /geographic location="Iran"
+    /host="Homo sapiens"
+    /host disease="not known"
+    /isolation source="blood culture"
+    /latitude and longitude="35.44 N 51.30 E"
+Accession: SAMN07311763	ID: 7311763
+
+

@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii S8 PM3874
+Identifiers: BioSample: SAMN07977776; Sample name: S8; SRA: SRS2661110
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="S8"
+    /collected by="Yohei Doi, MD, University of Pittsburgh"
+    /collection date="2010-12-20"
+    /geographic location="USA: Pittsburgh"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter Infections"
+    /isolation source="trach aspirate"
+    /latitude and longitude="40.4406 N 79.9959 W"
+    /genotype="ST208 (Oxford), ST2 (Pasteur)"
+    /alternate-name-alias="PM3874"
+Accession: SAMN07977776	ID: 7977776
+
+

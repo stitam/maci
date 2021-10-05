@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07251711; Sample name: AB88
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB88"
+    /collected by="Qiong Chen"
+    /collection date="2015-11-16"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Cerebral hemorrhage"
+    /isolation source="sputum"
+    /latitude and longitude="missing"
+Accession: SAMN07251711	ID: 7251711
+
+

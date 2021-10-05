@@ -1,0 +1,22 @@
+1: Pathogen: environmental/food/other sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN12413929; SRA: SRS5187496; CFSAN: CFSAN093709
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CFSAN093709"
+    /collection date="2007"
+    /PublicAccession="CFSAN093709"
+    /attribute_package="environmental/food/other"
+    /Genus="Acinetobacter"
+    /geographic location="USA:DC"
+    /isolate name alias="MRSN11739"
+    /collected by="United States Army"
+    /latitude and longitude="missing"
+    /Species="baumannii"
+    /ProjectAccession="PRJNA300270"
+    /isolation source="urine"
+    /ontological term="urine:UBERON_0001088"
+    /IFSAC+ Category="clinical/research"
+    /source type="Unknown"
+Accession: SAMN12413929	ID: 12413929
+
+

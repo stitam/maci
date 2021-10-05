@@ -1,0 +1,18 @@
+1: Mc0303-D-Fb
+Identifiers: BioSample: SAMN03650400; Sample name: Mc0303-D-Fb
+Organism: mouse gut metagenome
+Attributes:
+    /unique_names="Mc0303-D-Fb"
+    /collection date="2014"
+    /broad-scale environmental context="mouse"
+    /local-scale environmental context="mouse"
+    /environmental medium="mouse"
+    /geographic location="USA: Aurora, CO"
+    /latitude and longitude="39.695833 N 104.808056 W"
+    /host="Mus musculus"
+    /source material identifiers="feces"
+Description:
+Keywords: GSC:MIxS;MIMS:5.0
+Accession: SAMN03650400	ID: 3650400
+
+

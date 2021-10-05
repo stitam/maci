@@ -1,0 +1,13 @@
+1: Pathogen: environmental/food/other sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN12769618; Sample name: K09-14; SRA: SRS6212945
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="K09-14"
+    /collected by="Microbial Repository, NTU"
+    /collection date="2017-12-10"
+    /geographic location="Malaysia"
+    /isolation source="soil"
+    /latitude and longitude="2.500593 N 102.093880 E"
+Accession: SAMN12769618	ID: 12769618
+
+

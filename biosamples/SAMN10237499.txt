@@ -1,0 +1,13 @@
+1: Pathogen: environmental/food/other sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10237499; Sample name: LWSS- 03-02-11B; SRA: SRS4751218
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="LWSS- 03-02-11B"
+    /collected by="University of Bonn"
+    /collection date="2018"
+    /geographic location="Germany"
+    /isolation source="water"
+    /latitude and longitude="Not collected"
+Accession: SAMN10237499	ID: 10237499
+
+

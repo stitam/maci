@@ -1,0 +1,11 @@
+1: Sample from Acinetobacter baumannii EGD-HP18
+Identifiers: BioSample: SAMN02469690; Sample name: AVST
+Organism: Acinetobacter baumannii EGD-HP18
+Attributes:
+    /strain="EGD-HP18"
+    /collection date="2012-10-01"
+    /isolation source="vegetable market soil"
+    /geographic location="India: MS"
+Accession: SAMN02469690	ID: 2469690
+
+

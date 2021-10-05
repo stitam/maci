@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN17073615; Sample name: G20AB007
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="G20AB007"
+    /collected by="Hallym University Dongtan Sacred Heart Hospital"
+    /collection date="2020-04-11"
+    /geographic location="South Korea: Hwaseong-si"
+    /host="Homo sapiens"
+    /host disease="Bloodstream infection"
+    /isolation source="blood"
+    /latitude and longitude="37.22 N 127.08 E"
+Accession: SAMN17073615	ID: 17073615
+
+

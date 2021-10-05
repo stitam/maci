@@ -1,0 +1,11 @@
+1: Acinetobacter baumannii 18689
+Identifiers: BioSample: SAMN02692944; Sample name: PACIN_18689; SRA: SRS579316
+Organism: Acinetobacter baumannii 18689
+Attributes:
+    /geographic location="USA"
+    /isolation source="perirectal"
+    /host="Homo sapiens"
+    /strain="18689"
+Accession: SAMN02692944	ID: 2692944
+
+

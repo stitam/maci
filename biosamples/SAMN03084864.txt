@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH355_569
+Identifiers: BioSample: SAMN03084864; JCVI: ABUH_SP_0139
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH355_569"
+    /collected by="Robert Bonomo"
+    /collection date="2012-01-20"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Urinary tract infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH355_569
+Accession: SAMN03084864	ID: 3084864
+
+

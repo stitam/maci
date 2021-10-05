@@ -1,0 +1,10 @@
+1: Acinetobacter baumannii 25442_7
+Identifiers: BioSample: SAMN02649422; Sample name: PACIN_25442-7; SRA: SRS560375
+Organism: Acinetobacter baumannii 25442_7
+Attributes:
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /strain="25442_7"
+Accession: SAMN02649422	ID: 2649422
+
+

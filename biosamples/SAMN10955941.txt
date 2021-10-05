@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10955941; Sample name: INCAN_5013
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Ab5013"
+    /collected by="Patricia Volkowf"
+    /collection date="2014"
+    /geographic location="Mexico"
+    /host="Homo sapiens"
+    /host disease="Not collected"
+    /isolation source="Not collected"
+    /latitude and longitude="Not collected"
+Accession: SAMN10955941	ID: 10955941
+
+

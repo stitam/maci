@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH175_677
+Identifiers: BioSample: SAMN03084874; JCVI: ABUH_SP_0149
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH175_677"
+    /collected by="Robert Bonomo"
+    /collection date="2013-09-13"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Urinary tract infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH175_677
+Accession: SAMN03084874	ID: 3084874
+
+

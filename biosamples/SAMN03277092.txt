@@ -1,0 +1,19 @@
+1: Sample of Acinetobacter baumannii ORAB08
+Identifiers: BioSample: SAMN03277092; SRA: SRS815459; JCVI: GCID_ACINM_00004
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ORAB08"
+    /collected by="OSPHL"
+    /collection date="2013-03-06"
+    /geographic location="USA: Washington"
+    /host="Homo sapiens"
+    /host disease="missing"
+    /isolation source="missing"
+    /latitude and longitude="47.5 N 120.5 W"
+    /host age="63 years"
+    /host sex="female"
+Description:
+Sample of Acinetobacter baumannii ORAB08
+Accession: SAMN03277092	ID: 3277092
+
+

@@ -1,0 +1,19 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii strain CAM180-1
+Identifiers: BioSample: SAMN12825295; Sample name: Genome of Acinetobacter baumannii strain CAM180-1; SRA: SRS5452605
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CAM180-1"
+    /culture collection="KCTC:72439"
+    /collected by="Yong-Hak Kim"
+    /collection date="2016-01-13"
+    /geographic location="Cambodia: Battambang"
+    /host="Homo sapiens"
+    /host disease="early childhood caries"
+    /isolation source="oral cavity"
+    /latitude and longitude="13.06 N 103.12 E"
+    /host age="4"
+Description:
+Acinetobacter baumannii strain CAM180-1 was isolated from Buccal swab of a 4-year-old child with 12 caries.
+Accession: SAMN12825295	ID: 12825295
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11607772; Sample name: B168
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB168"
+    /collected by="Shunde First People's Hospital"
+    /collection date="2017-11-26"
+    /geographic location="China: Gungdong"
+    /host="Homo sapiens"
+    /host disease="Bronchiectasis with hemoptysis, pulmonary infection"
+    /isolation source="Sputamentum"
+    /latitude and longitude="22.61 N 113.06 E"
+Accession: SAMN11607772	ID: 11607772
+
+

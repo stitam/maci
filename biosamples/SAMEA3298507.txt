@@ -1,0 +1,11 @@
+1: Ca_23_RNA
+Identifiers: BioSample: SAMN03298507; SRA: SRS828952; GEO: GSM1593812
+Organism: Homo sapiens
+Attributes:
+    /source name="human adult cancer cell"
+    /sex="male"
+    /tissue="liver cancer"
+    /passage="0"
+Accession: SAMN03298507	ID: 3298507
+
+

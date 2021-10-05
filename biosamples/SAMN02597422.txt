@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH0207
+Identifiers: BioSample: SAMN02597422; Sample name: AYGS
+Organism: Acinetobacter baumannii UH0207
+Attributes:
+    /strain="UH0207"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="sputum"
+    /collection date="2007-09"
+Accession: SAMN02597422	ID: 2597422
+
+

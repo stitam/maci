@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11626014; Sample name: ABS201 genome project; SRA: SRS5080883
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABS201"
+    /collected by="Masoumeh Douraghi"
+    /collection date="2013"
+    /geographic location="Iran"
+    /host="Homo sapiens"
+    /host disease="Wound infection"
+    /isolation source="Wound sample"
+    /latitude and longitude="35.6892 N 51.3890 E"
+Accession: SAMN11626014	ID: 11626014
+
+

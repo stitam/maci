@@ -1,0 +1,10 @@
+1: Generic sample from Acinetobacter baumannii IS-116
+Identifiers: BioSample: SAMN00761231; Sample name: 1132038283031 Acinetobacter baumannii IS-116 ACIN24-PE-ILI38-1 Sample; SRA: SRS281438
+Organism: Acinetobacter baumannii IS-116
+Attributes:
+    /strain="IS-116"
+Description:
+Reference genome for Acinetobacter baumannii IS-116 
+Accession: SAMN00761231	ID: 761231
+
+

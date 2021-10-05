@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08915454; Sample name: Rectal swab
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Ab-NDM-1"
+    /collected by="Hospital Puerta del Mar"
+    /collection date="2017-04-19"
+    /geographic location="Spain: Cadiz"
+    /host="Homo sapiens"
+    /host disease="Bronchopneumonia"
+    /isolation source="rectal swab"
+    /latitude and longitude="36.509274 N 6.278358 W"
+Accession: SAMN08915454	ID: 8915454
+
+

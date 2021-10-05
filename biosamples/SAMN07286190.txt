@@ -1,0 +1,13 @@
+1: Molecular characterization and clonal dynamics of environmental blaOXA-23 producing carbapenem-resistant Acinetobacter baumannii in a hospital setting
+Identifiers: BioSample: SAMN07286190; Sample name: Ab15
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="15"
+    /collected by="Clinical Hospital from Federal University"
+    /collection date="2011-10-18"
+    /geographic location="Brazil"
+    /isolation source="bedside table"
+    /latitude and longitude="18.8816 S 48.2599 W"
+Accession: SAMN07286190	ID: 7286190
+
+

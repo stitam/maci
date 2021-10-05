@@ -1,0 +1,10 @@
+1: Sample from Saccharomyces cerevisiae
+Identifiers: BioSample: SAMEA4290162
+Organism: Saccharomyces cerevisiae
+Attributes:
+    /sample name="source ypr106w-del-1-b"
+    /genotype="ypr106w-del"
+    /strain="BY4742"
+Accession: SAMEA4290162	ID: 4646217
+
+

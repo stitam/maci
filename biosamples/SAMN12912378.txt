@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii AbCAN2
+Identifiers: BioSample: SAMN12912378; Sample name: AbCAN2; SRA: SRS5563671
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AbCAN2"
+    /alternate_ID="Ab1225"
+    /collected by="University of Alberta Hospital"
+    /collection date="2015"
+    /geographic location="Canada: Edmonton"
+    /host="Homo sapiens"
+    /host disease="Infection"
+    /isolation source="Coccygeal isolate"
+    /latitude and longitude="53.520455 N 113.523145 W"
+Accession: SAMN12912378	ID: 12912378
+
+

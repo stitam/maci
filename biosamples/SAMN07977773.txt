@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii R6 AB1E4
+Identifiers: BioSample: SAMN07977773; Sample name: R6; SRA: SRS2661115
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="R6"
+    /collected by="Yohei Doi, MD, University of Pittsburgh"
+    /collection date="2011-05-18"
+    /geographic location="USA: Pittsburgh"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter Infections"
+    /isolation source="Pleural fluid"
+    /latitude and longitude="40.4406 N 79.9959 W"
+    /genotype="ST281 (Oxford), ST2 (Pasteur)"
+    /alternate-name-alias="AB1E4"
+Accession: SAMN07977773	ID: 7977773
+
+

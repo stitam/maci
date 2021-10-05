@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07125723; Sample name: 85; SRA: SRS4036540
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="A85"
+    /collected by="Ian Carter"
+    /collection date="2003"
+    /geographic location="Australia: Sydney"
+    /host="Homo sapiens"
+    /host disease="disease"
+    /isolation source="sputum"
+    /latitude and longitude="33.8650 S 151.2094 E"
+    /genotype="global clone 1"
+Accession: SAMN07125723	ID: 7125723
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09769497; Sample name: ABMDR-UNC
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="MDR-UNC"
+    /collected by="UNC"
+    /collection date="2012-08-22"
+    /geographic location="USA: North Carolina, Chapel Hill"
+    /host="Homo sapiens"
+    /host disease="necrotizing fasciitis"
+    /isolation source="right leg muscle, right leg fascia, central venous catheter, dialysis catheter, surface of the left leg ulcer, and left lower leg"
+    /latitude and longitude="35.9132 N 79.0558 W"
+Accession: SAMN09769497	ID: 9769497
+
+

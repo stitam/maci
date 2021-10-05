@@ -1,0 +1,6 @@
+1: Acinetobacter baumannii 44362_10
+Identifiers: BioSample: SAMN02644709; Sample name: PACIN_44362-10; SRA: SRS558816
+Organism: Acinetobacter baumannii 44362_10
+Accession: SAMN02644709	ID: 2644709
+
+

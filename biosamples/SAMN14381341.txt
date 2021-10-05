@@ -1,0 +1,12 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14381341; Sample name: Acinetobacter baumannii S2/4
+Organism: Acinetobacter baumannii
+Attributes:
+    /isolation source="environmental isolate"
+    /collection date="2019-04-19"
+    /geographic location="Croatia: Zagreb"
+    /sample type="cell culture"
+    /strain="S2/4"
+Accession: SAMN14381341	ID: 14381341
+
+

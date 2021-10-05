@@ -1,0 +1,12 @@
+1: Generic sample from Acinetobacter baumannii NIPH 70
+Identifiers: BioSample: SAMN01828144; Sample name: Acinetobacter baumannii NIPH 70; SRA: SRS415340
+Organism: Acinetobacter baumannii NIPH 70
+Attributes:
+    /geographic location="Czech Republic: Praha"
+    /collection date="1992"
+    /host="Homo sapiens"
+    /isolation source="Tracheal secretion"
+    /strain="NIPH 70"
+Accession: SAMN01828144	ID: 1828144
+
+

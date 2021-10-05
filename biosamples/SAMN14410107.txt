@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14410107; Sample name: VB11737
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="VB11737"
+    /collected by="Christian Medical College"
+    /collection date="2019"
+    /geographic location="India"
+    /host="Homo sapiens"
+    /host disease="Blood stream"
+    /isolation source="blood"
+    /latitude and longitude="12.9246 N 79.1348 E"
+Accession: SAMN14410107	ID: 14410107
+
+

@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 722310
+Identifiers: BioSample: SAMN02567757; Sample name: PACIN_722310; SRA: SRS524004
+Organism: Acinetobacter baumannii 722310
+Attributes:
+    /strain="722310"
+Accession: SAMN02567757	ID: 2567757
+
+

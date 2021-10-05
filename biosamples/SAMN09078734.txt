@@ -1,0 +1,12 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09078734; Sample name: LS066
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="LS066"
+    /host="missing"
+    /collection date="2010-10"
+    /geographic location="China"
+    /sample type="whole organism"
+Accession: SAMN09078734	ID: 9078734
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11607752; Sample name: B119
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB119"
+    /collected by="Shunde First People's Hospital"
+    /collection date="2015-04-18"
+    /geographic location="China: Gungdong"
+    /host="Homo sapiens"
+    /host disease="severe pneumonia,septic shock"
+    /isolation source="Sputamentum"
+    /latitude and longitude="22.61 N 113.06 E"
+Accession: SAMN11607752	ID: 11607752
+
+

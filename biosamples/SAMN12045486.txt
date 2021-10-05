@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii strain A320 (RUH134) the reference for global clone 2 GC2
+Identifiers: BioSample: SAMN12045486; Sample name: Acinetobacter baumannii A320 (RUH134) the global clone 2 (GC2, ECII, ICII) reference strain; SRA: SRS4983016
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="A320 (RUH134)"
+    /collected by="Rotterdam University Hospital"
+    /collection date="1982"
+    /geographic location="Netherlands:Rotterdam"
+    /host="Homo sapiens"
+    /host disease="unknown"
+    /isolation source="unknown"
+    /latitude and longitude="unknown"
+Description:
+Multiply antibiotic resistant Acinetobacter isolate from Netherlands 1982
+Accession: SAMN12045486	ID: 12045486
+
+

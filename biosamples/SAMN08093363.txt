@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08093363; Sample name: ZQ4; SRA: SRS2714142
+Organism: Acinetobacter baumannii
+Attributes:
+    /isolation source="blood"
+    /host disease="bacteremia"
+    /strain="ZQ4"
+    /collected by="Zainab J.Qasim"
+    /latitude and longitude="33.3128 N 44.3615 E"
+    /host="Homo sapiens"
+    /collection date="2016"
+    /geographic location="Iraq: Baghdad"
+Accession: SAMN08093363	ID: 8093363
+
+

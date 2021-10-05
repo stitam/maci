@@ -1,0 +1,16 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10578861; Sample name: AB2; SRA: SRS4196238
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB2"
+    /host="Homo sapiens"
+    /biomaterial provider="Not applicable"
+    /isolation source="tracheal tube"
+    /sample type="Tissue"
+    /collection date="2014"
+    /geographic location="Iran"
+Description:
+Collected in 2014, Male in Iran
+Accession: SAMN10578861	ID: 10578861
+
+

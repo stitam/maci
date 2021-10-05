@@ -1,0 +1,17 @@
+1: Sample of Acinetobacter baumannii CCF22
+Identifiers: BioSample: SAMN04993374; SRA: SRS1436832; JCVI: GCID_ACINC_00022_biosample
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CCF22"
+    /collected by="Sandra Richter"
+    /collection date="2013-05-28"
+    /geographic location="Unknown"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="40.5 N 82.5 W"
+Description:
+Sample of Acinetobacter baumannii CCF22
+Accession: SAMN04993374	ID: 4993374
+
+

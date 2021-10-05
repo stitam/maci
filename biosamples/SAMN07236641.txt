@@ -1,0 +1,12 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07236641; Sample name: GB1-2
+Organism: Acinetobacter baumannii
+Attributes:
+    /geographic location="Germany"
+    /sample type="environmental sample"
+    /strain="GB1-2"
+    /host="chicken"
+    /collection date="2015"
+Accession: SAMN07236641	ID: 7236641
+
+

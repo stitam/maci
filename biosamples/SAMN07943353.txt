@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07943353; Sample name: Acinetobacter baumannii Ab4568
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Ab4568"
+    /collected by="Institute of Microbiology and Epidemiology Beijing"
+    /collection date="2011-02-09"
+    /geographic location="China: Beijing"
+    /host="Homo sapiens"
+    /host disease="Infection"
+    /isolation source="sputum"
+    /latitude and longitude="39.26 N 115.25 E"
+Accession: SAMN07943353	ID: 7943353
+
+

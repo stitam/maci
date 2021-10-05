@@ -1,0 +1,21 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN12391854; SRA: SRS5174125; CFSAN: CFSAN093710
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CFSAN093710"
+    /collection date="2005"
+    /host disease="missing"
+    /PublicAccession="CFSAN093710"
+    /attribute_package="clinical/host-associated"
+    /collected by="United States Army"
+    /ProjectAccession="PRJNA300270"
+    /Genus="Acinetobacter"
+    /geographic location="USA:DC"
+    /isolate name alias="MRSN7532"
+    /host="Homo sapiens"
+    /latitude and longitude="missing"
+    /Species="baumannii"
+    /isolation source="sterile body site"
+Accession: SAMN12391854	ID: 12391854
+
+

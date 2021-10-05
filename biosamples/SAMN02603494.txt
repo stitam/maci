@@ -1,0 +1,8 @@
+1: Sample from Acinetobacter baumannii 1656-2
+Identifiers: BioSample: SAMN02603494; Sample name: CP001921
+Organism: Acinetobacter baumannii 1656-2
+Attributes:
+    /strain="1656-2"
+Accession: SAMN02603494	ID: 2603494
+
+

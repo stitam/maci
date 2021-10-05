@@ -1,0 +1,15 @@
+1: Acinetobacter baumannii isolate MRSN17592 associated with a fatal infection
+Identifiers: BioSample: SAMN04208819; Sample name: MRSN17592
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="NA"
+    /host disease="pneumonia with bacteremia"
+    /strain="MRSN17592"
+    /collection date="2013"
+    /geographic location="USA: Alaska"
+    /isolation source="blood"
+    /latitude and longitude="NA"
+    /host="Homo sapiens"
+Accession: SAMN04208819	ID: 4208819
+
+

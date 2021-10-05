@@ -1,0 +1,17 @@
+1: Sample of Acinetobacter baumannii CCF70
+Identifiers: BioSample: SAMN04993401; SRA: SRS1437279; JCVI: GCID_ACINC_00070_biosample
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CCF70"
+    /collected by="Sandra Richter"
+    /collection date="2013-05-11"
+    /geographic location="Unknown"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="40.5 N 82.5 W"
+Description:
+Sample of Acinetobacter baumannii CCF70
+Accession: SAMN04993401	ID: 4993401
+
+

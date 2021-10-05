@@ -1,0 +1,15 @@
+1: Multiply antibiotic resistant Acinetobacter baumannii clinical isolate ACICU
+Identifiers: BioSample: SAMN09302593; Sample name: Multiply resistant clinical isolate ACICU; SRA: SRS4706305
+Organism: Acinetobacter baumannii ACICU
+Attributes:
+    /collected by="ICU, Hospital S. Giovanni-Addolorata"
+    /collection date="2005"
+    /geographic location="Italy: Rome"
+    /host="Homo sapiens"
+    /host disease="bacteremia"
+    /isolation source="cerebrospinal fluid"
+    /latitude and longitude="41.8857 N 12.5024 E"
+    /strain="ACICU"
+Accession: SAMN09302593	ID: 9302593
+
+

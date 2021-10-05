@@ -1,0 +1,15 @@
+1: Sample of Acinetobacter baumannii: ABUH519
+Identifiers: BioSample: SAMN06117736; Sample name: GCID_ACINM_00181; SRA: SRS1873639
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABUH519"
+    /collected by="Jacobs, Michael R."
+    /collection date="2011-06-02"
+    /geographic location="USA: Ohio"
+    /host="Homo sapiens"
+    /host disease="unknown"
+    /isolation source="sputum"
+    /latitude and longitude="40.5 N 82.5 W"
+Accession: SAMN06117736	ID: 6117736
+
+

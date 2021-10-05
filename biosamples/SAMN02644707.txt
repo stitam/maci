@@ -1,0 +1,6 @@
+1: Acinetobacter baumannii 25878_3
+Identifiers: BioSample: SAMN02644707; Sample name: PACIN_25878-3; SRA: SRS558814
+Organism: Acinetobacter baumannii 25878_3
+Accession: SAMN02644707	ID: 2644707
+
+

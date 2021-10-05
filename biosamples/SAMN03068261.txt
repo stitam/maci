@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN03068261; Sample name: 2011LNAB2
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="2011LNAB2"
+    /collection date="2011"
+    /geographic location="China: Liaoning"
+    /isolation source="sputum"
+    /host="Homo sapiens"
+    /sample type="missing"
+Accession: SAMN03068261	ID: 3068261
+
+

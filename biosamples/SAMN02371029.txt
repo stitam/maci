@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 1046674
+Identifiers: BioSample: SAMN02371029; Sample name: PACIN_1046674; SRA: SRS489938
+Organism: Acinetobacter baumannii 1046674
+Attributes:
+    /strain="1046674"
+Accession: SAMN02371029	ID: 2371029
+
+

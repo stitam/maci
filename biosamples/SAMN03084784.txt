@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH66_253
+Identifiers: BioSample: SAMN03084784; JCVI: ABUH_SP_0059
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH66_253"
+    /collected by="Robert Bonomo"
+    /collection date="2008-07-16"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Hepatic fluid"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH66_253
+Accession: SAMN03084784	ID: 3084784
+
+

@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH6507
+Identifiers: BioSample: SAMN02597389; Sample name: AYFK
+Organism: Acinetobacter baumannii UH6507
+Attributes:
+    /strain="UH6507"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="urine"
+    /collection date="2007-10"
+Accession: SAMN02597389	ID: 2597389
+
+

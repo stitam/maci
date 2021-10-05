@@ -1,0 +1,11 @@
+1: Acinetobacter baumannii 233846
+Identifiers: BioSample: SAMN02692955; Sample name: PACIN_233846; SRA: SRS579327
+Organism: Acinetobacter baumannii 233846
+Attributes:
+    /geographic location="USA"
+    /isolation source="sputum"
+    /host="Homo sapiens"
+    /strain="233846"
+Accession: SAMN02692955	ID: 2692955
+
+

@@ -1,0 +1,17 @@
+1: Sample of Acinetobacter baumannii CCF54
+Identifiers: BioSample: SAMN04993440; SRA: SRS1437131; JCVI: GCID_ACINC_00054_biosample
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CCF54"
+    /collected by="Sandra Richter"
+    /collection date="2015-02-27"
+    /geographic location="Unknown"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="40.5 N 82.5 W"
+Description:
+Sample of Acinetobacter baumannii CCF54
+Accession: SAMN04993440	ID: 4993440
+
+

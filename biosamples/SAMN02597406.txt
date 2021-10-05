@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH16208
+Identifiers: BioSample: SAMN02597406; Sample name: AYGB
+Organism: Acinetobacter baumannii UH16208
+Attributes:
+    /strain="UH16208"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="sputum"
+    /collection date="2008-03"
+Accession: SAMN02597406	ID: 2597406
+
+

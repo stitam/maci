@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04924805; Sample name: AB596; SRA: SRS1569065
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB596"
+    /collected by="KAMC-Makkak"
+    /collection date="2013"
+    /geographic location="Saudi Arabia: Makkah"
+    /host="Homo sapiens"
+    /host disease="Infection"
+    /isolation source="urine"
+    /latitude and longitude="21.22 N 39.52 E"
+Description:
+Clinical isolate
+Accession: SAMN04924805	ID: 4924805
+
+

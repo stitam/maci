@@ -1,0 +1,17 @@
+1: ARLG's PRIMERS3 sample - ARLG1327
+Identifiers: BioSample: SAMN06892209; SRA: SRS2174170; JCVI: GCID_PABU_109_biosam
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ARLG1327"
+    /collected by="Unknown"
+    /collection date="Unknown"
+    /geographic location="Unknown"
+    /host="Unknown"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="Unknown"
+Description:
+ARLG's PRIMERS3 sample - ARLG1327
+Accession: SAMN06892209	ID: 6892209
+
+

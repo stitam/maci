@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11607758; Sample name: B137
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB137"
+    /collected by="Shunde First People's Hospital"
+    /collection date="2015-07-12"
+    /geographic location="China: Gungdong"
+    /host="Homo sapiens"
+    /host disease="Pulmonary infection with bilateral pleural effusion,septic shock"
+    /isolation source="Sputamentum"
+    /latitude and longitude="22.61 N 113.06 E"
+Accession: SAMN11607758	ID: 11607758
+
+

@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14525746; Sample name: Aba 18S
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Aba 18S"
+    /collected by="Irina Gheorghe"
+    /collection date="2017-09-17"
+    /geographic location="Romania:Children Hospital from Bucharest"
+    /host="Homo sapiens"
+    /host disease="pulmonary infection"
+    /isolation source="tracheal secretion"
+    /latitude and longitude="44.39 N 26.09 E"
+    /serotype="ST 1"
+Accession: SAMN14525746	ID: 14525746
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15778734; Sample name: A2_HL; SRA: SRS7178055
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="abA2"
+    /collected by="Henan Li"
+    /collection date="2018-04-28"
+    /geographic location="China:Beijing"
+    /host="Homo sapiens"
+    /host disease="Bacteremia"
+    /isolation source="blood"
+    /latitude and longitude="39.9 N 116.05 E"
+Accession: SAMN15778734	ID: 15778734
+
+

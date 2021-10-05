@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii PR07
+Identifiers: BioSample: SAMN02471432; Sample name: APWV
+Organism: Acinetobacter baumannii PR07
+Attributes:
+    /strain="PR07"
+    /host="Homo sapiens"
+    /collection date="2012-05"
+    /isolation source="blood"
+    /geographic location="Malaysia: Selangor"
+Accession: SAMN02471432	ID: 2471432
+
+

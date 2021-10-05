@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii S20 SM1604
+Identifiers: BioSample: SAMN07977800; Sample name: S20; SRA: SRS2661124
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="S20"
+    /collected by="Yohei Doi, MD, University of Pittsburgh"
+    /collection date="2015-10-23"
+    /geographic location="USA: Pittsburgh"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter Infections"
+    /isolation source="sputum"
+    /latitude and longitude="40.4406 N 79.9959 W"
+    /genotype="ST208 (Oxford), ST2 (Pasteur)"
+    /alternate-name-alias="SM1604"
+Accession: SAMN07977800	ID: 7977800
+
+

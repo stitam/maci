@@ -1,0 +1,11 @@
+1: Acinetobacter baumannii 987421
+Identifiers: BioSample: SAMN02692948; Sample name: PACIN_987421; SRA: SRS579320
+Organism: Acinetobacter baumannii 987421
+Attributes:
+    /geographic location="USA"
+    /isolation source="perirectal"
+    /host="Homo sapiens"
+    /strain="987421"
+Accession: SAMN02692948	ID: 2692948
+
+

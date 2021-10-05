@@ -1,0 +1,21 @@
+1: Acinetobacter baumannii T25
+Identifiers: BioSample: SAMN02911795; Sample name: T25
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="T25"
+    /collection date="2010-02"
+    /geographic location="Thailand: Bangkok"
+    /host="Homo sapiens"
+    /isolation source="wound swab"
+    /broad-scale environmental context="not applicable"
+    /latitude and longitude="missing"
+    /local-scale environmental context="not applicable"
+    /environmental medium="not applicable"
+    /isolation and growth condition="not applicable"
+    /number of replicons="not applicable"
+    /reference for biomaterial="not applicable"
+Description:
+Keywords: GSC:MIxS;MIGS:5.0
+Accession: SAMN02911795	ID: 2911795
+
+

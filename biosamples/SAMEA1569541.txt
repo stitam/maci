@@ -1,0 +1,16 @@
+1: DNA sample from a human male participant in the dbGaP study "Framingham SHARe Gamma Fibrinogen"
+Identifiers: BioSample: SAMN01569541
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="Framingham_SHARe"
+    /biospecimen repository="Framingham_SHARe"
+    /study name="Framingham SHARe Gamma Fibrinogen"
+    /biospecimen repository sample id="20175"
+    /submitted sample id="20175"
+    /submitted subject id="20175"
+    /sex="male"
+    /analyte type="DNA"
+    /subject is affected=""
+Accession: SAMN01569541	ID: 1569541
+
+

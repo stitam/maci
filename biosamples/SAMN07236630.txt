@@ -1,0 +1,14 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07236630; Sample name: 151/1C
+Organism: Acinetobacter baumannii
+Attributes:
+    /geographic location="Poland"
+    /sample type="tissue sample"
+    /isolation source="choana"
+    /strain="151/1C"
+    /host tissue sampled="choana"
+    /host="white stork"
+    /collection date="2013"
+Accession: SAMN07236630	ID: 7236630
+
+

@@ -1,0 +1,15 @@
+1: clinical invasive Acinetobacter baumannii isolate MDRAB58
+Identifiers: BioSample: SAMN03765519; Sample name: MDRAB58
+Organism: Acinetobacter baumannii
+Attributes:
+    /geographic location="Taiwan"
+    /isolation source="blood"
+    /collected by="Chang Gung Memorial Hospital"
+    /latitude and longitude="missing"
+    /collection date="2009"
+    /host="Homo sapiens"
+    /strain="MDRAB58"
+    /host disease="bacteremia"
+Accession: SAMN03765519	ID: 3765519
+
+

@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH381_467
+Identifiers: BioSample: SAMN03084841; JCVI: ABUH_SP_0116
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH381_467"
+    /collected by="Robert Bonomo"
+    /collection date="2010-01-15"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Peritoneal fluid"
+    /isolation source="Tissues"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH381_467
+Accession: SAMN03084841	ID: 3084841
+
+

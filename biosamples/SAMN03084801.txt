@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH370_301
+Identifiers: BioSample: SAMN03084801; JCVI: ABUH_SP_0076
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH370_301"
+    /collected by="Robert Bonomo"
+    /collection date="2008-09-18"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Respiratory infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH370_301
+Accession: SAMN03084801	ID: 3084801
+
+

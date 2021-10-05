@@ -1,0 +1,10 @@
+1: Generic sample from Acinetobacter baumannii OIFC189
+Identifiers: BioSample: SAMN00114925; Sample name: 1126932544012 Acinetobacter baumannii OIFC189 ACINETOBACTER06-BP3KB-A2NB-01-610 Sample; SRA: SRS116458
+Organism: Acinetobacter baumannii OIFC189
+Attributes:
+    /strain="OIFC189"
+Description:
+Total DNA isolated from Acinetobacter baumannii OIFC189 
+Accession: SAMN00114925	ID: 114925
+
+

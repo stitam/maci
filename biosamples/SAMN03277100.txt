@@ -1,0 +1,19 @@
+1: Sample of Acinetobacter baumannii ORAB09
+Identifiers: BioSample: SAMN03277100; SRA: SRS815460; JCVI: GCID_ACINM_00005
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ORAB09"
+    /collected by="OSPHL"
+    /collection date="2013-03-11"
+    /geographic location="USA: Lincoln County, Oregon"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="excreted bodily substance"
+    /latitude and longitude="44.6 N 123.9 W"
+    /host age="85 years"
+    /host sex="male"
+Description:
+Sample of Acinetobacter baumannii ORAB09
+Accession: SAMN03277100	ID: 3277100
+
+

@@ -1,0 +1,34 @@
+1: Genome of Acinetobacter baumannii strain I43, a mercury resistant bacteria
+Identifiers: BioSample: SAMN07689236; Sample name: I43
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="I43"
+    /host="Aeschynomene fluminensis"
+    /isolation source="inner root"
+    /collection date="2014-11"
+    /geographic location="Brazil: Mato Grosso, Pantanal"
+    /sample type="tissue sample"
+    /altitude="not collected"
+    /biomaterial provider="Fernando Correa da Costa, 2367, Boa Esperanca, Zip code 78060-900, Cuiaba, Mato Grosso, Brazil"
+    /collected by="Laboratory of Biotechnology and Microbial Ecology"
+    /culture collection="missing"
+    /depth="not applicable"
+    /broad-scale environmental context="Pantanal"
+    /genotype="not collected"
+    /host tissue sampled="Inner root"
+    /identified by="Katia Siqueira"
+    /lab host="not applicable"
+    /latitude and longitude="16.15 S 56.38 W"
+    /mating type="not collected"
+    /passage history="not applicable"
+    /sample size="not applicable"
+    /serotype="not collected"
+    /serovar="not collected"
+    /specimen voucher="not applicable"
+    /temperature="not collected"
+    /not applicable="not applicable"
+Description:
+Here, we report the draft genome sequence of strain Acinetobacter baumannii, a heavy metals resistant bacteria. The Illumina-based sequence analysis revealed an approximate genome size of 4,520353 pb, containing 4091 coding sequences.
+Accession: SAMN07689236	ID: 7689236
+
+

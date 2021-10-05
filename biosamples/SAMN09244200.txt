@@ -1,0 +1,15 @@
+1: ICMR acinetobacter baumannii 6507
+Identifiers: BioSample: SAMN09244200; Sample name: 6507
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="6507"
+    /collected by="NA"
+    /collection date="NA"
+    /geographic location="India"
+    /host="Homo sapiens"
+    /host disease="NA"
+    /isolation source="NA"
+    /latitude and longitude="NA"
+Accession: SAMN09244200	ID: 9244200
+
+

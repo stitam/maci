@@ -1,0 +1,20 @@
+1: Sample of Acinetobacter baumannii ORAB21
+Identifiers: BioSample: SAMN04432977; SRA: SRS1256780; JCVI: GCID_ACINM_00014
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ORAB21"
+    /collected by="OSPHL"
+    /collection date="2014-06-03"
+    /geographic location="USA: Lincoln County, Oregon"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="wound"
+    /latitude and longitude="44.6 N 123.9 W"
+    /host health state="Sick"
+    /host sex="female"
+    /host age="80 years"
+Description:
+Sample of Acinetobacter baumannii ORAB21
+Accession: SAMN04432977	ID: 4432977
+
+

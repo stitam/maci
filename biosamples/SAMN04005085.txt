@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04005085; Sample name: Isolate MDR-GLH1
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AbMDR-GLH1"
+    /collected by="University Hospital Virgen del Rocio"
+    /collection date="2011-01-27"
+    /geographic location="Spain: Seville"
+    /host="Homo sapiens"
+    /host disease="Cardiovascular surgery"
+    /isolation source="Tracheobronchial aspirate"
+    /latitude and longitude="37.361937 N 5.980480 W"
+Accession: SAMN04005085	ID: 4005085
+
+

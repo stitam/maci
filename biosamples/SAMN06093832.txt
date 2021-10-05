@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN06093832; Sample name: Mx11510
+Organism: Acinetobacter baumannii
+Attributes:
+    /collection date="2012"
+    /strain="11510"
+    /host disease="not known"
+    /isolation source="Bronchial"
+    /latitude and longitude="19.43 N 99 W"
+    /host="Homo sapiens"
+    /collected by="Instituto Nacional de Cancerologia, Mexico"
+    /geographic location="Mexico"
+Accession: SAMN06093832	ID: 6093832
+
+

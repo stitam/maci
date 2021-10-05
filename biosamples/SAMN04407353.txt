@@ -1,0 +1,17 @@
+1: clinical sample from Instituto Nacional de Cancerologia
+Identifiers: BioSample: SAMN04407353; Sample name: MEX11594; SRA: SRS1247747
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Instituto Nacional de Cancerologia"
+    /collection date="2011-06-17"
+    /geographic location="Mexico:Mexico City"
+    /host="Homo sapiens"
+    /host disease="Nosocomial infections"
+    /isolation source="Pleural fluid"
+    /latitude and longitude="19.287803 N 99.159154 W"
+    /strain="MEX11594"
+Description:
+clinical sample from Instituto Nacional de Cancerologia
+Accession: SAMN04407353	ID: 4407353
+
+

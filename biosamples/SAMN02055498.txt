@@ -1,0 +1,15 @@
+1: Pathogen sample from Acinetobacter baumannii TG07725
+Identifiers: BioSample: SAMN02055498; Sample name: TG07725
+Organism: Acinetobacter baumannii TG07725
+Attributes:
+    /latitude and longitude="34.85889 N 111.665039 W"
+    /collection date="2008"
+    /host sex="male"
+    /geographic location="USA"
+    /isolation source="sputum"
+    /collected by="N/A"
+    /host="Homo sapiens"
+    /strain="TG07725"
+Accession: SAMN02055498	ID: 2055498
+
+

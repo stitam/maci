@@ -1,0 +1,17 @@
+1: PRIMERS3 Sample - PR309
+Identifiers: BioSample: SAMN06837774; SRA: SRS2166987; JCVI: biosam_GCID_PABU_9
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ARLG-1815"
+    /collected by="Unknown"
+    /collection date="Unknown"
+    /geographic location="Unknown"
+    /host="Unknown"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="Unknown"
+Description:
+PRIMERS3 Sample - ARLG-1815. Old Name: PR309
+Accession: SAMN06837774	ID: 6837774
+
+

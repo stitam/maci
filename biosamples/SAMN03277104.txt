@@ -1,0 +1,19 @@
+1: Sample of Acinetobacter baumannii ORAB15
+Identifiers: BioSample: SAMN03277104; SRA: SRS815464; JCVI: GCID_ACINM_00009
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ORAB15"
+    /collected by="OSPHL"
+    /collection date="2013-07-24"
+    /geographic location="USA: Tillamook County, Oregon"
+    /host="Homo sapiens"
+    /host disease="missing"
+    /isolation source="missing"
+    /latitude and longitude="45.5 N 123.7 W"
+    /host age="74 years"
+    /host sex="female"
+Description:
+Sample of Acinetobacter baumannii ORAB15
+Accession: SAMN03277104	ID: 3277104
+
+

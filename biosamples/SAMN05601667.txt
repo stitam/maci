@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN05601667; Sample name: Acinetobacter baumannii KAB02
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="KAB02"
+    /host="Homo sapiens"
+    /isolation source="Bronchial"
+    /collection date="2015-02-25"
+    /geographic location="South Korea:Daejeon"
+    /sample type="cell culture"
+Accession: SAMN05601667	ID: 5601667
+
+

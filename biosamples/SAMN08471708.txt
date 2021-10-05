@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08471708; Sample name: HZ-C95
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB-HZ-C95"
+    /collected by="Lihua"
+    /collection date="2014-03-24"
+    /geographic location="China:Hangzhou"
+    /host="Homo sapiens"
+    /host disease="severe pneumonia"
+    /isolation source="blood"
+    /latitude and longitude="30.16 N 120.81 E"
+Accession: SAMN08471708	ID: 8471708
+
+

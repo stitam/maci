@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08471751; Sample name: HZ-S14
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB-HZ-S14"
+    /collected by="Lihua"
+    /collection date="2013-12-31"
+    /geographic location="China:Hangzhou"
+    /host="Homo sapiens"
+    /host disease="hepatic failure"
+    /isolation source="sputum"
+    /latitude and longitude="30.16 N 120.124 E"
+Accession: SAMN08471751	ID: 8471751
+
+

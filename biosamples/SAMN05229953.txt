@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN05229953; Sample name: CRO1
+Organism: Acinetobacter baumannii
+Attributes:
+    /collection date="2003"
+    /strain="CRO1"
+    /host="Homo sapiens"
+    /isolation source="tracheal aspirate"
+    /latitude and longitude="43.50 N 16.44 E"
+    /geographic location="Croatia"
+    /collected by="Ivana"
+    /host disease="pneumonia"
+Accession: SAMN05229953	ID: 5229953
+
+

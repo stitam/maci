@@ -1,0 +1,19 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN03770534; Sample name: B8342
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="B8342"
+    /collected by="CMC, Vellore, India"
+    /collection date="2014-03-15"
+    /geographic location="India: Vellore"
+    /host="Homo sapiens"
+    /host disease="Bacteremia"
+    /isolation source="blood"
+    /latitude and longitude="12.92 N 79.13 E"
+    /host age="1 yr"
+    /host sex="female"
+Description:
+Acinetobacter baumannii B8342
+Accession: SAMN03770534	ID: 3770534
+
+

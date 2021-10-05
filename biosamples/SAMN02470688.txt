@@ -1,0 +1,13 @@
+1: Sample from Acinetobacter baumannii ABNIH24
+Identifiers: BioSample: SAMN02470688; Sample name: APBL
+Organism: Acinetobacter baumannii ABNIH24
+Attributes:
+    /strain="ABNIH24"
+    /note="PT4-S"
+    /host="Homo sapiens"
+    /collection date="2008"
+    /isolation source="bronchoalveolar lavage"
+    /geographic location="USA"
+Accession: SAMN02470688	ID: 2470688
+
+

@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN05257114; Sample name: 42R3_sample
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="42R3"
+    /host="white stork nestling"
+    /collection date="2014"
+    /geographic location="Poland"
+    /sample type="tissue sample"
+    /host tissue sampled="rectum"
+Accession: SAMN05257114	ID: 5257114
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN12509152; Sample name: 4022
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="4022"
+    /collected by="NinoTrapaidze"
+    /collection date="2018"
+    /geographic location="Georgia: Tbilisi"
+    /host="Homo sapiens"
+    /host disease="Staph infection"
+    /isolation source="missing"
+    /latitude and longitude="41.7151 N 44.8271 E"
+Accession: SAMN12509152	ID: 12509152
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN06650260; Sample name: JBA13
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="JBA13"
+    /collected by="KARMS"
+    /collection date="2013-10"
+    /geographic location="South Korea: Jeonbuk"
+    /host="Homo sapiens"
+    /host disease="not collected"
+    /isolation source="sputum"
+    /latitude and longitude="not collected"
+Accession: SAMN06650260	ID: 6650260
+
+

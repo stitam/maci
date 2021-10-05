@@ -1,0 +1,8 @@
+1: Sample from Acinetobacter baumannii 3909
+Identifiers: BioSample: SAMN02471606; Sample name: AEOZ
+Organism: Acinetobacter baumannii 3909
+Attributes:
+    /strain="3909"
+Accession: SAMN02471606	ID: 2471606
+
+

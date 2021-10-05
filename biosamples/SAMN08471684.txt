@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08471684; Sample name: HZ-B25
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB-HZ-B25"
+    /collected by="Lihua"
+    /collection date="2014-05-10"
+    /geographic location="China:Hangzhou"
+    /host="Homo sapiens"
+    /host disease="liver cancer"
+    /isolation source="blood"
+    /latitude and longitude="30.16 N 120.57 E"
+Accession: SAMN08471684	ID: 8471684
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN12205794; Sample name: 20943.fasta
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="20943"
+    /collected by="Clinical Microbiology Department"
+    /collection date="2017-01-20"
+    /geographic location="China:Shenzhen"
+    /host="Homo sapiens"
+    /host disease="pneumonia"
+    /isolation source="Patient31 sputum"
+    /latitude and longitude="22.55 N 114.12 E"
+Accession: SAMN12205794	ID: 12205794
+
+

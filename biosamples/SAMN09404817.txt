@@ -1,0 +1,12 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09404817; Sample name: R10
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="R10"
+    /host="missing"
+    /collection date="2017-03"
+    /geographic location="France:Tahiti"
+    /sample type="pure culture"
+Accession: SAMN09404817	ID: 9404817
+
+

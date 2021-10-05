@@ -1,0 +1,10 @@
+1: Acinetobacter baumannii 24812_8
+Identifiers: BioSample: SAMN02692978; Sample name: PACIN_24812-8; SRA: SRS579354
+Organism: Acinetobacter baumannii 24812_8
+Attributes:
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /strain="24812_8"
+Accession: SAMN02692978	ID: 2692978
+
+

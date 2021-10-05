@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN17860401; Sample name: 15954
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="15954"
+    /host="Homo sapiens"
+    /isolation source="urine"
+    /collection date="2018"
+    /geographic location="Nigeria"
+    /sample type="isolate"
+Accession: SAMN17860401	ID: 17860401
+
+

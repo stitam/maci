@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH535_423
+Identifiers: BioSample: SAMN03084827; JCVI: ABUH_SP_0102
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH535_423"
+    /collected by="Robert Bonomo"
+    /collection date="2009-09-23"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Peritoneal fluid"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH535_423
+Accession: SAMN03084827	ID: 3084827
+
+

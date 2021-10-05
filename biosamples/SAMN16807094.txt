@@ -1,0 +1,15 @@
+1: Acinetobacter baumannii SQ081 Genome sequencing and assembly
+Identifiers: BioSample: SAMN16807094; Sample name: Acinetobacter baumannii SQ081
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="SQ081"
+    /isolation source="sputum"
+    /collection date="2013-12-20"
+    /geographic location="China: Guangzhou"
+    /sample type="cell culture"
+    /host="Homo sapiens"
+    /biomaterial provider="First Affiliated Hospital of Sun Yat-sen University"
+    /collected by="Lida Chen"
+Accession: SAMN16807094	ID: 16807094
+
+

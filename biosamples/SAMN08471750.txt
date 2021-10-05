@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08471750; Sample name: HZ-S13
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB-HZ-S13"
+    /collected by="Lihua"
+    /collection date="2013-11-27"
+    /geographic location="China:Hangzhou"
+    /host="Homo sapiens"
+    /host disease="pulmonary infection"
+    /isolation source="sputum"
+    /latitude and longitude="30.16 N 120.123 E"
+Accession: SAMN08471750	ID: 8471750
+
+

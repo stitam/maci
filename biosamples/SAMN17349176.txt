@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN17349176; Sample name: s79
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="79"
+    /collected by="Chuqiu Zhang"
+    /collection date="2019"
+    /geographic location="China: Shenzhen"
+    /host="Homo sapiens"
+    /host disease="bacterial infection"
+    /isolation source="patient10"
+    /latitude and longitude="22.14 N 114.13 E"
+Accession: SAMN17349176	ID: 17349176
+
+

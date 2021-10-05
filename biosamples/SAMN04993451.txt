@@ -1,0 +1,17 @@
+1: Sample of Acinetobacter baumannii CCF62
+Identifiers: BioSample: SAMN04993451; SRA: SRS1437192; JCVI: GCID_ACINC_00062_biosample
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CCF62"
+    /collected by="Sandra Richter"
+    /collection date="2014-10-30"
+    /geographic location="Unknown"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="40.5 N 82.5 W"
+Description:
+Sample of Acinetobacter baumannii CCF62
+Accession: SAMN04993451	ID: 4993451
+
+

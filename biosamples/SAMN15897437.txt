@@ -1,0 +1,14 @@
+1: Pathogen: environmental/food/other sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15897437; Sample name: Acinetobacter baumannii strain INTEC_AI11
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="INTEC_AI11"
+    /collected by="Instituto Tecnologico de Santo Domingo"
+    /collection date="2018-06"
+    /geographic location="Dominican Republic:Santo Domingo, Isabela River"
+    /isolation source="missing"
+    /note="Victor Calderon"
+    /latitude and longitude="18.510314 N 69.914276 W"
+Accession: SAMN15897437	ID: 15897437
+
+

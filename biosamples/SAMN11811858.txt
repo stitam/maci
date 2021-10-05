@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11811858; Sample name: CAb15_2
+Organism: Acinetobacter baumannii
+Attributes:
+    /sample type="blood"
+    /strain="CAb15_2"
+    /isolate name alias="1"
+    /collected by="Tian Qin"
+    /collection date="2018-03-01"
+    /geographic location="China: Beijing"
+    /host="Homo sapiens"
+    /host disease="influenza"
+    /isolation source="blood"
+    /latitude and longitude="39.9 N 116.3 E"
+Accession: SAMN11811858	ID: 11811858
+
+

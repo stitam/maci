@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii ABNIH28
+Identifiers: BioSample: SAMN06040401; Sample name: ABOIU; SRA: SRS2869942
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABNIH28"
+    /collection date="2016"
+    /broad-scale environmental context="wastewater/sludge"
+    /local-scale environmental context="not collected"
+    /environmental medium="not collected"
+    /geographic location="USA"
+    /latitude and longitude="38.984652 N 77.094709 W"
+    /isolation and growth condition="missing"
+    /number of replicons="missing"
+    /reference for biomaterial="missing"
+Description:
+Keywords: GSC:MIxS;MIGS:5.0
+Accession: SAMN06040401	ID: 6040401
+
+

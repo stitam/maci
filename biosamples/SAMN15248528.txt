@@ -1,0 +1,17 @@
+1: A. baumanii reference type strain; forward reads
+Identifiers: BioSample: SAMN15248528; Sample name: DSM 30007; SRA: SRS6849269
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="DSM 30007"
+    /collected by="Isabelle G. Shaub, Frank D. Hauber"
+    /collection date="1948"
+    /geographic location="USA: Johns Hopkins University, Baltimore, Maryland"
+    /host="Homo sapiens"
+    /host disease="Urinary tract infection"
+    /isolation source="urine"
+    /latitude and longitude="39.29741 N 76.59335 W"
+    /type-material="type strain of Acinetobacter baumannii"
+    /note="patient with urinary tract infection"
+Accession: SAMN15248528	ID: 15248528
+
+

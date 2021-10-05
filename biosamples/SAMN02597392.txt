@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH5707
+Identifiers: BioSample: SAMN02597392; Sample name: AYFN
+Organism: Acinetobacter baumannii UH5707
+Attributes:
+    /strain="UH5707"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="wound abcess"
+    /collection date="2007-10"
+Accession: SAMN02597392	ID: 2597392
+
+

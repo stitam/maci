@@ -1,0 +1,10 @@
+1: Generic sample from Acinetobacter baumannii Naval-21
+Identifiers: BioSample: SAMN00761242; Sample name: 1132038283053 Acinetobacter baumannii Naval-21 ACIN35-PE-ILI25-1 Sample; SRA: SRS281449
+Organism: Acinetobacter baumannii Naval-21
+Attributes:
+    /strain="Naval-21"
+Description:
+Reference genome for Acinetobacter baumannii Naval-21 
+Accession: SAMN00761242	ID: 761242
+
+

@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii ABNIH26
+Identifiers: BioSample: SAMN02470690; Sample name: AOGD
+Organism: Acinetobacter baumannii ABNIH26
+Attributes:
+    /strain="ABNIH26"
+    /note="PT2-Ra"
+    /host="Homo sapiens"
+    /collection date="2007"
+    /geographic location="USA"
+Accession: SAMN02470690	ID: 2470690
+
+

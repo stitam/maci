@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04196791; Sample name: Ab03
+Organism: Acinetobacter baumannii
+Attributes:
+    /collection date="2003"
+    /geographic location="Brazil: Hospital das Clinicas, Sao Paulo"
+    /collected by="hospital staff"
+    /isolation source="blood"
+    /strain="Ab03"
+    /host disease="Bloodstream infection"
+    /latitude and longitude="not collected"
+    /host="Homo sapiens"
+Accession: SAMN04196791	ID: 4196791
+
+

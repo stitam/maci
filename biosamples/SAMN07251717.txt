@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07251717; Sample name: AB101
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB101"
+    /collected by="Qiong Chen"
+    /collection date="2015-11-21"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Gallstone"
+    /isolation source="bile"
+    /latitude and longitude="missing"
+Accession: SAMN07251717	ID: 7251717
+
+

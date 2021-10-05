@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH243_68
+Identifiers: BioSample: SAMN03084747; JCVI: ABUH_SP_0022
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH243_68"
+    /collected by="Robert Bonomo"
+    /collection date="2007-10-11"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Wound infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH243_68
+Accession: SAMN03084747	ID: 3084747
+
+

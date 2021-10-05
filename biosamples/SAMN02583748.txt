@@ -1,0 +1,11 @@
+1: General Sample for Acinetobacter baumannii LY2
+Identifiers: BioSample: SAMN02583748; Sample name: Acinetobacter baumannii LY2
+Organism: Acinetobacter baumannii LY2
+Attributes:
+    /strain="LY2"
+    /collection date="2012-04-24"
+    /geographic location="China"
+    /host="Homo sapiens"
+Accession: SAMN02583748	ID: 2583748
+
+

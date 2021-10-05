@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09951318; Sample name: MC5
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Hospital Materno-Infantil"
+    /collection date="2015-10"
+    /geographic location="Bolivia: Cochabamba"
+    /host="Homo sapiens"
+    /host disease="Bronchiolitis"
+    /isolation source="tracheal aspirate"
+    /latitude and longitude="17.39 S 66.15 W"
+    /host age="1 month"
+    /strain="MC5"
+Accession: SAMN09951318	ID: 9951318
+
+

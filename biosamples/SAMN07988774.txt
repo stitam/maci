@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07988774; Sample name: Isolate B7
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="B7"
+    /collected by="University Hospital Virgen del Rocio"
+    /collection date="2011"
+    /geographic location="Spain: Seville"
+    /host="Homo sapiens"
+    /host disease="Stroke"
+    /isolation source="Blood culture"
+    /latitude and longitude="37.361937 N 5.980480 W"
+Accession: SAMN07988774	ID: 7988774
+
+

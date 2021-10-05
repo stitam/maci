@@ -1,0 +1,14 @@
+1: Sample_Sortedd12_title
+Identifiers: BioSample: SAMN07451212; Sample name: Sample_Sortedd12; SRA: SRS2408149
+Organism: Deinococcus radiodurans
+Attributes:
+    /strain="BAA-816"
+    /isolate="Sample_Sortedd12_MA_line"
+    /host="N/A"
+    /isolation source="lab evolved"
+    /collection date="2013-10-01"
+    /geographic location="USA:Bloomington, IN"
+    /sample type="Mutation accumulation lines"
+Accession: SAMN07451212	ID: 7451212
+
+

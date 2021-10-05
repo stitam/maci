@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10411605; Sample name: 597A
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="MRSN15313"
+    /collected by="MRSN"
+    /collection date="2008"
+    /geographic location="Brazil: Salvador"
+    /host="Homo sapiens"
+    /host disease="meningitis"
+    /isolation source="cerebrospinal fluid"
+    /latitude and longitude="Unknown"
+Accession: SAMN10411605	ID: 10411605
+
+

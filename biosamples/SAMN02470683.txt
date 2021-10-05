@@ -1,0 +1,13 @@
+1: Sample from Acinetobacter baumannii ABNIH16
+Identifiers: BioSample: SAMN02470683; Sample name: APBE
+Organism: Acinetobacter baumannii ABNIH16
+Attributes:
+    /strain="ABNIH16"
+    /note="PT3-R"
+    /host="Homo sapiens"
+    /collection date="2007"
+    /isolation source="tracheal aspirate"
+    /geographic location="USA"
+Accession: SAMN02470683	ID: 2470683
+
+

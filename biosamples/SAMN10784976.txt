@@ -1,0 +1,14 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10784976; Sample name: 5863; SRA: SRS4274379
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="C1T1-1"
+    /isolation source="manure"
+    /host="Bos taurus"
+    /collection date="2014"
+    /geographic location="Canada:Sherbrooke"
+    /sample type="whole organism"
+    /collected by="Dr. Moussa Diarra"
+Accession: SAMN10784976	ID: 10784976
+
+

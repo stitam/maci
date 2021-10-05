@@ -1,0 +1,10 @@
+1: Sample from Acinetobacter baumannii MDR-ZJ06
+Identifiers: BioSample: SAMN02603878; Sample name: CP001937
+Organism: Acinetobacter baumannii MDR-ZJ06
+Attributes:
+    /strain="MDR-ZJ06"
+    /geographic location="China: Zheijiang"
+    /collection date="2006"
+Accession: SAMN02603878	ID: 2603878
+
+

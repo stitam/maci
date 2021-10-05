@@ -1,0 +1,12 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN18614354; Sample name: ABS23
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABS23"
+    /host="Homo sapiens"
+    /collection date="2020-01"
+    /geographic location="Lebanon"
+    /sample type="missing"
+Accession: SAMN18614354	ID: 18614354
+
+

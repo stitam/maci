@@ -1,0 +1,15 @@
+1: Acinetobacter baumannii isolate MRSN16874 associated with a fatal infection
+Identifiers: BioSample: SAMN04252827; Sample name: MRSN16874; SRA: SRS1175348
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="NA"
+    /collection date="2011"
+    /geographic location="USA:Alaska"
+    /host="Homo sapiens"
+    /host disease="sepsis"
+    /isolation source="blood"
+    /latitude and longitude="NA"
+    /strain="MRSN16874"
+Accession: SAMN04252827	ID: 4252827
+
+

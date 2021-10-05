@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15538701; Sample name: 2016LNAB1
+Organism: Acinetobacter baumannii
+Attributes:
+    /alternate_ID="5665"
+    /strain="2016LNAB1"
+    /collected by="not collected"
+    /collection date="2016-03-18"
+    /geographic location="China: Liaoning, Shenyang"
+    /host="Homo sapiens"
+    /host disease="not collected"
+    /isolation source="cerebrospinal fluid"
+    /latitude and longitude="not collected"
+Accession: SAMN15538701	ID: 15538701
+
+

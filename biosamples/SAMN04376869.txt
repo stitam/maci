@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04376869; Sample name: 2015ZJAB2
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="2015ZJAB2"
+    /collected by="YHX's lab"
+    /collection date="2014-01-28"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="obstructive lung disease"
+    /isolation source="sputum"
+    /latitude and longitude="30.26 N 120.19 E"
+Description:
+second isolate in patient I
+Accession: SAMN04376869	ID: 4376869
+
+

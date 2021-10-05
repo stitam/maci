@@ -1,0 +1,10 @@
+1: Acinetobacter baumannii 45075_9
+Identifiers: BioSample: SAMN02646393; Sample name: PACIN_45075-9; SRA: SRS559441
+Organism: Acinetobacter baumannii 45075_9
+Attributes:
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /strain="45075_9"
+Accession: SAMN02646393	ID: 2646393
+
+

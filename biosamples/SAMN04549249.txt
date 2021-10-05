@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04549249; Sample name: LIM3756
+Organism: Acinetobacter baumannii
+Attributes:
+    /host disease="Bloodstream infection"
+    /host="Homo sapiens"
+    /latitude and longitude="not collected"
+    /collection date="2004"
+    /geographic location="Brazil: Hospital das Clinicas, Sao Paulo"
+    /strain="LIM3756"
+    /isolation source="blood"
+    /collected by="hospital staff"
+Accession: SAMN04549249	ID: 4549249
+
+

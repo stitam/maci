@@ -1,0 +1,21 @@
+1: Sample of Acinetobacter baumannii ABUH319118
+Identifiers: BioSample: SAMN03268800; SRA: SRS798790; JCVI: GCID_ABUH_00007
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABUH319118"
+    /collected by="Robert Bonomo"
+    /collection date="2008"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="pneumonia"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /host health state="Diseased"
+    /host tissue sampled="Bronchoalveolar lavage"
+    /phenotype="Unknown"
+    /genotype="Unknown"
+Description:
+Sample of Acinetobacter baumannii ABUH319118
+Accession: SAMN03268800	ID: 3268800
+
+

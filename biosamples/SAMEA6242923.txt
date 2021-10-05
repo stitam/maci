@@ -1,0 +1,16 @@
+1: 05796360-894c-11e6-bf24-68b59976a384
+Identifiers: BioSample: SAMEA4527598; SRA: ERS1426777
+Organism: human gut metagenome
+Attributes:
+    /Alias="05796360-894c-11e6-bf24-68b59976a384"
+    /ENA checklist="ERC000011"
+    /INSDC center name="SC"
+    /INSDC first public="2017-01-18T10:16:44Z"
+    /INSDC last update="2016-10-31T10:13:10Z"
+    /INSDC status="public"
+    /SRA accession="ERS1426777"
+    /sample name="ERS1426777"
+    /Title="4392STDY6591228"
+Accession: SAMEA4527598	ID: 6242923
+
+

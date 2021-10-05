@@ -1,0 +1,20 @@
+1: Host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN03771402; Sample name: B8300R
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="B8300"
+    /collected by="CMC, Vellore, India"
+    /collection date="2015-03-15"
+    /geographic location="India: Vellore"
+    /host="Homo sapiens"
+    /host disease="bacteremia"
+    /isolation source="blood"
+    /latitude and longitude="12.92 N 79.13 E"
+    /host age="29 yrs"
+    /host sex="male"
+    /passage history="none"
+Description:
+A motility positive clinical isolate of A. baumannii
+Accession: SAMN03771402	ID: 3771402
+
+

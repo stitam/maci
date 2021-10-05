@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14911841; Sample name: 12__547_16
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="547_16"
+    /collected by="Instituto Adolfo Lutz"
+    /collection date="2016"
+    /geographic location="Brazil: Presidente Prudente"
+    /host="Homo sapiens"
+    /host disease="Urinary Tract Infection"
+    /isolation source="urine"
+    /latitude and longitude="22.122 S 51.388 W"
+Accession: SAMN14911841	ID: 14911841
+
+

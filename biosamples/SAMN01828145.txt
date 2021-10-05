@@ -1,0 +1,12 @@
+1: Generic sample from Acinetobacter baumannii NIPH 528
+Identifiers: BioSample: SAMN01828145; Sample name: Acinetobacter baumannii NIPH 528; SRA: SRS415325
+Organism: Acinetobacter baumannii NIPH 528
+Attributes:
+    /geographic location="Netherlands: Rotterdam"
+    /collection date="1982"
+    /host="Homo sapiens"
+    /isolation source="urine"
+    /strain="NIPH 528"
+Accession: SAMN01828145	ID: 1828145
+
+

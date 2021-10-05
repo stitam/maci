@@ -1,0 +1,8 @@
+1: Sample from Acinetobacter baumannii ACICU
+Identifiers: BioSample: SAMN02603140; Sample name: CP000863
+Organism: Acinetobacter baumannii ACICU
+Attributes:
+    /strain="ACICU"
+Accession: SAMN02603140	ID: 2603140
+
+

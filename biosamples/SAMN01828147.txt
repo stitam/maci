@@ -1,0 +1,12 @@
+1: Generic sample from Acinetobacter baumannii NIPH 601
+Identifiers: BioSample: SAMN01828147; Sample name: Acinetobacter baumannii NIPH 601; SRA: SRS415281
+Organism: Acinetobacter baumannii NIPH 601
+Attributes:
+    /geographic location="Czech Republic: Praha"
+    /collection date="1993"
+    /host="Homo sapiens"
+    /isolation source="urine"
+    /strain="NIPH 601"
+Accession: SAMN01828147	ID: 1828147
+
+

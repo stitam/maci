@@ -1,0 +1,16 @@
+1: Acinetobacter baumannii genome sequencing and assembly
+Identifiers: BioSample: SAMN06446011; Sample name: 895
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="895"
+    /isolate="not applicable"
+    /collected by="hospital staff"
+    /collection date="2011"
+    /geographic location="Brazil: Hospital das Clinicas, Sao Paulo"
+    /host="Homo sapiens"
+    /host disease="Bloodstream infection"
+    /isolation source="tracheal aspirate"
+    /latitude and longitude="not collected"
+Accession: SAMN06446011	ID: 6446011
+
+

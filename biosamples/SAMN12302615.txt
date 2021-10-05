@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN12302615; Sample name: GZ111
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="GZ2013052111"
+    /collected by="Yong Zhou"
+    /collection date="2016-09"
+    /geographic location="China: Guangzhou"
+    /host="Homo sapiens"
+    /host disease="pneumonia"
+    /isolation source="Hospitalized patient"
+    /latitude and longitude="None"
+Accession: SAMN12302615	ID: 12302615
+
+

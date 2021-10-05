@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04745518; Sample name: contig_XH778
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Xiaoting Hua"
+    /isolation source="sputum"
+    /host="Homo sapiens"
+    /geographic location="China: Hangzhou"
+    /host disease="unknown"
+    /latitude and longitude="30.3 N 120.2 E"
+    /strain="XH778"
+    /collection date="2012-09-14"
+Accession: SAMN04745518	ID: 4745518
+
+

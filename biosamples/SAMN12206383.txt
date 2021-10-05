@@ -1,0 +1,13 @@
+1: Pathogen: environmental/food/other sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN12206383; Sample name: AB
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB"
+    /collected by="Clinical Microbiology Department"
+    /collection date="2018-11-21"
+    /geographic location="China:Shenzhen"
+    /isolation source="Environment"
+    /latitude and longitude="22.55 N 114.12 E"
+Accession: SAMN12206383	ID: 12206383
+
+

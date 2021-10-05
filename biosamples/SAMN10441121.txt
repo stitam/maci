@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii clinical isolate A52
+Identifiers: BioSample: SAMN10441121; Sample name: A52
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="A52"
+    /collected by="Huiqiong Jia"
+    /collection date="2015-08-02"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Septic shock"
+    /isolation source="sputum"
+    /latitude and longitude="missing"
+    /host age="66"
+    /host sex="male"
+Accession: SAMN10441121	ID: 10441121
+
+

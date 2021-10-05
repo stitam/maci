@@ -1,0 +1,18 @@
+1: Invertebrate sample from Baetis tricaudatus
+Identifiers: BioSample: SAMN06463085; Sample name: Btr_0006040_COB1556; SRA: SRS2012662
+Organism: Baetis tricaudatus
+Attributes:
+    /isolate="0006040"
+    /breed="na"
+    /host="na"
+    /isolation source="na"
+    /collection date="2011-06-29"
+    /geographic location="USA: Colorado, Big Thompson River Drainage"
+    /tissue="whole body"
+    /altitude="1556 m"
+    /development stage="Larval"
+    /broad-scale environmental context="Stream"
+    /latitude and longitude="40.25769812365 N 105.15931706 W"
+Accession: SAMN06463085	ID: 6463085
+
+

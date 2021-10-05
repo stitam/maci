@@ -1,0 +1,20 @@
+1: Gram-negative bacteria from clinical infections in Thailand: 18-SIUA14
+Identifiers: BioSample: SAMN07203010; SRA: SRS2263967; JCVI: 18-SIUA14
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABCRPUTH03"
+    /collected by="Unknown"
+    /collection date="2016-06-11"
+    /geographic location="Thailand"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="urine"
+    /latitude and longitude="13.7583 N 100.4854 E"
+    /host age="63 year"
+    /host health state="sick"
+    /host sex="male"
+Description:
+Gram-negative bacteria from clinical infections in Thailand: 18-SIUA14
+Accession: SAMN07203010	ID: 7203010
+
+

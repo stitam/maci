@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH66_276
+Identifiers: BioSample: SAMN03084790; JCVI: ABUH_SP_0065
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH66_276"
+    /collected by="Robert Bonomo"
+    /collection date="2008-08-24"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Blood infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH66_276
+Accession: SAMN03084790	ID: 3084790
+
+

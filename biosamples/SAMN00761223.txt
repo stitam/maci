@@ -1,0 +1,10 @@
+1: Generic sample from Acinetobacter baumannii OIFC0162
+Identifiers: BioSample: SAMN00761223; Sample name: 1132038283021 Acinetobacter baumannii OIFC0162 ACIN19-PE-ILI13-1 Sample; SRA: SRS281430
+Organism: Acinetobacter baumannii OIFC0162
+Attributes:
+    /strain="OIFC0162"
+Description:
+Reference genome for Acinetobacter baumannii OIFC0162 
+Accession: SAMN00761223	ID: 761223
+
+

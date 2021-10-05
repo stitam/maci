@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN17349187; Sample name: s91
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="91"
+    /collected by="Chuqiu Zhang"
+    /collection date="2019"
+    /geographic location="China: Shenzhen"
+    /host="Homo sapiens"
+    /host disease="bacterial infection"
+    /isolation source="4 bed right side rail"
+    /latitude and longitude="22.14 N 114.13 E"
+Accession: SAMN17349187	ID: 17349187
+
+

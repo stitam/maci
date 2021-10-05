@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09095595; Sample name: Acinetobacter baumannii ABAY14003; SRA: SRS3273678
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABAY14003"
+    /collected by="Yonsei University College of Medicine, Seoul, South Korea"
+    /collection date="2014-03-05"
+    /geographic location="South Korea: Seoul"
+    /host="Homo sapiens"
+    /host disease="blood stream infection"
+    /isolation source="blood sample from a 70 year old woman who was hospitalized in ICU"
+    /latitude and longitude="37.5622 N 126.9410 E"
+Accession: SAMN09095595	ID: 9095595
+
+

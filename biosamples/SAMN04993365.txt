@@ -1,0 +1,17 @@
+1: Sample of Acinetobacter baumannii CCF17
+Identifiers: BioSample: SAMN04993365; SRA: SRS1436824; JCVI: GCID_ACINC_00017_biosample
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CCF17"
+    /collected by="Sandra Richter"
+    /collection date="2015-07-25"
+    /geographic location="Unknown"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="40.5 N 82.5 W"
+Description:
+Sample of Acinetobacter baumannii CCF17
+Accession: SAMN04993365	ID: 4993365
+
+

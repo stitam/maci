@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH9707
+Identifiers: BioSample: SAMN02597376; Sample name: AYEX
+Organism: Acinetobacter baumannii UH9707
+Attributes:
+    /strain="UH9707"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="catheter"
+    /collection date="2007-12"
+Accession: SAMN02597376	ID: 2597376
+
+

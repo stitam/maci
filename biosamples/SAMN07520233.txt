@@ -1,0 +1,19 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07520233; Sample name: Acinetobacter baumannii 10042
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="10042"
+    /collected by="Hospital de Torreon"
+    /collection date="2011-04-10"
+    /geographic location="Mexico: Torreon, Coahuila"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter infection"
+    /isolation source="Secretion"
+    /latitude and longitude="missing"
+    /host age="51"
+    /host sex="female"
+Description:
+Clinical isolate from Hospital de Torreon, Coahuila State, Mexico in 2011.
+Accession: SAMN07520233	ID: 7520233
+
+

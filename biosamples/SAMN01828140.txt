@@ -1,0 +1,16 @@
+1: Generic sample from Acinetobacter baumannii ATCC 19606 = CIP 70.34
+Identifiers: BioSample: SAMN01828140; Sample name: Acinetobacter baumannii ATCC 19606 = CIP 70.34; SRA: SRS415188
+Organism: Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841
+Attributes:
+    /latitude and longitude="missing"
+    /host="Homo sapiens"
+    /collection date="1900/1948"
+    /geographic location="Unknown"
+    /reference for biomaterial="missing"
+    /isolation source="urine"
+    /relationship to oxygen="missing"
+    /strain="CIP 70.34"
+    /type-material="type strain of Acinetobacter baumannii"
+Accession: SAMN01828140	ID: 1828140
+
+

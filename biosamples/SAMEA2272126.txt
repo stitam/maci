@@ -1,0 +1,19 @@
+1: Non-tumor DNA sample from Blood of a human female participant in the dbGaP study "Women's Health Initiative"
+Identifiers: BioSample: SAMN02272126
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="WHI_SHARe"
+    /biospecimen repository="WHI_SHARe"
+    /study name="Women's Health Initiative"
+    /biospecimen repository sample id="728856"
+    /submitted sample id="728856"
+    /submitted subject id="728856"
+    /sex="female"
+    /tissue="Blood"
+    /histological type="Blood"
+    /analyte type="DNA"
+    /is tumor="0"
+    /subject is affected="0"
+Accession: SAMN02272126	ID: 2272126
+
+

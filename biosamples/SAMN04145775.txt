@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04145775; Sample name: ABOB15; SRA: SRS1099858
+Organism: Acinetobacter baumannii
+Attributes:
+    /host disease="missing"
+    /strain="ABOB15"
+    /geographic location="USA: Chicago"
+    /latitude and longitude="41.89 N 87.62 W"
+    /host="Homo sapiens"
+    /collected by="missing"
+    /isolation source="missing"
+    /collection date="missing"
+Accession: SAMN04145775	ID: 4145775
+
+

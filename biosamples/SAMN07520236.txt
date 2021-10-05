@@ -1,0 +1,19 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07520236; Sample name: Acinetobacter baumannii 9201
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="9201"
+    /collected by="Hospital Central de Guadalajara"
+    /collection date="2013-08"
+    /geographic location="Mexico: Guadalajara"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter infection"
+    /isolation source="blood"
+    /latitude and longitude="missing"
+    /host age="37"
+    /host sex="male"
+Description:
+Clinical isolate from Hospital Central de Guadalajara,Guadalajara State, Mexico in 2013.
+Accession: SAMN07520236	ID: 7520236
+
+

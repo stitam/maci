@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN12368605; Sample name: A22
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="A22"
+    /collected by="Huiqiong Jia"
+    /collection date="2015-05-15"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Respiratory failure"
+    /isolation source="sputum"
+    /latitude and longitude="missing"
+Accession: SAMN12368605	ID: 12368605
+
+

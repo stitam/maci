@@ -1,0 +1,14 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10249177; Sample name: AB_149; SRA: SRS5369474
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB_149"
+    /isolation source="washroom sink in hospital intensive care unit"
+    /collection date="2016-01"
+    /geographic location="Pakistan"
+    /sample type="whole organism"
+    /relative_week="0"
+    /collection_room="PAK-3"
+Accession: SAMN10249177	ID: 10249177
+
+

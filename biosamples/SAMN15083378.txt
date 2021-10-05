@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15083378; Sample name: MRSN537610
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="KAB5"
+    /collected by="USAMRD-A"
+    /collection date="2017-11-07"
+    /geographic location="Kenya:Nairobi"
+    /host="Homo sapiens"
+    /host disease="Skin and soft tissue infection"
+    /isolation source="missing"
+    /latitude and longitude="1.2921 S 36.8219 E"
+Accession: SAMN15083378	ID: 15083378
+
+

@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 796380-2102
+Identifiers: BioSample: SAMN02371052; Sample name: PACIN_796380-2102; SRA: SRS489961
+Organism: Acinetobacter baumannii 796380-2102
+Attributes:
+    /strain="796380-2102"
+Accession: SAMN02371052	ID: 2371052
+
+

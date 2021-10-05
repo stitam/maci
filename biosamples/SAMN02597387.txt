@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH7007
+Identifiers: BioSample: SAMN02597387; Sample name: AYFI
+Organism: Acinetobacter baumannii UH7007
+Attributes:
+    /strain="UH7007"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="urine"
+    /collection date="2007-10"
+Accession: SAMN02597387	ID: 2597387
+
+

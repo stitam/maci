@@ -1,0 +1,10 @@
+1: Sample from Acinetobacter baumannii D1279779
+Identifiers: BioSample: SAMN02603576; Sample name: CP003967
+Organism: Acinetobacter baumannii D1279779
+Attributes:
+    /strain="D1279779"
+    /geographic location="Australia"
+    /host="Homo sapiens"
+Accession: SAMN02603576	ID: 2603576
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10101946; Sample name: ABAU831
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="15A831"
+    /collected by="French National Reference Center for Antibiotics Resistance"
+    /collection date="2015"
+    /geographic location="France:Strasbourg"
+    /host="Homo sapiens"
+    /host disease="Respiratory Infection"
+    /isolation source="Respiratory sample"
+    /latitude and longitude="48.52 N 7.71 E"
+Accession: SAMN10101946	ID: 10101946
+
+

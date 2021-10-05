@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11584441; Sample name: B4
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Ab4"
+    /collected by="Shunde first people's hospital"
+    /collection date="2013-06-03"
+    /geographic location="China:Gungdong"
+    /host="Homo sapiens"
+    /host disease="pulmonary infection"
+    /isolation source="Sputamentum"
+    /latitude and longitude="22.61 N 113.06 E"
+Accession: SAMN11584441	ID: 11584441
+
+

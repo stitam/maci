@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN06046790; Sample name: HRAB-85
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="HRAB-85"
+    /collected by="307th Hospital of PLA"
+    /collection date="2014-09"
+    /geographic location="China: Beijing"
+    /host="Homo sapiens"
+    /host disease="Infection"
+    /isolation source="sputum"
+    /latitude and longitude="39.54 N 116.23 E"
+Accession: SAMN06046790	ID: 6046790
+
+

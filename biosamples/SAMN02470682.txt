@@ -1,0 +1,13 @@
+1: Sample from Acinetobacter baumannii ABNIH11
+Identifiers: BioSample: SAMN02470682; Sample name: APBA
+Organism: Acinetobacter baumannii ABNIH11
+Attributes:
+    /strain="ABNIH11"
+    /note="PT5-Rb"
+    /host="Homo sapiens"
+    /collection date="2009"
+    /isolation source="tracheal aspirate"
+    /geographic location="USA"
+Accession: SAMN02470682	ID: 2470682
+
+

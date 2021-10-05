@@ -1,0 +1,14 @@
+1: Pathogen: environmental/food/other sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04099660; Sample name: TTU2014-131AME
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="TTU2014-131AME"
+    /isolation source="feces"
+    /collected by="Texas Tech University"
+    /latitude and longitude="Missing"
+    /geographic location="USA: New Mexico"
+    /sample type="pure culture"
+    /collection date="2014-07-08"
+Accession: SAMN04099660	ID: 4099660
+
+

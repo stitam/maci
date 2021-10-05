@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 2887
+Identifiers: BioSample: SAMN02404531; Sample name: PACIN_2887; SRA: SRS502885
+Organism: Acinetobacter baumannii 2887
+Attributes:
+    /strain="2887"
+Accession: SAMN02404531	ID: 2404531
+
+

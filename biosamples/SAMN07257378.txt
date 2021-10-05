@@ -1,0 +1,15 @@
+1: Pathogen: Clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07257378; Sample name: Ab13
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="13"
+    /collected by="Clinical Hospital from Federal University"
+    /collection date="2012-02-02"
+    /geographic location="Brazil: Uberlandia, MG"
+    /host="Homo sapiens"
+    /host disease="Ventilator associated pneumonia"
+    /isolation source="tracheal aspirate"
+    /latitude and longitude="18.8816 S 48.2599 W"
+Accession: SAMN07257378	ID: 7257378
+
+

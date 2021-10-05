@@ -1,0 +1,12 @@
+1: Sample from Bos taurus
+Identifiers: BioSample: SAMEA4575451
+Organism: Bos taurus
+Attributes:
+    /population="French Holstein"
+    /sample name="GRR-32154"
+    /sex="female"
+Description:
+GRR-32154
+Accession: SAMEA4575451	ID: 5396100
+
+

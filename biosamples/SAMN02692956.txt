@@ -1,0 +1,11 @@
+1: Acinetobacter baumannii 1064293_46
+Identifiers: BioSample: SAMN02692956; Sample name: PACIN_1064293-46; SRA: SRS579328
+Organism: Acinetobacter baumannii 1064293_46
+Attributes:
+    /host="Homo sapiens"
+    /strain="1064293_46"
+    /geographic location="USA"
+    /isolation source="sputum"
+Accession: SAMN02692956	ID: 2692956
+
+

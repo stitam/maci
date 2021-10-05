@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14911838; Sample name: 08__ID_548_17
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="548_17"
+    /collected by="Instituto Adolfo Lutz"
+    /collection date="2017"
+    /geographic location="Brazil: Sao Paulo"
+    /host="Homo sapiens"
+    /host disease="Missing"
+    /isolation source="Surveillance swab"
+    /latitude and longitude="23.550 S 46.633 W"
+Accession: SAMN14911838	ID: 14911838
+
+

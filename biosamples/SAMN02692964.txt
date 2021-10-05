@@ -1,0 +1,11 @@
+1: Acinetobacter baumannii 496487
+Identifiers: BioSample: SAMN02692964; Sample name: PACIN_496487; SRA: SRS579336
+Organism: Acinetobacter baumannii 496487
+Attributes:
+    /geographic location="USA"
+    /isolation source="perirectal"
+    /host="Homo sapiens"
+    /strain="496487"
+Accession: SAMN02692964	ID: 2692964
+
+

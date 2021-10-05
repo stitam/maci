@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii MDR clinical isolate Ab825
+Identifiers: BioSample: SAMN07573381; Sample name: Ab825
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Ab825"
+    /collected by="Hospital de emergencias Clemente Alvarez"
+    /collection date="1999"
+    /geographic location="Argentina: Rosario, Santa Fe"
+    /host="Homo sapiens"
+    /host disease="nosocomial infection"
+    /isolation source="wound"
+    /latitude and longitude="32.57 S 60.42 W"
+Description:
+Genomic analysis of MDR A. baumannii strains causing nosocomial infections in an Argentinian hospital.
+Accession: SAMN07573381	ID: 7573381
+
+

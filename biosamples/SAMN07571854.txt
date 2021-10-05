@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07571854; Sample name: Abau247
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Centre Hospitalier Sylvanus Olympio"
+    /collection date="2016-05-04"
+    /geographic location="Togo: Lome"
+    /host="Homo sapiens"
+    /host age="26"
+    /host disease="suppuration"
+    /host sex="male"
+    /isolation source="pus"
+    /latitude and longitude="6.14 N 1.27 E"
+    /strain="247"
+Accession: SAMN07571854	ID: 7571854
+
+

@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07303779; Sample name: HEU55808
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="HEU55808"
+    /collected by="Hospital Escuela Universitario"
+    /collection date="2016-02-12"
+    /geographic location="Honduras: Francisco Morazan, Tegucigalpa"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter infection"
+    /isolation source="Upper respiratory tract"
+    /latitude and longitude="missing"
+    /host age="68 yrs"
+    /host sex="female"
+Accession: SAMN07303779	ID: 7303779
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04005094; Sample name: Isolate MDR-GLH10
+Organism: Acinetobacter baumannii
+Attributes:
+    /host="Homo sapiens"
+    /host disease="Ictus"
+    /geographic location="Spain: Seville"
+    /latitude and longitude="37.361937 N 5.980480 W"
+    /strain="AbMDR-GLH10"
+    /collection date="2011-01-17"
+    /collected by="University Hospital Virgen del Rocio"
+    /isolation source="Tracheobronchial aspirate"
+Accession: SAMN04005094	ID: 4005094
+
+

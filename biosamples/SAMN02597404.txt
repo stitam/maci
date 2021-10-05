@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH19608
+Identifiers: BioSample: SAMN02597404; Sample name: AYFZ
+Organism: Acinetobacter baumannii UH19608
+Attributes:
+    /strain="UH19608"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="urine"
+    /collection date="2008-05"
+Accession: SAMN02597404	ID: 2597404
+
+

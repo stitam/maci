@@ -1,0 +1,15 @@
+1: clinical invasive Acinetobacter baumannii isolate SPU7
+Identifiers: BioSample: SAMN03765522; Sample name: SPU7
+Organism: Acinetobacter baumannii
+Attributes:
+    /geographic location="Taiwan"
+    /isolation source="sputum"
+    /collected by="Chang Gung Memorial Hospital"
+    /latitude and longitude="missing"
+    /collection date="2009"
+    /host="Homo sapiens"
+    /strain="SPU7"
+    /host disease="bacteremia"
+Accession: SAMN03765522	ID: 3765522
+
+

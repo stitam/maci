@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii J133
+Identifiers: BioSample: SAMN03418025; Sample name: J133
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="J133"
+    /collection date="2010"
+    /broad-scale environmental context="Not applicable"
+    /local-scale environmental context="Not applicable"
+    /environmental medium="Not applicable"
+    /geographic location="Japan"
+    /latitude and longitude="35.6833 N 139.7667 E"
+    /isolation and growth condition="Not collected"
+    /number of replicons="Not applicable"
+    /reference for biomaterial="Not applicable"
+Description:
+Keywords: GSC:MIxS;MIGS:5.0
+Accession: SAMN03418025	ID: 3418025
+
+

@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii AB058
+Identifiers: BioSample: SAMN02469415; Sample name: ADHA
+Organism: Acinetobacter baumannii AB058
+Attributes:
+    /strain="AB058"
+    /host="Homo sapiens"
+    /collection date="2003"
+    /isolation source="patient at Walter Reed Army Medical Center with a bloodstream infection"
+    /geographic location="USA"
+Accession: SAMN02469415	ID: 2469415
+
+

@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN05257112; Sample name: 65_sample
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="65"
+    /host="chicken"
+    /collection date="2012"
+    /geographic location="Germany"
+    /sample type="tissue sample"
+    /host tissue sampled="choana"
+Accession: SAMN05257112	ID: 5257112
+
+

@@ -1,0 +1,20 @@
+1: Acinetobacter baumannii MDR-CQG
+Identifiers: BioSample: SAMN11156913; Sample name: MDR-CQG
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="MDR-CQG"
+    /collection date="2017-06-01"
+    /broad-scale environmental context="missing"
+    /local-scale environmental context="missing"
+    /environmental medium="missing"
+    /geographic location="China: chongqing"
+    /host="Homo sapiens"
+    /isolation and growth condition="missing"
+    /latitude and longitude="missing"
+    /number of replicons="missing"
+    /reference for biomaterial="missing"
+Description:
+Keywords: GSC:MIxS;MIGS:5.0
+Accession: SAMN11156913	ID: 11156913
+
+

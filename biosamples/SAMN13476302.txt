@@ -1,0 +1,14 @@
+1: Microbe sample from Acinetobacter baumannii XL380
+Identifiers: BioSample: SAMN13476302; Sample name: Aci
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="XL380"
+    /isolation source="cucumber rhizosphere"
+    /collection date="2018-07-01"
+    /geographic location="China:Nanjing"
+    /sample type="cell culture"
+    /collected by="Xinli Sun"
+    /temperature="30"
+Accession: SAMN13476302	ID: 13476302
+
+

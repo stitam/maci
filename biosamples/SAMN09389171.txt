@@ -1,0 +1,12 @@
+1: Microbe sample from Acinetobacter
+Identifiers: BioSample: SAMN09389171; Sample name: Acinetobacter Baumannii
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Aba"
+    /host="Homo sapiens"
+    /collection date="2016-08-30"
+    /geographic location="China: Beijing"
+    /sample type="cell culture"
+Accession: SAMN09389171	ID: 9389171
+
+

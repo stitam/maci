@@ -1,0 +1,12 @@
+1: ACB108
+Identifiers: BioSample: SAMN08639650; Sample name: ACB108
+Organism: Acinetobacter baumannii
+Attributes:
+    /isolation source="pets"
+    /collection date="2015"
+    /geographic location="Italy"
+    /sample type="cell culture"
+    /strain="pet_ACB108"
+Accession: SAMN08639650	ID: 8639650
+
+

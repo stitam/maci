@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07303770; Sample name: MCR6056
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="MCR6056"
+    /collected by="Hospital Mario Catarino Rivas"
+    /collection date="2015-09-15"
+    /geographic location="Honduras: Cortes, San Pedro Sula"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter infection"
+    /isolation source="blood"
+    /latitude and longitude="missing"
+    /host age="5 months"
+    /host sex="male"
+Accession: SAMN07303770	ID: 7303770
+
+

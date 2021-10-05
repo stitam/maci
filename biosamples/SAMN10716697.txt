@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10716697; Sample name: Aba RCS2
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="RCS2"
+    /collected by="NRC"
+    /collection date="2015-11-20"
+    /geographic location="France"
+    /host="Homo sapiens"
+    /host disease="Urinary infection"
+    /isolation source="Urines"
+    /latitude and longitude="47.22 N 5.96 E"
+Accession: SAMN10716697	ID: 10716697
+
+

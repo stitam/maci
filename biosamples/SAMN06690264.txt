@@ -1,0 +1,15 @@
+1: Acinetobacter baumannii clinical isolate str. KU_SSH_18
+Identifiers: BioSample: SAMN06690264; Sample name: KUSSH18
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="KUSSH18"
+    /collected by="Department of Medical Microbiology, Al-Sabah Hospital"
+    /collection date="2014-10-26"
+    /geographic location="Kuwait"
+    /host="Homo sapiens"
+    /host disease="Urinary Tract Infection"
+    /isolation source="urine"
+    /latitude and longitude="29.3269 N 47.9029 E"
+Accession: SAMN06690264	ID: 6690264
+
+

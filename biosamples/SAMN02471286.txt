@@ -1,0 +1,10 @@
+1: Sample from Acinetobacter baumannii AB_1649-8
+Identifiers: BioSample: SAMN02471286; Sample name: AMHF
+Organism: Acinetobacter baumannii AB_1649-8
+Attributes:
+    /strain="AB_1649-8"
+    /host="Homo sapiens"
+    /isolation source="sputum"
+Accession: SAMN02471286	ID: 2471286
+
+

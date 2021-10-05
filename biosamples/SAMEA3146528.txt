@@ -1,0 +1,21 @@
+1: UOS_7189-sc-1922719; 13681_244
+Identifiers: BioSample: SAMEA2626879; SRA: ERS496789
+Organism: Streptococcus pneumoniae
+Attributes:
+    /ENA-FIRST-PUBLIC="2014-10-15"
+    /ENA-LAST-UPDATE="2014-07-03"
+    /ENA-LAST-UPDATE="2017-06-22"
+    /sample name="ERS496789"
+    /anonymized name="1922719"
+    /collection date="2013-03-19"
+    /geographic location="United Kingdom"
+    /host health state="Carraige"
+    /isolation source="Nasophaynx"
+    /serovar="33F"
+    /host="Homo sapiens"
+    /strain="3063STDY5801820"
+    /supplier name="UOS_7189"
+    /unknown="Sample Description"
+Accession: SAMEA2626879	ID: 3146528
+
+

@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08687017; Sample name: ACM-18
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ACM-18"
+    /host="Homo sapiens"
+    /isolation source="missing"
+    /collection date="2016-09-19"
+    /geographic location="Lebanon"
+    /sample type="cell culture"
+Accession: SAMN08687017	ID: 8687017
+
+

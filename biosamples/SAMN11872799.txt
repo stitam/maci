@@ -1,0 +1,16 @@
+1: Beta-lactamase sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11872799; Sample name: M1; SRA: SRS4827276
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABIQM1"
+    /beta-lactamase family="ADC"
+    /carbapenemase="yes"
+    /EDTA inhibitor tested="no"
+    /collected by="Maytham"
+    /collection date="2018-10-01"
+    /geographic location="Iraq"
+    /host="Homo sapiens"
+    /isolation source="cerebrospinal fluid of patient with meningitis"
+Accession: SAMN11872799	ID: 11872799
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN06460897; Sample name: s264
+Organism: Acinetobacter baumannii
+Attributes:
+    /host="Homo sapiens"
+    /collected by="Hui Wang"
+    /host disease="pneumonia"
+    /isolation source="sputum"
+    /latitude and longitude="39.9 N 116.3 E"
+    /collection date="2012-05-28"
+    /strain="s264"
+    /geographic location="China"
+Accession: SAMN06460897	ID: 6460897
+
+

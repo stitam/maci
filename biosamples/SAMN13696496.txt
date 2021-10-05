@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN13696496; Sample name: Si-Tuan Nguyen DMS06669
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="DMS06669"
+    /isolation source="missing"
+    /collected by="Si-Tuan Nguyen"
+    /collection date="2018-10-11"
+    /geographic location="Viet Nam"
+    /host="Homo sapiens"
+    /host disease="ventilator-associated-pneumonia"
+    /note="hospital sample"
+    /latitude and longitude="NA"
+Accession: SAMN13696496	ID: 13696496
+
+

@@ -1,0 +1,16 @@
+1: CDPH_C54
+Identifiers: BioSample: SAMN05721782; Sample name: CDPH_C54; SRA: SRS1663159
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ATCC 17945"
+    /collected by="missing"
+    /host="missing"
+    /collection date="missing"
+    /host disease="missing"
+    /isolation source="missing"
+    /geographic location="missing"
+    /latitude and longitude="missing"
+    /culture collection="ATCC:17945"
+Accession: SAMN05721782	ID: 5721782
+
+

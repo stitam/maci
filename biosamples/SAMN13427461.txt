@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN13427461; Sample name: Ac576
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Ac576"
+    /collected by="Hospital Universitario de Londrina"
+    /collection date="2011"
+    /geographic location="Brazil"
+    /host="Homo sapiens"
+    /host disease="Pneumonia"
+    /isolation source="tracheal secretion"
+    /latitude and longitude="23.326736 S 51.128541 W"
+Accession: SAMN13427461	ID: 13427461
+
+

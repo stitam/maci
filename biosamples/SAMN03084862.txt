@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH367_565
+Identifiers: BioSample: SAMN03084862; JCVI: ABUH_SP_0137
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH367_565"
+    /collected by="Robert Bonomo"
+    /collection date="2012-01-07"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Respiratory infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH367_565
+Accession: SAMN03084862	ID: 3084862
+
+

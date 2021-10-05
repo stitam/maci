@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07251703; Sample name: AB54
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB54"
+    /collected by="Qiong Chen"
+    /collection date="2015-11-04"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Intestinal obstruction"
+    /isolation source="sputum"
+    /latitude and longitude="missing"
+Accession: SAMN07251703	ID: 7251703
+
+

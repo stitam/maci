@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN18129817; Sample name: UNISZA_AC1538
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AC1538"
+    /collected by="UNISZA"
+    /collection date="2015"
+    /geographic location="Malaysia"
+    /host="Homo sapiens"
+    /host disease="Infections, nosocomial"
+    /isolation source="sputum"
+    /latitude and longitude="5.325464 N 103.151674 E"
+Accession: SAMN18129817	ID: 18129817
+
+

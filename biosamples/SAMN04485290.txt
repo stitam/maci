@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii 3207
+Identifiers: BioSample: SAMN04485290; Sample name: 3207
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="3207"
+    /collected by="Hospital Universitario de Nuevo Leon"
+    /collection date="2008-08-05"
+    /geographic location="Mexico: Monterrey NL"
+    /host="Homo sapiens"
+    /host disease="missing"
+    /isolation source="Bronchial fluid"
+    /latitude and longitude="missing"
+    /host age="45"
+    /host sex="female"
+Description:
+Clinical isolate from Hospital Universitario de Nuevo Leon, Nuevo Leon State, Mexico in 2008.
+Accession: SAMN04485290	ID: 4485290
+
+

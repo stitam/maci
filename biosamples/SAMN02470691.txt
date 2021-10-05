@@ -1,0 +1,13 @@
+1: Sample from Acinetobacter baumannii ABNIH23
+Identifiers: BioSample: SAMN02470691; Sample name: APBK
+Organism: Acinetobacter baumannii ABNIH23
+Attributes:
+    /strain="ABNIH23"
+    /note="PT4-Ra"
+    /host="Homo sapiens"
+    /collection date="2009"
+    /isolation source="sputum"
+    /geographic location="USA"
+Accession: SAMN02470691	ID: 2470691
+
+

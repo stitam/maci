@@ -1,0 +1,22 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN06134776; Sample name: Acinetobacter baumannii AbaumB
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="kayseri102"
+    /collected by="Salman Ahmed"
+    /collection date="2013-08-06"
+    /geographic location="Turkey: Kayseri"
+    /host="Homo sapiens"
+    /host disease="Bacteremia"
+    /isolation source="blood"
+    /latitude and longitude="38.4356 N 35.2907 E"
+    /genotype="EU2U1"
+    /host age="54"
+    /host disease outcome="recovery"
+    /host disease stage="5 weeks"
+    /host health state="Surgical wound infection"
+    /host sex="male"
+    /host subject id="1628951"
+Accession: SAMN06134776	ID: 6134776
+
+

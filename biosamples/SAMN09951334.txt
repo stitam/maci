@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09951334; Sample name: MC34
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Hospital Viedma"
+    /collection date="2016-02"
+    /geographic location="Bolivia: Cochabamba"
+    /host="Homo sapiens"
+    /host disease="Burn"
+    /isolation source="Tracheal secretion"
+    /latitude and longitude="17.39 S 66.15 W"
+    /host age="30 years"
+    /strain="MC34"
+Accession: SAMN09951334	ID: 9951334
+
+

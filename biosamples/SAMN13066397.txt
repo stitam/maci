@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN13066397; Sample name: PU_2015_42
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="PU_2015_42"
+    /collected by="Patras uni"
+    /collection date="2015"
+    /geographic location="Greece"
+    /host="Homo sapiens"
+    /host disease="missing"
+    /isolation source="catheter (blood)"
+    /latitude and longitude="not collected"
+Accession: SAMN13066397	ID: 13066397
+
+

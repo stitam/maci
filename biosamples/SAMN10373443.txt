@@ -1,0 +1,12 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10373443; Sample name: Acinetobacter baumannii; SRA: SRS4014716
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="L13"
+    /host="Homo sapiens"
+    /collection date="2016-06-13"
+    /geographic location="China: Xinjiang"
+    /sample type="cell culture"
+Accession: SAMN10373443	ID: 10373443
+
+

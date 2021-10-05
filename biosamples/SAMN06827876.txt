@@ -1,0 +1,17 @@
+1: Sample of Acinetobacter baumannii - ARLG-1777
+Identifiers: BioSample: SAMN06827876; SRA: SRS2146841; JCVI: GCID_PABU_26_biosam
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ARLG-1777"
+    /collected by="Unknown"
+    /collection date="2007"
+    /geographic location="USA: Unknown"
+    /host="Unknown"
+    /host disease="Unknown"
+    /isolation source="wound"
+    /latitude and longitude="Unknown"
+Description:
+PRIMERS3 Sample - ARLG-1777.
+Accession: SAMN06827876	ID: 6827876
+
+

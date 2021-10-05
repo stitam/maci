@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN02991271; Sample name: A144
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="A144"
+    /collected by="Hospital Fernandez"
+    /collection date="1997"
+    /geographic location="Argentina: Buenos Aires"
+    /host="Homo sapiens"
+    /host disease="Hospital acquired infections: pneumonia, meningitis, soft tissue infections, surgical infections"
+    /isolation source="blood"
+    /latitude and longitude="34.58 S 58.41 W"
+Accession: SAMN02991271	ID: 2991271
+
+

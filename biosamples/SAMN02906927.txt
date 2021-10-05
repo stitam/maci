@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii MRSN 4106
+Identifiers: BioSample: SAMN02906927; Sample name: gdodcwi04; SRA: SRS887121
+Organism: Acinetobacter baumannii MRSN 4106
+Attributes:
+    /strain="MRSN 4106"
+    /collected by="missing"
+    /culture collection="MRSN&lt;USA&gt;:4106"
+    /collection date="2011-07"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="infection"
+    /isolation source="wound"
+    /latitude and longitude="38.975 N 77.030 W"
+Accession: SAMN02906927	ID: 2906927
+
+

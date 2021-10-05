@@ -1,0 +1,18 @@
+1: Pathogen: Acinetobacter baumannii Ab376
+Identifiers: BioSample: SAMN14567704; Sample name: Ab376
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Ab376"
+    /genotype="ST25"
+    /collected by="Salud Stambouliam"
+    /collection date="2011-07"
+    /geographic location="Argentina: Buenos Aires"
+    /host="Homo sapiens"
+    /host disease="unknown"
+    /isolation source="catheter"
+    /latitude and longitude="34.3559 S 58.2255 W"
+Description:
+Ab376 (ST25) an extremdrug resistant strain, was recovered from a catheter in 2011, Buenos Aires, Argentina.
+Accession: SAMN14567704	ID: 14567704
+
+

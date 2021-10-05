@@ -1,0 +1,15 @@
+1: Acinetobacter baumannii clinical isolate str. KU_SSH_09
+Identifiers: BioSample: SAMN06687324; Sample name: KUSSH09
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="KUSSH09"
+    /collected by="Department of Medical Microbiology, Al-Sabah Hospital"
+    /collection date="2015-04-19"
+    /geographic location="Kuwait"
+    /host="Homo sapiens"
+    /host disease="Pneumonia"
+    /isolation source="Tracheal Secretion"
+    /latitude and longitude="29.3269 N 47.9029 E"
+Accession: SAMN06687324	ID: 6687324
+
+

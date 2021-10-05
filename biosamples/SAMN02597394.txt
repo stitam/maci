@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH5207
+Identifiers: BioSample: SAMN02597394; Sample name: AYFP
+Organism: Acinetobacter baumannii UH5207
+Attributes:
+    /strain="UH5207"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="catheter"
+    /collection date="2007-10"
+Accession: SAMN02597394	ID: 2597394
+
+

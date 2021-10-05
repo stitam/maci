@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN13943323; Sample name: BA22708
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Christian Medical College"
+    /collection date="2019"
+    /geographic location="India: Vellore"
+    /host="Homo sapiens"
+    /host disease="Bacteremia"
+    /isolation source="blood"
+    /latitude and longitude="12.9165 N 79.1325 E"
+    /strain="BA22708"
+Accession: SAMN13943323	ID: 13943323
+
+

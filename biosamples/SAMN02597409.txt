@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH15208
+Identifiers: BioSample: SAMN02597409; Sample name: AYGE
+Organism: Acinetobacter baumannii UH15208
+Attributes:
+    /strain="UH15208"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="sputum"
+    /collection date="2008-03"
+Accession: SAMN02597409	ID: 2597409
+
+

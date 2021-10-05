@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH315_58
+Identifiers: BioSample: SAMN03084741; JCVI: ABUH_SP_0016
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH315_58"
+    /collected by="Robert Bonomo"
+    /collection date="2007-10-08"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Respiratory infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH315_58
+Accession: SAMN03084741	ID: 3084741
+
+

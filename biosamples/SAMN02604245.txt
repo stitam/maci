@@ -1,0 +1,8 @@
+1: Sample from Acinetobacter baumannii BJAB0715
+Identifiers: BioSample: SAMN02604245; Sample name: CP003847
+Organism: Acinetobacter baumannii BJAB0715
+Attributes:
+    /strain="BJAB0715"
+Accession: SAMN02604245	ID: 2604245
+
+

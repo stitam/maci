@@ -1,0 +1,15 @@
+1: DNA sample from a human participant in the dbGaP study "NHLBI CARDIA Candidate Gene Association Resource (CARe)"
+Identifiers: BioSample: SAMN01709678
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="Geneva"
+    /biospecimen repository="Geneva"
+    /study name="NHLBI CARDIA Candidate Gene Association Resource (CARe)"
+    /biospecimen repository sample id="INFINIUM-4302727187_H"
+    /submitted sample id="INFINIUM-4302727187_H"
+    /submitted subject id="221122338"
+    /analyte type="DNA"
+    /subject is affected=""
+Accession: SAMN01709678	ID: 1709678
+
+

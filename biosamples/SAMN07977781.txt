@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii R10 AB1F9
+Identifiers: BioSample: SAMN07977781; Sample name: R10; SRA: SRS2661120
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="R10"
+    /collected by="Yohei Doi, MD, University of Pittsburgh"
+    /collection date="2014-03-11"
+    /geographic location="USA: Pittsburgh"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter Infections"
+    /isolation source="blood"
+    /latitude and longitude="40.4406 N 79.9959 W"
+    /genotype="ST208 (Oxford), ST2 (Pasteur)"
+    /alternate-name-alias="AB1F9"
+Accession: SAMN07977781	ID: 7977781
+
+

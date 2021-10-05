@@ -1,0 +1,13 @@
+1: Sample from Acinetobacter baumannii ABNIH22
+Identifiers: BioSample: SAMN02470698; Sample name: APBJ
+Organism: Acinetobacter baumannii ABNIH22
+Attributes:
+    /strain="ABNIH22"
+    /note="PT4-S'"
+    /host="Homo sapiens"
+    /collection date="2009"
+    /isolation source="tracheal aspirate"
+    /geographic location="USA"
+Accession: SAMN02470698	ID: 2470698
+
+

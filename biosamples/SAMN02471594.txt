@@ -1,0 +1,8 @@
+1: Sample from Acinetobacter baumannii AB210
+Identifiers: BioSample: SAMN02471594; Sample name: AEOX
+Organism: Acinetobacter baumannii AB210
+Attributes:
+    /strain="AB210"
+Accession: SAMN02471594	ID: 2471594
+
+

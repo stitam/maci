@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii AB4A3
+Identifiers: BioSample: SAMN02471175; Sample name: AOLU
+Organism: Acinetobacter baumannii AB4A3
+Attributes:
+    /strain="AB4A3"
+    /host="Homo sapiens"
+    /collection date="2006-10"
+    /isolation source="wound"
+    /geographic location="China:Hong Kong, Queen Mary Hospital"
+Accession: SAMN02471175	ID: 2471175
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN05590454; Sample name: Aba080
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="080"
+    /collected by="Hospital Universitario La Paz"
+    /collection date="2008-07-02"
+    /geographic location="Spain:Madrid"
+    /host="Homo sapiens"
+    /host disease="Paraventricular brain haemorrhage"
+    /isolation source="cerebrospinal fluid"
+    /latitude and longitude="40.480549742407064 N 3.68685320019722 W"
+Accession: SAMN05590454	ID: 5590454
+
+

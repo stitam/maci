@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11557458; Sample name: Colistin resistant Acinetobacter baumannii_VB16141_hybrid assembly
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="VB16141"
+    /collected by="Christian Medical College"
+    /collection date="2019"
+    /geographic location="India"
+    /host="Homo sapiens"
+    /host disease="Sepsis"
+    /isolation source="blood"
+    /latitude and longitude="12.9165 N 79.1325 E"
+Accession: SAMN11557458	ID: 11557458
+
+

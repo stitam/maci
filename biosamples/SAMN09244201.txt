@@ -1,0 +1,15 @@
+1: ICMR acinetobacter baumannii 16533
+Identifiers: BioSample: SAMN09244201; Sample name: 16533
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="16533"
+    /collected by="NA"
+    /collection date="NA"
+    /geographic location="India"
+    /host="Homo sapiens"
+    /host disease="NA"
+    /isolation source="NA"
+    /latitude and longitude="NA"
+Accession: SAMN09244201	ID: 9244201
+
+

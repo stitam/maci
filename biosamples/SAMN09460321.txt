@@ -1,0 +1,14 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09460321; Sample name: DA33382
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="DA33382"
+    /host="Homo sapiens"
+    /isolation source="Tracheal secretion"
+    /collection date="Unknown"
+    /geographic location="Germany"
+    /sample type="Unknown"
+    /serotype="ST1567"
+Accession: SAMN09460321	ID: 9460321
+
+

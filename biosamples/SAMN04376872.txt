@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04376872; Sample name: 2015ZJAB7
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="2015ZJAB7"
+    /collected by="YHX's lab"
+    /collection date="2013-01-04"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="peptic ulcer, gastric perforation"
+    /isolation source="drain fluid"
+    /latitude and longitude="30.26 N 120.19 E"
+Description:
+first isolate in patient III
+Accession: SAMN04376872	ID: 4376872
+
+

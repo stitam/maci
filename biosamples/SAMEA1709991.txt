@@ -1,0 +1,15 @@
+1: Sample from a human female participant in the dbGaP study "A Multiethnic GWAS of Prostate Cancer"
+Identifiers: BioSample: SAMN01709991
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="Geneva"
+    /biospecimen repository="Geneva"
+    /study name="A Multiethnic GWAS of Prostate Cancer"
+    /biospecimen repository sample id="NA11995"
+    /submitted sample id="NA11995"
+    /submitted subject id="200118709"
+    /sex="female"
+    /subject is affected=""
+Accession: SAMN01709991	ID: 1709991
+
+

@@ -1,0 +1,12 @@
+1: Generic sample from Acinetobacter baumannii NIPH 190
+Identifiers: BioSample: SAMN01828165; Sample name: Acinetobacter baumannii NIPH 190; SRA: SRS415283
+Organism: Acinetobacter baumannii NIPH 190
+Attributes:
+    /geographic location="Czech Republic: Praha"
+    /collection date="1993"
+    /host="Homo sapiens"
+    /isolation source="Tracheal secretion"
+    /strain="NIPH 190"
+Accession: SAMN01828165	ID: 1828165
+
+

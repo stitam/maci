@@ -1,0 +1,12 @@
+1: Generic sample from Acinetobacter baumannii AB5256
+Identifiers: BioSample: SAMN02435969; Sample name: AHAI
+Organism: Acinetobacter baumannii AB5256
+Attributes:
+    /strain="AB5256"
+    /host="Homo sapiens"
+    /collection date="2009"
+    /isolation source="blood"
+    /geographic location="USA"
+Accession: SAMN02435969	ID: 2435969
+
+

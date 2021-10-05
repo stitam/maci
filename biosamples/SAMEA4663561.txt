@@ -1,0 +1,13 @@
+1: Sample from Saccharomyces cerevisiae
+Identifiers: BioSample: SAMEA4115086
+Organism: Saccharomyces cerevisiae
+Attributes:
+    /sample name="source Saccharomyces cerevisiae BY4743__S:BioSource:BY4743_211"
+    /sex="unknown_sex"
+    /genotype="diploid"
+    /genotype="WT diploid"
+    /individual="LC69"
+    /strain="BY4743 (wildtype)"
+Accession: SAMEA4115086	ID: 4663561
+
+

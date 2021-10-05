@@ -1,0 +1,15 @@
+1: ICMR acinetobacter baumannii 2375
+Identifiers: BioSample: SAMN09244195; Sample name: 2375
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="2375"
+    /collected by="NA"
+    /collection date="NA"
+    /geographic location="India"
+    /host="Homo sapiens"
+    /host disease="NA"
+    /isolation source="NA"
+    /latitude and longitude="NA"
+Accession: SAMN09244195	ID: 9244195
+
+

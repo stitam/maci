@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11603667; Sample name: B84
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Ab84"
+    /collected by="Shunde First People's Hospital"
+    /collection date="2014-11-25"
+    /geographic location="China: Gungdong"
+    /host="Homo sapiens"
+    /host disease="aspiration pneumonitis"
+    /isolation source="Sputamentum"
+    /latitude and longitude="22.61 N 113.06 E"
+Accession: SAMN11603667	ID: 11603667
+
+

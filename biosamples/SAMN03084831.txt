@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH384_444
+Identifiers: BioSample: SAMN03084831; JCVI: ABUH_SP_0106
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH384_444"
+    /collected by="Robert Bonomo"
+    /collection date="2009-11-13"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Wound infection"
+    /isolation source="Tissues"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH384_444
+Accession: SAMN03084831	ID: 3084831
+
+

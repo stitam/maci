@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07988776; Sample name: Isolate B9
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="B9"
+    /collected by="University Hospital Virgen del Rocio"
+    /collection date="2011"
+    /geographic location="Spain: Seville"
+    /host="Homo sapiens"
+    /host disease="Fournier's gangrene"
+    /isolation source="Blood culture"
+    /latitude and longitude="37.361937 N 5.980480 W"
+Accession: SAMN07988776	ID: 7988776
+
+

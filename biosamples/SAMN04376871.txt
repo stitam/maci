@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04376871; Sample name: 2015ZJAB4
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="2015ZJAB4"
+    /collected by="YHX's lab"
+    /collection date="2012-09-22"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Virus hepatitis"
+    /isolation source="bile"
+    /latitude and longitude="30.26 N 120.19 E"
+Description:
+isolate from patient II
+Accession: SAMN04376871	ID: 4376871
+
+

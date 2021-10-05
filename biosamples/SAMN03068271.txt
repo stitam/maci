@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN03068271; Sample name: 2004ZJAB6
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="2004ZJAB6"
+    /collection date="2004"
+    /geographic location="China: Zhejiang"
+    /isolation source="sputum"
+    /host="Homo sapiens"
+    /sample type="missing"
+Accession: SAMN03068271	ID: 3068271
+
+

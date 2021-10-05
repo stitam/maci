@@ -1,0 +1,22 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN06134759; Sample name: AbaumA
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="antalya35"
+    /collected by="Salman Ahmed"
+    /collection date="2013-07-18"
+    /geographic location="Turkey: Antalya"
+    /host="Homo sapiens"
+    /host disease="Bacteremia"
+    /isolation source="urine"
+    /latitude and longitude="36.5445 N 30.4123 E"
+    /genotype="EU1J1"
+    /host age="62"
+    /host disease outcome="recovery"
+    /host disease stage="3 weeks"
+    /host health state="Severe abdominal pain, painful urination"
+    /host sex="male"
+    /host subject id="8331689"
+Accession: SAMN06134759	ID: 6134759
+
+

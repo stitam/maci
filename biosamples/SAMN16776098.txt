@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN16776098; Sample name: CCBH27570
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CCBH27570"
+    /isolate_note="MG"
+    /collected by="LACEN"
+    /collection date="2019-12-17"
+    /geographic location="Brazil"
+    /host="Homo sapiens"
+    /host disease="unknown"
+    /isolation source="blood"
+    /latitude and longitude="15.75 S 47.95 W"
+Accession: SAMN16776098	ID: 16776098
+
+

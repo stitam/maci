@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14409516; Sample name: Carbapenem Resistant Acinetobacter baumannii
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="VB82"
+    /collected by="Christian Medical College"
+    /collection date="2019"
+    /geographic location="India"
+    /host="Homo sapiens"
+    /host disease="Bloodstream infection"
+    /isolation source="blood"
+    /latitude and longitude="12.9246 N 79.1348 E"
+Accession: SAMN14409516	ID: 14409516
+
+

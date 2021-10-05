@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN06211572; Sample name: Acinetobacter baumannii MDR-CQ
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="MDR-CQ"
+    /collected by="Miao He"
+    /collection date="2016-07-25"
+    /geographic location="China:Chongqing"
+    /host="Homo sapiens"
+    /host disease="NA"
+    /isolation source="missing"
+    /latitude and longitude="29.587520 N 106.550952 E"
+Accession: SAMN06211572	ID: 6211572
+
+

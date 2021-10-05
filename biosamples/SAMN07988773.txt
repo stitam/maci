@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07988773; Sample name: Isolate B4
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="B4"
+    /collected by="University Hospital Virgen del Rocio"
+    /collection date="2011"
+    /geographic location="Spain: Seville"
+    /host="Homo sapiens"
+    /host disease="Sepsis"
+    /isolation source="Blood culture"
+    /latitude and longitude="37.361937 N 5.980480 W"
+Accession: SAMN07988773	ID: 7988773
+
+

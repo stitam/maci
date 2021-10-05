@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN05919682; Sample name: WA2859
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="WA2859"
+    /collected by="WANG Chun-xin"
+    /collection date="2010-08"
+    /geographic location="China:Wuxi"
+    /host="Homo sapiens"
+    /host disease="pneumonia"
+    /isolation source="sputum"
+    /latitude and longitude="31 N 120 E"
+Accession: SAMN05919682	ID: 5919682
+
+

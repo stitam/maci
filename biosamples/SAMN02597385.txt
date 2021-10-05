@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH7707
+Identifiers: BioSample: SAMN02597385; Sample name: AYFG
+Organism: Acinetobacter baumannii UH7707
+Attributes:
+    /strain="UH7707"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="sputum"
+    /collection date="2007-11"
+Accession: SAMN02597385	ID: 2597385
+
+

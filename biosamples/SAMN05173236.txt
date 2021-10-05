@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN05173236; Sample name: HJ10
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="HJ10"
+    /collected by="Yonghong Xiao"
+    /collection date="2014"
+    /geographic location="China:Zhejiang"
+    /host="Homo sapiens"
+    /host disease="NA"
+    /isolation source="kidney preservation fluid"
+    /latitude and longitude="30.26557 N 120.15359 E"
+Accession: SAMN05173236	ID: 5173236
+
+

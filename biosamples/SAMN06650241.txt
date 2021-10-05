@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN06650241; Sample name: USA2
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="USA2"
+    /collected by="KARMS"
+    /collection date="2013-10"
+    /geographic location="South Korea: Seoul"
+    /host="Homo sapiens"
+    /host disease="not collected"
+    /isolation source="urine"
+    /latitude and longitude="not collected"
+Accession: SAMN06650241	ID: 6650241
+
+

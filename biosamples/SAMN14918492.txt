@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14918492; Sample name: H603
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="H603"
+    /collected by="FFUP"
+    /collection date="2013"
+    /geographic location="Portugal: Porto"
+    /host="Homo sapiens"
+    /host disease="unknown"
+    /isolation source="blood culture"
+    /latitude and longitude="41.1579 N 8.6291 W"
+Accession: SAMN14918492	ID: 14918492
+
+

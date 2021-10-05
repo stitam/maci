@@ -1,0 +1,8 @@
+1: Sample from Acinetobacter baumannii DU202
+Identifiers: BioSample: SAMN02470137; Sample name: AVGF
+Organism: Acinetobacter baumannii DU202
+Attributes:
+    /strain="DU202"
+Accession: SAMN02470137	ID: 2470137
+
+

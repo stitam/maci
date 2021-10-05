@@ -1,0 +1,15 @@
+1: ICMR acinetobacter baumannii 5457
+Identifiers: BioSample: SAMN09244198; Sample name: 5457
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="5457"
+    /collected by="NA"
+    /collection date="NA"
+    /geographic location="India"
+    /host="Homo sapiens"
+    /host disease="NA"
+    /isolation source="NA"
+    /latitude and longitude="NA"
+Accession: SAMN09244198	ID: 9244198
+
+

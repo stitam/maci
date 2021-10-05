@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15596637; Sample name: A423; SRA: SRS7259578
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="A423"
+    /collected by="Peechanika Chopjitt"
+    /collection date="2017-10-23"
+    /geographic location="Thailand: Roi et"
+    /host="Homo sapiens"
+    /host disease="Hospital acquired infection"
+    /isolation source="sputum"
+    /latitude and longitude="16.056700 N 103.653089 E"
+    /isolate name alias="A423XDRAB"
+Accession: SAMN15596637	ID: 15596637
+
+

@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii LAC-4
+Identifiers: BioSample: SAMN02628531; Sample name: LAC-4
+Organism: Acinetobacter baumannii LAC-4
+Attributes:
+    /strain="LAC-4"
+    /collection date="1997"
+    /geographic location="USA: Strain isolated from hospital outbreak in Los Angeles County and provided by the Los Angeles County Public Health Laboratory."
+    /host="Homo sapiens"
+    /isolation source="missing"
+    /sample type="missing"
+Accession: SAMN02628531	ID: 2628531
+
+

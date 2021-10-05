@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10497055; Sample name: HUMV-3743; SRA: SRS4094277
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="HUMV-3743"
+    /isolate="missing"
+    /collected by="Hospital Universitario Marques de Valdecilla"
+    /collection date="2004"
+    /geographic location="Spain: Santander"
+    /host="Homo sapiens"
+    /host disease="Wound"
+    /isolation source="Wound exudate"
+    /latitude and longitude="43.27 N 3.48 W"
+Accession: SAMN10497055	ID: 10497055
+
+

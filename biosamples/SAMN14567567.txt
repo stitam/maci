@@ -1,0 +1,18 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14567567; Sample name: 3159; SRA: SRS6453995
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="3159"
+    /genotype="ST836"
+    /collected by="Centre National Hospitalier et Universitaire Hubert Koutoukou Maga"
+    /collection date="2019-03-06"
+    /geographic location="Benin"
+    /host="Homo sapiens"
+    /host disease="Hematoma"
+    /isolation source="Surgical wound"
+    /latitude and longitude="6.38 N 2.45 E"
+    /host age="31"
+    /host sex="female"
+Accession: SAMN14567567	ID: 14567567
+
+

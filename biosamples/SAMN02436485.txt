@@ -1,0 +1,11 @@
+1: Generic sample from Acinetobacter baumannii IS-123
+Identifiers: BioSample: SAMN02436485; Sample name: ALII
+Organism: Acinetobacter baumannii IS-123
+Attributes:
+    /strain="IS-123"
+    /host="Homo sapiens"
+    /collection date="2009-02-09"
+    /geographic location="Iraq: Ibn Sina"
+Accession: SAMN02436485	ID: 2436485
+
+

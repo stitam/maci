@@ -1,0 +1,18 @@
+1: Acinetobacter baumannii CCUG 70743
+Identifiers: BioSample: SAMN07602915; Sample name: A5_Aba; SRA: SRS2514202
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CCUG 70743"
+    /collected by="Clinical Microbiology Laboratory, Sahlgrenska University Hospital"
+    /collection date="2012-06-29"
+    /geographic location="Sweden: Gothenburg"
+    /host="Homo sapiens"
+    /host disease="N/A"
+    /isolation source="wound"
+    /latitude and longitude="57.6823 N 11.9613 E"
+    /culture collection="CCUG:70743"
+Description:
+Carbapenem-resistantAcinetobacter baumannii CCUG 70743 isolated from clinical wound sample
+Accession: SAMN07602915	ID: 7602915
+
+

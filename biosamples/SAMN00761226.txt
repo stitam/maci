@@ -1,0 +1,10 @@
+1: Generic sample from Acinetobacter baumannii Naval-82
+Identifiers: BioSample: SAMN00761226; Sample name: 1132038283049 Acinetobacter baumannii Naval-82 ACIN33-PE-ILI23-1 Sample; SRA: SRS281433
+Organism: Acinetobacter baumannii Naval-82
+Attributes:
+    /strain="Naval-82"
+Description:
+Reference genome for Acinetobacter baumannii Naval-82 
+Accession: SAMN00761226	ID: 761226
+
+

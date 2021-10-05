@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10342509; Sample name: AB5375
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB5375"
+    /collected by="Hospital Geral de Roraima Rubens de Souza Bento"
+    /collection date="2016"
+    /geographic location="Brazil:Roraima"
+    /host="Homo sapiens"
+    /host disease="Hospital-acquired infection"
+    /isolation source="respiratory tract"
+    /latitude and longitude="2.832905 N 60.687870 W"
+Accession: SAMN10342509	ID: 10342509
+
+

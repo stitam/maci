@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10386508; Sample name: 39741
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="39741"
+    /collected by="National Institute of Public Health"
+    /collection date="2018"
+    /geographic location="Czech Republic"
+    /isolation source="missing"
+    /latitude and longitude="50.07 N 14.43 E"
+    /host="Homo sapiens"
+    /host disease="missing"
+Accession: SAMN10386508	ID: 10386508
+
+

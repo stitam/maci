@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 43926
+Identifiers: BioSample: SAMN02385029; Sample name: PACIN_43926; SRA: SRS494469
+Organism: Acinetobacter baumannii 43926
+Attributes:
+    /strain="43926"
+Accession: SAMN02385029	ID: 2385029
+
+

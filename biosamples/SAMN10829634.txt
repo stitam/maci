@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10829634; Sample name: IHIT38008
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="IHIT38008"
+    /isolation source="urine"
+    /host="dog"
+    /collection date="2018"
+    /geographic location="Germany"
+    /sample type="urine sample"
+Accession: SAMN10829634	ID: 10829634
+
+

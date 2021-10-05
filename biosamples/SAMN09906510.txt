@@ -1,0 +1,15 @@
+1: UPAB1: Acinetobacter baumannii urine isolate
+Identifiers: BioSample: SAMN09906510; Sample name: UPAB1; SRA: SRS3743071
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UPAB1"
+    /collected by="Laura Alcaraz"
+    /collection date="2016"
+    /geographic location="Argentina: Buenos Aires, San Andres, Hospital Zonal General de Agudos "General Manuel Belgrano", Zip B1604BSB"
+    /host="Homo sapiens"
+    /host disease="Urinary tract infection"
+    /isolation source="urine"
+    /latitude and longitude="34.549363 S 58.525790 W"
+Accession: SAMN09906510	ID: 9906510
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14910515; Sample name: H580
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="H580"
+    /collected by="FFUP"
+    /collection date="2012"
+    /geographic location="Portugal: Porto"
+    /host="Homo sapiens"
+    /host disease="sepsis"
+    /isolation source="blood culture"
+    /latitude and longitude="41.1579 N 8.6291 W"
+Accession: SAMN14910515	ID: 14910515
+
+

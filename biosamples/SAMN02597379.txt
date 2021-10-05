@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH8807
+Identifiers: BioSample: SAMN02597379; Sample name: AYFA
+Organism: Acinetobacter baumannii UH8807
+Attributes:
+    /strain="UH8807"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="sputum"
+    /collection date="2007-12"
+Accession: SAMN02597379	ID: 2597379
+
+

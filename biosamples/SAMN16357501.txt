@@ -1,0 +1,26 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN16357501; Sample name: FDAARGOS_1359; SRA: SRS8226062
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="FDAARGOS_1359"
+    /isolate="Not applicable"
+    /collected by="FDA-Stanford Microbiome Effort"
+    /collection date="Unknown"
+    /geographic location="USA:MD"
+    /isolation source="missing"
+    /latitude and longitude="Not applicable"
+    /culture collection="FDA:FDAARGOS_1359"
+    /host="missing"
+    /host age="Unknown"
+    /host description="Not applicable"
+    /host disease="Unknown"
+    /host disease outcome="Unknown"
+    /host disease stage="Unknown"
+    /host health state="Unknown"
+    /host sex="Unknown"
+    /identification method="Phenotypic and Molecular Methods"
+Description:
+DSM1675
+Accession: SAMN16357501	ID: 16357501
+
+

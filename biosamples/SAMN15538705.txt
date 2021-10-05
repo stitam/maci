@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15538705; Sample name: 2018BJAB1
+Organism: Acinetobacter baumannii
+Attributes:
+    /alternate_ID="5952"
+    /strain="2018BJAB1"
+    /collected by="not collected"
+    /collection date="2018-03-08"
+    /geographic location="China: Beijing"
+    /host="Homo sapiens"
+    /host disease="not collected"
+    /isolation source="sputum"
+    /latitude and longitude="not collected"
+Accession: SAMN15538705	ID: 15538705
+
+

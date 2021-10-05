@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10716700; Sample name: Aba RCS5
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="RCS5"
+    /collected by="NRC"
+    /collection date="2017-08-07"
+    /geographic location="France"
+    /host="Homo sapiens"
+    /host disease="Colonization"
+    /isolation source="bronchoalveolar lavage"
+    /latitude and longitude="47.22 N 5.96 E"
+Accession: SAMN10716700	ID: 10716700
+
+

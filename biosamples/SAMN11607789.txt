@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11607789; Sample name: B188
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB188"
+    /collected by="Shunde First People's Hospital"
+    /collection date="2018-05-31"
+    /geographic location="China: Gungdong"
+    /host="Homo sapiens"
+    /host disease="Septic shock, pulmonary infection"
+    /isolation source="Sputamentum"
+    /latitude and longitude="22.61 N 113.06 E"
+Accession: SAMN11607789	ID: 11607789
+
+

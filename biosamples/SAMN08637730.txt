@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08637730; Sample name: SGH1010
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="SGH1010"
+    /isolation source="sputum"
+    /host="Homo sapiens"
+    /collection date="2010"
+    /geographic location="Singapore: Singapore General Hospital"
+    /sample type="whole genome sequence"
+Accession: SAMN08637730	ID: 8637730
+
+

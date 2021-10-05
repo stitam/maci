@@ -1,0 +1,20 @@
+1: Sample of Acinetobacter baumannii ORABAshR
+Identifiers: BioSample: SAMN04432979; SRA: SRS1256782; JCVI: GCID_ACINM_00016
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ORABAshR"
+    /collected by="OSPHL"
+    /collection date="2014-07-28"
+    /geographic location="USA: Linn County, Oregon"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="wound"
+    /latitude and longitude="44.5 N 122.9 W"
+    /host health state="Sick"
+    /host sex="female"
+    /host age="21 years"
+Description:
+Sample of Acinetobacter baumannii ORABAshR
+Accession: SAMN04432979	ID: 4432979
+
+

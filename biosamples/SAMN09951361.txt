@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09951361; Sample name: MC95
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Hospital Viedma"
+    /collection date="2016-11"
+    /geographic location="Bolivia: Cochabamba"
+    /host="Homo sapiens"
+    /host disease="Cerebrovascular accident"
+    /isolation source="Tracheal secretion"
+    /latitude and longitude="17.39 S 66.15 W"
+    /host age="75 years"
+    /strain="MC95"
+Accession: SAMN09951361	ID: 9951361
+
+

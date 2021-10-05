@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN06650263; Sample name: SSA12
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="SSA12"
+    /collected by="KARMS"
+    /collection date="2013-09"
+    /geographic location="South Korea: Seoul"
+    /host="Homo sapiens"
+    /host disease="not collected"
+    /isolation source="blood"
+    /latitude and longitude="not collected"
+Accession: SAMN06650263	ID: 6650263
+
+

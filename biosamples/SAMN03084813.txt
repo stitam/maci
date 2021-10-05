@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH81_366
+Identifiers: BioSample: SAMN03084813; JCVI: ABUH_SP_0088
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH81_366"
+    /collected by="Robert Bonomo"
+    /collection date="2009-04-22"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Respiratory infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH81_366
+Accession: SAMN03084813	ID: 3084813
+
+

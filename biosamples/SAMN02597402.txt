@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH20108
+Identifiers: BioSample: SAMN02597402; Sample name: AYFX
+Organism: Acinetobacter baumannii UH20108
+Attributes:
+    /strain="UH20108"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="catheter"
+    /collection date="2008-05-14"
+Accession: SAMN02597402	ID: 2597402
+
+

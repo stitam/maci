@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii R18 AB3A4
+Identifiers: BioSample: SAMN07977797; Sample name: R18; SRA: SRS2661118
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="R18"
+    /collected by="Yohei Doi, MD, University of Pittsburgh"
+    /collection date="2011-05-19"
+    /geographic location="USA: Pittsburgh"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter Infections"
+    /isolation source="BAL"
+    /latitude and longitude="40.4406 N 79.9959 W"
+    /genotype="ST451 (Oxford), ST2 (Pasteur)"
+    /alternate-name-alias="AB3A4"
+Accession: SAMN07977797	ID: 7977797
+
+

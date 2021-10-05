@@ -1,0 +1,18 @@
+1: Sample of Acinetobacter spp 6200
+Identifiers: BioSample: SAMN03263969; SRA: SRS795823; JCVI: GCID_ACIN_00001
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="6200"
+    /collected by="CIDEIM"
+    /collection date="2012"
+    /geographic location="Colombia"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="bodily fluid"
+    /latitude and longitude="2.59 N 75.18 W"
+    /phenotype="carbapenem resistant"
+Description:
+Sample of Acinetobacter spp 6200
+Accession: SAMN03263969	ID: 3263969
+
+

@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07303781; Sample name: HEU5
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="HEU5"
+    /collected by="Hospital Escuela Universitario"
+    /collection date="2016-06-05"
+    /geographic location="Honduras: Francisco Morazan, Tegucigalpa"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter infection"
+    /isolation source="blood"
+    /latitude and longitude="missing"
+    /host age="9 yrs"
+    /host sex="male"
+Accession: SAMN07303781	ID: 7303781
+
+

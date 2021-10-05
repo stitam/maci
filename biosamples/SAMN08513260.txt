@@ -1,0 +1,14 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08513260; Sample name: NCIMB8209
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="NCIMB 8209"
+    /host="Parthenium argentatum Gray (guayule shrubs)"
+    /isolation source="aerobic microbial decomposition of whole and defoliated guayule (retting)"
+    /collection date="1943"
+    /geographic location="USA: PA, Chesnut Hill"
+    /sample type="bacterial cell culture"
+    /culture collection="NCIMB:8209"
+Accession: SAMN08513260	ID: 8513260
+
+

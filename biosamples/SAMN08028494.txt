@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08028494; Sample name: Ab244
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Ab244"
+    /collected by="Hospital de emergencias Clemente Alvarez"
+    /collection date="1997"
+    /geographic location="Argentina: Rosario, Santa Fe"
+    /host="Homo sapiens"
+    /host disease="nosocomial infection"
+    /isolation source="blood"
+    /latitude and longitude="32.57 S 60.42 W"
+Description:
+Genomic analysis of MDR A. baumannii strains causing nosocomial infections in an Argentinian hospital.
+Accession: SAMN08028494	ID: 8028494
+
+

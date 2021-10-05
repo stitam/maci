@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii S4 AB1D4
+Identifiers: BioSample: SAMN07977768; Sample name: S4; SRA: SRS2661147
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="S4"
+    /collected by="Yohei Doi, MD, University of Pittsburgh"
+    /collection date="2011-07-10"
+    /geographic location="USA: Pittsburgh"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter Infections"
+    /isolation source="BAL"
+    /latitude and longitude="40.4406 N 79.9959 W"
+    /genotype="ST208 (Oxford), ST2 (Pasteur)"
+    /alternate-name-alias="AB1D4"
+Accession: SAMN07977768	ID: 7977768
+
+

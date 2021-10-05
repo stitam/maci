@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH11608
+Identifiers: BioSample: SAMN02597416; Sample name: AYGL
+Organism: Acinetobacter baumannii UH11608
+Attributes:
+    /strain="UH11608"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="urine"
+    /collection date="2008-01"
+Accession: SAMN02597416	ID: 2597416
+
+

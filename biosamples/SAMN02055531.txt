@@ -1,0 +1,15 @@
+1: Pathogen sample from Acinetobacter baumannii TG27295
+Identifiers: BioSample: SAMN02055531; Sample name: TG27295
+Organism: Acinetobacter baumannii TG27295
+Attributes:
+    /latitude and longitude="34.85889 N 111.665039 W"
+    /collection date="2006"
+    /host sex="N/A"
+    /geographic location="USA"
+    /isolation source="N/A"
+    /collected by="N/A"
+    /host="Homo sapiens"
+    /strain="TG27295"
+Accession: SAMN02055531	ID: 2055531
+
+

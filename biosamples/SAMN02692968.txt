@@ -1,0 +1,11 @@
+1: Acinetobacter baumannii 754286
+Identifiers: BioSample: SAMN02692968; Sample name: PACIN_754286; SRA: SRS579340
+Organism: Acinetobacter baumannii 754286
+Attributes:
+    /geographic location="USA"
+    /isolation source="perirectal"
+    /host="Homo sapiens"
+    /strain="754286"
+Accession: SAMN02692968	ID: 2692968
+
+

@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii MRSN 7339
+Identifiers: BioSample: SAMN02906929; Sample name: gdodcwi06; SRA: SRS887139
+Organism: Acinetobacter baumannii MRSN 7339
+Attributes:
+    /strain="MRSN 7339"
+    /collected by="missing"
+    /culture collection="MRSN&lt;USA&gt;:7339"
+    /collection date="2004-09"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="infection"
+    /isolation source="wound"
+    /latitude and longitude="38.975 N 77.030 W"
+Accession: SAMN02906929	ID: 2906929
+
+

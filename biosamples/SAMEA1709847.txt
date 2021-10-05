@@ -1,0 +1,15 @@
+1: Sample from a human female participant in the dbGaP study "ARRA Autism Sequencing Collaboration"
+Identifiers: BioSample: SAMN01709847
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="Autism Sequencing Consortium"
+    /biospecimen repository="Autism Sequencing Consortium"
+    /study name="ARRA Autism Sequencing Collaboration"
+    /biospecimen repository sample id="AC02-1223-01"
+    /submitted sample id="AC02-1223-01"
+    /submitted subject id="AC02-1223-01"
+    /sex="female"
+    /subject is affected="case"
+Accession: SAMN01709847	ID: 1709847
+
+

@@ -1,0 +1,8 @@
+1: Sample from Acinetobacter baumannii TYTH-1
+Identifiers: BioSample: SAMN02603667; Sample name: CP003856; SRA: SRS1164400
+Organism: Acinetobacter baumannii TYTH-1
+Attributes:
+    /strain="TYTH-1"
+Accession: SAMN02603667	ID: 2603667
+
+

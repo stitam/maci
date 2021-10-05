@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN02821219; Sample name: BM4587
+Organism: Acinetobacter baumannii
+Attributes:
+    /isolate="BM4587"
+    /collected by="Unknown"
+    /collection date="Unknown"
+    /geographic location="France"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="Missing"
+    /latitude and longitude="Unknown"
+Accession: SAMN02821219	ID: 2821219
+
+

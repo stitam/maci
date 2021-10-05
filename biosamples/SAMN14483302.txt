@@ -1,0 +1,16 @@
+1: A9844
+Identifiers: BioSample: SAMN14483302; Sample name: A9844
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="A9844"
+    /isolate="missing"
+    /collected by="missing"
+    /collection date="missing"
+    /geographic location="Australia"
+    /host="Homo sapiens"
+    /host disease="missing"
+    /isolation source="not applicable"
+    /latitude and longitude="missing"
+Accession: SAMN14483302	ID: 14483302
+
+

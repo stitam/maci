@@ -1,0 +1,15 @@
+1: Pathogen sample from Acinetobacter baumannii TG22150
+Identifiers: BioSample: SAMN02055520; Sample name: TG22150
+Organism: Acinetobacter baumannii TG22150
+Attributes:
+    /latitude and longitude="34.85889 N 111.665039 W"
+    /collection date="2011"
+    /host sex="female"
+    /geographic location="USA"
+    /isolation source="tracheal aspirate"
+    /collected by="N/A"
+    /host="Homo sapiens"
+    /strain="TG22150"
+Accession: SAMN02055520	ID: 2055520
+
+

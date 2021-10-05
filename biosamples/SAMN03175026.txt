@@ -1,0 +1,26 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN03175026; Sample name: M3AC9-7; SRA: SRS742663
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="M3AC9-7"
+    /collected by="missing"
+    /collection date="2009-02-07"
+    /geographic location="Puerto Rico: San Juan Hospital Area"
+    /host="Homo sapiens"
+    /host disease="septicemia"
+    /isolation source="blood from a female with septicemia"
+    /latitude and longitude="18 N 66 W"
+    /host age="58"
+    /host description="osteomyelitis"
+    /host disease outcome="recovery"
+    /host disease stage="acute infection"
+    /host health state="acute disease"
+    /host sex="female"
+    /host subject id="M3AC9-7"
+    /host tissue sampled="blood"
+    /description="KPC-producing Acinetobacter baumannii"
+Description:
+KPC-Producing Acinetobacter baumannii. The objectives of this study were to characterize the localization and genetic background of the KPC gene in A. baumannii strain M3AC9-7.
+Accession: SAMN03175026	ID: 3175026
+
+

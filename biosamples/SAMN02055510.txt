@@ -1,0 +1,15 @@
+1: Pathogen sample from Acinetobacter baumannii TG2014
+Identifiers: BioSample: SAMN02055510; Sample name: TG2014
+Organism: Acinetobacter baumannii TG2014
+Attributes:
+    /latitude and longitude="34.85889 N 111.665039 W"
+    /collection date="2006"
+    /host sex="male"
+    /geographic location="USA"
+    /isolation source="trachea"
+    /collected by="N/A"
+    /host="Homo sapiens"
+    /strain="TG2014"
+Accession: SAMN02055510	ID: 2055510
+
+

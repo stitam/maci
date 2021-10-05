@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841
+Identifiers: BioSample: SAMN05792419; Sample name: ATCC19606
+Organism: Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841
+Attributes:
+    /strain="ATCC 19606"
+    /collected by="IG Schaub"
+    /collection date="1948"
+    /geographic location="USA:Vancouver"
+    /host="Homo sapiens"
+    /host disease="Urinary tract infection"
+    /isolation source="urine"
+    /latitude and longitude="37.53 N 75.4 W"
+    /culture collection="ATCC:19606"
+    /type-material="type strain of Acinetobacter baumannii"
+Accession: SAMN05792419	ID: 5792419
+
+

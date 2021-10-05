@@ -1,0 +1,11 @@
+1: Generic sample from Acinetobacter baumannii ABNIH3
+Identifiers: BioSample: SAMN00857859; Sample name: ABNIH3_D51945; SRA: SRS309501
+Organism: Acinetobacter baumannii ABNIH3
+Attributes:
+    /strain="ABNIH3"
+    /BioSampleModel="Generic"
+Description:
+Acinetobacter baumannii ABNIH3 genomic sample
+Accession: SAMN00857859	ID: 857859
+
+

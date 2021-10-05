@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN18452712; Sample name: Complete genome sequencing of Acinetobacter baumannii KSK20
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="KSK20"
+    /collected by="Jawaharlal Nehru University"
+    /collection date="2020"
+    /geographic location="India: New Delhi"
+    /host="Homo sapiens"
+    /host disease="Respiratory Infection"
+    /isolation source="Respiratory specimen"
+    /latitude and longitude="28.5402 N 77.1662 E"
+Accession: SAMN18452712	ID: 18452712
+
+

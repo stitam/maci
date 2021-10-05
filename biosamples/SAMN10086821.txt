@@ -1,0 +1,24 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10086821; SRA: SRS4570480; CFSAN: CFSAN059618
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CFSAN059618"
+    /collected by="Aga Khan University, Karachi"
+    /collection date="1998"
+    /isolation source="throat"
+    /geographic location="Pakistan"
+    /latitude and longitude="missing"
+    /host disease="missing"
+    /isolate name alias="BT-2913"
+    /attribute_package="clinical/host-associated"
+    /host="Homo sapiens"
+    /PublicAccession="CFSAN059618"
+    /ProjectAccession="PRJNA342326"
+    /Species="baumannii"
+    /Genus="Acinetobacter"
+    /ontological term="throat:UBERON_0000341"
+    /IFSAC+ Category="clinical/research, human"
+    /source type="Human"
+Accession: SAMN10086821	ID: 10086821
+
+

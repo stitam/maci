@@ -1,0 +1,12 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07236642; Sample name: LoGeIst3-1
+Organism: Acinetobacter baumannii
+Attributes:
+    /geographic location="Germany"
+    /sample type="environmental sample"
+    /strain="LoGeIst3-1"
+    /host="white stork"
+    /collection date="2015"
+Accession: SAMN07236642	ID: 7236642
+
+

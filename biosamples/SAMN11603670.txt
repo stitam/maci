@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11603670; Sample name: B89
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Ab89"
+    /collected by="Shunde First People's Hospital"
+    /collection date="2015-01-17"
+    /geographic location="China: Gungdong"
+    /host="Homo sapiens"
+    /host disease="bacteremia"
+    /isolation source="blood"
+    /latitude and longitude="22.61 N 113.06 E"
+Accession: SAMN11603670	ID: 11603670
+
+

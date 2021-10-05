@@ -1,0 +1,27 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN03996270; Sample name: FDAARGOS_123; SRA: SRS1134874
+Organism: Acinetobacter baumannii
+Attributes:
+    /geographic location="USA: DC"
+    /collected by="Children's National Hospital"
+    /isolation source="ulcer swab"
+    /collection date="2013-12-06"
+    /strain="FDAARGOS_123"
+    /latitude and longitude="Not Applicable"
+    /isolate name alias="FDAARGOS_123"
+    /identification method="phenotypic identification"
+    /host sex="male"
+    /host disease="Sacral Ulcer/Sepsis"
+    /host age="19Y"
+    /host="Homo sapiens"
+    /culture collection="FDA:FDAARGOS_123"
+    /isolate="Not Applicable"
+    /host disease outcome="Missing"
+    /host health state="Missing"
+    /host description="Missing"
+    /host disease stage="Missing"
+Description:
+clinical isolate
+Accession: SAMN03996270	ID: 3996270
+
+

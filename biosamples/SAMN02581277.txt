@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii BIDMC 56
+Identifiers: BioSample: SAMN02581277; Sample name: Acinetobacter baumanii BIDMC 56; SRA: SRS565167
+Organism: Acinetobacter baumannii BIDMC 56
+Attributes:
+    /strain="BIDMC 56"
+    /collection date="2013"
+    /geographic location="USA: Boston"
+    /host="Homo sapiens"
+    /isolation source="urine"
+Accession: SAMN02581277	ID: 2581277
+
+

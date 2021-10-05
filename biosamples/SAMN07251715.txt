@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07251715; Sample name: AB99
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB99"
+    /collected by="Qiong Chen"
+    /collection date="2015-11-21"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Premature infant"
+    /isolation source="Umbilical cord secretions"
+    /latitude and longitude="missing"
+Accession: SAMN07251715	ID: 7251715
+
+

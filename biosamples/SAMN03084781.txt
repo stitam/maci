@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH475_239
+Identifiers: BioSample: SAMN03084781; JCVI: ABUH_SP_0056
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH475_239"
+    /collected by="Robert Bonomo"
+    /collection date="2008-06-12"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Respiratory infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH475_239
+Accession: SAMN03084781	ID: 3084781
+
+

@@ -1,0 +1,10 @@
+1: Bornean orangutan iRRL sample
+Identifiers: BioSample: SAMN02439285; Sample name: SK_1; SRA: SRS527820
+Organism: Pongo pygmaeus
+Attributes:
+    /label="SK_1"
+Description:
+Improved reduced-representation sequencing
+Accession: SAMN02439285	ID: 2439285
+
+

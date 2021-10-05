@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN03890256; Sample name: XH858; SRA: SRS995421
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="XH858"
+    /collected by="Yunsong Yu"
+    /collection date="2010"
+    /geographic location="China:Zhejiang"
+    /host="Homo sapiens"
+    /host disease="NA"
+    /isolation source="sputum"
+    /latitude and longitude="30.256769 N 120.201838 E"
+Accession: SAMN03890256	ID: 3890256
+
+

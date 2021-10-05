@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09951353; Sample name: MC87
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Hospital Viedma"
+    /collection date="2016-09"
+    /geographic location="Bolivia: Cochabamba"
+    /host="Homo sapiens"
+    /host disease="Pneumonia"
+    /isolation source="-"
+    /latitude and longitude="17.39 S 66.15 W"
+    /host age="83 years"
+    /strain="MC87"
+Accession: SAMN09951353	ID: 9951353
+
+

@@ -1,0 +1,10 @@
+1: Generic sample from Acinetobacter baumannii IS-143
+Identifiers: BioSample: SAMN00761239; Sample name: 1132038283029 Acinetobacter baumannii IS-143 ACIN23-PE-ILI37-1 Sample; SRA: SRS281446
+Organism: Acinetobacter baumannii IS-143
+Attributes:
+    /strain="IS-143"
+Description:
+Reference genome for Acinetobacter baumannii IS-143 
+Accession: SAMN00761239	ID: 761239
+
+

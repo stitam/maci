@@ -1,0 +1,17 @@
+1: Sample of Acinetobacter baumannii ABUH793
+Identifiers: BioSample: SAMN05238672; SRA: SRS1503455; JCVI: GCID_ACINM_00078
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABUH793"
+    /collected by="JCVI"
+    /collection date="2015-11-08"
+    /geographic location="Unknown"
+    /host="Homo sapiens"
+    /host disease="pneumoniae"
+    /isolation source="Unknown"
+    /latitude and longitude="40.5 N 82.5 W"
+Description:
+Sample of Acinetobacter baumannii ABUH793
+Accession: SAMN05238672	ID: 5238672
+
+

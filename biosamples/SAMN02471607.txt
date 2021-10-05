@@ -1,0 +1,9 @@
+1: Sample from Acinetobacter baumannii W7282
+Identifiers: BioSample: SAMN02471607; Sample name: AIEH
+Organism: Acinetobacter baumannii W7282
+Attributes:
+    /strain="W7282"
+    /geographic location="United Kingdom: London"
+Accession: SAMN02471607	ID: 2471607
+
+

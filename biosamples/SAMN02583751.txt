@@ -1,0 +1,11 @@
+1: General Sample for Acinetobacter baumannii LY5
+Identifiers: BioSample: SAMN02583751; Sample name: Acinetobacter baumannii LY5
+Organism: Acinetobacter baumannii LY5
+Attributes:
+    /strain="LY5"
+    /collection date="2012-03-14"
+    /geographic location="China"
+    /host="Homo sapiens"
+Accession: SAMN02583751	ID: 2583751
+
+

@@ -1,0 +1,19 @@
+1: Pathogen: Acinetobacter baumannii clinical sample from wounded military personnel
+Identifiers: BioSample: SAMN03078662; Sample name: AB3560
+Organism: Acinetobacter baumannii
+Attributes:
+    /latitude and longitude="38.97 N 77.03 W"
+    /collection date="2006-12-14"
+    /host disease="Infection"
+    /isolation source="blood"
+    /host tissue sampled="blood"
+    /geographic location="USA: Walter Reed Army Medical Center"
+    /host="Homo sapiens"
+    /genotype="Ab PFT 1"
+    /collected by="WRAMC staff"
+    /strain="AB3560"
+Description:
+Acinetobacter baumannii clinical sample isolated from Wounded Warrior
+Accession: SAMN03078662	ID: 3078662
+
+

@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Salmonella enterica subsp. enterica serovar Typhimurium
+Identifiers: BioSample: SAMN04394746; Sample name: HUM_TYPH_WA_12_R9_3278_R2; SRA: SRS1245422
+Organism: Salmonella enterica subsp. enterica serovar Typhimurium
+Attributes:
+    /isolate="R9_3278_R2"
+    /collected by="Washington State Department of Health"
+    /collection date="2012"
+    /geographic location="USA: Washington state"
+    /host="Homo sapiens"
+    /host disease="Salmonella infections or carrier"
+    /isolation source="stool/fecal sample"
+    /latitude and longitude="not collected"
+    /serovar="Typhimurium"
+    /sub species="enterica"
+Accession: SAMN04394746	ID: 4394746
+
+

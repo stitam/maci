@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN06109232; Sample name: acinetobacter baumannii XDR-BJ83
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="XDR-BJ83"
+    /isolate="male patient"
+    /collected by="Guoxin Mo"
+    /collection date="2007-05-18"
+    /geographic location="China: Beijing"
+    /host="Homo sapiens"
+    /host disease="cirrhosis"
+    /isolation source="medical patient"
+    /latitude and longitude="39.9 N 116.3 E"
+Accession: SAMN06109232	ID: 6109232
+
+

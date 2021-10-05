@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09951326; Sample name: MC21
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Hospital Materno-Infantil"
+    /collection date="2016-05"
+    /geographic location="Bolivia: Cochabamba"
+    /host="Homo sapiens"
+    /host disease="Pneumonia"
+    /isolation source="Tracheal Secretion"
+    /latitude and longitude="17.39 S 66.15 W"
+    /host age="8 years"
+    /strain="MC21"
+Accession: SAMN09951326	ID: 9951326
+
+

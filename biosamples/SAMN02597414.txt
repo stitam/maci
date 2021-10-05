@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH12308
+Identifiers: BioSample: SAMN02597414; Sample name: AYGJ
+Organism: Acinetobacter baumannii UH12308
+Attributes:
+    /strain="UH12308"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="catheter"
+    /collection date="2008-01"
+Accession: SAMN02597414	ID: 2597414
+
+

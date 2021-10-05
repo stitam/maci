@@ -1,0 +1,8 @@
+1: Sample from Acinetobacter baumannii AB_2008-15-69
+Identifiers: BioSample: SAMN02471249; Sample name: AMHN
+Organism: Acinetobacter baumannii AB_2008-15-69
+Attributes:
+    /strain="AB_2008-15-69"
+Accession: SAMN02471249	ID: 2471249
+
+

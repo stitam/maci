@@ -1,0 +1,17 @@
+1: PRIMERS3 Sample - PR389
+Identifiers: BioSample: SAMN06837824; SRA: SRS2167260; JCVI: biosam_GCID_PABU_89
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ARLG-1956"
+    /collected by="Unknown"
+    /collection date="Unknown"
+    /geographic location="Unknown"
+    /host="Unknown"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="Unknown"
+Description:
+PRIMERS3 Sample - ARLG-1956. Old Name: PR389
+Accession: SAMN06837824	ID: 6837824
+
+

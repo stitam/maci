@@ -1,0 +1,19 @@
+1: Sample of Acinetobacter baumannii ORAB19
+Identifiers: BioSample: SAMN03277102; SRA: SRS815490; JCVI: GCID_ACINM_00013
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ORAB19"
+    /collected by="OSPHL"
+    /collection date="2013-10-10"
+    /geographic location="USA: Washington"
+    /host="Homo sapiens"
+    /host disease="missing"
+    /isolation source="missing"
+    /latitude and longitude="47.5 N 120.5 W"
+    /host age="80 years"
+    /host sex="male"
+Description:
+Sample of Acinetobacter baumannii ORAB19
+Accession: SAMN03277102	ID: 3277102
+
+

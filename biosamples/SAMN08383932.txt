@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08383932; Sample name: Ab360
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="A1-360"
+    /collected by="Sao Paulo Adolfo Lutz Institute"
+    /collection date="2010-11-26"
+    /geographic location="Brazil"
+    /host="Homo sapiens"
+    /host disease="Bacterial Meningitis"
+    /isolation source="cerebrospinal fluid"
+    /latitude and longitude="23.54 S 46.64 W"
+Accession: SAMN08383932	ID: 8383932
+
+

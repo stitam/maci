@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04521099; Sample name: A457
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="A457"
+    /collected by="Eva Tromans"
+    /collection date="n/a"
+    /geographic location="Estonia"
+    /host="Homo sapiens"
+    /host disease="nocomomial pathogen"
+    /isolation source="n/a"
+    /latitude and longitude="59.0000 N 26.0000 E"
+Accession: SAMN04521099	ID: 4521099
+
+

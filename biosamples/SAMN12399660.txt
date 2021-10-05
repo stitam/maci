@@ -1,0 +1,18 @@
+1: Pathogen: clinical sample of Acinetobacter baumannii ATCC BAA-1790, negative control
+Identifiers: BioSample: SAMN12399660; Sample name: Acinetobacter baumannii ATCC BAA-1790, negative control (NC) variant; SRA: SRS5381592
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ATCC BAA-1790"
+    /collected by="R Clark"
+    /collection date="2008"
+    /geographic location="USA:DC"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="sputum"
+    /latitude and longitude="Unknown"
+    /culture collection="ATCC:BAA-1790"
+Description:
+This multidrug-resistant strain Acinetobacter baumannii ATCC BAA-1790 is used as a negative control in a study on antibiotic resistance reversion induced by a new drug FS-1
+Accession: SAMN12399660	ID: 12399660
+
+

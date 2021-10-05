@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN17136831; Sample name: CriePir214
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CriePir214"
+    /isolation source="Bedsore"
+    /host="Homo sapiens"
+    /collected by="Pirogov NMSC"
+    /collection date="2018"
+    /geographic location="Russia: Moscow"
+    /host disease="missing"
+    /latitude and longitude="55.79 N 37.82 E"
+Accession: SAMN17136831	ID: 17136831
+
+

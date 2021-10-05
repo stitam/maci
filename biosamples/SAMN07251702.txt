@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07251702; Sample name: AB52
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB52"
+    /collected by="Qiong Chen"
+    /collection date="2015-11-02"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Pulmonary infection"
+    /isolation source="sputum"
+    /latitude and longitude="missing"
+Accession: SAMN07251702	ID: 7251702
+
+

@@ -1,0 +1,10 @@
+1: Acinetobacter baumannii 42057_5
+Identifiers: BioSample: SAMN02692993; Sample name: PACIN_42057-5; SRA: SRS579370
+Organism: Acinetobacter baumannii 42057_5
+Attributes:
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /strain="42057_5"
+Accession: SAMN02692993	ID: 2692993
+
+

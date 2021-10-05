@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11811865; Sample name: CAb2-3
+Organism: Acinetobacter baumannii
+Attributes:
+    /sample type="Bronchoalveolar lavage fluid"
+    /strain="CAb2-3"
+    /isolate name alias="3"
+    /collected by="Tian Qin"
+    /collection date="2018-02-05"
+    /geographic location="China: Beijing"
+    /host="Homo sapiens"
+    /host disease="influenza"
+    /isolation source="Bronchoalveolar lavage fluid"
+    /latitude and longitude="39.9 N 116.3 E"
+Accession: SAMN11811865	ID: 11811865
+
+

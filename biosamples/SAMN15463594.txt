@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15463594; Sample name: AbCTX15
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AbCTX15"
+    /collected by="French NRC"
+    /collection date="2018-02"
+    /geographic location="France: Saint Laurent du Maroni"
+    /host="Homo sapiens"
+    /host disease="Colonization"
+    /isolation source="Rectal swab"
+    /latitude and longitude="47.23 N 5.96 E"
+Accession: SAMN15463594	ID: 15463594
+
+

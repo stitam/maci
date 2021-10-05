@@ -1,0 +1,12 @@
+1: Generic sample from Acinetobacter baumannii NIPH 1669
+Identifiers: BioSample: SAMN01828181; Sample name: Acinetobacter baumannii NIPH 1669; SRA: SRS415279
+Organism: Acinetobacter baumannii NIPH 1669
+Attributes:
+    /geographic location="Netherlands: Utrecht"
+    /collection date="1997"
+    /host="Homo sapiens"
+    /isolation source="blood"
+    /strain="NIPH 1669"
+Accession: SAMN01828181	ID: 1828181
+
+

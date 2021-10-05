@@ -1,0 +1,17 @@
+1: PRIMERS3 Sample - PR376
+Identifiers: BioSample: SAMN06837836; SRA: SRS2167246; JCVI: biosam_GCID_PABU_76
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="PR376"
+    /collected by="Unknown"
+    /collection date="Unknown"
+    /geographic location="Unknown"
+    /host="Unknown"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="Unknown"
+Description:
+PRIMERS3 Sample - PR376
+Accession: SAMN06837836	ID: 6837836
+
+

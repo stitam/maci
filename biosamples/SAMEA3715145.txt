@@ -1,0 +1,18 @@
+1: DNA sample from a human female participant in the dbGaP study "Type 1 Diabetes Genetics Consortium (T1DGC): Copy Number Variant (CNV) Study"
+Identifiers: BioSample: SAMN03715145
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="NIDDK_T1DGC_CNV"
+    /biospecimen repository="NIDDK_T1DGC_CNV"
+    /study name="Type 1 Diabetes Genetics Consortium (T1DGC): Copy Number Variant (CNV) Study"
+    /study design="Family/Twin/Trios"
+    /biospecimen repository sample id="S_15960302"
+    /submitted sample id="S_15960302"
+    /submitted subject id="15960302"
+    /sex="female"
+    /analyte type="DNA"
+    /subject is affected="No"
+    /molecular data type="CNV Genotypes"
+Accession: SAMN03715145	ID: 3715145
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14299664; Sample name: SP5515
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Christian Medical College"
+    /collection date="2019"
+    /geographic location="India: Vellore"
+    /host="Homo sapiens"
+    /host disease="Pneumonia"
+    /isolation source="Endotracheal Aspirate"
+    /latitude and longitude="12.9165 N 79.1325 E"
+    /strain="SP5515"
+Accession: SAMN14299664	ID: 14299664
+
+

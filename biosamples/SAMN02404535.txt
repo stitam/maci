@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 480175
+Identifiers: BioSample: SAMN02404535; Sample name: PACIN_480175; SRA: SRS502890
+Organism: Acinetobacter baumannii 480175
+Attributes:
+    /strain="480175"
+Accession: SAMN02404535	ID: 2404535
+
+

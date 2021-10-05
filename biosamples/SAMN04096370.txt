@@ -1,0 +1,21 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04096370; Sample name: AB#66
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CMC-CR-MDR-Ab66"
+    /collected by="Carilion Roanoke Memorial Hospital"
+    /collection date="Not available"
+    /geographic location="USA:VA"
+    /host="Homo sapiens"
+    /host disease="Acute and Chronic Respiratory Failure"
+    /isolation source="TA"
+    /latitude and longitude="37.2667 N 79.9333 W"
+    /host age="77"
+    /host description="Human"
+    /host disease outcome="Expired"
+    /host disease stage="Not available"
+    /host health state="Acute &amp; chronic respiratory failure, septicemia, malignant neoplasm, acute kidney failure, tobacco use disorder, prediabetes, hyperlipidemia, PVD, COPD"
+    /host sex="male"
+Accession: SAMN04096370	ID: 4096370
+
+

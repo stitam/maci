@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN13831872; Sample name: Blood -544
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Dr Joel Manyahi"
+    /collection date="2017-10"
+    /geographic location="Tanzania: Dar es Salaam"
+    /host="Homo sapiens"
+    /host disease="Blood stream infection"
+    /isolation source="patient in hospital"
+    /latitude and longitude="6.49 S 39.16 E"
+    /host age="neonate"
+    /strain="DT-544"
+Accession: SAMN13831872	ID: 13831872
+
+

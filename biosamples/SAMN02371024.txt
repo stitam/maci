@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 1040094
+Identifiers: BioSample: SAMN02371024; Sample name: PACIN_1040094; SRA: SRS489933
+Organism: Acinetobacter baumannii 1040094
+Attributes:
+    /strain="1040094"
+Accession: SAMN02371024	ID: 2371024
+
+

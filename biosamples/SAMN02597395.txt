@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH5107
+Identifiers: BioSample: SAMN02597395; Sample name: AYFQ
+Organism: Acinetobacter baumannii UH5107
+Attributes:
+    /strain="UH5107"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="sputum"
+    /collection date="2007-10"
+Accession: SAMN02597395	ID: 2597395
+
+

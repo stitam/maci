@@ -1,0 +1,15 @@
+1: AB047
+Identifiers: BioSample: SAMN11077516; Sample name: AB047; SRA: SRS4460104
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB047"
+    /collected by="Kumar lab"
+    /collection date="2013"
+    /geographic location="Canada: Ontario"
+    /host="Homo sapiens"
+    /host disease="pneumonia"
+    /isolation source="Drainage basin water"
+    /latitude and longitude="48.9552626 N 93.7065152 W"
+Accession: SAMN11077516	ID: 11077516
+
+

@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09951358; Sample name: MC91
+Organism: Acinetobacter baumannii
+Attributes:
+    /collected by="Hospital Viedma"
+    /collection date="2016-11"
+    /geographic location="Bolivia: Cochabamba"
+    /host="Homo sapiens"
+    /host disease="Chronic kidney disease"
+    /isolation source="Urine Culture"
+    /latitude and longitude="17.39 S 66.15 W"
+    /host age="71 years"
+    /strain="MC91"
+Accession: SAMN09951358	ID: 9951358
+
+

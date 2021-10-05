@@ -1,0 +1,20 @@
+1: DNA sample from BLOOD of a human female participant in the dbGaP study "Deciphering the Pathophysiology of Chronic Fatigue Syndrome"
+Identifiers: BioSample: SAMN04542489
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="NIAID Chronic Fatigue Syndrome Pathophysiology"
+    /biospecimen repository="NIAID Chronic Fatigue Syndrome Pathophysiology"
+    /study name="Deciphering the Pathophysiology of Chronic Fatigue Syndrome"
+    /study design="Case-Control"
+    /biospecimen repository sample id="CFS.UNR.1.CEL"
+    /submitted sample id="CFS.UNR.1.CEL"
+    /submitted subject id="1"
+    /sex="female"
+    /study disease="Fatigue Syndrome, Chronic"
+    /tissue="BLOOD"
+    /analyte type="DNA"
+    /subject is affected="Yes"
+    /molecular data type="SNP Genotypes (Array)"
+Accession: SAMN04542489	ID: 4542489
+
+

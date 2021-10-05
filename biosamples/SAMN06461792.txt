@@ -1,0 +1,17 @@
+1: Sample from UHHS A. baumannii: ABUH596
+Identifiers: BioSample: SAMN06461792; SRA: SRS2509669; JCVI: GCID_ACINM_00308_biosample
+Organism: Acinetobacter baumannii
+Attributes:
+    /latitude and longitude="40.5 N 82.5 W"
+    /isolation source="sputum"
+    /collected by="Unknown"
+    /host="Homo sapiens"
+    /collection date="2012-06-25"
+    /geographic location="USA"
+    /strain="ABUH596"
+    /host disease="Unknown"
+Description:
+Sample from UHHS A. baumannii: ABUH596
+Accession: SAMN06461792	ID: 6461792
+
+

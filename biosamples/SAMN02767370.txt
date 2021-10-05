@@ -1,0 +1,16 @@
+1: Microbe sample from Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841
+Identifiers: BioSample: SAMN02767370; Sample name: ABE; SRA: SRS1044228
+Organism: Acinetobacter baumannii ATCC 19606 = CIP 70.34 = JCM 6841
+Attributes:
+    /strain="ATCC 19606"
+    /collection date="unknown"
+    /geographic location="unknown"
+    /isolation source="unknown"
+    /biomaterial provider="USAMRIID"
+    /alternate strain name="Bouvet and Grimont"
+    /culture collection="ATCC:19606"
+    /sample type="missing"
+    /type-material="type strain of Acinetobacter baumannii"
+Accession: SAMN02767370	ID: 2767370
+
+

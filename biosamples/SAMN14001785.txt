@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14001785; Sample name: SP733
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="SP733"
+    /collected by="Christian Medical College"
+    /collection date="2019"
+    /geographic location="India: Vellore"
+    /host="Homo sapiens"
+    /host disease="Pneumonia"
+    /isolation source="Endotracheal Aspirate"
+    /latitude and longitude="12.9165 N 79.1325 E"
+Accession: SAMN14001785	ID: 14001785
+
+

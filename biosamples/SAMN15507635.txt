@@ -1,0 +1,22 @@
+1: Sample of Acinetobacter baumannii ATCC19606-BlokeschLab
+Identifiers: BioSample: SAMN15507635; Sample name: ATCC19606-BlokeschLab; SRA: SRS6987325
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ATCC 19606"
+    /culture collection="ATCC:19606"
+    /collected by="unknown"
+    /collection date="unknown"
+    /geographic location="unknown"
+    /host="unknown"
+    /host disease="unknown"
+    /isolation source="unknown"
+    /latitude and longitude="unknown"
+    /Sequenced sample of strain="laboratory stock Blokesch lab (MB#5145)"
+    /Reference="Hugh R, Reese R. Designation of the type strain for Bacterium anitratum Schaub and Hauber 1948. Int. J. Syst. Bacteriol. 17:245-254, 1967."
+    /Reference="Schaub IG, Hauber FD. A biochemical and serological study of a group of identical unidentifiable gram negative bacilli from human sources. J. Bacteriol. 56:379-385, 1948."
+    /Reference="Hugh R, Reese R. A comparison of 120 strains of Bacterium anitratum Schaub and Hauber with the type strain of this species. Int. J. Syst. Bacteriol. 18:207-229, 1968."
+    /Reference="Bouvet PJ, Grimont PA. Taxonomy of the genus Acinetobacter with the recognition of Acinetobacter baumannii sp. nov., Acinetobacter haemolyticus sp. nov., Acinetobacter johnsonii sp. nov., and Acinetobacter junii sp. nov. and emended descriptions of Acinetobacter calcoaceticus and Acinetobacter lwoffii. Int. J. Syst. Bacteriol. 36:228-240, 1986."
+    /type-material="type strain of Acinetobacter baumannii"
+Accession: SAMN15507635	ID: 15507635
+
+

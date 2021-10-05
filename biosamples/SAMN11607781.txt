@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11607781; Sample name: B179
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB179"
+    /collected by="Shunde First People's Hospital"
+    /collection date="2018-05-04"
+    /geographic location="China: Gungdong"
+    /host="Homo sapiens"
+    /host disease="Septic shock, abdominal infection"
+    /isolation source="Sputamentum"
+    /latitude and longitude="22.61 N 113.06 E"
+Accession: SAMN11607781	ID: 11607781
+
+

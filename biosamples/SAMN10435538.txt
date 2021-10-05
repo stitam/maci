@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10435538; Sample name: ACIN00218; SRA: SRS4051495
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ACIN00218"
+    /collected by="University of Pittsburgh Medical Center"
+    /collection date="2018"
+    /geographic location="USA: Pittsburgh, Pennsylvania"
+    /isolation source="wound"
+    /latitude and longitude="40.44 N 79.97 W"
+    /host="Homo sapiens"
+    /host disease="not collected"
+Accession: SAMN10435538	ID: 10435538
+
+

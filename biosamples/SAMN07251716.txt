@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07251716; Sample name: AB100
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB100"
+    /collected by="Qiong Chen"
+    /collection date="2015-11-21"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Pulmonary infection"
+    /isolation source="sputum"
+    /latitude and longitude="missing"
+Accession: SAMN07251716	ID: 7251716
+
+

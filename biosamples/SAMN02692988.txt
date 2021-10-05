@@ -1,0 +1,10 @@
+1: Acinetobacter baumannii 25750_1
+Identifiers: BioSample: SAMN02692988; Sample name: PACIN_25750-1; SRA: SRS579365
+Organism: Acinetobacter baumannii 25750_1
+Attributes:
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /strain="25750_1"
+Accession: SAMN02692988	ID: 2692988
+
+

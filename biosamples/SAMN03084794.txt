@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH514_287
+Identifiers: BioSample: SAMN03084794; JCVI: ABUH_SP_0069
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH514_287"
+    /collected by="Robert Bonomo"
+    /collection date="2008-08-30"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Respiratory infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="unknown"
+    /serovar="unknown"
+Description:
+Acinetobacter baumannii UH514_287
+Accession: SAMN03084794	ID: 3084794
+
+

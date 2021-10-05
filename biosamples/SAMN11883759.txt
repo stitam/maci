@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11883759; Sample name: 7024
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="7024"
+    /collected by="Hospital Municipal da Piedade"
+    /collection date="2011-05"
+    /geographic location="Brazil: Rio de Janeiro"
+    /host="Homo sapiens"
+    /host disease="Bacteremia"
+    /isolation source="Unhealthy carrier"
+    /latitude and longitude="22.53 S 43.18 W"
+Accession: SAMN11883759	ID: 11883759
+
+

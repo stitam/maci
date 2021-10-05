@@ -1,0 +1,8 @@
+1: Acinetobacter baumannii 34654
+Identifiers: BioSample: SAMN02371042; Sample name: PACIN_34654; SRA: SRS489951
+Organism: Acinetobacter baumannii 34654
+Attributes:
+    /strain="34654"
+Accession: SAMN02371042	ID: 2371042
+
+

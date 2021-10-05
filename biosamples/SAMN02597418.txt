@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH10007
+Identifiers: BioSample: SAMN02597418; Sample name: AYGO
+Organism: Acinetobacter baumannii UH10007
+Attributes:
+    /strain="UH10007"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="sputum"
+    /collection date="2007-12"
+Accession: SAMN02597418	ID: 2597418
+
+

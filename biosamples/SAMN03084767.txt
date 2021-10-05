@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH126_137
+Identifiers: BioSample: SAMN03084767; JCVI: ABUH_SP_0042
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH126_137"
+    /collected by="Robert Bonomo"
+    /collection date="2008-02-25"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Respiratory infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH126_137
+Accession: SAMN03084767	ID: 3084767
+
+

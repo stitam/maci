@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15105068; Sample name: KCJK8620
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="KCJK8620"
+    /collected by="University of Florida"
+    /collection date="2018-05"
+    /geographic location="USA"
+    /host="Sus scrofa"
+    /host disease="missing"
+    /isolation source="feces"
+    /latitude and longitude="27.150074 N 81.197077 W"
+Accession: SAMN15105068	ID: 15105068
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN12726217; Sample name: 77; SRA: SRS5552416
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABS062"
+    /collected by="Masoumeh Douraghi"
+    /collection date="2012"
+    /geographic location="Iran"
+    /host="Homo sapiens"
+    /host disease="Wound infection"
+    /isolation source="wound"
+    /latitude and longitude="35.6892 N 51.3890 E"
+Accession: SAMN12726217	ID: 12726217
+
+

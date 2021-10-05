@@ -1,0 +1,20 @@
+1: Thailand Sample: ABCRPSTH10
+Identifiers: BioSample: SAMN07450598; SRA: SRS2438056; JCVI: GCID_GNCIT_00182_biosam
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABCRPSTH10"
+    /collected by="Not Collected"
+    /collection date="2016-08-11"
+    /geographic location="Thailand: Bangkok"
+    /host="Homo sapiens"
+    /host disease="Unknown"
+    /isolation source="sputum"
+    /latitude and longitude="13.7584 N 100.4855 E"
+    /host age="47 year"
+    /host health state="sick"
+    /host sex="female"
+Description:
+Gram-negative MDR clinical isolates from Thailand
+Accession: SAMN07450598	ID: 7450598
+
+

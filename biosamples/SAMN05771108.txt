@@ -1,0 +1,12 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN05771108; Sample name: AC_4160
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AC_4160"
+    /host="Homo sapiens"
+    /collection date="2016-04-19"
+    /geographic location="Lebanon"
+    /sample type="Whole organism"
+Accession: SAMN05771108	ID: 5771108
+
+

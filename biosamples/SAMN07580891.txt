@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07580891; Sample name: XH906
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="XH906"
+    /collected by="Yunsong Yu"
+    /collection date="2016"
+    /geographic location="China:Zhejiang"
+    /host="Homo sapiens"
+    /host disease="NA"
+    /isolation source="blood"
+    /latitude and longitude="30.256769 N 120.201999 E"
+Accession: SAMN07580891	ID: 7580891
+
+

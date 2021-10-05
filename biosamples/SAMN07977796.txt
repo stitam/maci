@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii S18 AB3A1
+Identifiers: BioSample: SAMN07977796; Sample name: S18; SRA: SRS2661116
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="S18"
+    /collected by="Yohei Doi, MD, University of Pittsburgh"
+    /collection date="2011-04-20"
+    /geographic location="USA: Pittsburgh"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter Infections"
+    /isolation source="BAL"
+    /latitude and longitude="40.4406 N 79.9959 W"
+    /genotype="ST451 (Oxford), ST2 (Pasteur)"
+    /alternate-name-alias="AB3A1"
+Accession: SAMN07977796	ID: 7977796
+
+

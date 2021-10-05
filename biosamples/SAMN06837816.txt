@@ -1,0 +1,17 @@
+1: PRIMERS3 Sample - PR398
+Identifiers: BioSample: SAMN06837816; SRA: SRS2167298; JCVI: biosam_GCID_PABU_98
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ARLG-1913"
+    /collected by="Unknown"
+    /collection date="Unknown"
+    /geographic location="Unknown"
+    /host="Unknown"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="Unknown"
+Description:
+PRIMERS3 Sample - ARLG-1913. Old Name: PR398
+Accession: SAMN06837816	ID: 6837816
+
+

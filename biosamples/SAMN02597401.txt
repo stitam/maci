@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH2107
+Identifiers: BioSample: SAMN02597401; Sample name: AYFW
+Organism: Acinetobacter baumannii UH2107
+Attributes:
+    /strain="UH2107"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="sputum"
+    /collection date="2007-05"
+Accession: SAMN02597401	ID: 2597401
+
+

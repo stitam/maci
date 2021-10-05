@@ -1,0 +1,15 @@
+1: Sample from a human male participant in the dbGaP study "NHLBI GO-ESP: Lung Cohorts Exome Sequencing Project (Lung Health Study of Chronic Obstructive Pulmonary Disease)"
+Identifiers: BioSample: SAMN01709761
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="Geneva"
+    /biospecimen repository="Geneva"
+    /study name="NHLBI GO-ESP: Lung Cohorts Exome Sequencing Project (Lung Health Study of Chronic Obstructive Pulmonary Disease)"
+    /biospecimen repository sample id="892380"
+    /submitted sample id="892380"
+    /submitted subject id="211002830"
+    /sex="male"
+    /subject is affected="Control"
+Accession: SAMN01709761	ID: 1709761
+
+

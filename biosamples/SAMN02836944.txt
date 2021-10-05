@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii MRSN 3405
+Identifiers: BioSample: SAMN02836944; Sample name: MRSN3405; SRA: SRS1162480
+Organism: Acinetobacter baumannii MRSN 3405
+Attributes:
+    /isolate="MRSN 3405"
+    /collected by="MRSN"
+    /collection date="2011-03-29"
+    /geographic location="USA: Maryland"
+    /host="Homo sapiens"
+    /host disease="Wound"
+    /isolation source="wound"
+    /latitude and longitude="39.002164 N 77.096676 W"
+Accession: SAMN02836944	ID: 2836944
+
+

@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04014919; Sample name: FDA-CDC-AR_0078; SRA: SRS1350014
+Organism: Acinetobacter baumannii
+Attributes:
+    /isolation source="missing"
+    /latitude and longitude="missing"
+    /collected by="missing"
+    /host disease="missing"
+    /host="missing"
+    /isolate="missing"
+    /geographic location="missing"
+    /collection date="missing"
+    /panel_id="CarbaNP-47"
+    /strain="AR_0078"
+Accession: SAMN04014919	ID: 4014919
+
+

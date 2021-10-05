@@ -1,0 +1,16 @@
+1: Acinetobacter baumannii genome sequencing and assembly
+Identifiers: BioSample: SAMN06446009; Sample name: 502
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="502"
+    /isolate="not applicable"
+    /collected by="hospital staff"
+    /collection date="2010"
+    /geographic location="Brazil: Hospital das Clinicas, Sao Paulo"
+    /host="Homo sapiens"
+    /host disease="Bloodstream infection"
+    /isolation source="tracheal aspirate"
+    /latitude and longitude="not collected"
+Accession: SAMN06446009	ID: 6446009
+
+

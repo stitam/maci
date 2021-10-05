@@ -1,0 +1,21 @@
+1: Sample of Acinetobacter baumannii ABUH404571
+Identifiers: BioSample: SAMN03268808; SRA: SRS798800; JCVI: GCID_ABUH_00020
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABUH404571"
+    /collected by="Robert Bonomo"
+    /collection date="2012"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="gastrointestinal infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /host health state="Diseased"
+    /host tissue sampled="Bile"
+    /phenotype="Unknown"
+    /genotype="Unknown"
+Description:
+Sample of Acinetobacter baumannii ABUH404571
+Accession: SAMN03268808	ID: 3268808
+
+

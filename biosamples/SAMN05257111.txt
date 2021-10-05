@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN05257111; Sample name: 3.5D_sample
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="3.5D"
+    /host="goose"
+    /collection date="2013"
+    /geographic location="Germany"
+    /sample type="tissue sample"
+    /host tissue sampled="choana"
+Accession: SAMN05257111	ID: 5257111
+
+

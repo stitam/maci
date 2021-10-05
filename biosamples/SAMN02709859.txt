@@ -1,0 +1,17 @@
+1: Acinetobacter baumannii clinical isolate LAC-4
+Identifiers: BioSample: SAMN02709859; Sample name: Acinetobacter baumannii LAC-4
+Organism: Acinetobacter baumannii LAC-4
+Attributes:
+    /strain="LAC-4"
+    /collected by="Public Health Laboratory"
+    /collection date="1997-01-02"
+    /geographic location="USA: Los Angeles County, California"
+    /latitude and longitude="34.0500 N 118.2500 W"
+    /host="Homo sapiens"
+    /host disease="unavailable"
+    /isolation source="unavailable"
+Description:
+The goals of sequencing this isolate's genome are to identify virulence factor genes and to understand mechanisms of pathogenesis and resistance
+Accession: SAMN02709859	ID: 2709859
+
+

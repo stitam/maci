@@ -1,0 +1,21 @@
+1: MIGS Cultured Bacterial/Archaeal sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15312465; Sample name: F27; SRA: SRS6872785
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="F27"
+    /isolation source="sputum"
+    /collection date="2016-06"
+    /broad-scale environmental context="Buddhachinaraj hospital"
+    /local-scale environmental context="Phitsanulok province"
+    /environmental medium="Sputum"
+    /geographic location="Thailand: Buddhachinaraj hospital, Phitsanulok province"
+    /host="Homo sapiens"
+    /isolation and growth condition="Isolated from sputum,"
+    /latitude and longitude="16.808525 N 100.263553 E"
+    /number of replicons="1"
+    /reference for biomaterial="https://www.ncbi.nlm.nih.gov/nuccore/CP046654.1"
+Description:
+Keywords: GSC:MIxS;MIGS:5.0
+Accession: SAMN15312465	ID: 15312465
+
+

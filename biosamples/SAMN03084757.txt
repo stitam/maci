@@ -1,0 +1,19 @@
+1: Acinetobacter baumannii UH410_96
+Identifiers: BioSample: SAMN03084757; JCVI: ABUH_SP_0032
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="UH410_96"
+    /collected by="Robert Bonomo"
+    /collection date="2007-12-15"
+    /geographic location="USA"
+    /host="Homo sapiens"
+    /host disease="Respiratory infection"
+    /isolation source="bodily fluid"
+    /latitude and longitude="41.5 N 81.7 W"
+    /genotype="Unknown"
+    /serovar="Unknown"
+Description:
+Acinetobacter baumannii UH410_96
+Accession: SAMN03084757	ID: 3084757
+
+

@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07251701; Sample name: AB46
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB46"
+    /collected by="Qiong Chen"
+    /collection date="2015-11-02"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Acute pancreatitis"
+    /isolation source="sputum"
+    /latitude and longitude="missing"
+Accession: SAMN07251701	ID: 7251701
+
+

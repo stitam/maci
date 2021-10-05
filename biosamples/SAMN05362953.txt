@@ -1,0 +1,15 @@
+1: Pathogen: clinical sample from Acinetobacter baumannii LAC4
+Identifiers: BioSample: SAMN05362953; Sample name: LAC4
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="LAC4"
+    /collected by="Unknown"
+    /collection date="1997-01-02"
+    /geographic location="USA"
+    /host="Unknown"
+    /host disease="Unknown"
+    /isolation source="NA"
+    /latitude and longitude="34.05 N 118.25 W"
+Accession: SAMN05362953	ID: 5362953
+
+

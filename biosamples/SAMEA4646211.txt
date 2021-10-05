@@ -1,0 +1,10 @@
+1: Sample from Saccharomyces cerevisiae
+Identifiers: BioSample: SAMEA4290262
+Organism: Saccharomyces cerevisiae
+Attributes:
+    /sample name="source swe1-del-1-b"
+    /genotype="swe1-del"
+    /strain="BY4742"
+Accession: SAMEA4290262	ID: 4646211
+
+

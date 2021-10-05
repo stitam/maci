@@ -1,0 +1,17 @@
+1: PRIMERS3 Sample - PR355
+Identifiers: BioSample: SAMN06837794; SRA: SRS2167194; JCVI: biosam_GCID_PABU_55
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ARLG-1770"
+    /collected by="Unknown"
+    /collection date="Unknown"
+    /geographic location="Unknown"
+    /host="Unknown"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="Unknown"
+Description:
+PRIMERS3 Sample - ARLG-1770. Old Name: PR355
+Accession: SAMN06837794	ID: 6837794
+
+

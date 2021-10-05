@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN15596639; Sample name: A522; SRA: SRS7259580
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="A522"
+    /collected by="Peechanika Chopjitt"
+    /collection date="2018-01-24"
+    /geographic location="Thailand: Roi et"
+    /host="Homo sapiens"
+    /host disease="Hospital acquired infection"
+    /isolation source="bile"
+    /latitude and longitude="16.056700 N 103.653089 E"
+    /isolate name alias="A522XDRAB"
+Accession: SAMN15596639	ID: 15596639
+
+

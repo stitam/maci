@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN09708285; Sample name: Ab-Pak-Lah-01
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Lah-01"
+    /collected by="CMH Lahore"
+    /collection date="2013-02"
+    /geographic location="Pakistan: Lahore"
+    /host="Homo sapiens"
+    /host disease="Not specified"
+    /isolation source="Tracheal Secretions"
+    /latitude and longitude="31.5204 N 74.3587 E"
+Accession: SAMN09708285	ID: 9708285
+
+

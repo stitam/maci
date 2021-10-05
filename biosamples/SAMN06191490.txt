@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN06191490; Sample name: TDAB1
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="TDAB1"
+    /collected by="Juan Xu"
+    /collection date="2016-09"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Bacteremia"
+    /isolation source="blood"
+    /latitude and longitude="Missing"
+Accession: SAMN06191490	ID: 6191490
+
+

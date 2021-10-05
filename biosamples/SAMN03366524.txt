@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii ST25
+Identifiers: BioSample: SAMN03366524; Sample name: 741019
+Organism: Acinetobacter baumannii
+Attributes:
+    /host disease="unknown"
+    /collection date="2011"
+    /isolation source="Pleural fluid"
+    /latitude and longitude="unknown"
+    /geographic location="Argentina"
+    /host="Homo sapiens"
+    /collected by="unknown"
+    /strain="741019"
+Accession: SAMN03366524	ID: 3366524
+
+

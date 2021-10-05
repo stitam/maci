@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN03068189; Sample name: 2011BJAB5
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="2011BJAB5"
+    /collection date="2011"
+    /geographic location="China: Beijing"
+    /isolation source="blood"
+    /host="Homo sapiens"
+    /sample type="missing"
+Accession: SAMN03068189	ID: 3068189
+
+

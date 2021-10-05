@@ -1,0 +1,10 @@
+1: Generic sample from Acinetobacter baumannii OIFC110
+Identifiers: BioSample: SAMN00761230; Sample name: 1132038283027 Acinetobacter baumannii OIFC110 ACIN22-PE-ILI16-1 Sample; SRA: SRS281437
+Organism: Acinetobacter baumannii OIFC110
+Attributes:
+    /strain="OIFC110"
+Description:
+Reference genome for Acinetobacter baumannii OIFC110 
+Accession: SAMN00761230	ID: 761230
+
+

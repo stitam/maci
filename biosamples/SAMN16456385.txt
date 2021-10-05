@@ -1,0 +1,15 @@
+1: XH355
+Identifiers: BioSample: SAMN16456385; Sample name: XH355
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="XH355"
+    /collected by="Xiaoting Hua"
+    /collection date="2019-01"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="NA"
+    /latitude and longitude="30.3 N 120.2 E"
+    /isolation source="missing"
+Accession: SAMN16456385	ID: 16456385
+
+

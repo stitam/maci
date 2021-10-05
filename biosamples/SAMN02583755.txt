@@ -1,0 +1,11 @@
+1: General Sample for Acinetobacter baumannii LY9
+Identifiers: BioSample: SAMN02583755; Sample name: Acinetobacter baumannii LY9
+Organism: Acinetobacter baumannii LY9
+Attributes:
+    /strain="LY9"
+    /collection date="2012-04-01"
+    /geographic location="China"
+    /host="Homo sapiens"
+Accession: SAMN02583755	ID: 2583755
+
+

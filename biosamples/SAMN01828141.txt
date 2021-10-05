@@ -1,0 +1,12 @@
+1: Generic sample from Acinetobacter baumannii ANC 4097
+Identifiers: BioSample: SAMN01828141; Sample name: Acinetobacter baumannii ANC 4097; SRA: SRS415372
+Organism: Acinetobacter baumannii ANC 4097
+Attributes:
+    /geographic location="Czech Republic: Usti nad Labem"
+    /collection date="2011"
+    /host="Homo sapiens"
+    /isolation source="tracheal aspirate"
+    /strain="ANC 4097"
+Accession: SAMN01828141	ID: 1828141
+
+

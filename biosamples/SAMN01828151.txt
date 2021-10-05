@@ -1,0 +1,12 @@
+1: Generic sample from Acinetobacter baumannii NIPH 201
+Identifiers: BioSample: SAMN01828151; Sample name: Acinetobacter baumannii NIPH 201; SRA: SRS415314
+Organism: Acinetobacter baumannii NIPH 201
+Attributes:
+    /geographic location="Czech Republic: Liberec"
+    /collection date="1992"
+    /host="Homo sapiens"
+    /isolation source="nasal swab"
+    /strain="NIPH 201"
+Accession: SAMN01828151	ID: 1828151
+
+

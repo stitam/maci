@@ -1,0 +1,14 @@
+1: Pathogen: environmental/food/other sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN18607616; Sample name: Acinetobacter baumannii INTEC_OZFC7
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="INTEC_OZFC7"
+    /collected by="Instituto Tecnologico de Santo Domingo"
+    /collection date="2018-06"
+    /geographic location="Dominican Republic:Santo Domingo"
+    /isolation source="Ozama River"
+    /latitude and longitude="18.511400511393596 N 69.88615331428751 W"
+    /isolate name alias="FC7"
+Accession: SAMN18607616	ID: 18607616
+
+

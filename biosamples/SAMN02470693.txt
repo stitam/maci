@@ -1,0 +1,13 @@
+1: Sample from Acinetobacter baumannii ABNIH20
+Identifiers: BioSample: SAMN02470693; Sample name: APBI
+Organism: Acinetobacter baumannii ABNIH20
+Attributes:
+    /strain="ABNIH20"
+    /note="PT4-Rb"
+    /host="Homo sapiens"
+    /collection date="2009"
+    /isolation source="sputum"
+    /geographic location="USA"
+Accession: SAMN02470693	ID: 2470693
+
+

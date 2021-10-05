@@ -1,0 +1,16 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10910649; Sample name: INR_H350
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="H350"
+    /collected by="Rafael Franco"
+    /collection date="2015"
+    /geographic location="Mexico"
+    /host="Homo sapiens"
+    /host disease="Burnt Patient"
+    /isolation source="Blood culture"
+    /latitude and longitude="Not collected"
+    /genotype="MDR"
+Accession: SAMN10910649	ID: 10910649
+
+

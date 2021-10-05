@@ -1,0 +1,8 @@
+1: Sample from Acinetobacter baumannii 3990
+Identifiers: BioSample: SAMN02471598; Sample name: AEOY
+Organism: Acinetobacter baumannii 3990
+Attributes:
+    /strain="3990"
+Accession: SAMN02471598	ID: 2471598
+
+

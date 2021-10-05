@@ -1,0 +1,15 @@
+1: Acinetobacter baumannii isolate MRSN20755 collected within the U.S. military healthcare system
+Identifiers: BioSample: SAMN04229825; Sample name: MRSN20755; SRA: SRS1155446
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="MRSN20755"
+    /collected by="United States Army"
+    /collection date="2003-05"
+    /geographic location="USA: Washington, DC"
+    /host="Homo sapiens"
+    /host disease="repiratory infection"
+    /isolation source="tracheal mucosa"
+    /latitude and longitude="missing"
+Accession: SAMN04229825	ID: 4229825
+
+

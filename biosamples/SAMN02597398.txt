@@ -1,0 +1,12 @@
+1: Sample from Acinetobacter baumannii UH2707
+Identifiers: BioSample: SAMN02597398; Sample name: AYFT
+Organism: Acinetobacter baumannii UH2707
+Attributes:
+    /strain="UH2707"
+    /host="Homo sapiens"
+    /geographic location="USA"
+    /isolation source="sputum"
+    /collection date="2007-10"
+Accession: SAMN02597398	ID: 2597398
+
+

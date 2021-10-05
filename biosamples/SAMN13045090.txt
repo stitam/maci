@@ -1,0 +1,17 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN13045090; Sample name: ATCC19606; SRA: SRS5529790
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ATCC 19606"
+    /culture collection="ATCC:19606"
+    /alternate_ID="FADDI"
+    /host="Homo sapiens"
+    /isolation source="missing"
+    /collection date="2017-11"
+    /geographic location="Australia:Melbourne"
+    /sample type="cell culture"
+    /collected by="Yan Zhu"
+    /type-material="type strain of Acinetobacter baumannii"
+Accession: SAMN13045090	ID: 13045090
+
+

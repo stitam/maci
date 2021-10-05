@@ -1,0 +1,12 @@
+1: Generic sample from Acinetobacter baumannii Canada BC-5
+Identifiers: BioSample: SAMN02436468; Sample name: AFDN
+Organism: Acinetobacter baumannii Canada BC-5
+Attributes:
+    /strain="Canada BC-5"
+    /host="Homo sapiens"
+    /collection date="2007"
+    /isolation source="nosocomial spread of war-related MDR-ABC in a Canadian civilian hospital with origin from soldier evacuated via Landstuhl Regional Medical Center"
+    /geographic location="Canada"
+Accession: SAMN02436468	ID: 2436468
+
+

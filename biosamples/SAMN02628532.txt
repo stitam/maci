@@ -1,0 +1,13 @@
+1: Microbe sample from Acinetobacter baumannii R1B
+Identifiers: BioSample: SAMN02628532; Sample name: R1B
+Organism: Acinetobacter baumannii R1B
+Attributes:
+    /strain="R1B"
+    /collection date="2011-03-01"
+    /geographic location="Saudi Arabia: Riyadh Armed Forces Hospital, Riyadh"
+    /host="Homo sapiens"
+    /isolation source="missing"
+    /sample type="missing"
+Accession: SAMN02628532	ID: 2628532
+
+

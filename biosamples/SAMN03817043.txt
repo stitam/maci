@@ -1,0 +1,18 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN03817043; Sample name: Acinetobacter baumannii ATCC 17978-mff
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ATCC 17978-mff"
+    /culture collection="ATCC:17978-mff"
+    /collected by="Mario Feldman"
+    /collection date="2014"
+    /geographic location="Canada"
+    /host="Homo sapiens"
+    /isolation source="missing"
+    /host disease="meningitis"
+    /latitude and longitude="n/a"
+Description:
+Acinetobacter baumannii ATCC 17978 derived from the laboratory of Dr. Mario Feldman
+Accession: SAMN03817043	ID: 3817043
+
+

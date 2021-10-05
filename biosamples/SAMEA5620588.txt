@@ -1,0 +1,10 @@
+1: Sample from Homo sapiens
+Identifiers: BioSample: SAMEA14305918
+Organism: Homo sapiens
+Attributes:
+    /sample name="deCODE_12719"
+Description:
+deCODE_12719
+Accession: SAMEA14305918	ID: 5620588
+
+

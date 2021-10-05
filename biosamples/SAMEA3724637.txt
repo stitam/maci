@@ -1,0 +1,19 @@
+1: DNA sample from a human female participant in the dbGaP study "International Parkinson's Disease Genomics Consortium (IPDGC), NeuroX Dataset"
+Identifiers: BioSample: SAMN03724637
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="NINDS IPDGC"
+    /biospecimen repository="NINDS IPDGC"
+    /study name="International Parkinson's Disease Genomics Consortium (IPDGC), NeuroX Dataset"
+    /study design="Case-Control"
+    /biospecimen repository sample id="9933"
+    /submitted sample id="9933"
+    /submitted subject id="9933"
+    /sex="female"
+    /study disease="Parkinson Disease"
+    /analyte type="DNA"
+    /subject is affected="Yes"
+    /molecular data type="SNP Genotypes (Array)"
+Accession: SAMN03724637	ID: 3724637
+
+

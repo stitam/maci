@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07251728; Sample name: AB172
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB172"
+    /collected by="Qiong Chen"
+    /collection date="2015-12-25"
+    /geographic location="China: Hangzhou"
+    /host="Homo sapiens"
+    /host disease="Gastric cancer"
+    /isolation source="sputum"
+    /latitude and longitude="missing"
+Accession: SAMN07251728	ID: 7251728
+
+

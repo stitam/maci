@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN06650245; Sample name: CBA7
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CBA7"
+    /collected by="KARMS"
+    /collection date="2013-10"
+    /geographic location="South Korea: Chungbuk"
+    /host="Homo sapiens"
+    /host disease="not collected"
+    /isolation source="sputum"
+    /latitude and longitude="not collected"
+Accession: SAMN06650245	ID: 6650245
+
+

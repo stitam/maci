@@ -1,0 +1,9 @@
+1: MGH44_P13_C06
+Identifiers: BioSample: SAMN05987517; GEO: GSM2382042
+Organism: Homo sapiens
+Attributes:
+    /source name="astrocytoma single cell"
+    /tumor="MGH44"
+Accession: SAMN05987517	ID: 5987517
+
+

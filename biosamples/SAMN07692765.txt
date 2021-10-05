@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07692765; Sample name: P26-70; SRA: SRS4397646
+Organism: Acinetobacter baumannii
+Attributes:
+    /host age="5"
+    /host sex="female"
+    /host disease="UTI"
+    /geographic location="Ghana: Kumasi"
+    /collected by="Komfo Anokye Teaching Hospital (KATH) Ghana"
+    /strain="151"
+    /collection date="2015"
+    /isolation source="urine"
+    /host="Homo sapiens"
+    /latitude and longitude="6.6666 N 1.6163 W"
+Accession: SAMN07692765	ID: 7692765
+
+

@@ -1,0 +1,12 @@
+1: Generic sample from Acinetobacter baumannii AB5711
+Identifiers: BioSample: SAMN02436013; Sample name: AHAJ
+Organism: Acinetobacter baumannii AB5711
+Attributes:
+    /strain="AB5711"
+    /host="Homo sapiens"
+    /collection date="2009"
+    /isolation source="blood"
+    /geographic location="USA"
+Accession: SAMN02436013	ID: 2436013
+
+

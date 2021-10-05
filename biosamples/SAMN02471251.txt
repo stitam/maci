@@ -1,0 +1,10 @@
+1: Sample from Acinetobacter baumannii AB_2009-04-02-7
+Identifiers: BioSample: SAMN02471251; Sample name: AMHT
+Organism: Acinetobacter baumannii AB_2009-04-02-7
+Attributes:
+    /strain="AB_2009-04-02-7"
+    /host="Homo sapiens"
+    /isolation source="sputum"
+Accession: SAMN02471251	ID: 2471251
+
+

@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10576302; Sample name: 433H
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="433H"
+    /collected by="Hospital Infantil de Mexico Federico Gomez"
+    /collection date="2015-01-11"
+    /geographic location="Mexico: Mexico City"
+    /host="Homo sapiens"
+    /host disease="Acute Myeloid Leukemia M2"
+    /isolation source="Bloodstream"
+    /latitude and longitude="missing"
+    /host age="12 yrs"
+    /host sex="male"
+Accession: SAMN10576302	ID: 10576302
+
+

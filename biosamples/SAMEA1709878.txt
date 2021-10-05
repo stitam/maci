@@ -1,0 +1,16 @@
+1: DNA sample from a human female participant in the dbGaP study "Genetic Epidemiology of Refractive Error in the KORA Study"
+Identifiers: BioSample: SAMN01709878
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="KORA"
+    /biospecimen repository="KORA"
+    /study name="Genetic Epidemiology of Refractive Error in the KORA Study"
+    /biospecimen repository sample id="554002893"
+    /submitted sample id="554002893"
+    /submitted subject id="554002893"
+    /sex="female"
+    /analyte type="DNA"
+    /subject is affected=""
+Accession: SAMN01709878	ID: 1709878
+
+

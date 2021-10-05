@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04924780; Sample name: AB252; SRA: SRS1569056
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB252"
+    /collected by="KAMC-Makkak"
+    /collection date="2012"
+    /geographic location="Saudi Arabia: Makkah"
+    /host="Homo sapiens"
+    /host disease="Infection"
+    /isolation source="sputum"
+    /latitude and longitude="21.22 N 39.52 E"
+Description:
+Clinical isolate
+Accession: SAMN04924780	ID: 4924780
+
+

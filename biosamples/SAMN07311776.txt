@@ -1,0 +1,17 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07311776; Sample name: Ab_44
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ABA2114"
+    /isolation source="University Hospital of Abidjan-Yopougon"
+    /latitude and longitude="5.3588 N 4.0893 W"
+    /collected by="Institut Pasteur of Ivory Coast"
+    /geographic location="Cote d'Ivoire: Abidjan"
+    /isolate="missing"
+    /host sex="male"
+    /host="Homo sapiens"
+    /host disease="Urinary tract infections"
+    /collection date="2014-01-21"
+Accession: SAMN07311776	ID: 7311776
+
+

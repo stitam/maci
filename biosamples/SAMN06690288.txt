@@ -1,0 +1,15 @@
+1: Acinetobacter baumannii clinical isolate str. KU_FAR_64
+Identifiers: BioSample: SAMN06690288; Sample name: KUFAR64
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="KUFAR64"
+    /collected by="Department of Medical Microbiology, Farwaniya Hospital"
+    /collection date="2015-04-22"
+    /geographic location="Kuwait"
+    /host="Homo sapiens"
+    /host disease="Pneumonia"
+    /isolation source="sputum"
+    /latitude and longitude="29.2696 N 47.9059 E"
+Accession: SAMN06690288	ID: 6690288
+
+

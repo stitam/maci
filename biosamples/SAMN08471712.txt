@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN08471712; Sample name: HZ-S58
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="AB-HZ-S58"
+    /collected by="Lihua"
+    /collection date="2014-01-28"
+    /geographic location="China:Hangzhou"
+    /host="Homo sapiens"
+    /host disease="H1N1"
+    /isolation source="sputum"
+    /latitude and longitude="30.16 N 120.85 E"
+Accession: SAMN08471712	ID: 8471712
+
+

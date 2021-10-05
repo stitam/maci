@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10251004; Sample name: Acinetobacter baumannii - Acb1
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="Acb1"
+    /collected by="Department of Microbiology, Clinical Pathology Laboratory, Sao Lucas Hospital"
+    /collection date="2013"
+    /geographic location="Brazil: Porto Alegre"
+    /host="Homo sapiens"
+    /host disease="Acinetobacter baumannii respiratory infection"
+    /isolation source="tracheal aspirate"
+    /latitude and longitude="30.05 S 51.17 W"
+Accession: SAMN10251004	ID: 10251004
+
+

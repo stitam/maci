@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN11298775; Sample name: Carbapenem resistant Acinetobacter baumannii_CIAT758_hybrid assembly
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="CIAT758"
+    /collected by="Tata Medical Centre"
+    /collection date="2018"
+    /geographic location="India"
+    /host="Homo sapiens"
+    /host disease="Bacteremia"
+    /isolation source="blood"
+    /latitude and longitude="22.5726 N 88.3639 E"
+Accession: SAMN11298775	ID: 11298775
+
+

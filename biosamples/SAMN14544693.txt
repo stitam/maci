@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN14544693; Sample name: CRAB_C248; SRA: SRS6432402
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="C248"
+    /collected by="Anusak Kerdsin"
+    /collection date="2016"
+    /geographic location="Thailand: Suratthani"
+    /host="Homo sapiens"
+    /host disease="Spontaneous peritonitis"
+    /isolation source="abdominal fluid"
+    /latitude and longitude="9.1382 N 99.3217 E"
+Accession: SAMN14544693	ID: 14544693
+
+

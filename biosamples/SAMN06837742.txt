@@ -1,0 +1,17 @@
+1: PRIMERS3 Sample - PR340
+Identifiers: BioSample: SAMN06837742; SRA: SRS2167064; JCVI: biosam_GCID_PABU_40
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="ARLG-1822"
+    /collected by="Unknown"
+    /collection date="Unknown"
+    /geographic location="Unknown"
+    /host="Unknown"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="Unknown"
+Description:
+PRIMERS3 Sample - ARLG-1822. Old Name: PR340
+Accession: SAMN06837742	ID: 6837742
+
+

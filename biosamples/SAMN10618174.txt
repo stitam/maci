@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10618174; Sample name: O1-5
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="O1-5"
+    /collected by="Clinical microbiology department"
+    /collection date="2018-01-15"
+    /geographic location="China: Shenzhen"
+    /host="Homo sapiens"
+    /host disease="pneumonia"
+    /isolation source="Patient sputum"
+    /latitude and longitude="22.55 N 114.12 E"
+Accession: SAMN10618174	ID: 10618174
+
+

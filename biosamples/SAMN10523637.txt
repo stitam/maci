@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN10523637; Sample name: GCID_CRAK_0046; SRA: SRS4113953
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="B943"
+    /collected by="Unknown"
+    /collection date="Unknown"
+    /geographic location="Unknown"
+    /host="Unknown"
+    /host disease="Unknown"
+    /isolation source="Unknown"
+    /latitude and longitude="Unknown"
+Accession: SAMN10523637	ID: 10523637
+
+

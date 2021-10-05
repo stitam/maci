@@ -1,0 +1,15 @@
+1: Pathogen: clinical or host-associated sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN16644270; Sample name: NPHL200664; SRA: SRS7647417
+Organism: Acinetobacter baumannii
+Attributes:
+    /strain="NPHL200664"
+    /collected by="NPHL"
+    /collection date="2020-10"
+    /geographic location="USA: Nebraska"
+    /host="Homo sapiens"
+    /host disease="Wound infections"
+    /isolation source="wound"
+    /latitude and longitude="missing"
+Accession: SAMN16644270	ID: 16644270
+
+

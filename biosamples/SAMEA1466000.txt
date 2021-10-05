@@ -1,0 +1,16 @@
+1: DNA sample from a human female participant in the dbGaP study "Framingham SHARe Survival File and Follow-up for Stroke/TIA Events"
+Identifiers: BioSample: SAMN01466000
+Organism: Homo sapiens
+Attributes:
+    /submitter handle="Framingham_SHARe"
+    /biospecimen repository="Framingham_SHARe"
+    /study name="Framingham SHARe Survival File and Follow-up for Stroke/TIA Events"
+    /biospecimen repository sample id="7913"
+    /submitted sample id="7913"
+    /submitted subject id="7913"
+    /sex="female"
+    /analyte type="DNA"
+    /subject is affected=""
+Accession: SAMN01466000	ID: 1466000
+
+

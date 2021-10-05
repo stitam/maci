@@ -1,0 +1,14 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN07236632; Sample name: GaenseEi-1
+Organism: Acinetobacter baumannii
+Attributes:
+    /geographic location="Germany"
+    /sample type="tissue sample"
+    /isolation source="egg shells"
+    /strain="GaenseEi-1"
+    /host tissue sampled="egg shells"
+    /host="goose"
+    /collection date="2016"
+Accession: SAMN07236632	ID: 7236632
+
+

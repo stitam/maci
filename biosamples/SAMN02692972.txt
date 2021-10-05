@@ -1,0 +1,11 @@
+1: Acinetobacter baumannii 21072
+Identifiers: BioSample: SAMN02692972; Sample name: PACIN_21072; SRA: SRS579345
+Organism: Acinetobacter baumannii 21072
+Attributes:
+    /geographic location="USA"
+    /isolation source="perirectal"
+    /host="Homo sapiens"
+    /strain="21072"
+Accession: SAMN02692972	ID: 2692972
+
+

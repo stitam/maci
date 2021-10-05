@@ -1,0 +1,16 @@
+1: Microbe sample from Acinetobacter baumannii
+Identifiers: BioSample: SAMN04366600; Sample name: IITR88
+Organism: Acinetobacter baumannii
+Attributes:
+    /isolation source="River Bhagirathi"
+    /collection date="2015-04-10"
+    /geographic location="India"
+    /latitude and longitude="30.147002 N 78.59762 E"
+    /relationship to oxygen="aerobe"
+    /strain="IITR88"
+    /sample type="whole organism"
+Description:
+In the project we proposed to study the occurrence of diverse bacteria and their exploitation for screening of novel enzymes and their application in biodegradation
+Accession: SAMN04366600	ID: 4366600
+
+

@@ -1,0 +1,11 @@
+1: Acinetobacter baumannii 1505311
+Identifiers: BioSample: SAMN02692976; Sample name: PACIN_1505311; SRA: SRS579349
+Organism: Acinetobacter baumannii 1505311
+Attributes:
+    /geographic location="USA"
+    /isolation source="sputum"
+    /host="Homo sapiens"
+    /strain="1505311"
+Accession: SAMN02692976	ID: 2692976
+
+
