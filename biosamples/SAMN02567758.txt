@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 7893
-Identifiers: BioSample: SAMN02567758; Sample name: PACIN_7893; SRA: SRS524005
-Organism: Acinetobacter baumannii 7893
-Attributes:
-    /strain="7893"
-Accession: SAMN02567758	ID: 2567758
-
-

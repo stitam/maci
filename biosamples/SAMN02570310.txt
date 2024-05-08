@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 24845_10
-Identifiers: BioSample: SAMN02570310; Sample name: PACIN_24845-10; SRA: SRS527020
-Organism: Acinetobacter baumannii 24845_10
-Attributes:
-    /strain="24845_10"
-Accession: SAMN02570310	ID: 2570310
-
-

@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 1046051
-Identifiers: BioSample: SAMN02371028; Sample name: PACIN_1046051; SRA: SRS489937
-Organism: Acinetobacter baumannii 1046051
-Attributes:
-    /strain="1046051"
-Accession: SAMN02371028	ID: 2371028
-
-

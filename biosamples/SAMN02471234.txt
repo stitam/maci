@@ -1,8 +1,0 @@
-1: Sample from Acinetobacter baumannii AB_TG27335
-Identifiers: BioSample: SAMN02471234; Sample name: AMIQ
-Organism: Acinetobacter baumannii AB_TG27335
-Attributes:
-    /strain="AB_TG27335"
-Accession: SAMN02471234	ID: 2471234
-
-

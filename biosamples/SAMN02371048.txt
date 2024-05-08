@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 58452
-Identifiers: BioSample: SAMN02371048; Sample name: PACIN_58452; SRA: SRS489957
-Organism: Acinetobacter baumannii 58452
-Attributes:
-    /strain="58452"
-Accession: SAMN02371048	ID: 2371048
-
-

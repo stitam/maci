@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 1277411
-Identifiers: BioSample: SAMN02384921; Sample name: PACIN_1277411; SRA: SRS494453
-Organism: Acinetobacter baumannii 1277411
-Attributes:
-    /strain="1277411"
-Accession: SAMN02384921	ID: 2384921
-
-

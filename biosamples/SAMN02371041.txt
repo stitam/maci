@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 34001
-Identifiers: BioSample: SAMN02371041; Sample name: PACIN_34001; SRA: SRS489950
-Organism: Acinetobacter baumannii 34001
-Attributes:
-    /strain="34001"
-Accession: SAMN02371041	ID: 2371041
-
-

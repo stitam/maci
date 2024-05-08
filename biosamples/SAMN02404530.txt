@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 273929
-Identifiers: BioSample: SAMN02404530; Sample name: PACIN_273929; SRA: SRS502882
-Organism: Acinetobacter baumannii 273929
-Attributes:
-    /strain="273929"
-Accession: SAMN02404530	ID: 2404530
-
-

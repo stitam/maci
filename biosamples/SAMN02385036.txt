@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 144107
-Identifiers: BioSample: SAMN02385036; Sample name: PACIN_144107; SRA: SRS494476
-Organism: Acinetobacter baumannii 144107
-Attributes:
-    /strain="144107"
-Accession: SAMN02385036	ID: 2385036
-
-

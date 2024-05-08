@@ -1,8 +1,0 @@
-1: Sample from Acinetobacter baumannii AB_1536-8
-Identifiers: BioSample: SAMN02471274; Sample name: AMHA
-Organism: Acinetobacter baumannii AB_1536-8
-Attributes:
-    /strain="AB_1536-8"
-Accession: SAMN02471274	ID: 2471274
-
-

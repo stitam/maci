@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 1232509
-Identifiers: BioSample: SAMN02415044; Sample name: PACIN_1232509; SRA: SRS504756
-Organism: Acinetobacter baumannii 1232509
-Attributes:
-    /strain="1232509"
-Accession: SAMN02415044	ID: 2415044
-
-

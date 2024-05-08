@@ -1,6 +1,0 @@
-1: Acinetobacter baumannii 25493_6
-Identifiers: BioSample: SAMN02644702; Sample name: PACIN_25493-6; SRA: SRS558809
-Organism: Acinetobacter baumannii 25493_6
-Accession: SAMN02644702	ID: 2644702
-
-

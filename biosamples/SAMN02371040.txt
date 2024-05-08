@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 29280
-Identifiers: BioSample: SAMN02371040; Sample name: PACIN_29280; SRA: SRS489949
-Organism: Acinetobacter baumannii 29280
-Attributes:
-    /strain="29280"
-Accession: SAMN02371040	ID: 2371040
-
-

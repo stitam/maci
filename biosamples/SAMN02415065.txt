@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 277047
-Identifiers: BioSample: SAMN02415065; Sample name: PACIN_277047; SRA: SRS504777
-Organism: Acinetobacter baumannii 277047
-Attributes:
-    /strain="277047"
-Accession: SAMN02415065	ID: 2415065
-
-

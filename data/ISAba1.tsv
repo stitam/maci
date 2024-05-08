@@ -1,0 +1,91 @@
+keep	description
+keep	ENA|LC136852|LC136852.1 Acinetobacter baumannii DNA, insertion sequence:ISAba1, strain: KKG9.
+keep	ENA|LC136853|LC136853.1 Acinetobacter baumannii DNA, insertion sequence:ISAba1, strain: KKG8.
+remove	ENA|EU977573|EU977573.1 Acinetobacter baumannii strain AC0004 insertion sequence ISAba1, partial sequence.
+keep	ENA|EU594641|EU594641.1 Acinetobacter baumannii strain AB017 insertion sequence ISAba1, complete sequence.
+remove	ENA|MN652623|MN652623.1 Acinetobacter baumannii strain 808 ISAba1 transposase gene, partial cds.
+keep	ENA|LN611409|LN611409.1 Acinetobacter baumannii ISAba1-blaOXA51 gene for oxacillinase, isolate 8778
+keep	ENA|LN611410|LN611410.1 Acinetobacter baumannii ISAba1-blaOXA23 gene for oxacillinase, isolate 6344/13
+remove	ENA|JF340121|JF340121.1 Acinetobacter baumannii strain CCBH 2992 insertion sequence ISAba1, partial sequence.
+keep	ENA|GQ861439|GQ861439.1 Acinetobacter baumannii transposon Tn2006 insertion sequence ISAba1, complete sequence, beta-lactamase OXA-23 (blaOXA-23) gene, complete cds, and insertion sequence ISAba1, complete sequence.
+remove	ENA|KU195675|KU195675.1 Acinetobacter baumannii strain ABE7 insertion sequence ISAba1 transposase gene, partial cds.
+remove	ENA|MG859906|MG859906.1 Acinetobacter baumannii strain AB6 insertion sequence ISAba1 transposase gene, partial cds.
+keep	ENA|LN611408|LN611408.1 Acinetobacter baumannii ISAba1-blaAmpC gene for beta lactamase, isolate 1950/12
+keep	ENA|LN558581|LN558581.1 Acinetobacter baumannii insertion sequence ISAba1 and partial blaampC gene, isolate 8778
+remove	ENA|JN819188|JN819188.1 Acinetobacter baumannii strain A479 insertion sequences ISAba11 and ISAba1, partial sequence.
+remove	ENA|MG859907|MG859907.1 Acinetobacter baumannii strain AB9 insertion sequence ISAba1 transposase gene, partial cds.
+keep	ENA|LC130573|LC130573.1 Acinetobacter baumannii DNA, BlaOXA 23 gene and insertion sequence:ISAba1, strain: KKG8.
+keep	ENA|LC130574|LC130574.1 Acinetobacter baumannii DNA, BlaOXA 23 gene and insertion sequence:ISAba1, strain: KKG9.
+remove	ENA|GQ423561|GQ423561.1 Edwardsiella tarda strain PCF04 insertion sequence ISAba1 transposase 1 gene, partial cds.
+keep	ENA|LN558583|LN558583.1 Acinetobacter baumannii insertion sequence ISAba1 and partial blaoxa-51 gene, isolate 8778
+remove	ENA|JQ820240|JQ820240.2 Acinetobacter baumannii strain 401 insertion sequence ISAba1 transposase gene, partial cds; beta-lactamase OXA-235 (blaOXA-235) gene, complete cds; and insertion sequence ISAba1 transposase gene, partial cds.
+keep	ENA|AY758396|AY758396.1 Acinetobacter baumannii insertion sequence ISAba1 transposase and AmpC (bla(ampC)) genes, complete cds.
+remove	ENA|LC383793|LC383793.1 Acinetobacter baumannii Ab_Sp138 DNA, insertion sequence:ISAba1 partial sequence, adc gene, partial cds.
+keep	ENA|LN558582|LN558582.1 Acinetobacter baumannii insertion sequence ISAba1 and partial blaoxa-23 gene, isolate 6344/13
+remove	ENA|HQ020497|HQ020497.1 Acinetobacter baumannii strain AbPK-2 insertion sequence ISAba1 and CarO (carO) gene, partial sequence.
+keep	ENA|KF030678|KF030678.1 Acinetobacter baumannii strain RBH2 insertion sequence ISAba1, complete sequence; and AmpC (ampC) gene, complete cds.
+keep	ENA|KY039477|KY039477.1 Acinetobacter baumannii strain MM-37 insertion sequence ISAba1, complete sequence; and carO gene, partial sequence.
+keep	ENA|JN696403|JN696403.1 Acinetobacter baumannii insertion sequence ISAba1 transposase genes, complete cds; truncated DEAD helicase pseudogene and blaOXA-23 gene, complete sequence; beta-lactamase OXA-23 gene, complete cds; and insertion sequence ISAba1 transposase genes, complete cds.
+remove	ENA|DQ923478|DQ923478.1 Acinetobacter baumannii insertion sequence ISAba1, partial sequence; and OXA-23 carbapenemase (oxa-23) gene, partial cds.
+keep	ENA|LC369767|LC369767.1 Acinetobacter baumannii Ab_Sp135 blaOXA-23 gene for beta lactamase OXA-23, partial cds, insertion sequence ISAba1.
+keep	ENA|HQ020494|HQ020494.1 Acinetobacter baumannii strain AbN1-27 insertion sequence ISAba1, complete sequence; and CarO (carO) gene, partial sequence.
+keep	ENA|HQ020496|HQ020496.1 Acinetobacter baumannii strain AbN1-42 insertion sequence ISAba1, complete sequence; and CarO (carO) gene, partial sequence.
+keep	ENA|DQ923479|DQ923479.1 Acinetobacter baumannii insertion sequence ISAba1, complete sequence; and OXA-66 carbapenemase (oxa-66) gene, complete cds.
+keep	ENA|HQ020495|HQ020495.1 Acinetobacter baumannii strain AbN4-74 insertion sequence ISAba1, complete sequence; and CarO (carO) gene, partial sequence.
+keep	ENA|HQ020498|HQ020498.1 Acinetobacter baumannii strain AbPK-6 insertion sequence ISAba1, complete sequence; and CarO (carO) gene, partial sequence.
+keep	ENA|HQ005471|HQ005471.1 Acinetobacter baumannii strain 9ns66 insertion sequence ISAba1, complete sequence; and OXA-58 (blaOXA-58) gene, complete cds.
+keep	ENA|LC369618|LC369618.1 Acinetobacter baumannii Ab_U123 carO gene for carbapenem-associated resistance outer membrane protein, partial cds, insertion sequence ISAba1.
+remove	ENA|KY039476|KY039476.1 Acinetobacter baumannii strain MM-33 insertion sequence ISAba1, partial sequence; and AmpC beta-lactamase (blaAmpC) gene, partial cds.
+remove	ENA|KY039479|KY039479.1 Acinetobacter baumannii strain MM-39 insertion sequence ISAba1, partial sequence; and BlaOxa-23 (blaOXA-23) gene, partial cds.
+remove	ENA|MW325723|MW325723.1 Acinetobacter baumannii strain A12 insertion sequence ISAba1, partial sequence; and OXA family beta-lactamase (blaOXA) gene, partial cds.
+remove	ENA|MW325726|MW325726.1 Acinetobacter baumannii strain A42 insertion sequence ISAba1, partial sequence; and OXA family beta-lactamase (blaOXA) gene, partial cds.
+remove	ENA|MW325724|MW325724.1 Acinetobacter baumannii strain A22 insertion sequence ISAba1, partial sequence; and OXA family beta-lactamase (blaOXA) gene, partial cds.
+remove	ENA|MW325725|MW325725.1 Acinetobacter baumannii strain A32 insertion sequence ISAba1, partial sequence; and OXA family beta-lactamase (blaOXA) gene, partial cds.
+keep	ENA|GQ849192|GQ849192.1 Acinetobacter baumannii strain 6AB15 insertion sequence ISAba1, complete sequence; and OXA-23 carbapenemase (oxa-23) gene, complete cds.
+keep	ENA|GQ849191|GQ849191.1 Acinetobacter baumannii strain 6AB11 insertion sequence ISAba1, complete sequence; and OXA-66 carbapenemase (oxa-66) gene, complete cds.
+remove	ENA|MW325727|MW325727.1 Acinetobacter baumannii strain A52 insertion sequence ISAba1, partial sequence; and OXA family beta-lactamase (blaOXA) gene, partial cds.
+keep	ENA|EU604835|EU604835.1 Acinetobacter baumannii strain CGAB09 insertion sequence ISAba1 transposase gene, complete cds; and Adc-29 (adc-29) gene, complete cds.
+keep	ENA|EF433474|EF433474.1 Acinetobacter baumannii strain ab1297 insertion sequence ISAba1 transposase gene, complete cds; and beta-lactamase OXA-66 gene, partial cds.
+keep	ENA|EF433475|EF433475.1 Acinetobacter baumannii strain ab1266 insertion sequence ISAba1 transposase gene, complete cds; and beta-lactamase OXA-66 gene, partial cds.
+keep	ENA|EF433476|EF433476.1 Acinetobacter baumannii strain abh9 insertion sequence ISAba1 transposase gene, complete cds; and beta-lactamase OXA-66 gene, partial cds.
+keep	ENA|HM545089|HM545089.1 Acinetobacter baumannii strain CO32-2006 insertion sequence ISABA1 transposase gene, complete cds; and carbapenemase OXA-51 gene, partial cds.
+remove	ENA|EF051061|EF051061.1 Acinetobacter baumannii insertion sequence ISAba1 transposase gene, partial cds; and beta-lactamase OXA-66 (bla-oxa66) gene, complete cds.
+keep	ENA|HQ637466|HQ637466.1 Acinetobacter baumannii strain 9ns100 insertion sequence ISAba1, complete sequence; and beta-lactamase OXA-199 (blaOXA-199) gene, complete cds.
+keep	ENA|GQ861438|GQ861438.1 Acinetobacter baumannii transposon Tn2008 insertion sequence ISAba1, complete sequence, and beta-lactamase OXA-23 (blaOXA-23) gene, complete cds.
+keep	ENA|HQ637467|HQ637467.1 Acinetobacter baumannii strain 9ns61 insertion sequence ISAba1, complete sequence; and beta-lactamase OXA-80 (blaOXA-80) gene, complete cds.
+keep	ENA|JF731028|JF731028.1 Acinetobacter baumannii strain NB09A4 hypothetical protein, PAAR domain-containing protein family protein, and hypothetical protein genes, complete cds; insertion sequence ISAba1, complete sequence; OXA-23 (blaOXA-23), putative ATPase, and putative YeeC protein (yeeC) genes, complete cds; and insertion sequence ISAba1, partial sequence.
+keep	ENA|KM972592|KM972592.1 Acinetobacter baumannii isolate A343 insertion sequence ISAba1, complete sequence; and QacED1 (qacED1) and Sul1 sulfonamide reductase (sul1) genes, complete cds.
+remove	ENA|JF803486|JF803486.1 Acinetobacter baumannii strain geaw22/07 insertion sequence ISAba1, partial sequence; and beta-lactamase OXA-23 (blaOXA-23) gene, partial cds.
+remove	ENA|KY228989|KY228989.1 Acinetobacter baumannii strain MM-43 insertion sequence ISAba1, partial sequence; and beta-lactamase OXA-51 (blaOXA-51) gene, partial cds.
+remove	ENA|JF803487|JF803487.1 Acinetobacter baumannii strain geam13/09 insertion sequence ISAba1, partial sequence; and beta-lactamase OXA-23 (blaOXA-23) gene, partial cds.
+keep	ENA|DQ519086|DQ519086.1 Acinetobacter baumannii strain DR36519/96 transposon ISAba1 transposase gene, complete cds; and beta-lactamase OXA-91 (blaOXA-91) gene, complete cds.
+remove	ENA|FJ628170|FJ628170.1 Acinetobacter baumannii strain SCM52/08 insertion sequence ISAba1 TnpA (tnpA) gene, partial cds; and OXA-23 (blaOXA-23) gene, partial cds.
+keep	ENA|EU835512|EU835512.1 Acinetobacter baumannii strain U437 insertion sequence ISAba1 transposase gene, complete cds; and beta-lactamase ADC-25 (blaADC-25) gene, partial cds.
+keep	ENA|KP881350|KP881350.1 Acinetobacter nosocomialis strain H06-681 beta-lactamase OXA-23 (bla(OXA-23)) gene, complete cds; and insertion sequence ISAba1, complete sequence.
+remove	ENA|EF015500|EF015500.1 Acinetobacter baumannii isolate WM99c (99-153-2357) insertion sequence ISAba1, partial sequence; and OXA-23 carbapenemase (blaOXA-23) gene, complete cds.
+keep	ENA|GU292796|GU292796.1 Acinetobacter baumannii strain CO27-2005 insertion sequence ISAba1 transposase gene, complete cds; and ADC-7 cephalosporinase (blaADC-7) gene, partial cds.
+keep	ENA|GU292795|GU292795.1 Acinetobacter baumannii strain CO29-2005 insertion sequence ISAba1 transposase gene, complete cds; and OXA-23 carbapenemase (OXA-23) gene, partial cds.
+remove	ENA|FJ975154|FJ975154.1 Acinetobacter baumannii strain 67 insertion sequence ISAba1 transposase 1 gene, partial cds; and OXA-23 carbapenemase (bla-OXA-23) gene, partial cds.
+keep	ENA|JQ690823|JQ690823.1 Acinetobacter baumannii strain A response regulator (adeR) gene, complete cds; insertion sequence ISAba1, complete sequence; and kinase sensor (adeS) gene, complete cds.
+keep	ENA|JQ690824|JQ690824.1 Acinetobacter baumannii strain B response regulator (adeR) gene, complete cds; insertion sequence ISAba1, complete sequence; and kinase sensor (adeS) gene, complete cds.
+remove	ENA|FJ975153|FJ975153.1 Acinetobacter baumannii strain 62 insertion sequence ISAba1 transposase 1 gene, partial cds; and OXA-23 carbapenemase (bla-OXA-23) gene, partial cds.
+remove	ENA|EU827525|EU827525.1 Acinetobacter johnsonii strain A868 insertion sequence ISAba1, partial sequence; OXA-23 carbapenemase (blaOXA-23) gene, complete cds; and ATPase (ATPase) gene, partial cds.
+remove	ENA|EU827526|EU827526.1 Acinetobacter baumannii strain U437 insertion sequence ISAba1, partial sequence; OXA-23 carbapenemase (blaOXA-23) gene, complete cds; and ATPase (ATPase) gene, partial cds.
+keep	ENA|KC118541|KC118541.2 Acinetobacter baumannii strain G7 KL17 capsule biosynthesis locus; insertion sequence ISAba1; AmpC (ampC) gene, complete cds; and OCL1 outer-core oligosaccharide biosynthesis locus.
+remove	ENA|MF541765|MF541765.1 Acinetobacter baumannii strain H08-391D insertion sequence ISAba1, complete sequence; and disrupted UDP-3-O-acyl-N-acetylglucosamine deacetylase (lpxC) gene, partial sequence.
+keep	ENA|EU029998|EU029998.1 Acinetobacter baumannii strain YMC/KS/05/2 insertion sequence ISAba1 transposase gene, partial cds; and beta-lactamase OXA-115 (blaOXA-115) gene, complete cds.
+remove	ENA|EU839488|EU839488.1 Acinetobacter genomosp. 3 insertion sequence ISAba1 transposase gene, complete cds; insertion sequence IS1133, partial sequence; and aminoglycoside-(3)-N-acetyltransferase (aacC2) gene, partial cds.
+remove	ENA|EU827524|EU827524.1 Acinetobacter genomosp. 3 strain S448 insertion sequence ISAba1, partial sequence; OXA-23 carbapenemase (blaOXA-23) gene, complete cds; and ATPase (ATPase) gene, partial cds.
+remove	ENA|KM975501|KM975501.1 Acinetobacter baumannii strain 777 insertion sequence ISAba27 transposase (tnpA) gene, complete cds; disrupted blaOXA-23 gene, complete sequence; and insertion sequence ISAba1, partial sequence.
+keep	ENA|MF541766|MF541766.1 Acinetobacter baumannii strain H08-391D-R insertion sequence ISAba1, complete sequence; and disrupted UDP-3-O-acyl-N-acetylglucosamine deacetylase (lpxC) gene, partial sequence.
+remove	ENA|FJ959346|FJ959346.1 Acinetobacter baumannii strain Ab08-ColR insertion sequence ISAba1 transposase gene, partial cds; OXA-23 carbapenemase (blaOXA-23) gene, complete cds; and ATPase gene, partial cds.
+keep	ENA|GQ421466|GQ421466.1 Acinetobacter berezinae phage-related portal vertex protein gene, partial cds; insertion sequence ISAba1 transposase genes, complete cds; and dihydropteroate synthase (sulII) and phosphoglucosamine mutase (glmM) genes, complete cds.
+keep	ENA|KF030679|KF030679.2 Acinetobacter baumannii strain D46 KL14 capsule biosynthesis gene cluster and insertion sequence ISAba1, complete sequence; AmpC (ampC) gene, complete cds; and OCL6 outer-core oligosaccharide biosynthesis gene cluster, complete sequence.
+remove	ENA|FJ998184|FJ998184.1 Acinetobacter baumannii strain SC0701 disrupted insertion sequence ISAba1, partial sequence; insertion sequence ISAba10, complete sequence; OXA-23 beta-lactamase (blaOXA-23) gene, complete cds; and truncated AAA ATPase genomic sequence.
+keep	ENA|EU670845|EU670845.2 Acinetobacter genomosp. 13TU strain 8488 thermonuclease protein gene, partial cds; transposon ISAba1, complete sequence; beta-lactamase OXA-138 (blaOXA-138), sortase, and predicted transcriptional regulator genes, complete cds; and unknown gene.
+keep	ENA|EF120622|EF120622.2 Acinetobacter baumannii strain AcKOU1 major facilitator superfamily metabolite/H+ symporter gene, partial sequence; insertion sequence ISaba1 transposase gene, complete cds; beta-lactamase OXA-23 (blaOXA-23) gene, complete cds; and acyl-CoA synthetase/AMP-acid ligase gene, partial cds.
+keep	ENA|KF724152|KF724152.1 Acinetobacter baumannii ATCC 17978 putative antibiotic resistance protein gene, partial cds; hypothetical protein, holliday junction nuclease, hypothetical protein, putative ferredoxin, biotin synthase, and hypothetical protein genes, complete cds; insertion sequence ISAba1 putative transposase genes, complete cds; and beta-lactamase OXA-95 gene, complete cds.
+keep	ENA|GQ352402|GQ352402.1 Acinetobacter baumannii strain AbSK-17 plasmid pAbSK-OXA-82 replicase, zeta toxin family protein, hypothetical proteins, thermonuclease protein, and hypothetical protein genes, complete cds; insertion sequence ISAba1, complete sequence; and beta-lactamase OXA-51-like protein (blaOXA-82), sortase, and transcriptional regulator genes, complete cds.
+remove	ENA|GQ268326|GQ268326.1 Acinetobacter baumannii strain Ab08-ColR insertion sequence ISAba1 transposase gene, partial cds, and transposase gene, complete cds; OXA-23 (blaOXA-23), ATPase, conserved hypothetical protein, and YeeA genes, complete cds; Sul1 gene, partial cds; UspA and conserved hypothetical proteins genes, complete cds; and conserved hypothetical protein gene, partial cds.
+remove	DQ174097.1 Acinetobacter baumannii isolate 31J insertion sequence ISABA-1, partial sequence; and OXA-51-like beta-lactamase gene, partial cds
+remove	DQ174098.1 Acinetobacter baumannii isolate 4I insertion sequence ISABA-1, partial sequence; and OXA-51-like beta-lactamase gene, partial cds

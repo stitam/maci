@@ -1,9 +1,0 @@
-1: Sample from Acinetobacter baumannii AB_2007-16-25-01-7
-Identifiers: BioSample: SAMN02471225; Sample name: AMHI
-Organism: Acinetobacter baumannii AB_2007-16-25-01-7
-Attributes:
-    /strain="AB_2007-16-25-01-7"
-    /isolation source="hospital surface"
-Accession: SAMN02471225	ID: 2471225
-
-

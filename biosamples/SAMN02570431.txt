@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 45002_3
-Identifiers: BioSample: SAMN02570431; Sample name: PACIN_45002-3; SRA: SRS527064
-Organism: Acinetobacter baumannii 45002_3
-Attributes:
-    /strain="45002_3"
-Accession: SAMN02570431	ID: 2570431
-
-

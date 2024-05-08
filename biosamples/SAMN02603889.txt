@@ -1,8 +1,0 @@
-1: Sample from Acinetobacter baumannii AB307-0294
-Identifiers: BioSample: SAMN02603889; Sample name: CP001172
-Organism: Acinetobacter baumannii AB307-0294
-Attributes:
-    /strain="AB307-0294"
-Accession: SAMN02603889	ID: 2603889
-
-

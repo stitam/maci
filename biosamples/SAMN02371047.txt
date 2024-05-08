@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 564012
-Identifiers: BioSample: SAMN02371047; Sample name: PACIN_564012; SRA: SRS489956
-Organism: Acinetobacter baumannii 564012
-Attributes:
-    /strain="564012"
-Accession: SAMN02371047	ID: 2371047
-
-

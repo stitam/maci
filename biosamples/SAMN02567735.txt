@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 1488685
-Identifiers: BioSample: SAMN02567735; Sample name: PACIN_1488685; SRA: SRS523989
-Organism: Acinetobacter baumannii 1488685
-Attributes:
-    /strain="1488685"
-Accession: SAMN02567735	ID: 2567735
-
-

@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 400834
-Identifiers: BioSample: SAMN02380523; Sample name: PACIN_400834; SRA: SRS492969
-Organism: Acinetobacter baumannii 400834
-Attributes:
-    /strain="400834"
-Accession: SAMN02380523	ID: 2380523
-
-

@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 303002
-Identifiers: BioSample: SAMN02415066; Sample name: PACIN_303002; SRA: SRS504778
-Organism: Acinetobacter baumannii 303002
-Attributes:
-    /strain="303002"
-Accession: SAMN02415066	ID: 2415066
-
-

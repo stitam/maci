@@ -1,0 +1,80 @@
+---
+title: "Prep Metadata"
+output: html_document
+---
+
+```{r}
+rm(list=ls())
+
+meta <- readxl::read_excel("Acinetobacter Aci 273-335 metaadatok.xlsx")
+meta <- dplyr::rename(meta, assembly = `...1`)
+meta$assembly <- gsub("ACI ", "Aci", meta$assembly)
+meta <- dplyr::rename(meta, organism = "Species")
+meta$organism <- gsub("baumani", "baumannii", meta$organism)
+meta$city <- sapply(meta$Source, function(x) {
+  tolower(strsplit(x, ", ")[[1]][1])
+})
+meta$city <- local_name(meta$city, context = "hungary")
+meta$country <- "romania"
+meta$country_iso2c <- countrycode::countrycode(
+  "romania", "country.name", c("iso2c", "ecb"))
+meta <- dplyr::rename(meta, collection_date = Date)
+meta$collection_day <- as.Date(meta$collection_date, format = "%d.%m.%Y")
+meta$collection_date <- as.character(meta$collection_day)
+meta$collection_year <- as.numeric(substr(meta$collection_date, 1, 4))
+meta <- dplyr::rename(meta, ward = Department)
+meta$ward <- tolower(meta$ward)
+meta$ward <- gsub("\\.", "", meta$ward)
+meta$ward <- gsub(" +", "_", meta$ward)
+
+meta$continent <- "europe"
+meta$covid <- NA
+
+meta$host <- "Homo sapiens"
+meta$assembly_source <- "hospital"
+
+meta$in_lab <- TRUE
+
+spath <- strsplit(dirname(getwd()), "/")[[1]]
+meta$jobname <- spath[length(spath)]
+
+# GEOCODES
+# GEOCODES REQUIRE A REGISTRATION WITH GOOGLE
+# THE GEOCODES PACKAGE IS A LOCAL PACKAGE
+
+library(geocodes)
+library(ggmap)
+gps <- query_geocode(paste(meta$city, meta$country, sep = ", "), verbose = TRUE)
+meta <- cbind(meta, gps[,2:3])
+```
+
+```{r}
+meta <- meta[, c(
+  "assembly",
+  "organism",
+  "collection_date",
+  "collection_year",
+  "collection_day",
+  "continent",
+  "country",
+  "country_iso2c",
+  "city",
+  "ward",
+  "covid",
+  "assembly_source",
+  "in_lab",
+  "lon",
+  "lat",
+  "jobname"
+)]
+
+meta_val <- tag_metadata(meta)
+
+saveRDS(meta_val, file = "metadata.rds")
+
+write.table(meta_val,
+            file = "metadata.tsv",
+            sep = "\t",
+            row.names = FALSE,
+            quote = FALSE)
+```

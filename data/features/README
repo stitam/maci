@@ -1,0 +1,10 @@
+Fluoroquinolone:
+
+gyrA: https://www.ncbi.nlm.nih.gov/gene/66396238
+gyrB: https://www.ncbi.nlm.nih.gov/gene/?term=gyrB+Acinetobacter+baumannii
+parC: https://www.ncbi.nlm.nih.gov/gene/66398806
+
+Datasets were manually downloaded from NCBI and unzipped.
+fna files for each gene was merged into a combined fna file fluoroquinolone.fna
+faa files for each gene was merged into a combined faa file fluoroquinolone.faa
+Header of each entry was slightly edited: gyrA, gyrB, parC were pulled to the beginning of each header to facilitate interpretting blastn results

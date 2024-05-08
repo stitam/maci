@@ -1,9 +1,0 @@
-1: Generic sample from Acinetobacter baumannii 1605
-Identifiers: BioSample: SAMN02436567; Sample name: AUWL
-Organism: Acinetobacter baumannii 1605
-Attributes:
-    /strain="1605"
-    /geographic location="USA"
-Accession: SAMN02436567	ID: 2436567
-
-

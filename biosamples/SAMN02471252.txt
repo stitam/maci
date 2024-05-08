@@ -1,9 +1,0 @@
-1: Sample from Acinetobacter baumannii AB_908-12
-Identifiers: BioSample: SAMN02471252; Sample name: AMHV
-Organism: Acinetobacter baumannii AB_908-12
-Attributes:
-    /strain="AB_908-12"
-    /isolation source="hospital surface"
-Accession: SAMN02471252	ID: 2471252
-
-

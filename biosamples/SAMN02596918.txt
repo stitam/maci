@@ -1,8 +1,0 @@
-1: Sample from Acinetobacter baumannii Ab44444
-Identifiers: BioSample: SAMN02596918; Sample name: AKAT
-Organism: Acinetobacter baumannii Ab44444
-Attributes:
-    /strain="Ab44444"
-Accession: SAMN02596918	ID: 2596918
-
-

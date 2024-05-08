@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 737393
-Identifiers: BioSample: SAMN02404541; Sample name: PACIN_737393; SRA: SRS502896
-Organism: Acinetobacter baumannii 737393
-Attributes:
-    /strain="737393"
-Accession: SAMN02404541	ID: 2404541
-
-

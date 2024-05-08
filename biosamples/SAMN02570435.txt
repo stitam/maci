@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 45002_7
-Identifiers: BioSample: SAMN02570435; Sample name: PACIN_45002-7; SRA: SRS527068
-Organism: Acinetobacter baumannii 45002_7
-Attributes:
-    /strain="45002_7"
-Accession: SAMN02570435	ID: 2570435
-
-

@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 24860_7
-Identifiers: BioSample: SAMN02567750; Sample name: PACIN_24860-7; SRA: SRS523997
-Organism: Acinetobacter baumannii 24860_7
-Attributes:
-    /strain="24860_7"
-Accession: SAMN02567750	ID: 2567750
-
-

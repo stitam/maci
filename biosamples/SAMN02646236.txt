@@ -1,6 +1,0 @@
-1: Acinetobacter baumannii 26016_4
-Identifiers: BioSample: SAMN02646236; Sample name: PACIN_26016-4; SRA: SRS559406
-Organism: Acinetobacter baumannii 26016_4
-Accession: SAMN02646236	ID: 2646236
-
-

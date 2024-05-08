@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 781407
-Identifiers: BioSample: SAMN02371051; Sample name: PACIN_781407; SRA: SRS489960
-Organism: Acinetobacter baumannii 781407
-Attributes:
-    /strain="781407"
-Accession: SAMN02371051	ID: 2371051
-
-

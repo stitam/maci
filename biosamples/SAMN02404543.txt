@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 836190
-Identifiers: BioSample: SAMN02404543; Sample name: PACIN_836190; SRA: SRS502898
-Organism: Acinetobacter baumannii 836190
-Attributes:
-    /strain="836190"
-Accession: SAMN02404543	ID: 2404543
-
-

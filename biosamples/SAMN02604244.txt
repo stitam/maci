@@ -1,8 +1,0 @@
-1: Sample from Acinetobacter baumannii BJAB07104
-Identifiers: BioSample: SAMN02604244; Sample name: CP003846
-Organism: Acinetobacter baumannii BJAB07104
-Attributes:
-    /strain="BJAB07104"
-Accession: SAMN02604244	ID: 2604244
-
-

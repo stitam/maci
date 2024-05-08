@@ -1,8 +1,0 @@
-1: Sample from Acinetobacter baumannii MDR-TJ
-Identifiers: BioSample: SAMN02603104; Sample name: CP003500
-Organism: Acinetobacter baumannii MDR-TJ
-Attributes:
-    /strain="MDR-TJ"
-Accession: SAMN02603104	ID: 2603104
-
-

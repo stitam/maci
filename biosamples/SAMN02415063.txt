@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 214216
-Identifiers: BioSample: SAMN02415063; Sample name: PACIN_214216; SRA: SRS504775
-Organism: Acinetobacter baumannii 214216
-Attributes:
-    /strain="214216"
-Accession: SAMN02415063	ID: 2415063
-
-

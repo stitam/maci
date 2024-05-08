@@ -1,8 +1,0 @@
-1: Sample from Acinetobacter baumannii WM99c
-Identifiers: BioSample: SAMN02470285; Sample name: AERY; SRA: SRS4019577
-Organism: Acinetobacter baumannii WM99c
-Attributes:
-    /strain="WM99c"
-Accession: SAMN02470285	ID: 2470285
-
-

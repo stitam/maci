@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 981176
-Identifiers: BioSample: SAMN02415081; Sample name: PACIN_981176; SRA: SRS504793
-Organism: Acinetobacter baumannii 981176
-Attributes:
-    /strain="981176"
-Accession: SAMN02415081	ID: 2415081
-
-

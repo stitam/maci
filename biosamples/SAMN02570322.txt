@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 25253_4
-Identifiers: BioSample: SAMN02570322; Sample name: PACIN_25253-4; SRA: SRS527032
-Organism: Acinetobacter baumannii 25253_4
-Attributes:
-    /strain="25253_4"
-Accession: SAMN02570322	ID: 2570322
-
-

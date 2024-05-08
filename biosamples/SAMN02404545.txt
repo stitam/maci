@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 923118
-Identifiers: BioSample: SAMN02404545; Sample name: PACIN_923118; SRA: SRS502900
-Organism: Acinetobacter baumannii 923118
-Attributes:
-    /strain="923118"
-Accession: SAMN02404545	ID: 2404545
-
-

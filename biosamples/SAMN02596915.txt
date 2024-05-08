@@ -1,8 +1,0 @@
-1: Sample from Acinetobacter baumannii Ab11111
-Identifiers: BioSample: SAMN02596915; Sample name: AKAQ
-Organism: Acinetobacter baumannii Ab11111
-Attributes:
-    /strain="Ab11111"
-Accession: SAMN02596915	ID: 2596915
-
-

@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 993520
-Identifiers: BioSample: SAMN02371059; Sample name: PACIN_993520; SRA: SRS489968
-Organism: Acinetobacter baumannii 993520
-Attributes:
-    /strain="993520"
-Accession: SAMN02371059	ID: 2371059
-
-

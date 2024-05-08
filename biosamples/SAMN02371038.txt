@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 136706
-Identifiers: BioSample: SAMN02371038; Sample name: PACIN_136706; SRA: SRS489947
-Organism: Acinetobacter baumannii 136706
-Attributes:
-    /strain="136706"
-Accession: SAMN02371038	ID: 2371038
-
-

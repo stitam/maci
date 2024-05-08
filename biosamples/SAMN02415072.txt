@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 70136
-Identifiers: BioSample: SAMN02415072; Sample name: PACIN_70136; SRA: SRS504784
-Organism: Acinetobacter baumannii 70136
-Attributes:
-    /strain="70136"
-Accession: SAMN02415072	ID: 2415072
-
-

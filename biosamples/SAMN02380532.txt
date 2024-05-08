@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 99063
-Identifiers: BioSample: SAMN02380532; Sample name: PACIN_99063; SRA: SRS492982
-Organism: Acinetobacter baumannii 99063
-Attributes:
-    /strain="99063"
-Accession: SAMN02380532	ID: 2380532
-
-

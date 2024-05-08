@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 1058283
-Identifiers: BioSample: SAMN02415038; Sample name: PACIN_1058283; SRA: SRS504750
-Organism: Acinetobacter baumannii 1058283
-Attributes:
-    /strain="1058283"
-Accession: SAMN02415038	ID: 2415038
-
-

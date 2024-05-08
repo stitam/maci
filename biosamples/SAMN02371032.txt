@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 1075025
-Identifiers: BioSample: SAMN02371032; Sample name: PACIN_1075025; SRA: SRS489941
-Organism: Acinetobacter baumannii 1075025
-Attributes:
-    /strain="1075025"
-Accession: SAMN02371032	ID: 2371032
-
-

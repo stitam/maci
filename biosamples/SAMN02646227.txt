@@ -1,6 +1,0 @@
-1: Acinetobacter baumannii 25569_2
-Identifiers: BioSample: SAMN02646227; Sample name: PACIN_25569-2; SRA: SRS559397
-Organism: Acinetobacter baumannii 25569_2
-Accession: SAMN02646227	ID: 2646227
-
-

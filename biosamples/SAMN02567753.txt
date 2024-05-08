@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 323408
-Identifiers: BioSample: SAMN02567753; Sample name: PACIN_323408; SRA: SRS524000
-Organism: Acinetobacter baumannii 323408
-Attributes:
-    /strain="323408"
-Accession: SAMN02567753	ID: 2567753
-
-

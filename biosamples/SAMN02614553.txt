@@ -1,6 +1,0 @@
-1: Acinetobacter baumannii 24975_9
-Identifiers: BioSample: SAMN02614553; Sample name: PACIN_24975-9; SRA: SRS549589
-Organism: Acinetobacter baumannii 24975_9
-Accession: SAMN02614553	ID: 2614553
-
-

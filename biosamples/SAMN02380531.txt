@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 951631
-Identifiers: BioSample: SAMN02380531; Sample name: PACIN_951631; SRA: SRS492977
-Organism: Acinetobacter baumannii 951631
-Attributes:
-    /strain="951631"
-Accession: SAMN02380531	ID: 2380531
-
-

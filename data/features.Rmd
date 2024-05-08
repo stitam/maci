@@ -1,0 +1,303 @@
+---
+title: "Including extra features in the analysis"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+rm(list = ls())
+```
+
+## Summary
+
+The features we are primarily looking for within *Acinetobacter baumannii genomes* are resistance determinants. Many of these can be found using external databases e.g. ResFinder. However, some are not included in these databases and we decided to search these manually. This document lists these extra features and prepares fasta files which are then used by the analysis pipeline.
+
+## Fluoroquinolone resistance
+
+gyrA: https://www.ncbi.nlm.nih.gov/gene/66396238
+
+Data was manually downloaded from NCBI and unzipped.
+
+```{r}
+gyrA_fna <- Biostrings::readDNAStringSet("raw/gyrA.fna")
+gyrA_faa <- Biostrings::readAAStringSet("raw/gyrA.faa")
+names(gyrA_fna) <- "gyrA"
+names(gyrA_faa) <- "gyrA"
+
+gene_fna <- gyrA_fna
+gene_faa <- gyrA_faa
+```
+
+gyrB: https://www.ncbi.nlm.nih.gov/gene/?term=gyrB+Acinetobacter+baumannii
+
+Data was manually downloaded from NCBI and unzipped.
+
+```{r}
+gyrB_fna <- Biostrings::readDNAStringSet("raw/gyrB.fna")
+gyrB_faa <- Biostrings::readAAStringSet("raw/gyrB.faa")
+names(gyrB_fna) <- "gyrB"
+names(gyrB_faa) <- "gyrB"
+
+gene_fna <- c(gene_fna, gyrB_fna)
+gene_faa <- c(gene_faa, gyrB_faa)
+```
+
+parC: https://www.ncbi.nlm.nih.gov/gene/66398806
+
+Data was manually downloaded from NCBI and unzipped.
+
+```{r}
+parC_fna <- Biostrings::readDNAStringSet("raw/parC.fna")
+parC_faa <- Biostrings::readAAStringSet("raw/parC.faa")
+names(parC_fna) <- "parC"
+names(parC_faa) <- "parC"
+
+gene_fna <- c(gene_fna, parC_fna)
+gene_faa <- c(gene_faa, parC_faa)
+```
+
+## Carbapenem resistance - carO
+
+carO: https://www.ebi.ac.uk/ena/browser/view/LN611375-LN611416
+
+Data was manually downloaded from ENA.
+
+Reference:
+https://doi.org/10.1371/journal.pone.0122793
+
+```{r}
+carO_fna <- Biostrings::readDNAStringSet("raw/carO_ISAba1_Novocic2015.fna")
+# only keep LN611375-LN611402
+idx <- unname(
+  sapply(paste0("LN611", 375:402), function(x) grep(x, names(carO_fna))))
+carO_fna <- carO_fna[idx]
+# only keep sequences where number of nucleotides is a multiple of 3
+idx2 <- which(nchar(as.character(carO_fna)) %%3 == 0)
+carO_fna <- carO_fna[idx2]
+# rename headers
+names(carO_fna) <- gsub("^ENA\\|LN611[0-9]+\\|", "carO_", names(carO_fna))
+names(carO_fna) <- gsub(" Acinetobacter baumannii .+", "", names(carO_fna))
+# convert to amino acid sequences
+carO_faa <- Biostrings::translate(carO_fna, if.fuzzy.codon = "solve") %>%
+    as.character() %>%
+    gsub("\\*$", "", .) %>%
+    Biostrings::AAStringSet()
+
+gene_fna <- c(gene_fna, carO_fna)
+gene_faa <- c(gene_faa, carO_faa)
+```
+
+# Carbapenem resistance - ISAba1
+
+EMBL ENA:
+
+```{r}
+# ENA manual search and download:
+# https://www.ebi.ac.uk/ena/browser/text-search?query=ISAba1
+
+IS <- Biostrings::readDNAStringSet("raw/ISAba1_ENA.fasta")
+ins_fna <- IS
+```
+
+
+Novocic2015:
+
+Source: https://doi.org/10.1371/journal.pone.0122793:
+
+```{r, eval = FALSE}
+# ENA manual search and download:
+# https://www.ebi.ac.uk/ena/browser/view/LN611375-LN611416
+
+IS<- Biostrings::readDNAStringSet("raw/carO_ISAba1_Novocic2015.fna")
+# only keep LN611408-LN611410
+idx <- unname(sapply(paste0("LN611", 408:410), function(x) grep(x, names(IS))))
+IS <- IS[idx]
+# check if sequences are already in the database
+check <- sapply(names(IS), function(x) grep(x, names(ins_fna), fixed = TRUE))
+# sequences are already in database > set code chunk eval = FALSE
+```
+
+NCBI:
+
+Data was manually downloaded from NCBI.
+
+```{r}
+# NCBI manual search and download:
+# https://www.ncbi.nlm.nih.gov/nuccore/DQ174097
+IS1 <- Biostrings::readDNAStringSet("raw/ISAba1_DQ174097.1.fna")
+#IS1 <- Biostrings::subseq(IS1, 1, 348)
+#names(IS1) <- "ISAba1_DQ174097.1"
+
+# NCBI manual search and download:
+# https://www.ncbi.nlm.nih.gov/nuccore/DQ174098
+IS2 <- Biostrings::readDNAStringSet("raw/ISAba1_DQ174098.1.fna")
+#IS2 <- Biostrings::subseq(IS2, 1, 596)
+#names(IS2) <- "ISAba1_DQ174098.1"
+
+ins_fna <- c(ins_fna, IS1, IS2)
+```
+
+Hawkey2015:
+Source: https://doi.org/10.1186/s12864-015-1860-2
+
+Accession number AY758396 downloaded from NCBI.
+
+```{r, eval = FALSE}
+# NCBI manial search and dowload:
+# https://www.ncbi.nlm.nih.gov/nuccore/AY758396.1/
+IS <- Biostrings::readDNAStringSet("raw/ISAba1_AY758396.1.fasta")
+# check if sequence is already in the database
+check <- sapply(names(IS), function(x) grep(x, names(ins_fna), fixed = TRUE))
+# sequence is already in database > set code chunk eval = FALSE
+```
+
+Export sequences and descriptions
+
+```{r}
+Biostrings::writeXStringSet(ins_fna, "insertion_sequences.fna")
+write.table(
+  data.frame(description = names(ins_fna)),
+  file = "ISAba1_description.tsv",
+  sep = "\t",
+  row.names = FALSE,
+  quote = FALSE
+)
+```
+
+Manually flag sequences to keep based on description, then import
+
+```{r}
+keep <- read.csv("ISAba1.tsv", sep = "\t")
+index <- which(keep$keep == "keep")
+ins_fna <- ins_fna[index]
+Biostrings::writeXStringSet(ins_fna, "insertion_sequences_filtered.fna")
+```
+
+LC136852 and LC136853 seem to contain ISAba1 only (without extra genes).
+
+```{r}
+# check LC136852
+ins_fna <- Biostrings::readDNAStringSet("insertion_sequences_filtered.fna")
+
+cmd <- paste0(
+  "singularity exec ~/Containers/ncbi-blast-2.13.0.img blastn ",
+  "-query ./raw/ISAba1_LC136852.fasta ",
+  "-subject insertion_sequences_filtered.fna ",
+  "-out ISAba1_LC136852.tsv ",
+  "-outfmt '6 qseqid sseqid qstart qend sstart send evalue bitscore pident qcovs qcovhsp'"
+)
+system(cmd)
+
+blast <- read.csv("ISAba1_LC136852.tsv", sep = "\t")
+names(blast) <- c(
+  "qseqid", "sseqid", "qstart", "qend", "sstart", "send", "evalue", "bitscore",
+  "pident", "qcovs", "qcovhsp"
+)
+
+# look at sequences with hit
+# if query coverage is above 85% trim before sstart and after send
+for (i in 1:nrow(blast)) {
+  if (blast$qend[i]-blast$qstart[i] < 500) next()
+  # handle JN696403 manually
+  if (grepl("JN696403", blast$sseqid[i])) next()
+  # handle GQ861439 manually
+  if (grepl("GQ861439", blast$sseqid[i])) next()
+  index <- grep(blast$sseqid[i], names(ins_fna), fixed = TRUE)
+  if (blast$send[i] > blast$sstart[i]) {
+    # normal order: trim
+    ins_fna[index] <- Biostrings::subseq(
+      ins_fna[index],
+      start = blast$sstart[i],
+      end = blast$send[i])
+  } else {
+    # reversed order: trim and calculate reverse complement
+    ins_fna[index] <- Biostrings::reverseComplement(
+      Biostrings::subseq(
+        ins_fna[index],
+        start = blast$send[i],
+        end = blast$sstart[i]
+      )
+    )
+  }
+}
+
+# IS found both upstream and downstream > split
+IS_JN_fw <- Biostrings::subseq(
+      ins_fna[grep("JN696403", names(ins_fna))],
+      start = blast$sstart[39],
+      end = blast$send[39]
+      )
+IS_JN_bw <- Biostrings::reverseComplement(Biostrings::subseq(
+      ins_fna[grep("JN696403", names(ins_fna))],
+      start = blast$send[40],
+      end = blast$sstart[40]
+      ))
+names(IS_JN_bw) <- "JN696403_bw"
+index <- grep("JN696403", names(ins_fna))
+ins_fna[index] <- IS_JN_fw
+ins_fna <- c(ins_fna, IS_JN_bw)
+
+# IS found both upstream and downstream > split
+IS_GQ_fw <- Biostrings::subseq(
+      ins_fna[grep("GQ861439", names(ins_fna))],
+      start = blast$sstart[47],
+      end = blast$send[47]
+      )
+IS_GQ_bw <- Biostrings::reverseComplement(Biostrings::subseq(
+      ins_fna[grep("GQ861439", names(ins_fna))],
+      start = blast$send[48],
+      end = blast$sstart[48]
+      ))
+names(IS_GQ_bw) <- "GQ861439_bw"
+index <- grep("GQ861439", names(ins_fna))
+ins_fna[index] <- IS_GQ_fw
+ins_fna <- c(ins_fna, IS_GQ_bw)
+
+# LC369767 was not matched by blast and IS preceded by a gene > Remove
+index <- grep("LC369767", names(ins_fna))
+ins_fna <- ins_fna[-index]
+
+#Biostrings::writeXStringSet(ins_fna, "insertion_sequences_LC136852.fna")
+```
+
+```{r, echo = FALSE}
+ins_fna <- Biostrings::readDNAStringSet("insertion_sequences_LC136852.fna")
+cmd <- paste0(
+  "singularity exec ~/Containers/ncbi-blast-2.13.0.img blastn ",
+  "-query ./raw/ISAba1_LC136853.fasta ",
+  "-subject insertion_sequences_LC136852.fna ",
+  "-out ISAba1_LC136853.tsv ",
+  "-outfmt '6 qseqid sseqid qstart qend sstart send evalue bitscore pident qcovs qcovhsp'"
+)
+system(cmd)
+blast <- read.csv("ISAba1_LC136853.tsv", sep = "\t")
+names(blast) <- c(
+  "qseqid", "sseqid", "qstart", "qend", "sstart", "send", "evalue", "bitscore",
+  "pident", "qcovs", "qcovhsp"
+)
+# further trimming not justified > set chode chunk to echo = FALSE
+```
+
+```{r}
+index <- grep("LC136852", names(ins_fna))
+ins_fna[index] <- Biostrings::subseq(
+  ins_fna[index],
+  start = 17,
+  end = 523
+)
+index <- grep("LC136853", names(ins_fna))
+ins_fna[index] <- Biostrings::subseq(
+  ins_fna[index],
+  start = 1,
+  end = 507
+)
+Biostrings::writeXStringSet(ins_fna, "insertion_sequences_LC136852.fna")
+```
+
+## Export
+
+```{r}
+Biostrings::writeXStringSet(gene_fna, "genes.fna")
+Biostrings::writeXStringSet(gene_faa, "genes.faa")
+```

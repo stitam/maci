@@ -1,0 +1,96 @@
+variable	term	term_pretty	term_maps	colour	shortlisted	lon	lat
+country	afghanistan	Afghanistan	Afghanistan	#9FCB6A	FALSE		
+country	albania	Albania	Albania	#8367CC	FALSE		
+country	argentina	Argentina	Argentina	#C96C69	FALSE		
+country	australia	Australia	Australia	#98C2D9	FALSE		
+country	bangladesh	Bangladesh	Bangladesh	#E6B7E6	FALSE		
+country	belgium	Belgium	Belgium	#E3D6CB	FALSE		
+country	benin	Benin	Benin	#000000	FALSE		
+country	bolivia	Bolivia	Bolivia	#CB9B6A	FALSE		
+country	bosnia_and_herzegovina	Bosnia and Herzegovina	Bosnia and Herzegovina	#FFC600	FALSE		
+country	brazil	Brazil	Brazil	#9FCB6A	TRUE		
+country	cambodia	Cambodia	Cambodia	#77C0A6	FALSE		
+country	canada	Canada	Canada	#A09DC4	FALSE		
+country	chile	Chile	Chile	#C6E9DA	FALSE		
+country	china	China	China	#3EB6A1	TRUE		
+country	colombia	Colombia	Colombia	#000000	FALSE		
+country	croatia	Croatia	Croatia	#D6ACB2	FALSE		
+country	denmark	Denmark	Denmark	#6DCC76	FALSE		
+country	egypt	Egypt	Egypt	#E1DCAE	FALSE		
+country	france	France	France	#C96C69	TRUE		
+country	germany	Germany	Germany	#FBBD3C	TRUE		
+country	ghana	Ghana	Ghana	#6C7DCC	FALSE		
+country	greece	Greece	Greece	#DCC5C2	TRUE		
+country	honduras	Honduras	Honduras	#7395C3	FALSE		
+country	hungary	Hungary	Hungary	#BC131F	TRUE		
+country	india	India	India	#97B284	FALSE		
+country	iran	Iran	Iran	#C5CEE4	FALSE		
+country	iraq	Iraq	Iraq	#B88B9F	FALSE		
+country	israel	Israel	Israel	#CA69C2	TRUE		
+country	italy	Italy	Italy	#C9CDE8	TRUE		
+country	japan	Japan	Japan	#000000	FALSE		
+country	jordan	Jordan	Jordan	#CACA6E	FALSE		
+country	kazakhstan	Kazakhstan	Kazakhstan	#000000	FALSE		
+country	kenya	Kenya	Kenya	#6DCC76	FALSE		
+country	kosovo	Kosovo	Kosovo	#6EBEC5	FALSE		
+country	kuwait	Kuwait	Kuwait	#DDC3A3	FALSE		
+country	lebanon	Lebanon	Lebanon	#A78ABA	FALSE		
+country	libya	Libya	Libya	#D98F90	FALSE		
+country	malaysia	Malaysia	Malaysia	#C1DCE4	FALSE		
+country	mexico	Mexico	Mexico	#B4A282	FALSE		
+country	montenegro	Montenegro	Montenegro	#7FFFDF	FALSE		
+country	morocco	Morocco	Morocco	#82A3B2	FALSE		
+country	myanmar	Myanmar	Myanmar	#BE8A76	FALSE		
+country	netherlands	Netherlands	Netherlands	#CC8AD6	FALSE		
+country	nepal	Nepal	Nepal	#000000	FALSE		
+country	nigeria	Nigeria	Nigeria	#E5CAD4	FALSE		
+country	pakistan	Pakistan	Pakistan	#90DAAA	FALSE		
+country	peru	Peru	Peru	#000000	FALSE		
+country	poland	Poland	Poland	#CA69C2	FALSE		
+country	portugal	Portugal	Portugal	#9FCB6A	FALSE		
+country	puerto_rico	Puerto Rico	Puerto Rico	#000000	FALSE		
+country	reunion	Reunion	Reunion	#D6C5E9	FALSE		
+country	romania	Romania	Romania	#7ABB9B	TRUE		
+country	russia	Russia	Russia	#A76DC9	FALSE		
+country	saudi_arabia	Saudi Arabia	Saudi Arabia	#BCE8E7	TRUE		
+country	serbia	Serbia	Serbia	#7590CF	TRUE		
+country	singapore	Singapore	Singapore	#000000	FALSE		
+country	spain	Spain	Spain	#94DACF	FALSE		
+country	south_africa	South Africa	South Africa	#E6E5BE	TRUE		
+country	south_korea	South Korea	South Korea	#DC9CC2	FALSE		
+country	sudan	Sudan	Sudan	#C1DEA1	FALSE		
+country	sweden	Sweden	Sweden	#89ACCE	FALSE		
+country	switzerland	Switzerland	Switzerland	#C2A5E1	FALSE		
+country	taiwan	Taiwan	Taiwan	#D9E2CB	FALSE		
+country	tanzania	Tanzania	Tanzania	#000000	FALSE		
+country	thailand	Thailand	Thailand	#BC9EDA	TRUE		
+country	turkey	Turkey	Turkey	#CAB2A7	FALSE		
+country	united_arab_emirates	United Arab Emirates	United Arab Emirates	#000000	FALSE		
+country	united_kingdom	UK	UK	#CCB071	FALSE		
+country	ukraine	Ukraine	Ukraine	#9DB2DC	FALSE		
+country	usa	USA	USA	#6600FF	TRUE		
+country	venezuela	Venezuela	Venezuela	#CF7B9B	FALSE		
+country	viet_nam	Vietnam	Vietnam	#948BD0	FALSE		
+region23	caribbean	Caribbean		#000000	FALSE		
+region23	central_asia	Central Asia		#000000	FALSE		
+region23	eastern_asia	Eastern Asia		#db9738	TRUE	107	33
+region23	eastern_europe	Eastern Europe		#9ac299	TRUE	55	59
+region23	northern_america	Northern America		#588eba	TRUE	-101	42
+region23	south_america	South America		#86b5d0	TRUE	-58	-13
+region23	south-eastern_asia	South-Eastern Asia		#b86737	TRUE	101	17
+region23	southern_asia	Southern Asia		#ffc739	TRUE	71	31
+region23	southern_europe	Southern Europe		#72a097	TRUE	18	40
+region23	western_asia	Western Asia		#963837	TRUE	39	35
+region23	western_europe	Western Europe		#4c7e96	TRUE	6	50
+region23	northern_africa	Northern Africa		#72286f	FALSE	17	29
+region23	central_america	Central America		#b5dbe7	FALSE	-100	21
+region23	southern_africa	Southern Africa		#b7c9e0	FALSE	24	-29
+region23	northern_europe	Northern Europe		#275f95	FALSE	-2	53
+region23	australia_and_new_zealand	Australia and New Zealand		#8b8b8b	FALSE	133	-23
+region23	eastern_africa	Eastern Africa		#ac99b5	FALSE	38	-0.6
+region23	western_africa	Western Africa		#a1688b	FALSE	4	9
+continent	africa	Africa		#a1688b	FALSE		
+continent	americas	Americas		#588eba	FALSE		
+continent	asia	Asia		#ffc739	FALSE		
+continent	europe	Europe		#9ac299	FALSE		
+continent	oceania	Oceania		#8b8b8b	FALSE		

@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 98826
-Identifiers: BioSample: SAMN02415083; Sample name: PACIN_98826; SRA: SRS504795
-Organism: Acinetobacter baumannii 98826
-Attributes:
-    /strain="98826"
-Accession: SAMN02415083	ID: 2415083
-
-

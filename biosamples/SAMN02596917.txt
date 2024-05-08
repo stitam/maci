@@ -1,8 +1,0 @@
-1: Sample from Acinetobacter baumannii Ab33333
-Identifiers: BioSample: SAMN02596917; Sample name: AKAS
-Organism: Acinetobacter baumannii Ab33333
-Attributes:
-    /strain="Ab33333"
-Accession: SAMN02596917	ID: 2596917
-
-

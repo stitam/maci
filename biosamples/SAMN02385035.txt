@@ -1,8 +1,0 @@
-1: Acinetobacter baumannii 83444
-Identifiers: BioSample: SAMN02385035; Sample name: PACIN_83444; SRA: SRS494475
-Organism: Acinetobacter baumannii 83444
-Attributes:
-    /strain="83444"
-Accession: SAMN02385035	ID: 2385035
-
-
