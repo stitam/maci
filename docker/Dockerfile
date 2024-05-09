@@ -85,7 +85,7 @@ RUN R -e 'options(warn = 2); install.packages("ggh4x", dependencies = TRUE)'
 RUN R -e 'options(warn = 2); devtools::install_github("jolars/qualpalr@v.0.4.3")'
 
 # Install ggtree
-RUN R -e 'options(warn = 2); BiocManager::install("ggtree", update = FALSE, ask = FALSE)'
+RUN R -e 'options(warn = 2); devtools::install_github("YuLab-SMU/ggtree@b0c16e561989d7c503eb942ce653b6b75cd65db8")'
 
 # Install ggimage, ggnewscale, ggtreeExtra
 RUN R -e 'options(warn = 2); install.packages("ggimage", dependencies = TRUE)'
@@ -100,6 +100,9 @@ RUN R -e 'options(warn = 2); devtools::install_github("tidyverse/dplyr@v1.1.3")'
 
 # Install specific version of ggtext
 RUN R -e 'options(warn = 2); devtools::install_github("wilkelab/ggtext@0.1.0")'
+
+# Install naniar
+RUN R -e 'options(warn = 2); install.packages("naniar", dependencies = TRUE)'
 
 # Set R library path to avoid binding from host system
 ENV R_LIBS_USER /usr/local/lib/R/site-library

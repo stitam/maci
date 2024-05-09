@@ -20,8 +20,8 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    file = "data/typing_summary_tables/aci_study.rds",
-    sensitivity = "labdata/aci_project/Ab_all_strains_phages_spotassay_PFU.tsv"
+    file = "data/typing_summary_tables/TableS1_aci_study_redacted_renamed2.rds",
+    sensitivity = "data/phage_sensitivity_measurements/TableS2_T10.tsv"
   )
 }
 
@@ -47,14 +47,15 @@ aci$Strain <- unname(sapply(aci$assembly, function(x) {
 }))
 
 aci_all <- read.csv(args$sensitivity, sep = "\t")
+
 aci_all <- aci_all [, -1]
 
 # merge without adding space
 
-aci_all$Strain <- paste(aci_all$Name, aci_all$Identifier.of.the.strain, sep="")
+aci_all$Strain <- gsub(" +", "", aci_all$Strain)
 
 # TODO: DANGER ZONE! DANGER ZONE! NAMES ARE SELECTED BY INDEX
-phage_names <- names(aci_all)[7:ncol(aci_all)]
+phage_names <- names(aci_all)[6:ncol(aci_all)]
 
 Aci_comb = left_join(x=aci_all,y=aci,by="Strain") 
 
@@ -79,7 +80,6 @@ Aci_comb <- Aci_comb %>% filter (ST_KL != "NA - NA")
 
 ACI <- Aci_comb %>% select(c(
   "Strain",
-  "Identifier.of.the.strain_long",
   "MLST",
   "KL",
   phage_names,
@@ -91,10 +91,31 @@ ACI <- Aci_comb %>% select(c(
 
 ###### filter for the 5 countries from the region we got samples and the most prevalent 10 serotypes plus the 16th
 
-ctry3 <- ACI %>% filter(country == "hungary" | country == "romania" | country == "serbia" | country == "bosnia_and_herzegovina" | country == "montenegro") %>%
-  filter (ST_KL == "ST2 - KL3"| ST_KL == "ST636 - KL40" | ST_KL == "ST492 - KL104" | ST_KL == "ST2 - KL2" |
-            ST_KL == "ST1 - KL1" | ST_KL == "ST2 - KL9" | ST_KL == "ST2 - KL12" | ST_KL == "ST1 - KL17" |
-            ST_KL == "ST2 - KL7" | ST_KL == "ST2 - KL32" | ST_KL == "ST2 - KL77")
+focus_countries <- c(
+  "Bosnia and Herzegovina",
+  "Hungary",
+  "Montenegro",
+  "Romania",
+  "Serbia"
+)
+
+focus_serotypes <- c(
+  "ST2 - KL3",
+  "ST636 - KL40",
+  "ST492 - KL104",
+  "ST2 - KL2",
+  "ST1 - KL1",
+  "ST2 - KL9",
+  "ST2 - KL12",
+  "ST1 - KL17",
+  "ST2 - KL7",
+  "ST2 - KL32",
+  "ST2 - KL77"
+)
+
+ctry3 <- ACI %>% 
+  dplyr::filter(country %in% focus_countries) %>%
+  dplyr::filter (ST_KL %in% focus_serotypes )
 
 # ctry3_F <- ctry3 %>% filter (!is.na (Highwayman) & !is.na (Silvergun) & !is.na (Fanak) & !is.na (PhT2-v2) & !is.na (Porter) & !is.na (Dino) & !is.na (Fishpie) & !is.na (Tama) & !is.na (Margaret) & !is.na (ABW132) &  
 #!is.na (ABW311) & !is.na (Navy4-v2) & !is.na (Rocket) & !is.na (Konradin-v2) & !is.na (KissB))
@@ -104,10 +125,6 @@ ctry3 <- ACI %>% filter(country == "hungary" | country == "romania" | country ==
 
 ctry3_F <- ctry3 %>% filter (if_all(c(Highwayman,Silvergun,Fanak,PhT2.v2,Porter,Dino,Fishpie,Tama,Margaret,ABW132,ABW311,Navy4.v2,Rocket,Konradin.v2,KissB), function(x) !is.na(x))) %>%
   filter (if_all(c(Highwayman,Silvergun,Fanak,PhT2.v2,Porter,Dino,Fishpie,Tama,Margaret,ABW132,ABW311,Navy4.v2,Rocket,Konradin.v2,KissB), function(x) !`%in%`(x, c("YES", "Yes", "yes"))))
-
-
-ctry3_F$country <- stri_replace_all_regex(ctry3_F$country, c('hungary','romania','serbia', 'bosnia_and_herzegovina','montenegro'), 
-                                          c('Hungary','Romania','Serbia', 'Bosnia and Herzegovina','Montenegro'), vectorize=F)
 
 # filter out 6 strains from ST636 KL40 and 8 from ST2 KL12 to represent the strains more similar to their abundance (tbl_ST_KL)
 
@@ -120,7 +137,7 @@ ctry3_F <- ctry3_F %>% filter(Strain != "Aci337" & Strain != "Aci342" & Strain !
   #arrange(desc(Nr))
 
 # TODO: DANGER ZONE! COLUMNS ARE SELECTED BY INDEX
-ACI_long <- pivot_longer(data = ctry3_F, cols = 5:19, values_to = "value")
+ACI_long <- pivot_longer(data = ctry3_F, cols = 4:18, values_to = "value")
 
 
 ACI_long$value[ACI_long$value=="NO"] <- "0"
@@ -347,23 +364,23 @@ g <- plot1/plot_spacer()/plot2/plot_spacer()/plot3 +
 plot(g)
 
 ggsave(
-  filename = "Fig3A_heatmap_phages_PFU_composed_country_order_noLfw_cities_old_coloring.pdf",
+  filename = "heatmap_phages_PFU_composed_country_order_noLfw_cities_old_coloring.pdf",
   plot = g,
   width = 180,
   height = 60,
   dpi = 800, units = "mm"
 )
 
-saveRDS(g, "Fig3A_heatmap_phages_PFU_composed_country_order_noLfw_cities_old_coloring_pdf.rds")
+saveRDS(g, "heatmap_phages_PFU_composed_country_order_noLfw_cities_old_coloring_pdf.rds")
 
 #g2 <- plot1/plot_spacer()/plot2/plot_spacer()/plot3 + plot_layout(heights = c(0.5, -0.115, 0.02, -0.115, 0.02))
 
 ggsave(
-  filename = "Fig3A_heatmap_phages_PFU_composed_country_order_noLfw_cities_old_coloring.png",
+  filename = "heatmap_phages_PFU_composed_country_order_noLfw_cities_old_coloring.png",
   plot = g,
   width = 180,
   height = 60,
   dpi = 800, units = "mm")
   
-saveRDS(g, "Fig3A_heatmap_phages_PFU_composed_country_order_noLfw_cities_old_coloring_png.rds")
+saveRDS(g, "heatmap_phages_PFU_composed_country_order_noLfw_cities_old_coloring_png.rds")
 

@@ -12,6 +12,11 @@ sink(con, split = TRUE)
 
 args_list <- list(
   make_option(
+    c("-p", "--project_dir"),
+    type = "character",
+    help = "Path to the project directory."
+  ),
+  make_option(
     c("-f", "--file"),
     type = "character",
     help = "Path to aci prediction results."
@@ -34,17 +39,21 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    file = "aci_collapse_geodate_crab.rds",
+    project_dir = "aci",
+    file = "results_redacted/downsample_isolates/aci_crab_ds_geodate.tsv",
     minyear = "2016",
-    regions = "geographic_locations_in_study.tsv"
+    regions = "data/geographic_locations_in_study.tsv"
   )
 }
 
-collapse_strategy <- args$file %>% strsplit(split = "_") %>% unlist()
-collapse_strategy <- collapse_strategy[3]
+downsampling_strategy <- args$file %>% strsplit(split = "_") %>% unlist()
+downsampling_strategy <- gsub("\\.tsv", "", downsampling_strategy[4])
+
+library(devtools)
+load_all(args$project_dir)
 
 # import data
-aci <- readRDS(args$file)
+aci <- read_df(args$file) %>% dplyr::filter(filtered & crab & downsampled)
 
 # filter by collection_year
 aci <- aci[which(aci$collection_year >= as.numeric(args$minyear)),]
@@ -55,12 +64,14 @@ regions <- read.csv(args$regions, sep = "\t", na = "") %>%
   dplyr::select(term, term_pretty, colour) %>%
   dplyr::rename(region23 = term, region23_pretty = term_pretty)
 
+testthat::expect_true(all(unique(aci$region23) %in% regions$region23_pretty))
+
 region_colors <- regions$colour
 names(region_colors) <- regions$region23_pretty
 
 # make region names pretty for plotting
 aci$region23 <- unname(sapply(aci$region23, function(x) {
-  index <- which(regions$region23 == x)
+  index <- which(regions$region23_pretty == x)
   if (length(index) == 0) {
     msg <- paste0("Region not found: ", x)
     stop(msg)
@@ -76,12 +87,14 @@ countries <- read.csv(args$regions, sep = "\t", na = "") %>%
   dplyr::select(term, term_pretty, colour) %>%
   dplyr::rename(country = term, country_pretty = term_pretty)
 
+testthat::expect_true(all(unique(aci$country) %in% countries$country_pretty))
+
 country_colors <- countries$colour
 names(country_colors) <- countries$country_pretty
 
 # make country names pretty for plotting
 aci$country <- unname(sapply(aci$country, function(x) {
-  index <- which(countries$country == x)
+  index <- which(countries$country_pretty == x)
   if (length(index) == 0) {
     msg <- paste0("Country not found: ", x)
     stop(msg)
@@ -125,25 +138,58 @@ testthat::expect_true(
   all(plot_df$Site %in% names(region_colors)))
 
 # main plot
-xmax <- max(plot_df$Sample[which(!plot_df$Site %in% c(
+xmax <- 1.1*max(plot_df$Sample[which(!plot_df$Site %in% c(
   "Northern America", "Eastern Asia"
 ))])
-ymax <- max(plot_df$Species[which(!plot_df$Site %in% c(
+ymax <- 1.1*max(plot_df$Species[which(!plot_df$Site %in% c(
   "Northern America", "Eastern Asia"
 ))])
-g1 <- ggplot(plot_df, aes(Sample, Species)) + 
+
+line_labels <- plot_df %>%
+  dplyr::group_by(Site) %>%
+  dplyr::summarise(
+    Site = unique(Site),
+    Sample = max(Sample),
+    Species = max(Species)
+  )
+
+line_labels_g1 <- line_labels %>% dplyr::filter(Site %in% c(
+  "Northern America", "Eastern Asia"
+) == FALSE)
+
+line_labels_g2 <- line_labels %>% dplyr::filter(Site %in% c(
+  "Northern America", "Eastern Asia"
+))
+
+g1 <- ggplot(plot_df, aes(Sample, Species, label = Site)) + 
   geom_line(aes(col = Site, linetype = Site)) + 
+  geom_label(
+    aes(col = Site), 
+    data = line_labels_g1, 
+    alpha = 0.5, 
+    position = position_jitter(0.1, seed = 0),
+    size = 2
+  ) +
   scale_colour_manual(values = region_colors, name="Region") +
   scale_linetype_manual(values = LT, name = "Region")+
+  guides(col = "none", linetype = "none") +
   xlim(0, xmax) +
   ylim(0, ymax) +
   ylab("Number of MLST-CPS types")
 
 # embedded plot
-g2 <- ggplot(plot_df, aes(Sample, Species)) + 
+g2 <- ggplot(plot_df, aes(Sample, Species, label = Site)) + 
   geom_line(aes(col = Site, linetype = Site)) + 
+  geom_label(
+    aes(col = Site), 
+    data = line_labels_g2, 
+    alpha = 0.5, 
+    position = position_jitter(0.1, seed = 0),
+    size = 2
+  ) +
   scale_colour_manual(values = region_colors, name="Region") +
   scale_linetype_manual(values = LT, name = "Region")+
+  guides(col = "none", linetype = "none") +
   theme(
     legend.position = "none",
     plot.background = element_rect(fill = scales::alpha(colour = "white", alpha = 0.5),),
@@ -166,8 +212,8 @@ print(sort(table(aci$region23), descending = TRUE))
 
 ggsave(
   filename = paste0(
-    "FigS2A_rarecurve_crab_collapse_",
-    collapse_strategy,
+    "rarecurve_crab_ds_",
+    downsampling_strategy,
     "_minyear_",
     args$minyear, "_regions.pdf"
   ),
@@ -177,8 +223,8 @@ ggsave(
 )
 ggsave(
   filename = paste0(
-    "FigS2A_rarecurve_crab_collapse_",
-    collapse_strategy,
+    "rarecurve_crab_ds_",
+    downsampling_strategy,
     "_minyear_",
     args$minyear, "_regions.png"
   ),
@@ -189,8 +235,8 @@ ggsave(
 saveRDS(
   object = g3,
   file = paste0(
-    "FigS2A_rarecurve_crab_collapse_",
-    collapse_strategy,
+    "rarecurve_crab_ds_",
+    downsampling_strategy,
     "_minyear_",
     args$minyear, "_regions.rds"
   )
@@ -199,7 +245,7 @@ saveRDS(
 # analyse European countries
 
 aci_wide <- aci %>% 
-  filter(continent == "europe") %>%
+  filter(continent == "Europe") %>%
   select(assembly, country, serotype) %>%
   tidyr::pivot_wider(
     id_cols = country,
@@ -237,11 +283,27 @@ testthat::expect_true(
 # ymax <- max(plot_df$Species[which(!plot_df$Site %in% c(
 #   "China", "USA"
 # ))])
-g1 <- ggplot(plot_df, aes(Sample, Species)) + 
+
+line_labels <- plot_df %>%
+  dplyr::group_by(Site) %>%
+  dplyr::summarise(
+    Site = unique(Site),
+    Sample = max(Sample),
+    Species = max(Species)
+  )
+
+g1 <- ggplot(plot_df, aes(Sample, Species, label = Site)) + 
   geom_line(aes(col = Site, linetype = Site)) + 
+  geom_label(
+    aes(col = Site),
+    data = line_labels,
+    alpha = 0.5,
+    position = position_jitter(0.1, seed = 0),
+    size = 2
+  ) +
   scale_colour_manual(values = country_colors, name="Country") +
   scale_linetype_manual(values = LT, name = "Country") +
-  guides(col = guide_legend(title="Country")) +
+  guides(col = "none", linetype = "none") +
   # xlim(0, xmax) +
   # ylim(0, ymax) +
   ylab("Number of MLST-CPS types")
@@ -275,8 +337,8 @@ print(sort(table(aci$country), descending = TRUE))
 
 ggsave(
   filename = paste0(
-    "FigS2B_rarecurve_Europe_crab_collapse_",
-    collapse_strategy,
+    "rarecurve_Europe_crab_ds_",
+    downsampling_strategy,
     "_minyear_",
     args$minyear, "_countries.pdf"
   ),
@@ -286,8 +348,8 @@ ggsave(
 )
 ggsave(
   filename = paste0(
-    "FigS2B_rarecurve_Europe_crab_collapse_",
-    collapse_strategy,
+    "rarecurve_Europe_crab_ds_",
+    downsampling_strategy,
     "_minyear_",
     args$minyear, "_countries.png"
   ),
@@ -299,7 +361,7 @@ ggsave(
 # analyse non-European countries
 
 aci_wide <- aci %>% 
-  filter(continent != "europe") %>%
+  filter(continent != "Europe") %>%
   select(assembly, country, serotype) %>%
   tidyr::pivot_wider(
     id_cols = country,
@@ -331,24 +393,55 @@ testthat::expect_true(
   all(plot_df$Site %in% names(country_colors)))
 
 # main plot
-xmax <- max(plot_df$Sample[which(!plot_df$Site %in% c(
+xmax <- 1.1*max(plot_df$Sample[which(!plot_df$Site %in% c(
   "China", "USA"
 ))])
-ymax <- max(plot_df$Species[which(!plot_df$Site %in% c(
+ymax <- 1.1*max(plot_df$Species[which(!plot_df$Site %in% c(
   "China", "USA"
 ))])
-g1 <- ggplot(plot_df, aes(Sample, Species)) + 
+
+line_labels <- plot_df %>%
+  dplyr::group_by(Site) %>%
+  dplyr::summarise(
+    Site = unique(Site),
+    Sample = max(Sample),
+    Species = max(Species)
+  )
+
+line_labels_g1 <- line_labels %>% dplyr::filter(Site %in% c(
+  "USA", "China"
+) == FALSE)
+
+line_labels_g2 <- line_labels %>% dplyr::filter(Site %in% c(
+  "USA", "China"
+))
+
+g1 <- ggplot(plot_df, aes(Sample, Species, label = Site)) + 
   geom_line(aes(col = Site, linetype = Site)) + 
+  geom_label(
+    aes(col = Site),
+    data = line_labels_g1,
+    alpha = 0.5,
+    position = position_jitter(0.1, seed = 0),
+    size = 2
+  ) +
   scale_colour_manual(values = country_colors, name="Country") +
   scale_linetype_manual(values = LT, name = "Country") +
-  guides(col = guide_legend(title="Country")) +
+  guides(col = "none", linetype = "none") +
   xlim(0, xmax) +
   ylim(0, ymax) +
   ylab("Number of MLST-CPS types")
 
 # embedded plot
-g2 <- ggplot(plot_df, aes(Sample, Species)) + 
+g2 <- ggplot(plot_df, aes(Sample, Species, label = Site)) + 
   geom_line(aes(col = Site, linetype = Site)) + 
+  geom_label(
+    aes(col = Site), 
+    data = line_labels_g2, 
+    alpha = 0.5, 
+    position = position_jitter(0.1, seed = 0),
+    size = 2
+  ) +
   scale_colour_manual(values = country_colors, name="Country") +
   scale_linetype_manual(values = LT, name = "Country")+
   theme(
@@ -375,8 +468,8 @@ print(sort(table(aci$country), descending = TRUE))
 
 ggsave(
   filename = paste0(
-    "FigS2B2_rarecurve_not_Europe_crab_collapse_",
-    collapse_strategy,
+    "rarecurve_not_Europe_crab_ds_",
+    downsampling_strategy,
     "_minyear_",
     args$minyear, "_countries.pdf"
   ),
@@ -386,8 +479,8 @@ ggsave(
 )
 ggsave(
   filename = paste0(
-    "FigS2B2_rarecurve_not_Europe_crab_collapse_",
-    collapse_strategy,
+    "rarecurve_not_Europe_crab_ds_",
+    downsampling_strategy,
     "_minyear_",
     args$minyear, "_countries.png"
   ),
@@ -432,8 +525,8 @@ ggsave(
 
 # ggsave(
 #   filename = paste0(
-#     "FigSX_rarecurve_crab_collapse_",
-#     collapse_strategy,
+#     "rarecurve_crab_ds_",
+#     downsampling_strategy,
 #     "_minyear_",
 #     args$minyear, "_usa.pdf"
 #   ),
@@ -443,8 +536,8 @@ ggsave(
 # )
 # ggsave(
 #   filename = paste0(
-#     "FigSX_rarecurve_crab_collapse_",
-#     collapse_strategy,
+#     "rarecurve_crab_ds_",
+#     downsampling_strategy,
 #     "_minyear_",
 #     args$minyear, "_usa.png"
 #   ),
@@ -455,8 +548,8 @@ ggsave(
 # saveRDS(
 #   object = g4,
 #   file = paste0(
-#     "FigSX_rarecurve_crab_collapse_",
-#     collapse_strategy,
+#     "rarecurve_crab_ds_",
+#     downsampling_strategy,
 #     "_minyear_",
 #     args$minyear, "_usa.rds"
 #   )
@@ -498,8 +591,8 @@ ggsave(
 
 # ggsave(
 #   filename = paste0(
-#     "FigSX_rarecurve_crab_collapse_",
-#     collapse_strategy,
+#     "rarecurve_crab_ds_",
+#     downsampling_strategy,
 #     "_minyear_",
 #     args$minyear, "_china.pdf"
 #   ),
@@ -510,8 +603,8 @@ ggsave(
 
 # ggsave(
 #   filename = paste0(
-#     "FigSX_rarecurve_crab_collapse_",
-#     collapse_strategy,
+#     "rarecurve_crab_ds_",
+#     downsampling_strategy,
 #     "_minyear_",
 #     args$minyear, "_china.png"
 #   ),
@@ -523,8 +616,8 @@ ggsave(
 # saveRDS(
 #   object = g5,
 #   file = paste0(
-#     "FigSX_rarecurve_crab_collapse_",
-#     collapse_strategy,
+#     "rarecurve_crab_ds_",
+#     downsampling_strategy,
 #     "_minyear_",
 #     args$minyear, "_china.rds"
 #   )

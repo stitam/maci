@@ -30,10 +30,10 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    figA_pdf = "./results/plot_Fig3A_sensitivity_heatmap/Fig3A_heatmap_phages_PFU_composed_country_order_noLfw_cities_old_coloring_pdf.rds",
-    figA_png = "./results/plot_Fig3A_sensitivity_heatmap/Fig3A_heatmap_phages_PFU_composed_country_order_noLfw_cities_old_coloring_png.rds",
-    figB = "./results/plot_Fig3B_sensitivity_dissimilarity/Fig3B_sensitivity_dissimilarity.rds",
-    figC = "./results/plot_Fig3C_phylodist_phagedist/Fig3C_phylodist_phagedist.rds"
+    figA_pdf = "./results_redacted/plot_sensitivity_heatmap/heatmap_phages_PFU_composed_country_order_noLfw_cities_old_coloring_pdf.rds",
+    figA_png = "./results_redacted/plot_sensitivity_heatmap/heatmap_phages_PFU_composed_country_order_noLfw_cities_old_coloring_png.rds",
+    figB = "./results_redacted/plot_Fig3B_sensitivity_dissimilarity/Fig3B_sensitivity_dissimilarity.rds",
+    figC = "./results_redacted/plot_phylodist_phagedist/phylodist_phagedist.rds"
   )
 }
 
@@ -96,7 +96,7 @@ fig_pdf <- prep_fig3(figA_pdf, figB, figC)
 fig_png <- prep_fig3(figA_png, figB, figC)
 
 ggsave(
-  filename = "Fig3.png",
+  filename = "Fig4.png",
   plot = fig_png,
   width = 18,
   height = 12,
@@ -104,7 +104,7 @@ ggsave(
 )
 
 ggsave(
-  filename = "Fig3.pdf",
+  filename = "Fig4.pdf",
   plot = fig_pdf,
   width = 18,
   height = 12,

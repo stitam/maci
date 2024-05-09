@@ -59,10 +59,10 @@ if (!interactive()) {
 } else {
   args <- list(
     project_dir = "aci",
-    file = "results/filter_crab/aci_collapse_geodate_crab.rds",
+    file = "results_redacted/filter_crab/aci_collapse_geodate_crab.rds",
     trees = "data/all_dated_trees.rds",
-    sensitivity = "labdata/aci_project/Ab_all_strains_phages_spotassay_PFU.tsv",
-    fig3C = "results/plot_Fig3C_phylodist_phagedist/Fig3C_phylodist_phagedist.rds"
+    sensitivity = "data/phage_sensitivity_measurements/TableS2_T10.tsv",
+    fig3C = "results_redacted/plot_phylodist_phagedist/phylodist_phagedist.rds"
   )
 }
 
@@ -384,7 +384,7 @@ g <- wrap_plots(serotrees, ncol = 2) +
   )
 
 ggsave(
-  filename = "FigS6_serotype_trees.pdf",
+  filename = "serotype_trees.pdf",
   plot = g,
   width = 18,
   height = 13,
@@ -392,7 +392,7 @@ ggsave(
 )
 
 ggsave(
-  filename = "FigS6_serotype_trees.png",
+  filename = "serotype_trees.png",
   plot = g,
   limitsize = FALSE,
   width = 18,

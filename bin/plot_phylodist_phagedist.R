@@ -27,14 +27,14 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    assemblies = "results/filter_assemblies/aci_filtered.rds",
+    assemblies = "results_redacted/filter_assemblies/aci_filtered.rds",
     trees = "data/all_dated_trees.rds",
-    sensitivity = "labdata/aci_project/Ab_all_strains_phages_spotassay_PFU.tsv"
+    sensitivity = "data/phage_sensitivity_measurements/TableS2_T10.tsv"
   )
 }
 
 # import assemblies
-assemblies <- readRDS(args$assemblies)
+assemblies <- readRDS(args$assemblies) %>% dplyr::filter(filtered)
 
 # import trees
 trees <- readRDS(args$trees)
@@ -53,7 +53,7 @@ phres <- phres[which(!is.na(phres$Assembly)),]
 phres <- phres[which(phres$MLST %in% names(trees)),]
 
 # only keep strains which were tested against all phages
-phres <- phres[complete.cases(phres[,8:ncol(phres)]),]
+phres <- phres[complete.cases(phres[,7:ncol(phres)]),]
 
 # only keep strains which are present on a tree
 # only keep strains which are present on a single tree
@@ -83,7 +83,7 @@ if (length(remove) > 0) {
 
 # format phres
 for (i in 1:nrow(phres)) {
-  for (j in 8:ncol(phres)) {
+  for (j in 7:ncol(phres)) {
     # Count partial sensitivity to a phage as no sensitivity
     if (!is.na(phres[i,j]) && phres[i,j] == "1") {
       phres[i,j] <- "0"
@@ -97,7 +97,7 @@ for (i in 1:nrow(phres)) {
   }
 }
 
-for (j in 8:ncol(phres)) {
+for (j in 7:ncol(phres)) {
   phres[,j] <- as.numeric(phres[,j])
   phres[,j] <- ifelse(
     phres[,j] > 1,
@@ -107,7 +107,7 @@ for (j in 8:ncol(phres)) {
 }
 
 # only keep strains which were sensitive to at least one phage
-effective_phage_count <- apply(phres[,8:ncol(phres)], 1, sum)
+effective_phage_count <- apply(phres[,7:ncol(phres)], 1, sum)
 phres <- phres[which(effective_phage_count > 0),]
 
 # only keep strains that belong to KL types against which at least one phage
@@ -115,7 +115,7 @@ phres <- phres[which(effective_phage_count > 0),]
 # strains, regardless of their phage profile.
 
 #infection_count <- sapply(unique(phres$KL), function(x) {
-#  sum(phres[which(phres$KL == x),8:ncol(phres)])
+#  sum(phres[which(phres$KL == x),7:ncol(phres)])
 #})
 #kl_to_keep <- names(infection_count)[which(infection_count > 0)]
 #phres <- phres[which(phres$KL %in% kl_to_keep),]
@@ -144,7 +144,7 @@ comp$A1_region23 <- sapply(comp$A1, function(x) {
 })
 # Combine Eastern and Southern Europe into a single region
 comp$A1_region23 <- ifelse(
-  comp$A1_region23 %in% c("eastern_europe", "southern_europe"),
+  comp$A1_region23 %in% c("Eastern Europe", "Southern Europe"),
   "east_south_europe",
   comp$A1_region23
 )
@@ -156,7 +156,7 @@ comp$A2_region23 <- sapply(comp$A2, function(x) {
 
 # Combine Eastern and Southern Europe into a single region
 comp$A2_region23 <- ifelse(
-  comp$A2_region23 %in% c("eastern_europe", "southern_europe"),
+  comp$A2_region23 %in% c("Eastern Europe", "Southern Europe"),
   "east_south_europe",
   comp$A2_region23
 )
@@ -185,7 +185,7 @@ for (i in 1:nrow(comp)) {
 comp$patristic <- comp$patristic/2
 
 # calculate phage sensitivity distance matrix
-phagedist <- as.matrix(vegan::vegdist(phres[8:ncol(phres)], "jaccard", na.rm = FALSE))
+phagedist <- as.matrix(vegan::vegdist(phres[7:ncol(phres)], "jaccard", na.rm = FALSE))
 rownames(phagedist) <- phres$Assembly
 colnames(phagedist) <- phres$Assembly
 
@@ -306,7 +306,7 @@ mantel_df$mantel_spearman <- sapply(mantel_df$serotype, function(x) {
 # g <- g + geom_text(data = mantel_df, aes(label = mantel_spearman), size = 2)
 
 ggsave(
-  filename = "Fig3C_phylodist_phagedist.pdf",
+  filename = "phylodist_phagedist.pdf",
   plot = g,
   units = "cm",
   height = 15,
@@ -314,19 +314,19 @@ ggsave(
 )
 
 ggsave(
-  filename = "Fig3C_phylodist_phagedist.png",
+  filename = "phylodist_phagedist.png",
   plot = g,
   units = "cm",
   height = 15,
   width = 30
 )
 
-saveRDS(g, "Fig3C_phylodist_phagedist.rds")
+saveRDS(g, "phylodist_phagedist.rds")
 
 # ANALYSE PAIRS WHICH HAD IDENTICAL PHAGE SENSITIVITY PROFILES
 
 # Assign strains with identical phage sensitivity profiles to the same cluster
-d <- dist(phres[,8:ncol(phres)])
+d <- dist(phres[,7:ncol(phres)])
 h <- hclust(d)
 phres$cluster <- cutree(h, h = 0)
 

@@ -7,7 +7,7 @@ nextflow.enable.dsl=2
 // the typing pipeline.
 
 // Container versions
-r_container = "stitam/r-aci:0.13"
+r_container = "stitam/r-aci:0.14"
 
 // Database versions
 bvbrc_db_ver = "v230216"

@@ -56,9 +56,9 @@ if (!interactive()) {
   args <- list(
     project_dir = "aci",
     tree = "data/global_ST2_tree/dated_tree.rds",
-    metadata = "results/filter_assemblies/aci_filtered.rds",
+    metadata = "results_redacted/filter_assemblies/aci_filtered.rds",
     sample_size = 50,
-    sero_over_time = "results/plot_Fig2A_sero_over_time/geodate/Fig2A_sero_over_time_collapse_geodate.rds",
+    sero_over_time = "results_redacted/plot_sero_over_time/geodate/sero_over_time_collapse_geodate.rds",
     regions = "aci/data/geographic_locations_in_study.tsv"
   )
 }

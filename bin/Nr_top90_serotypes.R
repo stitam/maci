@@ -6,7 +6,7 @@ rm(list=ls())
 
 #world regions
 
-tbl_r<- read_tsv("top_serotypes_region23_collapse_geodate.tsv")
+tbl_r<- read_tsv("top_serotypes_region23_ds_geodate.tsv")
 
 #tbl_r %>% distinct(region23)
 
@@ -49,7 +49,7 @@ saveRDS(g, "Nr_top90_serotypes_regions.rds")
 rm(list=ls())
 
 
-tbl_c<- read_tsv("top_serotypes_country_collapse_geodate.tsv")
+tbl_c<- read_tsv("top_serotypes_country_ds_geodate.tsv")
 
 #tbl_c %>% distinct(country)
 

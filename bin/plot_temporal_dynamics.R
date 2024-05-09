@@ -44,9 +44,9 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    figA = "results/plot_Fig2A_sero_over_time/geodate/Fig2A_sero_over_time_collapse_geodate.rds",
-    figB = "results/plot_morisita_histograms/Morisita_histograms_geodate_crab.rds",
-    figC = "results/plot_global_tree/geodate/global_tree.rds",
+    figA = "results_redacted/plot_sero_over_time/geodate/sero_over_time_ds_geodate.rds",
+    figB = "results_redacted/plot_morisita_histograms/Morisita_histograms_geodate_crab.rds",
+    figC = "results_redacted/plot_global_tree/geodate/global_tree.rds",
     figD = "data/rr_global_no_focus/relative_risks_type2.rds",
     figE = "data/rr_regional/relative_risks_type3.rds"
   )
@@ -113,7 +113,7 @@ fig_pdf <- figA + figB + figC + figD + figE + guide_area() +
   )
 
 ggsave(
-  filename = "Fig2.pdf",
+  filename = "Fig3.pdf",
   plot = fig_pdf,
   width = 18,
   height = 10,
@@ -141,7 +141,7 @@ fig_png <- figA + figB + figC + figD + figE + guide_area() +
   )
 
 ggsave(
-  filename = "Fig2.png",
+  filename = "Fig3.png",
   plot = fig_png,
   width = 18,
   height = 10,

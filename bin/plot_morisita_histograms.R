@@ -37,26 +37,28 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    all_counts = "results/calc_serotype_freqs/geodate/TableS2A_top_serotypes_country_collapse_geodate.tsv",
-    by_year = "results/calc_serotype_freqs/geodate/serotypes_country_year_collapse_geodate.tsv",
-    comparisons = "results/calc_serotype_freqs/geodate/country_comparisons_collapse_geodate.tsv",
+    all_counts = "results_redacted/calc_serotype_freqs/geodate/TableS2A_top_serotypes_country_ds_geodate.tsv",
+    by_year = "results_redacted/calc_serotype_freqs/geodate/serotypes_country_year_ds_geodate.tsv",
+    comparisons = "results_redacted/calc_serotype_freqs/geodate/country_comparisons_ds_geodate.tsv",
     minyear = 2009,
     minyear_recent = 2016
   )
 }
 
-collapse_strategy <- args$by_year %>% basename() %>% strsplit(split = "_") %>% unlist()
-collapse_strategy <- collapse_strategy[5]
-collapse_strategy <- gsub("\\.tsv", "", collapse_strategy)
+downsampling_strategy <- args$by_year %>% basename() %>% strsplit(split = "_") %>% unlist()
+downsampling_strategy <- downsampling_strategy[5]
+downsampling_strategy <- gsub("\\.tsv", "", downsampling_strategy)
 
 # define countries to select
-countries <- c("china", "germany", "usa")
+countries <- c("China", "Germany", "USA")
 
 # import data
 aci <- read.csv(args$by_year, sep = ",")
 
 # keep selected countries
 aci <- aci %>% filter(country %in% countries)
+
+testthat::expect_true(all(countries %in% aci$country))
 
 # construct bin names for recent time period and the period before
 old_bin_name <- paste0("(", min(aci$collection_year)-1, ",", as.numeric(args$minyear)-1, "]")
@@ -127,8 +129,8 @@ for (i in 1:nrow(morisita)) {
 write.table(
   morisita,
   file = paste0(
-    "morisita_country_year_collapse_",
-    collapse_strategy,
+    "morisita_country_year_ds_",
+    downsampling_strategy,
     "_crab.tsv"
   ),
   sep = "\t",
@@ -161,10 +163,6 @@ for (i in 1:nrow(df)) {
   df$over_time[i] <- morisita$morisita[which(morisita$country == df$country1[i])]
 }
 
-df$country1 <- gsub("china", "China", df$country1)
-df$country1 <- gsub("germany", "Germany", df$country1)
-df$country1 <- gsub("usa", "USA", df$country1)
-
 df$over_time_x <- sapply(df$country1, function(x) {
   if (x == "China") return(0)
   if (x == "Germany") return(0)
@@ -194,17 +192,17 @@ g <- ggplot(df, aes(morisita)) +
 # export histogram
 
 ggsave(
-  filename = paste0("Morisita_histograms_", collapse_strategy, "_crab.pdf"),
+  filename = paste0("Morisita_histograms_", downsampling_strategy, "_crab.pdf"),
   plot = g,
   width = 8,
   height = 6
 )
 
 ggsave(
-  filename = paste0("Morisita_histograms_", collapse_strategy, "_crab.png"),
+  filename = paste0("Morisita_histograms_", downsampling_strategy, "_crab.png"),
   plot = g,
   width = 8,
   height = 6
 )
 
-saveRDS(g, paste0("Morisita_histograms_", collapse_strategy, "_crab.rds"),)
+saveRDS(g, paste0("Morisita_histograms_", downsampling_strategy, "_crab.rds"),)

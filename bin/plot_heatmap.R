@@ -5,7 +5,7 @@ args_list <- list(
   make_option(
     c("-r", "--region_file"),
     type = "character",
-    help = "Path to a tbl prepared for serotop by regions, e.g. top_serotypes_region23_collapse_geodate.tsv."
+    help = "Path to a tbl prepared for serotop by regions, e.g. top_serotypes_region23_ds_geodate.tsv."
   ),
   make_option(
     c("-s", "--serotype_file"),
@@ -15,7 +15,7 @@ args_list <- list(
   make_option(
     c("-c", "--country_file"),
     type = "character",
-    help = "Path to a tbl prepared for serotop by countries, e.g. top_serotypes_country_collapse_geodate.tsv."
+    help = "Path to a tbl prepared for serotop by countries, e.g. top_serotypes_country_ds_geodate.tsv."
   ),
   make_option(
    c("-S", "--shortlist"),
@@ -35,11 +35,11 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    region_file = "results/calc_serotype_freqs/geodate/TableS2A_top_serotypes_region23_collapse_none.tsv",
-    serotype_file = "results/calc_serotype_freqs/geodate/global_or_prevalent_serotypes_region23_collapse_none.tsv",
-    country_file = "results/calc_serotype_freqs/geodate/top_serotypes_country_collapse_none.tsv",
-    shortlist = "aci/data/geographic_locations_in_study.tsv",
-    metadata = "data/typing_summary_tables/aci_study.rds"
+    region_file = "results_redacted/calc_serotype_freqs/geodate/TableS2A_top_serotypes_region23_ds_geodate.tsv",
+    serotype_file = "results_redacted/calc_serotype_freqs/geodate/global_or_prevalent_serotypes_region23_ds_geodate.tsv",
+    country_file = "results_redacted/calc_serotype_freqs/geodate/top_serotypes_country_ds_geodate.tsv",
+    shortlist = "data/geographic_locations_in_study.tsv",
+    metadata = "results_redacted/calc_serotype_freqs/geodate/meta.rds"
   )
 }
 
@@ -57,9 +57,7 @@ maxyear <- year_range$maxyear
 # GEODATE ###########
 # REGIONS ######
 regions_serotypes_geodate <- read_delim(args$region_file)
-regions_serotypes_geodate$serotype <- gsub("_"," ", regions_serotypes_geodate$serotype)
-regions_serotypes_geodate$region23 <- gsub("_"," ", regions_serotypes_geodate$region23)
-regions_serotypes_geodate$region23 <- tools::toTitleCase(regions_serotypes_geodate$region23)
+regions_serotypes_geodate$serotype <- gsub("-"," ", regions_serotypes_geodate$serotype)
 
 index_remaining <- which(regions_serotypes_geodate$ratio_cumsum > 0.9)
 remaining_count <- length(unique(regions_serotypes_geodate$serotype[index_remaining]))
@@ -112,7 +110,7 @@ my_clustering <- hclust(dist(beta_diversity))
 # global_prevalent <- rbind(global_clones, prevalent_clones)
 
 global_prevalent <- read.csv(args$serotype_file, sep = "\t")
-global_prevalent$serotype <- gsub("_", " ", global_prevalent$serotype)
+global_prevalent$serotype <- gsub("-", " ", global_prevalent$serotype)
 
 ################
 
@@ -179,7 +177,7 @@ heatmap_region <- Heatmap(
       lines_gp = gpar(lwd = 0.5, col = xtext_linecolors ),
       labels_gp = gpar(fontsize = 5, col=sero_color$color[index_prevalent]),
       labels_rot = 60,
-      padding = unit(5, "mm")
+      padding = unit(4, "mm")
     )
   )
 ) 
@@ -200,19 +198,19 @@ g1$layers[[3]]$mapping$label <- paste0(minyear, "-", maxyear)
 
 ggsave(
     g1,
-    filename = paste0("Fig1D_heatmap_region23_collapse_", strategy, ".pdf"),
+    filename = paste0("heatmap_region23_ds_", strategy, ".pdf"),
     height=5,
     width=20
 )
 ggsave(
     g1,
-    filename = paste0("Fig1D_heatmap_region23_collapse_", strategy, ".png"),
+    filename = paste0("heatmap_region23_ds_", strategy, ".png"),
     height=5,
     width=20
 )
 saveRDS(
     g1,
-    file = paste0("Fig1D_heatmap_region23_collapse_", strategy, ".rds")
+    file = paste0("heatmap_region23_ds_", strategy, ".rds")
 )
 
 # vertical
@@ -239,28 +237,25 @@ g2 <- ggplotify::as.ggplot(heatmap_region_vertical)
 ggsave(
     g2,
     filename = paste0(
-        "Fig1D_heatmap_region23_vertical_collapse_", strategy, ".pdf"),
+        "heatmap_region23_vertical_ds_", strategy, ".pdf"),
     height=15,
     width=5
 )
 ggsave(
     g2,
     filename = paste0(
-        "Fig1D_heatmap_region23_vertical_collapse_", strategy, ".png"),
+        "heatmap_region23_vertical_ds_", strategy, ".png"),
     height=15,
     width=5
 )
 saveRDS(
     g2,
-    file = paste0("Fig1D_heatmap_region23_vertical_collapse_", strategy, ".rds")
+    file = paste0("heatmap_region23_vertical_ds_", strategy, ".rds")
 )
 
 # COUNTRIES ######
 country_serotypes_geodate <- read_delim(args$country_file)
 country_serotypes_geodate$serotype <- gsub("_"," ", country_serotypes_geodate$serotype)
-country_serotypes_geodate$country <- gsub("_"," ", country_serotypes_geodate$country)
-country_serotypes_geodate$country <- tools::toTitleCase(country_serotypes_geodate$country)
-
 
 # these countries do not match fully the shortlisted european countries
 # TODO get this list from the shortlist file.
@@ -334,18 +329,18 @@ g3$layers[[3]]$mapping$label <- paste0(minyear, "-", maxyear)
 ggsave(
     g3,
     filename = paste0(
-        "FigS2C_heatmap_country_collapse_", strategy, ".pdf"),
+        "heatmap_country_ds_", strategy, ".pdf"),
     height=4,
     width=10
 )
 ggsave(
     g3,
     filename = paste0(
-        "FigS2C_heatmap_country_collapse_", strategy, ".png"),
+        "heatmap_country_ds_", strategy, ".png"),
     height=4,
     width=10
 )
 saveRDS(
     g3,
-    file = paste0("FigS2C_heatmap_country_collapse_", strategy, ".rds")
+    file = paste0("heatmap_country_ds_", strategy, ".rds")
 )

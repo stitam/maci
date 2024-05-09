@@ -1,6 +1,6 @@
-# This script generates a world map with the number of CRAB and non-CRAB
-# isolates per region. The script only includes regions with at least 10
-# isolates.
+# This script generates a world map with the number of High-Risk and
+# Non-High-Risk isolates per region. The script only includes regions with at
+# least 10 isolates.
 
 library(dplyr)
 library(ggplot2)
@@ -28,13 +28,13 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    file = "aci_filtered.rds",
-    regions = "geographic_locations_in_study.tsv"
+    file = "results_redacted/filter_assemblies/aci_filtered.rds",
+    regions = "data/geographic_locations_in_study.tsv"
   )
 }
 
-# read prediction results
-aci_all <- readRDS(args$file)
+# read prediction results and filter to good quality isolates
+aci_all <- readRDS(args$file) %>% dplyr::filter(filtered == TRUE)
 # get list of countries for consistency check
 countries <- sort(unique(aci_all$country))
 # get list of regions for consistency check
@@ -70,21 +70,21 @@ regions <- names(regions)
 # Filter to isolates from selected regions
 aci_all <- aci_all[which(aci_all$region23 %in% regions),]
 countries <- sort(unique(aci_all$country))
-geoloc_countries <- geoloc_countries %>% filter(term %in% countries)
-geoloc_regions  <- geoloc_regions %>% filter(region23 %in% regions)
+geoloc_countries <- geoloc_countries %>% filter(term_pretty %in% countries)
+geoloc_regions  <- geoloc_regions %>% filter(region23_pretty %in% regions)
 
 color_country <- subset(aci_all, select=c(region23, country)) %>% 
   dplyr::distinct() %>%
   left_join(
     .,
-    subset(geoloc_regions, select = c(region23, colour)),
-    by = "region23"
+    subset(geoloc_regions, select = c(region23_pretty, colour)),
+    by = c("region23" = "region23_pretty")
   ) %>% 
   subset(., select = c(country, colour)) %>%
   dplyr::rename(region = country)
 
 color_country$region <- sapply(color_country$region, function(x) {
-  index <- which(geoloc_countries$term == x)
+  index <- which(geoloc_countries$term_pretty == x)
   return(geoloc_countries$term_pretty[index])
 })
 
@@ -104,18 +104,18 @@ chart <- aci_all %>%
   summarise(count=length(unique(assembly))) %>%
   filter(region23 %in% regions)
 
-chart <- left_join(chart, geoloc_regions, by= "region23")
+chart <- left_join(chart, geoloc_regions, by= c("region23" = "region23_pretty"))
 
-chart$crab[chart$crab=="FALSE"] <- "Non-CRAB"
-chart$crab[chart$crab=="TRUE"] <- "CRAB"
+chart$crab[which(chart$crab== FALSE)] <- "Non-High-Risk"
+chart$crab[which(chart$crab== TRUE)] <- "High-Risk"
 
-chart2 <- chart %>% subset(select=c(region23_pretty, crab, count, lon, lat)) %>% 
+chart2 <- chart %>% subset(select=c(region23, crab, count, lon, lat)) %>% 
   pivot_wider(names_from=crab, values_from=count)
 
-chart2$`Non-CRAB` <- ifelse(is.na(chart2$`Non-CRAB`), 0, chart2$`Non-CRAB`)
-chart2$CRAB <- ifelse(is.na(chart2$CRAB), 0, chart2$CRAB)
+chart2$`Non-High-Risk` <- ifelse(is.na(chart2$`Non-High-Risk`), 0, chart2$`Non-High-Risk`)
+chart2$`High-Risk` <- ifelse(is.na(chart2$`High-Risk`), 0, chart2$`High-Risk`)
 
-chart2 <- mutate(chart2, total=CRAB+`Non-CRAB`)
+chart2 <- mutate(chart2, total=`High-Risk`+`Non-High-Risk`)
 
 # only keep regions with at least 10 isolates
 
@@ -130,10 +130,10 @@ world_map_fig <- ggplot(world_map, aes(x = long, y = lat, group = group)) +
   geom_polygon(fill=countries_map2$colour, colour = "gray40", linewidth=0.1)+
   theme_void()+
   scatterpie::geom_scatterpie(
-    aes(x=lon, y=lat, group=region23_pretty, r=radius, fill=type),
+    aes(x=lon, y=lat, group=region23, r=radius, fill=type),
     alpha=0.8,
     data = chart2, 
-    cols=c("CRAB", "Non-CRAB"),
+    cols=c("High-Risk", "Non-High-Risk"),
     linewidth = 0.1
   )+
   #scatterpie::geom_scatterpie_legend(chart2$radius, x=-130, y=-40, labeller = function(x) 2^(x+4))+
@@ -164,7 +164,7 @@ g <- g + theme(
 )
 
 ggsave(
-    filename = "Fig1A_world_map.pdf",
+    filename = "world_map.pdf",
     plot = g,
     units = "mm",
     width = 60,
@@ -172,11 +172,11 @@ ggsave(
 )
 
 ggsave(
-  filename = "Fig1A_world_map.png",
+  filename = "world_map.png",
   plot = g,
   units = "mm",
   width = 60,
   height = 40
 )
 
-saveRDS(g, file = "Fig1A_world_map.rds")
+saveRDS(g, file = "world_map.rds")

@@ -1,6 +1,0 @@
-[submodule "webseq"]
-	path = webseq
-	url = https://github.com/stitam/webseq.git
-[submodule "prophyl-pub"]
-	path = prophyl
-	url = https://github.com/stitam/prophyl.git

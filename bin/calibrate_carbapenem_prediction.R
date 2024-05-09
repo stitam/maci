@@ -34,9 +34,9 @@ if (!interactive()) {
 } else {
   args <- list(
     project_dir = "aci",
-    file = "results/run_qc_checks/aci_with_qc.rds",
+    file = "results_redacted/run_qc_checks/aci_with_qc.rds",
     resgene_groups = "aci/data/resgene_groups.csv",
-    amr_db = "results/tidy_bvbrc/amr_bvbrc.rds"
+    amr_db = "results_redacted/tidy_bvbrc/amr_bvbrc.rds"
   )
 }
 

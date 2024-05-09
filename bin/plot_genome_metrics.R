@@ -3,7 +3,7 @@
 # downloaded from NCBI.
 #
 # TODO: the script filters genomes by QC and CRAB status. Check if the processes
-# "collapse_outbreaks" and "filter_crab" could be swapped. This would allow this
+# "downsample_isolates" and "filter_crab" could be swapped. This would allow this
 # script to be run after "filter_crab" and would yield a much cleaner workflow.
 
 library(optparse)
@@ -28,7 +28,7 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    file = "results/filter_assemblies/aci_filtered.rds"
+    file = "results_redacted/filter_assemblies/aci_filtered.rds"
   )
 }
 
@@ -37,7 +37,7 @@ aci_all <- readRDS(args$file)
 aci_all$source <- aci_all$assembly_source
 
 # THIS IS WHERE GENOMES ARE FILTERED BY QC AND CRAB STATUS
-aci_qc_true_crab <- aci_all %>% filter(qc_pass=="TRUE" & crab=="TRUE") 
+aci_qc_true_crab <- aci_all %>% filter(filtered == "TRUE" & crab == "TRUE") 
 
 set.seed(555)
 
@@ -137,13 +137,13 @@ gc_content <- ggplot(aci_qc_true_crab)+
 genome_metrics <- ggarrange(contig_number, n50, n95, genome_size, gc_content, ncol=3, nrow=2)
 
 ggsave(
-  "FigS1_genome_metrics.pdf",
+  "genome_metrics.pdf",
   width = 8,
   height = 6
 )
 
 ggsave(
-  "FigS1_genome_metrics.png",
+  "genome_metrics.png",
   width = 8,
   height = 6
 )

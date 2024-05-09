@@ -11,7 +11,7 @@ if (!interactive()) {
   aci_all_path <- paste0(test_dir, "/aci_filtered.rds")
 }
 
-aci_all <- readRDS(aci_all_path)
+aci_all <- readRDS(aci_all_path) %>% dplyr::filter(filtered == TRUE)
 
 # ensure all isolates pass QC
 if (any(aci_all$qc_pass == FALSE)) {
@@ -70,13 +70,13 @@ g <- ggplot(aci, aes(collection_year, count, fill=crab))+
   )
 
 ggsave(
-    "Fig1B_crab_over_time.pdf", 
+    "crab_over_time.pdf", 
     plot = g
 )
 
 ggsave(
-  "Fig1B_crab_over_time.png", 
+  "crab_over_time.png", 
   plot = g,
 )
 
-saveRDS(g, file = "Fig1B_crab_over_time.rds")
+saveRDS(g, file = "crab_over_time.rds")

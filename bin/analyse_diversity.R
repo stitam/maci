@@ -13,9 +13,9 @@ args_list <- list(
     help = "Path to the project directory."
   ),
   make_option(
-    c("-s", "--collapse_strategy"),
+    c("-s", "--downsampling_strategy"),
     type = "character",
-    help = "Collapse strategy."
+    help = "Downsampling strategy."
   ),
   make_option(
     c("-m", "--minyear"),
@@ -37,7 +37,7 @@ if (!interactive()) {
   args <- list(
     file = "aci_filtered.rds",
     project_dir = "~/Methods/aci",
-    collapse_strategy = "none",
+    downsampling_strategy = "none",
     minyear = 2009,
     minyear_recent = 2016
     
@@ -46,7 +46,7 @@ if (!interactive()) {
 
 if (!interactive()) {
   # create log file and start logging
-  con <- file(paste0("log_", args$collapse_strategy, ".txt"))
+  con <- file(paste0("log_", args$downsampling_strategy, ".txt"))
   sink(con, split = TRUE)
 }
 
@@ -58,7 +58,8 @@ library(tidyr)
 load_all(args$project_dir)
 
 # import data set
-aci <- readRDS(args$file)
+aci <- read_df(args$file) %>% 
+  dplyr::filter(filtered & crab & downsampled & downsampled_by_pop)
 
 scopes <- c("continent", "region23", "country")
 types <- c("all", "crab", "nocrab")
@@ -122,7 +123,7 @@ df <- tibble::as_tibble(df)
 
 write.table(
   df,
-  file = paste0("diversity_stats_collapse_", args$collapse_strategy, ".tsv"),
+  file = paste0("diversity_stats_ds_", args$downsampling_strategy, ".tsv"),
   sep = "\t",
   row.names = FALSE,
   quote = FALSE

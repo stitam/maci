@@ -3,7 +3,7 @@ rm(list = ls())
 rooted_trees <- readRDS("input/global_ST2_tree/rooted_trees.rds")
 tree <- rooted_trees$rtt_rms_1
 
-assemblies <- readRDS("results/filter_assemblies/aci_filtered.rds")
+assemblies <- readRDS("results_redacted/filter_assemblies/aci_filtered.rds")
 
 index <- which(!assemblies$assembly %in% tree$tip.label)
 assemblies <- assemblies[-index,]
@@ -15,9 +15,13 @@ testthat::expect_equal(length(index), 0)
 snp <- ape::node.depth.edgelength(tree)[1:ape::Ntip(tree)]
 
 # rescale tip_dates to calendar dates
-tip_dates <- sapply(tree$tip.label, function(x) {
+tip_dates <- unname(sapply(tree$tip.label, function(x) {
   assemblies$collection_day[which(assemblies$assembly == x)]
-})
+}))
+
+tip_dates <- as.Date(tip_dates, origin = "1970-01-01")
+
+tip_dates <- lubridate::decimal_date(tip_dates)
 
 # recalculate root-to-tip regression using calendar dates
 fit <- lm(snp~tip_dates)
@@ -48,5 +52,5 @@ g <- ggplot(df, aes(date, snp)) +
     plot.margin = unit(c(0.5,0.5,0.5,0.5), "cm")
   )
  
-ggsave(filename = "manual_results/FigS4_root_to_tip/FigS4A_root_to_tip.pdf")
-ggsave(filename = "manual_results/FigS4_root_to_tip/FigS4A_root_to_tip.png")
+ggsave(filename = "manual_results/root_to_tip/FigS4A_root_to_tip.pdf")
+ggsave(filename = "manual_results/root_to_tip/FigS4A_root_to_tip.png")

@@ -1,31 +1,60 @@
+library(optparse)
 rm(list = ls())
 
+args_list <- list(
+  make_option(
+    "--project_dir",
+    type = "character",
+    help = "Path to project directory."
+  ),
+  make_option(
+    "--file",
+    type = "character",
+    help = "Path to a file which contains typing results for each sample."
+  ),
+  make_option(
+    "--strategy",
+    type = "character",
+    help = "Downsampling strategy"
+  ),
+  make_option(
+    "--minyear",
+    type = "integer",
+    help = "Lowest year to include."
+  )
+)
+
+args_parser  <- OptionParser(option_list = args_list)
+
 if (!interactive()) {
-  args <- commandArgs(trailingOnly = TRUE)
-  aci_path <- args[1]
-  collapse_strategy <- args[2]
-  minyear <- args[3]
+  args  <- parse_args(args_parser)
 } else {
-  test_dir <- "~/Methods/aci-tests/test-prep_serotop_tbls"
-  aci_path <- paste0(test_dir, "/aci_filtered.rds")
-  collapse_strategy <- "none"
-  minyear <- 2016
+  args <- list(
+    project_dir = "aci",
+    file = "results_redacted/downsample_isolates/aci_crab_ds_geodate.tsv",
+    strategy = "geodate",
+    minyear = 2016
+  )
 }
 
 if (!interactive()) {
   # create log file and start logging
-  con <- file(paste0("log_", collapse_strategy, ".txt"))
+  con <- file(paste0("log_", args$strategy, ".txt"))
   sink(con, split = TRUE)
 }
 
+library(devtools)
 library(dplyr)
 library(ggplot2)
 
+load_all(args$project_dir)
+
 # import data
-aci <- readRDS(aci_path)
+aci <- read_df(args$file) %>% 
+  dplyr::filter(filtered & crab & downsampled & downsampled_by_pop)
 
 # filter to minimum year
-aci <- aci[which(aci$collection_year >= minyear), ]
+aci <- aci[which(aci$collection_year >= args$minyear), ]
 
 print("Collection year for earliest sample:")
 print(min(aci$collection_year))
@@ -33,68 +62,27 @@ print(min(aci$collection_year))
 print("Are all samples CRAB?")
 print(all(aci$crab))
 
-# prepare summary tables
-foo <- function(data, quantile) {
-  tbl <- data %>% table() %>% sort(., decreasing = TRUE)
-  tbl <- tbl/length(data)
-  tbl <- cumsum(tbl)
-  res <- min(which(tbl >= quantile))
-  return(res)
-}
-
-bar <- function(variable) {
-  df <- aci %>% group_by(get(variable)) %>% summarise(
-    q10 = foo(serotype, 0.1),
-    q20 = foo(serotype, 0.2),
-    q30 = foo(serotype, 0.3),
-    q40 = foo(serotype, 0.4),
-    q50 = foo(serotype, 0.5),
-    q60 = foo(serotype, 0.6),
-    q70 = foo(serotype, 0.7),
-    q80 = foo(serotype, 0.8),
-    q90 = foo(serotype, 0.9),
-    q100 = foo(serotype, 1)
-  )
-  df_all <- aci %>% summarise(
-    q10 = foo(serotype, 0.1),
-    q20 = foo(serotype, 0.2),
-    q30 = foo(serotype, 0.3),
-    q40 = foo(serotype, 0.4),
-    q50 = foo(serotype, 0.5),
-    q60 = foo(serotype, 0.6),
-    q70 = foo(serotype, 0.7),
-    q80 = foo(serotype, 0.8),
-    q90 = foo(serotype, 0.9),
-    q100 = foo(serotype, 1)
-  )
-  df <- dplyr::bind_rows(df, df_all)
-  df[nrow(df), 1] <- "all"
-  df2 <- tidyr::pivot_longer(
-    df,
-    cols = 2:ncol(df),
-    names_to = "quantile",
-    names_prefix = "q",
-    values_to = "serotop"
-  )
-  df2$quantile <- as.numeric(df2$quantile) / 100
-  names(df2)[1] <- variable
-  index <- which(df2[[variable]] != "all")
-  df2$quantile[index] = jitter(df2$quantile[index])
-  return(df2)
-}
+continent <- prep_serotop_tbl(df = aci, type = "serotype", group_by = "continent")
+region23 <- prep_serotop_tbl(df = aci, type = "serotype", group_by = "region23")
+country <- prep_serotop_tbl(df = aci, type = "serotype", group_by = "country")
 
 # set random seed for jitter
 set.seed(0)
 
-continent <- bar("continent")
-region23 <- bar("region23")
-country <- bar("country")
+index <- which(continent$continent != "all")
+continent$quantile[index] <- jitter(continent$quantile[index])
+
+index <- which(region23$region23 != "all")
+region23$quantile[index] <- jitter(region23$quantile[index])
+
+index <- which(country$country != "all")
+country$quantile[index] <- jitter(country$quantile[index])
 
 if (!interactive()) {
   # export continent summary
   write.table(
     continent,
-    file = paste0("serotop_continent_collapse_", collapse_strategy, ".tsv"),
+    file = paste0("serotop_continent_ds_", args$strategy, ".tsv"),
     sep = "\t",
     row.names = FALSE,
     quote = FALSE
@@ -102,7 +90,7 @@ if (!interactive()) {
   # export region summary
   write.table(
     region23,
-    file = paste0("serotop_region23_collapse_", collapse_strategy, ".tsv"),
+    file = paste0("serotop_region23_ds_", args$strategy, ".tsv"),
     sep = "\t",
     row.names = FALSE,
     quote = FALSE
@@ -110,7 +98,7 @@ if (!interactive()) {
   # export country summary
   write.table(
     country,
-    file = paste0("serotop_country_collapse_", collapse_strategy, ".tsv"),
+    file = paste0("serotop_country_ds_", args$strategy, ".tsv"),
     sep = "\t",
     row.names = FALSE,
     quote = FALSE

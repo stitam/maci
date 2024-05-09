@@ -44,11 +44,11 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    fig1A = "Fig1A_world_map.rds",
-    fig1B = "Fig1B_crab_over_time.rds",
-    fig1C = "Fig1C_serotop_region23_collapse_geodate.rds",
-    fig1D = "Fig1D_heatmap_region23_collapse_geodate.rds",
-    fig1E = "Fig1E_Morisita_countries.rds",
+    fig1A = "world_map.rds",
+    fig1B = "crab_over_time.rds",
+    fig1C = "serotop_region23_ds_geodate.rds",
+    fig1D = "heatmap_region23_ds_geodate.rds",
+    fig1E = "Morisita_countries.rds",
     regions = "geographic_locations_in_study.tsv"
   )
 }
@@ -79,7 +79,7 @@ fig1 <- fig1A + fig1B + fig1C + guide_area() + fig1D + fig1E +
   )
 
 ggsave(
-  filename = "Fig1.png",
+  filename = "Fig2.png",
   plot = fig1,
   width = 18,
   height = 10,
@@ -87,7 +87,7 @@ ggsave(
 )
 
 ggsave(
-  filename = "Fig1.pdf",
+  filename = "Fig2.pdf",
   plot = fig1,
   width = 18,
   height = 10,

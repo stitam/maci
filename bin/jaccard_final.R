@@ -20,8 +20,8 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    file = "data/typing_summary_tables/aci_study.rds",
-    sensitivity = "labdata/aci_project/Ab_all_strains_phages_spotassay_PFU.tsv"
+    file = "data/typing_summary_tables/TableS1_aci_study_redacted_renamed2.rds",
+    sensitivity = "data/phage_sensitivity_measurements/TableS2_T10.tsv"
   )
 }
 
@@ -87,7 +87,7 @@ no_inf_not_to_keep <- anti_join(no_inf, inf, by ='KL') #%>% group_by(KL) %>% sum
 aci2 <- anti_join(aci2, no_inf_not_to_keep, by ='Assembly')
 
 
-phage_names <- names(aci2)[8:22]
+phage_names <- names(aci2)[7:21]
 
 aci3 <- aci2 %>% select(Assembly, all_of (phage_names), region23, country, serotype, serotype2)
 
@@ -326,16 +326,16 @@ g$pair_counts <- table(similarities$type)
 g$p_values <- p_val_tbl
 
 ggsave(
-  filename = "Fig3B_sensitivity_dissimilarity.pdf",
+  filename = "sensitivity_dissimilarity.pdf",
   plot = g,
   width = 6,
   height = 6
 )
 ggsave(
-  filename = "Fig3B_sensitivity_dissimilarity.png",
+  filename = "sensitivity_dissimilarity.png",
   plot = g,
   width = 6,
   height = 6
 )
-saveRDS(g, "Fig3B_sensitivity_dissimilarity.rds")
+saveRDS(g, "sensitivity_dissimilarity.rds")
 

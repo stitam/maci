@@ -5,7 +5,7 @@ args_list <- list(
   make_option(
     c("-f", "--region_file"),
     type = "character",
-    help = "Path to a tbl prepared for serotop by regions, e.g. top_serotypes_region23_collapse_geodate.tsv."
+    help = "Path to a tbl prepared for serotop by regions, e.g. top_serotypes_region23_ds_geodate.tsv."
   ),
   make_option(
     c("-e", "--sero_over_time"),
@@ -25,8 +25,8 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    region_file = "results/calc_serotype_freqs/geodate/top_serotypes_region23_collapse_geodate.tsv",
-    sero_over_time = "results/plot_Fig2A_sero_over_time/geodate/Fig2A_sero_over_time_collapse_geodate.rds",
+    region_file = "results_redacted/calc_serotype_freqs/geodate/top_serotypes_region23_ds_geodate.tsv",
+    sero_over_time = "results_redacted/plot_sero_over_time/geodate/sero_over_time_ds_geodate.rds",
     minyear_recent = 2016
   )
 }
@@ -37,7 +37,8 @@ library(ggrepel)
 
 # import data set
 regions <- read.csv(args$region_file, sep = "\t")
-regions$serotype <- gsub("_", " ", regions$serotype)
+
+regions$serotype <- gsub("-", " ", regions$serotype)
 
 # get overall number of serotypes
 all_sero_count <- length(unique(regions$serotype))
@@ -126,13 +127,13 @@ g <- ggplot(plotdf, aes(x="", y=percentage, fill=serotype)) +
   )
   
 ggsave(
-  filename = "FigS2A2_prevalence_piechart.pdf",
+  filename = "prevalence_piechart.pdf",
   plot = g
 )
 
 ggsave(
-  filename = "FigS2A2_prevalence_piechart.png",
+  filename = "prevalence_piechart.png",
   plot = g
 )
 
-saveRDS(g, "FigS2A2_prevalence_piechart.rds")
+saveRDS(g, "prevalence_piechart.rds")

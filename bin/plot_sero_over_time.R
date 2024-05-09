@@ -21,6 +21,11 @@ args_list <- list(
     c("-m", "--minyear"),
     type = "character",
     help = "Minimum year to plot."
+  ),
+  make_option(
+    "--maxyear",
+    type = "character",
+    help = "Maximum year to plot."
   )
 )
 
@@ -31,32 +36,37 @@ if (!interactive()) {
 } else {
   args <- list(
     project_dir = "aci",
-    file = "results/filter_crab/aci_collapse_geodate_crab.rds",
-    serotype_file = "results/calc_serotype_freqs/geodate/global_or_prevalent_serotypes_region23_collapse_geodate.tsv",
-    minyear = "2009"
+    file = "results_redacted/downsample_isolates/aci_crab_ds_geodate.tsv",
+    serotype_file = "results_redacted/calc_serotype_freqs/geodate/global_or_prevalent_serotypes_region23_ds_geodate.tsv",
+    minyear = "2009",
+    maxyear = "2020"
   )
 }
 
 library(dplyr)
 
-collapse_strategy <- args$file %>% basename() %>% strsplit(split = "_") %>% unlist()
-collapse_strategy <- collapse_strategy[3]
+downsampling_strategy <- args$file %>% basename() %>% strsplit(split = "_") %>% unlist()
+downsampling_strategy <- gsub("\\.tsv", "", downsampling_strategy[4])
 
 if (!interactive()) {
   # create log file and start logging
-  con <- file(paste0("log_", collapse_strategy, ".txt"))
+  con <- file(paste0("log_", downsampling_strategy, ".txt"))
   sink(con, split = TRUE)
 }
 
 library(devtools)
 load_all(args$project_dir)
-load_all(paste0(args$project_dir, "/prophyl"))
 
-aci <- readRDS(args$file)
-aci$serotype <- gsub("_", " ", aci$serotype)
+# import 
+aci <- read_df(args$file) %>% 
+  dplyr::filter(filtered & crab & downsampled & downsampled_by_pop) %>%
+  dplyr::filter(collection_year <= as.numeric(args$maxyear))
+
+aci$serotype <- gsub("-", " ", aci$serotype)
 
 global_prevalent <- read.csv(args$serotype_file, sep = "\t")
-global_prevalent$serotype <- gsub("_", " ", global_prevalent$serotype)
+
+global_prevalent$serotype <- gsub("-", " ", global_prevalent$serotype)
 
 keep <- sort(unique(aci$serotype[which(aci$serotype %in% global_prevalent$serotype)]))
 
@@ -78,13 +88,13 @@ guides(fill=guide_legend(title="serotype", ncol = 1)) +
 ylab("Relative prevalence")
 
 ggsave(
-  filename = paste0("Fig2A_sero_over_time_collapse_", collapse_strategy, ".pdf"),
+  filename = paste0("sero_over_time_ds_", downsampling_strategy, ".pdf"),
   plot = g,
   width = 10,
   height= 8
 )
 ggsave(
-  filename = paste0("Fig2A_sero_over_time_collapse_", collapse_strategy, ".png"),
+  filename = paste0("sero_over_time_ds_", downsampling_strategy, ".png"),
   plot = g,
   width = 10,
   height= 8
@@ -106,12 +116,12 @@ g <- g +
     legend.margin = margin(t = 0, r = 0, b = 0, l = 0)
   )
 
-saveRDS(g, file = paste0("Fig2A_sero_over_time_collapse_", collapse_strategy, ".rds"))
+saveRDS(g, file = paste0("sero_over_time_ds_", downsampling_strategy, ".rds"))
 
 # NO LONGER NEEDED
 
 # KEEP THE TOP N FROM EACH YEAR
-# aci <- readRDS(args$file)
+# aci <- read_df(args$file) %>% dplyr::filter(filtered & crab & downsampled & downsampled_by_pop)
 
 # keep2 <- vector()
 # k <- 3
@@ -148,17 +158,17 @@ saveRDS(g, file = paste0("Fig2A_sero_over_time_collapse_", collapse_strategy, ".
 
 # ggsave(
 #   filename = paste0(
-#     "sero_over_time_collapse_", collapse_strategy, "_top_", k, "_per_year.pdf"),
+#     "sero_over_time_ds_", downsampling_strategy, "_top_", k, "_per_year.pdf"),
 #   plot = g,
 #   width = 10,
 #   height= 8
 # )
 # ggsave(
 #   filename = paste0(
-#     "sero_over_time_collapse_", collapse_strategy, "_top_", k, "_per_year.png"),
+#     "sero_over_time_ds_", downsampling_strategy, "_top_", k, "_per_year.png"),
 #   plot = g,
 #   width = 10,
 #   height= 8
 # )
 # saveRDS(g, file = paste0(
-#   "sero_over_time_collapse_", collapse_strategy, "_top_", k, "_per_year.rds"))
+#   "sero_over_time_ds_", downsampling_strategy, "_top_", k, "_per_year.rds"))

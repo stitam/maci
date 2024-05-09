@@ -9,7 +9,7 @@
 #' @return character; attribute values
 #' @note https://stat.ethz.ch/pipermail/bioconductor/2008-October/024669.html
 #' @examples 
-#' \dontrun {
+#' \dontrun{
 #' # TODO include a working example
 #' gff <- ape::read.gff("path_to_gff_file")
 #' ID <- get_attribute(gff$attributes, "ID")

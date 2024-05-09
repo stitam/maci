@@ -3,15 +3,20 @@ library(tidyverse)
 rm(list = ls())
 
 args_list <- list(
- make_option(
+  make_option(
+    "--project_dir",
+    type = "character",
+    help = "Path to project directory."
+  ),
+  make_option(
     c("-f", "--file"),
     type = "character",
     help = "Path to aci prediction results."
   ),
- make_option(
+  make_option(
     c("-c", "--country_file"),
     type = "character",
-    help = "Path to a tbl prepared for serotop by countries, e.g. top_serotypes_country_collapse_geodate.tsv."
+    help = "Path to a tbl prepared for serotop by countries, e.g. top_serotypes_country_ds_geodate.tsv."
   )
 )
 
@@ -21,16 +26,21 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    file = "aci_collapse_geodate_crab.rds",
-    country_file = "top_serotypes_country_collapse_geodate.tsv"
+    project_dir = "aci",
+    file = "aci_crab_ds_geodate.tsv",
+    country_file = "top_serotypes_country_ds_geodate.tsv"
   )
 }
+
+library(devtools)
+load_all(args$project_dir)
 
 data <- read_delim(args$country_file)
 
 # prepare the country_cont object from scratch
 # country_cont <- read_csv("country_cont.csv")
-aci <- readRDS(args$file)
+aci <- read_df(args$file) %>% 
+  dplyr::filter(filtered & crab & downsampled & downsampled_by_pop)
 
 country_cont <- data.frame(
   continent = aci$continent,
@@ -40,7 +50,6 @@ country_cont <- data.frame(
 ) %>% distinct()
 
 country_serotypes_geodate <- read_delim(args$country_file)
-# country_serotypes_geodate$serotype <- gsub("_"," ", country_serotypes_geodate$serotype)
 # country_serotypes_geodate$country <- gsub("_"," ", country_serotypes_geodate$country)
 # country_serotypes_geodate$country <- tools::toTitleCase(country_serotypes_geodate$country)
 
@@ -147,7 +156,7 @@ set.seed(0)
 
 g <- ggplot(data, aes(type, value)) +
   geom_boxplot(outlier.color="transparent") +
-  geom_point(position = position_jitter(0.1)) +
+  geom_point(position = position_jitter(0.1, seed = 0)) +
   ggpubr::geom_signif(
     comparisons=list(
       c("within_europe", "btw_europe_and_other"),

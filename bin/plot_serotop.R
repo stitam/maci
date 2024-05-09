@@ -5,12 +5,12 @@ args_list <- list(
   make_option(
     c("-R", "--serotop_region23"),
     type = "character",
-    help = "Path to a tbl prepared for serotop, e.g. serotop_region23_collapse_geodate.tsv."
+    help = "Path to a tbl prepared for serotop, e.g. serotop_region23_ds_geodate.tsv."
   ),
   make_option(
     c("-C", "--serotop_country"),
     type = "character",
-    help = "Path to a tbl prepared for serotop, e.g. serotop_country_collapse_geodate.tsv."
+    help = "Path to a tbl prepared for serotop, e.g. serotop_country_ds_geodate.tsv."
   ),
   make_option(
     c("-r", "--regions"),
@@ -25,9 +25,9 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    serotop_region23 = "serotop_region23_collapse_geodate.tsv",
-    serotop_country = "serotop_country_collapse_geodate.tsv",
-    regions = "geographic_locations_in_study.tsv"
+    serotop_region23 = "results_redacted_new/prep_serotop_tbls/serotop_region23_ds_geodate.tsv",
+    serotop_country = "results_redacted_new/prep_serotop_tbls/serotop_country_ds_geodate.tsv",
+    regions = "data/geographic_locations_in_study.tsv"
   )
 }
 
@@ -42,6 +42,8 @@ geoloc <- read.csv(args$regions, sep = "\t", na = "")
 
 # Country
 country_geodate <- read_delim(args$serotop_country)
+
+names(country_geodate) <- c("country", "quantile", "serotop")
 
 # Only include shortlisted countries
 
@@ -63,7 +65,9 @@ df <- data.frame(
   linetype = rep("solid", times = nrow(shortlist))
 )
 
-country_geodate <- country_geodate[which(country_geodate$country %in% df$country),]
+testthat::expect_true(all(df$country_pretty %in% country_geodate$country))
+
+country_geodate <- country_geodate[which(country_geodate$country %in% df$country_pretty),]
 country_geodate <- dplyr::left_join(
   country_geodate,
   df,
@@ -79,8 +83,8 @@ country_linetypes <- df$linetype
 names(country_linetypes) <- df$country_pretty
 
 country_geodate_fig <- ggplot(country_geodate, aes(quantile, serotop)) +
-  geom_line(aes(col=country_pretty, linetype = country_pretty))+
-  geom_point(aes(col=country_pretty))+
+  geom_line(aes(col=country_pretty, linetype = country))+
+  geom_point(aes(col=country))+
   theme_classic()+
   ylab("Number of MLST-CPS types")+
   xlab("Proportion of genomes")+
@@ -95,20 +99,22 @@ country_geodate_fig <- ggplot(country_geodate, aes(quantile, serotop)) +
   annotation_logticks(sides="l", size=0.1)
 
 ggsave(
-  filename = paste0("FigSX_serotop_country_collapse_", strategy, ".pdf"),
+  filename = paste0("serotop_country_ds_", strategy, ".pdf"),
   width = 7,
   height = 4
 )
 ggsave(
-  filename = paste0("FigSX_serotop_country_collapse_", strategy, ".png"),
+  filename = paste0("serotop_country_ds_", strategy, ".png"),
   width = 7,
   height = 4
 )
-saveRDS(country_geodate_fig, file = paste0("FigSX_serotop_country_collapse_", strategy, ".rds"))
+saveRDS(country_geodate_fig, file = paste0("serotop_country_ds_", strategy, ".rds"))
 
 # Region
 
 region23_geodate <- read_delim(args$serotop_region23)
+
+names(region23_geodate) <- c("region23", "quantile", "serotop")
 
 # Only include shortlisted countries
 
@@ -130,7 +136,9 @@ df <- data.frame(
   linetype = rep("solid", times = nrow(shortlist))
 )
 
-region23_geodate <- region23_geodate[which(region23_geodate$region23 %in% df$region23),]
+testthat::expect_true(all(df$region23_pretty %in% region23_geodate$region23))
+
+region23_geodate <- region23_geodate[which(region23_geodate$region23 %in% df$region23_pretty),]
 region23_geodate <- dplyr::left_join(
   region23_geodate,
   df,
@@ -144,8 +152,8 @@ region23_linetypes <- df$linetype
 names(region23_linetypes) <- df$region23_pretty
 
 region23_geodate_fig <- ggplot(region23_geodate, aes(quantile, serotop)) +
-  geom_line(aes(col=region23_pretty, linetype = region23_pretty), linewidth = 0.1)+
-  geom_point(aes(col=region23_pretty), size = 0.5)+
+  geom_line(aes(col=region23, linetype = region23), linewidth = 0.1)+
+  geom_point(aes(col=region23), size = 0.5)+
   theme_classic()+
   ylab("Number of MLST-CPS types")+
   xlab("Proportion of genomes")+
@@ -168,20 +176,24 @@ region23_geodate_fig <- ggplot(region23_geodate, aes(quantile, serotop)) +
     panel.grid.major.y=element_line(color="gray", linetype = 3, linewidth = 0.1),
     axis.ticks = element_line(linewidth=0.1),
     plot.margin = unit(c(0,0,0,0), "cm"),
-    legend.margin = margin(t = 0, r = 0, b = 0, l = 0)
+    legend.margin = margin(t = 0, r = 0, b = 0, l = 0),
+    panel.background = element_rect(fill='transparent'), #transparent panel bg
+    plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+    legend.background = element_rect(fill='transparent', color=NA)
   )+
   annotation_logticks(sides="l", size=0.1)
 
 ggsave(
-  filename = paste0("Fig1C_serotop_region23_collapse_", strategy, ".pdf"),
+  filename = paste0("serotop_region23_ds_", strategy, ".pdf"),
   units = "cm",
   width = 10,
   height = 6
 )
 ggsave(
-  filename = paste0("Fig1C_serotop_region23_collapse_", strategy, ".png"),
+  filename = paste0("serotop_region23_ds_", strategy, ".png"),
   units = "cm",
   width = 10,
   height = 6,
+  bg = 
 )
-saveRDS(region23_geodate_fig, file = paste0("Fig1C_serotop_region23_collapse_", strategy, ".rds"))
+saveRDS(region23_geodate_fig, file = paste0("serotop_region23_ds_", strategy, ".rds"))

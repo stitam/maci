@@ -5,7 +5,7 @@ args_list <- list(
   make_option(
     c("-f", "--file"),
     type = "character",
-    help = "Path to a tbl prepared for serotop by regions, e.g. top_serotypes_region23_collapse_geodate.tsv."
+    help = "Path to a tbl prepared for serotop by regions, e.g. top_serotypes_region23_ds_geodate.tsv."
   ),
   make_option(
     c("-r", "--regions"),
@@ -24,9 +24,9 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    file = "results/calc_serotype_freqs/geodate/TableS2A_top_serotypes_region23_collapse_geodate.tsv",
-    regions = "aci/data/geographic_locations_in_study.tsv",
-    serotype_file = "results/calc_serotype_freqs/geodate/global_or_prevalent_serotypes_region23_collapse_geodate.tsv"
+    file = "results_redacted/calc_serotype_freqs/geodate/TableS2A_top_serotypes_region23_ds_geodate.tsv",
+    regions = "data/geographic_locations_in_study.tsv",
+    serotype_file = "results_redacted/calc_serotype_freqs/geodate/global_or_prevalent_serotypes_region23_ds_geodate.tsv"
   )
 }
 
@@ -36,7 +36,8 @@ strategy <- args$file %>% strsplit(., "_") %>% unlist()
 strategy <- gsub(".tsv", "", strategy[6])
 
 regions_serotypes_geodate <- read_delim(args$file)
-regions_serotypes_geodate$serotype <- gsub("_"," ", regions_serotypes_geodate$serotype)
+
+regions_serotypes_geodate$serotype <- gsub("-", " ", regions_serotypes_geodate$serotype)
 
 regions_serotypes_geodate_hm <- regions_serotypes_geodate  %>%  
   mutate(regions_serotypes_geodate, serotype2=if_else(ratio_cumsum>0.9, "Other", serotype)) %>% 
@@ -44,7 +45,8 @@ regions_serotypes_geodate_hm <- regions_serotypes_geodate  %>%
   summarise(percent=sum(ratio)) # remove *100 to get ratio instead of percent
 
 global_prevalent <- read.csv(args$serotype_file, sep = "\t")
-global_prevalent$serotype <- gsub("_", " ", global_prevalent$serotype)
+
+global_prevalent$serotype <- gsub("-", " ", global_prevalent$serotype)
 
 global_clones <- global_prevalent %>%
   filter(color == "#DC143C") %>%
@@ -68,16 +70,16 @@ names(region_colors_vector) <- region_colors$term_pretty
 regions_serotypes_geodate_boxplot <- dplyr::left_join(
   regions_serotypes_geodate_boxplot,
   region_colors,
-  by = c("region23" = "term")
+  by = c("region23" = "term_pretty")
 )
 
 # check that all levels have colors (missing colors would be excluded!)
 testthat::expect_true(
-  all(regions_serotypes_geodate_boxplot$term_pretty %in% names(region_colors_vector)))
+  all(regions_serotypes_geodate_boxplot$region23 %in% names(region_colors_vector)))
 
 g <- ggplot(regions_serotypes_geodate_boxplot, aes(reorder(name, -percent), percent))+ 
   geom_boxplot(outlier.color = "transparent")+
-  geom_point(position=position_jitter(0.2), aes(color=term_pretty))+
+  geom_point(position=position_jitter(0.2, seed = 0), aes(color=region23))+
   scale_color_manual(values = region_colors_vector, name = "")+
   geom_hline(yintercept=0.02, colour="red", linetype=2)+
   ylab("Relative prevalence")+
@@ -88,16 +90,16 @@ g <- ggplot(regions_serotypes_geodate_boxplot, aes(reorder(name, -percent), perc
 
 ggsave(
   g,
-  file = paste0("FigS3_boxplot_global_serotypes_collapse_", strategy, ".pdf"),
+  file = paste0("boxplot_global_serotypes_ds_", strategy, ".pdf"),
   width = 6.5,
   height = 4.5
 )
 
 ggsave(
   g,
-  file = paste0("FigS3_boxplot_global_serotypes_collapse_", strategy, ".png"),
+  file = paste0("boxplot_global_serotypes_ds_", strategy, ".png"),
   width = 6.5,
   height = 4.5
 )
 
-saveRDS(g, file = paste0("FigS3_boxplot_global_serotypes_collapse_", strategy, ".rds"))
+saveRDS(g, file = paste0("boxplot_global_serotypes_ds_", strategy, ".rds"))

@@ -7,7 +7,7 @@ args_list <- list(
   make_option(
     c("-f", "--file_path"),
     type = "character",
-    help = "Path to the input file, e.g. country_comparisons_collapse_geodate.tsv."
+    help = "Path to the input file, e.g. country_comparisons_ds_geodate.tsv."
   )
 )
 
@@ -17,7 +17,7 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    file_path = "results/calc_serotype_freqs/geodate/country_comparisons_collapse_geodate.tsv"
+    file_path = "results_redacted/calc_serotype_freqs/geodate/country_comparisons_ds_geodate.tsv"
   )
 }
 
@@ -118,18 +118,18 @@ g <- tbl  %>%
   ylim(0, 1.2)
 
 ggsave(
-  filename = "Fig1E_Morisita_countries.pdf",
+  filename = "Morisita_countries.pdf",
   plot = g,
   width = 8,
   height = 6
 )
 ggsave(
-  filename = "Fig1E_Morisita_countries.png",
+  filename = "Morisita_countries.png",
   plot = g,
   width = 8,
   height = 6
 )
-saveRDS(g, "Fig1E_Morisita_countries.rds")
+saveRDS(g, "Morisita_countries.rds")
 
 export_data <- g$data %>%
   select(
@@ -143,7 +143,7 @@ export_data <- g$data %>%
 
 write.table(
   export_data,
-  file = "Fig1E_Morisita_countries.tsv",
+  file = "Morisita_countries.tsv",
   sep = "\t",
   row.names = FALSE,
   quote = FALSE

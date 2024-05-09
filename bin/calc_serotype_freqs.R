@@ -2,20 +2,25 @@ library(optparse)
 rm(list = ls())
 
 args_list <- list(
- make_option(
+  make_option(
+    "--project_dir",
+    type = "character",
+    help = "Path to project directory."
+   ),
+  make_option(
     c("-f", "--file"),
     type = "character",
     help = "Path to aci prediction results."
   ),
- make_option(
-   c("-s", "--shortlist"),
-   type = "character",
-   help = "Path to shortlisted regions and countries."
- ),
- make_option(
-    c("-c", "--collapse_strategy"),
+  make_option(
+    c("-s", "--shortlist"),
     type = "character",
-    help = "Collapse strategy, e.g. geodate."
+    help = "Path to shortlisted regions and countries."
+  ),
+  make_option(
+    c("-c", "--downsampling_strategy"),
+    type = "character",
+    help = "Downsampling strategy, e.g. geodate."
   ),
   make_option(
     c("-m", "--minyear"),
@@ -35,9 +40,10 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    file = "results/filter_crab/aci_collapse_geodate_crab.rds",
-    shortlist = "aci/data/geographic_locations_in_study.tsv",
-    collapse_strategy = "geodate",
+    project_dir = "aci",
+    file = "results_redacted/downsample_isolates/aci_crab_ds_geodate2.tsv",
+    shortlist = "data/geographic_locations_in_study.tsv",
+    downsampling_strategy = "geodate2",
     minyear = 2009,
     minyear_recent = 2016
   )
@@ -50,12 +56,22 @@ sink(con, split = TRUE)
 library(dplyr)
 library(ggplot2)
 
-# import aci data
-aci <- readRDS(args$file)
+library(devtools)
+load_all(args$project_dir)
 
+# import aci data
+aci <- read_df(args$file) %>% 
+  dplyr::filter(filtered & crab & downsampled & downsampled_by_pop)
+
+aci$serotype <- gsub("-", "_", aci$serotype)
+
+if (file.exists(args$shortlist)) {
 # import short list of regions and countries that were manually selected after
 # rarefaction
-shortlist <- read.csv(args$shortlist, sep = "\t") %>% filter(shortlisted == TRUE)
+  shortlist <- read.csv(args$shortlist, sep = "\t") %>% 
+    filter(shortlisted == TRUE)
+  if (nrow(shortlist) == 0) rm("shortlist")
+}
 
 # filter to minimum year
 aci <- aci[which(aci$collection_year >= args$minyear_recent), ]
@@ -77,28 +93,14 @@ region_continent_dict <- aci %>%
   select(region23, continent) %>%
   distinct()
 
-serotop_region <- data.frame()
-for (i in unique(aci$region23)) {
-  aci_small <- aci[which(aci$region23 == i),]
-  df <- aci_small %>%
-    group_by(serotype) %>%
-    summarise(count = length(assembly))
-  df$ratio = signif(df$count/sum(df$count), 4)
-  df <- df[order(df$ratio, decreasing = TRUE),]
-  df$ratio_cumsum <- signif(cumsum(df$ratio), 4)
-  df$order <- 1:nrow(df)
-  df$region23 <- i
-  df <- dplyr::relocate(df, region23)
-  serotop_region = dplyr::bind_rows(
-    serotop_region,
-    df
-  )
-}
+serotop_region <- serotype_freqs(aci, group_by = "region23")
 
+if (exists("shortlist")) {
 # filter to regions that were manually shortlisted after rarefaction
-shortlisted_regions <- shortlist$term[which(shortlist$variable == "region23")]
+shortlisted_regions <- shortlist$term_pretty[which(shortlist$variable == "region23")]
 index <- which(serotop_region$region23 %in% shortlisted_regions)
 serotop_region <- serotop_region[index,]
+}
 
 ##### TODO The summary table is no longer used. Remove? #####
 
@@ -119,10 +121,13 @@ serotop_region_summary <- serotop_region_summary[,c(1, (order(sums, decreasing =
 
 #############################################################
 
+serotop_region_exp <- serotop_region
+serotop_region_exp$serotype <- gsub("_", "-", serotop_region_exp$serotype)
+
 # export region23 top serotypes
 write.table(
-  serotop_region,
-  file = paste0("TableS2A_top_serotypes_region23_collapse_", args$collapse_strategy, ".tsv"),
+  serotop_region_exp,
+  file = paste0("TableS2A_top_serotypes_region23_ds_", args$downsampling_strategy, ".tsv"),
   sep = "\t",
   row.names = FALSE,
   quote = FALSE
@@ -130,7 +135,7 @@ write.table(
 # export region23 top serotype summaries
 write.table(
   serotop_region_summary,
-  file = paste0("top_serotypes_summary_region23_collapse_", args$collapse_strategy, ".tsv"),
+  file = paste0("top_serotypes_summary_region23_ds_", args$downsampling_strategy, ".tsv"),
   sep = "\t",
   row.names = FALSE,
   quote = FALSE
@@ -138,46 +143,22 @@ write.table(
 
 # DEFINE PREVALENT AND GLOBAL SEROTYPES AND EXPORT COLOR CODES
 
-serotop_region2 <- dplyr::left_join(
-  serotop_region,
-  region_continent_dict,
-  by = "region23"
-)
+if (exists("shortlist")) {
+  # filter to regions that were manually shortlisted after rarefaction
+  shortlisted_regions <- shortlist$term_pretty[which(shortlist$variable == "region23")]
+  index <- which(aci$region23 %in% shortlisted_regions)
+  aci_shortlisted <- aci[index,]
+}
 
-# prevalent_clones
-# a serotype is considered prevalent if it has a frequency of at least 5% in at
-# least 1 region
-prevalent_clones <- serotop_region2 %>%
-  filter(ratio > 0.05) %>%
-  summarise(serotype = unique(serotype)) %>% 
-  mutate(color = "orange3")
+global_prevalent <- global_prevalent(aci_shortlisted)
 
-# global clones
-# a serotype is considered a global if it is prevalent and has a frequency of at
-# least 2% in at least 3 regions and at least 2 continents
-
-min2perc_min3reg <- serotop_region2 %>% 
-  filter(ratio > 0.02) %>% 
-  group_by(serotype) %>% 
-  summarise(
-    n_region = length(unique(region23)),
-    n_continent = length(unique(continent))
-  ) %>% 
-  filter(n_region >= 3 & n_continent >= 2) %>% 
-  subset(select = 1) %>% 
-  mutate(color = "#DC143C")
-
-global_index <- which(min2perc_min3reg$serotype %in% prevalent_clones$serotype)
-global_clones <- min2perc_min3reg[global_index,]
-
-# combine the two tables
-prevalent_clones <- anti_join(prevalent_clones, global_clones, by="serotype")
-global_prevalent <- dplyr::bind_rows(global_clones, prevalent_clones)
+global_prevalent_exp <- global_prevalent
+global_prevalent_exp$serotype <- gsub("_", "-", global_prevalent_exp$serotype)
 
 write.table(
-  global_prevalent,
+  global_prevalent_exp,
   file = paste0(
-    "global_or_prevalent_serotypes_region23_collapse_", args$collapse_strategy, ".tsv"),
+    "global_or_prevalent_serotypes_region23_ds_", args$downsampling_strategy, ".tsv"),
   sep = "\t",
   row.names = FALSE,
   quote = FALSE
@@ -189,36 +170,25 @@ write.table(
 minyear2 <- args$minyear
 
 # import aci data
-aci_prev <- readRDS(args$file)
+aci_prev <- read_df(args$file) %>% 
+  dplyr::filter(filtered & crab & downsampled & downsampled_by_pop)
+
+aci_prev$serotype <- gsub("-", "_", aci_prev$serotype)
 
 # filter to time period
 aci_prev <- aci_prev[which(
   aci_prev$collection_year >= minyear2 & 
   aci_prev$collection_year < args$minyear_recent
 ), ]
+  
+serotop_region_prev <- serotype_freqs(aci_prev, group_by = "region23")
 
-serotop_region_prev <- data.frame()
-for (i in unique(aci_prev$region23)) {
-  aci_small <- aci_prev[which(aci_prev$region23 == i),]
-  df <- aci_small %>%
-    group_by(serotype) %>%
-    summarise(count = length(assembly))
-  df$ratio = signif(df$count/sum(df$count), 4)
-  df <- df[order(df$ratio, decreasing = TRUE),]
-  df$ratio_cumsum <- signif(cumsum(df$ratio), 4)
-  df$order <- 1:nrow(df)
-  df$region23 <- i
-  df <- dplyr::relocate(df, region23)
-  serotop_region_prev <- dplyr::bind_rows(
-    serotop_region_prev,
-    df
-  )
-}
-
+if (exists("shortlist")) {
 # filter to regions that were manually shortlisted after rarefaction
-shortlisted_regions <- shortlist$term[which(shortlist$variable == "region23")]
+shortlisted_regions <- shortlist$term_pretty[which(shortlist$variable == "region23")]
 index <- which(serotop_region_prev$region23 %in% shortlisted_regions)
 serotop_region_prev <- serotop_region_prev[index,]
+}
 
 # DEFINE PREVALENT AND GLOBAL SEROTYPES FOR PREVIOUS TIME PERIOD
 
@@ -277,10 +247,12 @@ period[[period1_name]] <- !is.na(period[[period1_name]])
 period[[period2_name]] <- !is.na(period[[period2_name]])
 period$overlap <- period[[period1_name]] & period[[period2_name]]
 
+period$serotype <- gsub("_", "-", period$serotype)
+
 write.table(
   period,
   file = paste0(
-    "global_or_prevalent_overlap_region23_collapse_", args$collapse_strategy, ".tsv"),
+    "global_or_prevalent_overlap_region23_ds_", args$downsampling_strategy, ".tsv"),
   sep = "\t",
   row.names = FALSE,
   quote = FALSE
@@ -311,8 +283,39 @@ prevalent_period2[, 2: ncol(prevalent_period2)] <- apply(
   prevalent_period2[, 2: ncol(prevalent_period2)], 2, function(x) !is.na(x)
 )
 
-index <- sapply(names(prevalent_period1), function(x) which(names(prevalent_period2) == x))
-prevalent_period2 <- prevalent_period2[,index]
+for (i in seq_along(names(prevalent_period1))) {
+  p1name <- names(prevalent_period1)[i]
+  if (p1name %in% names(prevalent_period2) == FALSE) {
+    # TODO CHECK IF THIS IS MEANS WHAT IT SHOULD
+    prevalent_period2[[p1name]] <- FALSE
+  }
+  index <- which(names(prevalent_period2) == p1name)
+  if (i == 1) {
+    prevalent_period2 <- dplyr::relocate(prevalent_period2, p1name)
+  } else {
+    prevalent_period2 <- dplyr::relocate(
+      prevalent_period2,
+      p1name,
+      .after = names(prevalent_period1)[i-1])
+  }
+}
+
+for (i in seq_along(names(prevalent_period2))) {
+  p2name <- names(prevalent_period2)[i]
+  if (p2name %in% names(prevalent_period1) == FALSE) {
+    # TODO CHECK IF THIS IS MEANS WHAT IT SHOULD
+    prevalent_period1[[p2name]] <- FALSE
+  }
+  index <- which(names(prevalent_period1) == p2name)
+  if (i == 1) {
+    prevalent_period1 <- dplyr::relocate(prevalent_period1, p2name)
+  } else {
+    prevalent_period1 <- dplyr::relocate(
+      prevalent_period1,
+      p2name,
+      .after = names(prevalent_period2)[i-1])
+  }
+}
 
 # test that variable names are in the same order
 testthat::expect_true(all(names(prevalent_period1) == names(prevalent_period2)))
@@ -385,10 +388,12 @@ for (i in 1:nrow(prevres)) {
   }
 }
 
+prevres$serotype = gsub("_", "-", prevres$serotype)
+
 write.table(
   prevres,
   file = paste0(
-    "TableS2_prevalent_overlap_region23_collapse_", args$collapse_strategy, ".tsv"),
+    "TableS2_prevalent_overlap_region23_ds_", args$downsampling_strategy, ".tsv"),
   sep = "\t",
   row.names = FALSE,
   quote = FALSE,
@@ -397,33 +402,19 @@ write.table(
 
 # COUNTRIES
 
-serotop_country <- data.frame()
-for (i in unique(aci$country)) {
-  aci_small <- aci[which(aci$country == i),]
-  df <- aci_small %>%
-    group_by(serotype) %>%
-    summarise(count = length(assembly))
-  df$ratio = signif(df$count/sum(df$count), 4)
-  df <- df[order(df$ratio, decreasing = TRUE),]
-  df$ratio_cumsum <- signif(cumsum(df$ratio), 4)
-  df$order <- 1:nrow(df)
-  df$country <- i
-  df <- dplyr::relocate(df, country)
-  serotop_country = dplyr::bind_rows(
-    serotop_country,
-    df
-  )
-}
+serotop_country <- serotype_freqs(aci, group_by = "country")
 
+if (exists("shortlist")) {
 # filter to countries that were manually shortlisted after rarefaction
-shortlisted_countries <- shortlist$term[which(shortlist$variable == "country")]
+shortlisted_countries <- shortlist$term_pretty[which(shortlist$variable == "country")]
 index <- which(serotop_country$country %in% shortlisted_countries)
 serotop_country <- serotop_country[index,]
+}
 
 # export country top serotypes
 write.table(
   serotop_country,
-  file = paste0("top_serotypes_country_collapse_", args$collapse_strategy, ".tsv"),
+  file = paste0("top_serotypes_country_ds_", args$downsampling_strategy, ".tsv"),
   sep = "\t",
   row.names = FALSE,
   quote = FALSE
@@ -431,6 +422,7 @@ write.table(
 
 # pairwise comparisons - bray curtis dissimilarity and overlap prevalence
 
+if (exists("shortlisted_countries")) {
 pairs <- combn(shortlisted_countries, 2) %>% t() %>% as.data.frame()
 names(pairs) <- c("country1", "country2")
 pairs$country1_continent <- sapply(pairs$country1, function(x) {
@@ -485,7 +477,7 @@ pairs$morisita <- NA
 for (i in 1:nrow(pairs)) {
   index1 <- which(rownames(diversity_matrix) == pairs$country1[i])
   index2 <- which(rownames(diversity_matrix) == pairs$country2[i])
-  pairs$morisita[i] <- abdiv::morisita(
+  pairs$morisita[i] <- abdiv::horn_morisita(
     diversity_matrix[index1, ],
     diversity_matrix[index2, ]
   )
@@ -521,10 +513,13 @@ for (i in 1:nrow(pairs)) {
 }
 # calculate the mean of the two values
 pairs$mean_overlap_prevalence <- apply(pairs[,c("country1_overlap_prevalence", "country2_overlap_prevalence")], 1, mean)
+} else {
+  pairs <- data.frame()
+}
 
 write.table(
   pairs,
-  file = paste0("country_comparisons_collapse_", args$collapse_strategy, ".tsv"),
+  file = paste0("country_comparisons_ds_", args$downsampling_strategy, ".tsv"),
   sep = "\t",
   row.names = FALSE,
   quote = FALSE
@@ -533,7 +528,8 @@ write.table(
 # REGIONS BY YEAR
 
 # import aci data
-aci <- readRDS(args$file)
+aci <- read_df(args$file) %>% 
+  dplyr::filter(filtered & crab & downsampled & downsampled_by_pop)
 
 serotop_region_year <- data.frame()
 for (k in sort(unique(aci$collection_year))) {
@@ -556,15 +552,18 @@ for (k in sort(unique(aci$collection_year))) {
   
   }
 }
+
+if (exists("shortlist")) {
 # filter to regions that were manually shortlisted after rarefaction
-shortlisted_regions <- shortlist$term[which(shortlist$variable == "region23")]
+shortlisted_regions <- shortlist$term_pretty[which(shortlist$variable == "region23")]
 index <- which(serotop_region_year$region23 %in% shortlisted_regions)
 serotop_region_year <- serotop_region_year[index,]
+}
 
 write.csv(
   serotop_region_year,
   file = paste0(
-    "serotypes_region23_year_collapse_", args$collapse_strategy, ".tsv"),
+    "serotypes_region23_year_ds_", args$downsampling_strategy, ".tsv"),
   sep = "\t",
   row.names = FALSE,
   quote = FALSE
@@ -573,7 +572,8 @@ write.csv(
 # COUNTRIES BY YEAR
 
 # import aci data
-aci <- readRDS(args$file)
+aci <- read_df(args$file) %>% 
+  dplyr::filter(filtered & crab & downsampled & downsampled_by_pop)
 
 serotop_country_year <- data.frame()
 for (k in sort(unique(aci$collection_year))) {
@@ -596,15 +596,17 @@ for (k in sort(unique(aci$collection_year))) {
   }
 }
 
+if( exists("shortlist")) {
 # filter to countries that were manually shortlisted after rarefaction
-shortlisted_countries <- shortlist$term[which(shortlist$variable == "country")]
+shortlisted_countries <- shortlist$term_pretty[which(shortlist$variable == "country")]
 index <- which(serotop_country_year$country %in% shortlisted_countries)
 serotop_country_year <- serotop_country_year[index,]
+}
 
 write.csv(
   serotop_country_year,
   file = paste0(
-    "serotypes_country_year_collapse_", args$collapse_strategy, ".tsv"),
+    "serotypes_country_year_ds_", args$downsampling_strategy, ".tsv"),
   sep = "\t",
   row.names = FALSE,
   quote = FALSE

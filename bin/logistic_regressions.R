@@ -40,10 +40,10 @@ if (!interactive()) {
 } else {
   args <- list(
     project_dir = "aci",
-    aci_path = "results/filter_assemblies/aci_filtered.rds",
+    aci_path = "results_redacted/downsample_isolate/aci_crab_ds_geodate.tsv",
     minyear_threshold = 2009,
     mincount_threshold = 50,
-    selected_serotypes = "results/calc_serotype_freqs/geodate/global_or_prevalent_serotypes_region23_collapse_geodate.tsv"
+    selected_serotypes = "results_redacted/calc_serotype_freqs/geodate/global_or_prevalent_serotypes_region23_ds_geodate.tsv"
   )
 }
 
@@ -52,7 +52,7 @@ load_all(args$project_dir)
 minyear_threshold <- as.numeric(args$minyear_threshold)
 
 # import data set
-aci <- readRDS(args$aci_path)
+aci <- read_df(args$aci_path) %>% dplyr::filter(filtered & crab & downsampled)
 
 # import list of selected serotypes
 prevalent <- read.csv(args$selected_serotypes, sep = "\t")
@@ -289,10 +289,7 @@ for (i in 1:nrow(logres_date)) {
   #  height= 6
   #) 
   if (logres_date$p_value_corr[i] <= 0.05 & logres_date$scope[i] != "world") {
-    figname <- paste0(
-      gsub("_", "-", sero), " ", 
-      Hmisc::capitalize(logres_date$scope[i])
-    )
+    figname <- paste0(sero, " ", Hmisc::capitalize(logres_date$scope[i]))
     figtitle <- paste0(
       figname,
       "<br>",
@@ -376,16 +373,18 @@ cfig <- ggpubr::annotate_figure(
 )
 
 ggsave(
-  filename = "figures/FigS23_ratio_of_serotypes_by_year_composite.png",
+  filename = "figures/ratio_of_serotypes_by_year_composite.png",
   plot = cfig,
   width = 18,
+  height = length(composite_fig) * 1.5,
   units = "cm"
 )
 
 ggsave(
-  filename = "figures/FigS23_ratio_of_serotypes_by_year_composite.pdf",
+  filename = "figures/ratio_of_serotypes_by_year_composite.pdf",
   plot = cfig,
   width = 18,
+  height = length(composite_fig) * 1.5,
   units = "cm",
   device = cairo_pdf
 )

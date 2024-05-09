@@ -28,9 +28,9 @@ if (!interactive()) {
   args  <- parse_args(args_parser)
 } else {
   args <- list(
-    assemblies = "results/filter_assemblies/aci_filtered.rds",
+    assemblies = "results_redacted/filter_assemblies/aci_filtered.rds",
     trees = "data/all_dated_trees.rds",
-    sensitivity = "labdata/aci_project/Ab_all_strains_phages_spotassay_PFU.tsv"
+    sensitivity = "data/phage_sensitivity_measurements/TableS2_T10.tsv"
   )
 }
 
@@ -55,7 +55,7 @@ phres <- phres[which(phres$MLST %in% names(trees)),]
 
 # COMMENT BECAUSE WE WANT TO TEST ALL PHAGES SEPARATELY
 # only keep strains which were tested against all phages
-# phres <- phres[complete.cases(phres[,8:ncol(phres)]),]
+# phres <- phres[complete.cases(phres[,7:ncol(phres)]),]
 
 # only keep strains which are present on a tree
 # only keep strains which are present on a single tree
@@ -85,7 +85,7 @@ if (length(remove) > 0) {
 
 # format phres
 for (i in 1:nrow(phres)) {
-  for (j in 8:ncol(phres)) {
+  for (j in 7:ncol(phres)) {
     # Count partial sensitivity to a phage as no sensitivity
     if (!is.na(phres[i,j]) && phres[i,j] == "1") {
       phres[i,j] <- "0"
@@ -99,7 +99,7 @@ for (i in 1:nrow(phres)) {
   }
 }
 
-for (j in 8:ncol(phres)) {
+for (j in 7:ncol(phres)) {
   phres[,j] <- as.numeric(phres[,j])
   phres[,j] <- ifelse(
     phres[,j] > 1,
@@ -111,7 +111,7 @@ for (j in 8:ncol(phres)) {
 # MODIFY APPLY FUNCTION TO ALLOW NA VALUES
 # only keep strains which were sensitive to at least one phage
 effective_phage_count <- apply(
-  phres[,8:ncol(phres)], 1, function(x) sum(x, na.rm = TRUE))
+  phres[,7:ncol(phres)], 1, function(x) sum(x, na.rm = TRUE))
 phres <- phres[which(effective_phage_count > 0),]
 
 # only keep strains that belong to KL types against which at least one phage
@@ -119,7 +119,7 @@ phres <- phres[which(effective_phage_count > 0),]
 # strains, regardless of their phage profile.
 
 #infection_count <- sapply(unique(phres$KL), function(x) {
-#  sum(phres[which(phres$KL == x),8:ncol(phres)])
+#  sum(phres[which(phres$KL == x),7:ncol(phres)])
 #})
 #kl_to_keep <- names(infection_count)[which(infection_count > 0)]
 #phres <- phres[which(phres$KL %in% kl_to_keep),]
@@ -188,7 +188,7 @@ for (i in 1:nrow(comp)) {
 # since distance is in years, divide by two to relate to divergence times.
 comp$patristic <- comp$patristic/2
 
-phagenames <- names(phres)[8:ncol(phres)]
+phagenames <- names(phres)[7:ncol(phres)]
 
 for (j in phagenames) {
   comp[[ncol(comp) + 1]] <- NA
@@ -229,7 +229,7 @@ comp <- comp[which(comp$phagesero %in% phagesero$phagesero),]
 
 # convert phage sensitivities to long format
 phres_long <- phres %>%
-  select(1, 8:ncol(phres)) %>%
+  select(1, 7:ncol(phres)) %>%
   tidyr::pivot_longer(
     cols = 2:ncol(.),
     names_to = "phage",
@@ -335,14 +335,9 @@ for (i in unique(comp$phagesero)) {
 # filter to selected phage-serotype pairs
 comp <- comp[which(comp$phagesero %in% c(
   "ST2-KL2 Rocket",
-  "ST2-KL2 Fishpie",
   "ST2-KL2 Silvergun",
-  "ST2-KL3 Rocket",
-  "ST2-KL3 Highwayman",
-  "ST2-KL3 Silvergun",
   "ST636-KL40 Rocket",
-  "ST636-KL40 PhT2.v2",
-  "ST636-KL40 Konradin.v2"
+  "ST2-KL3 Silvergun"
 )),]
 
 # rename phagesero to include desired strip text
@@ -364,25 +359,16 @@ new_phagesero <- unique(comp$phagesero)
 # order phagesero factor levels for plotting
 comp$phagesero <- factor(comp$phagesero, levels = c(
   new_phagesero[grep("ST2-KL2 Rocket", new_phagesero)],
-  new_phagesero[grep("ST2-KL2 Fishpie", new_phagesero)],
   new_phagesero[grep("ST2-KL2 Silvergun", new_phagesero)],
-  new_phagesero[grep("ST2-KL3 Rocket", new_phagesero)],
-  new_phagesero[grep("ST2-KL3 Highwayman", new_phagesero)],
-  new_phagesero[grep("ST2-KL3 Silvergun", new_phagesero)],
   new_phagesero[grep("ST636-KL40 Rocket", new_phagesero)],
-  new_phagesero[grep("ST636-KL40 PhT2.v2", new_phagesero)],
-  new_phagesero[grep("ST636-KL40 Konradin.v2", new_phagesero)]
+  new_phagesero[grep("ST2-KL3 Silvergun", new_phagesero)]
 ))
 
 # prepare composite plot for selected phage-serotype pairs
 
 strip <- ggh4x::strip_themed(
   background_x = elem_list_rect(fill = c(
-    rep("grey", times = 1),
-    rep("#00A36C", times = 2),
-    rep("grey", times = 1),
-    rep("#00A36C", times = 2),
-    rep("grey", times = 3)
+    rep(c("grey","#00A36C"), times = 2)
   ))
 )
 
@@ -392,14 +378,13 @@ comp$icount <- comp$icount - 1
 g <- ggplot(comp, aes(patristic, icount)) + 
   geom_point(
     position = position_jitter(height = 0.05, seed = 0),
-    alpha = 0.5,
-    aes(col = Region)
+    alpha = 0.5
   ) +
   geom_smooth(method = "loess", span = 0.85, size = 0.1) +
-  facet_wrap2(~phagesero, ncol = 3, strip = strip) +
+  facet_wrap2(~phagesero, ncol = 2, strip = strip) +
   theme_bw() +
   xlab("Average time of divergence\nsince common ancestor with sensitive reference isolate (years)") +
-  ylab("Probability of successful phage infection") +
+  ylab("Probability of\nsuccessful phage infection") +
   theme(
     plot.title = ggtext::element_markdown(size = 8),
     plot.margin = unit(c(0,0,0,0), "cm"),
@@ -413,18 +398,23 @@ g <- ggplot(comp, aes(patristic, icount)) +
 
 g
 
+g <- g + theme(
+  panel.background = element_rect(fill='transparent'), #transparent panel bg
+  plot.background = element_rect(fill='transparent', color=NA), #transparent plot bg
+)
+
 ggsave(
-  filename = "phage_serotype_sensitivity.pdf",
+  filename = "phage_serotype_sensitivity_small.pdf",
   plot = g,
-  width = 15,
-  height = 15,
+  width = 11,
+  height = 10,
   units = "cm"
 )
 
 ggsave(
-  filename = "phage_serotype_sensitivity.png",
+  filename = "phage_serotype_sensitivity_small.png",
   plot = g,
-  width = 15,
-  height = 15,
+  width = 13,
+  height = 10,
   units = "cm"
 )

@@ -1,6 +1,6 @@
 account="stitam"
 container="r-aci"
-version="0.13"
+version="0.14"
 
 # build docker image
 sudo docker build -f Dockerfile -t ${account}/${container}:${version} .

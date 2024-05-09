@@ -1,21 +1,43 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# aci
+# maci
 
 <!-- badges: start -->
 
-This repository contains all pipelines and scripts for the article:
-\<TODO: ARTICLE REFERENCE HERE\>
+This repository is part of a set of repositories we have developed for
+analysing *Acinetobacter baumannii* genomes. The master repository of
+the project is at
+<https://github.com/stitam/Koncz-et-al-Genomic-surveillance>.
+
+This repository contains code for analysis steps that are *A. baumannii*
+specific, e.g. 1. identifying genes and other genomic features that may
+be associated with carbapenem resistance (carbapenem.nf), 2. genome
+typing of *A. baumannii* genomes (type.nf), 3. analysing the diversity
+of genome types and preparing a number of plots for the article
+(genepi.nf).
+
+The philosophy of the master repository and this repository are slightly
+different: while the aim for the master repository is *only*
+reproducibility (for the purpose of the article), the aim for this
+repository is **reusability**, i.e. ideally these pipelines will work
+with other *A. baumannii* data sets as well.
+
+Ongoing work includes tidying the repository to ensure it can be run
+easily on other platforms and then some pipeline elements will be
+generalised to work with other species as well.
 
 ## Repository Structure
 
 This repository contains:
 
+- A pipeline launcher for identifying genes and other genomic features
+  that may be associated with carbapenem resistance (carbapenem.nf)
 - A pipeline launcher for predicting a number of genomic features for a
-  set of A. baumannii genomes (main.nf)
-- A pipeline launcher for analysing a set of A. baumannii genomes with
-  genomic features (post.nf)
+  set of *A. baumannii* genomes (type.nf)
+- A pipeline launcher for analysing the diversity of *A.baumannii*
+  genome types and preparing a number of plots for the article
+  (genepi.nf)
 
 The pipelines use both published software tools and also code developed
 for this project.
@@ -30,53 +52,75 @@ for this project.
 
 The automated pipelines run under Linux and require Java 11 or later as
 well as Singularity (<https://sylabs.io/singularity/>). Processes in the
-pipeline are fully containerised. To see which process uses which
-container, see section “Container versions” in the pipeline launchers.
+pipelines are fully containerised. For container versions, see the
+section “Container versions” in the beginning of each pipeline launcher.
 
 R scripts and R functions are OS independent and may run on any
 platform. Furthermore, R functions are organised in an R package-like
-structure. You can load these functions into an R session:
+structure. Currently you can load these functions into an R session by
+running:
 
 ``` r
-# load R functions
 library(devtools)
 load_all("<path to downloaded repo>")
-
-# TODO prepare R package from R functions, release on GitHub, change this to devtools::install_github()
 ```
 
-**IMPORTANT!!!** A large fraction of the code is written in R. Due to
-internal R stuff the containerised pipelines may throw errors on your
-system if your working directory is in your `/home`. To avoid this risk
-completely and ensure the pipelines work as intended, make sure you do
-not have R v4.2 packages installed in your `/home`.
-
-## Predicting genomic features - main.nf
-
-A visual representation of the pipeline
-
-![](./type.png)
-
-### How to use the pipeline
-
-TODO
-
-## Analyse genomes with predicted genomic features - analysis.nf
-
-A visual representation of the pipeline
-
-![](./analyse.png)
+## Identifying features that may be associated with carbapenem resistance - carbapenem.nf
 
 ### How to use the pipeline
 
 The pipeline requires a number arguments. It is recommended to define
 these in a dedicated `yaml` file and use this file when running the
-pipeline. An example for such a file can be found in
-`analyse_example.yaml`.
-
-    nextflow run analyse.nf -params-file analyse_example.yaml
+pipeline. An example for such a file (`carbapenem.yaml`) can be found in
+the master repository
+(<https://github.com/stitam/Koncz-et-al-Genomic-surveillance>) along
+with a shell script (carbapenem.sh) which can be run within the master
+repository to run the pipeline.
 
 The following arguments are required:
+
+*assembly_summary*
+
+File path to a typing summary table, one row for each genome and columns
+describing properties of each genome. Columns are described below
+
+*resdir*
+
+The name of the directory inside the working directory where pipeline
+results will be stored.
+
+## Predicting genomic features - type.nf
+
+### How to use the pipeline
+
+The pipeline requires a number arguments. It is recommended to define
+these in a dedicated `yaml` file and use this file when running the
+pipeline. An example for such a file (`type.yaml`) can be found in the
+master repository
+(<https://github.com/stitam/Koncz-et-al-Genomic-surveillance>) along
+with a shell script (type.sh) which can be run within the master
+repository to run the pipeline.
+
+The following arguments are required:
+
+## analysing the diversity of *A.baumannii* genome types - genepi.nf
+
+### How to use the pipeline
+
+The pipeline requires a number arguments. It is recommended to define
+these in a dedicated `yaml` file and use this file when running the
+pipeline. An example for such a file (`genepi.yaml`) can be found in the
+master repository
+(<https://github.com/stitam/Koncz-et-al-Genomic-surveillance>) along
+with a shell script (genepi.sh) which can be run within the master
+repository to run the pipeline.
+
+The following arguments are required:
+
+*taxid*
+
+The NCBI Taxonomy ID of the organism, currently only 470 (*A.
+baumannii*) is fully supported.
 
 *assembly_summary*
 
@@ -97,7 +141,7 @@ required:
 - busco_complete_perc: numeric; BUSCO Complete score in percentage
   (0-100%).
 - genome_size: integer; overall number of bases.
-- GC content: numeric; ratio of Gs and Cs (0-1).
+- GC content: numeric; ratio of Gs and Cs (0-1, 3 significant digits).
 - contig_count: integer; number of contigs.
 - longest_contig: integer; length of the longest contig.
 - N50: integer;
@@ -113,3 +157,74 @@ required:
 - human_related: logical; whether or not the isolate is human related
   e.g. clinical.
 - crab: logical; whether or not the isolate is a high risk isolate.
+
+*downsampling_strategy*
+
+Either “none”, “geodate”, “geodate2”, “geodate3”, or “poppunk”.
+
+*geographic_locations*
+
+A table of all geographic locations (regions, countries) that occur in
+the data set.
+
+*population_sampling_rate*
+
+Used for downsampling samples from countries by population, number or
+samples per million inhabitants.
+
+*poppunk_clusters*
+
+A table which clusters genome assemblies into clusters. Only used if
+downsampling strategy is “poppunk”.
+
+*phage_sensitivity*
+
+A table of phage-host sensitivity measurement results
+
+*global_tree_nwk*
+
+A dated tree in Newick format.
+
+*global_tree_rds*
+
+Plot of a dated tree exported as rds. Generated by a separate script.
+
+*pastml_tbl*
+
+A dated tree in table format along with ancestral state predictions.
+Generated by a separate script.
+
+*trees*
+
+A list of trees exported as a single rds object. Generated by a separate
+script.
+
+*global_rr*
+
+Risk analyis plot in rds format. Generated by a separate script.
+
+*regional_rr*
+
+Risk analyis plot in rds format. Generated by a separate script.
+
+*resdir*
+
+The name of the directory inside the working directory where pipeline
+results will be stored.
+
+*minyear*
+
+Used in some diversity analysis scripts, e.g. logistic regression.
+
+*minyear_recent*
+
+The year since which we classify isolates as being “recent”.
+
+*maxyear*
+
+Used in some analysis, for plotting.
+
+*mincount*
+
+Used for logistic regressions, the lowest number of isolates to
+consider.

@@ -13,7 +13,7 @@ kraken2_container = "stitam/kraken2:dev"
 mlst_container = "staphb/mlst:2.23.0"
 prodigal_container = "nanozoo/prodigal:2.6.3--2769024"
 prokka_container = "stitam/prokka:1.14.5"
-r_container = "stitam/r-aci:0.13"
+r_container = "stitam/r-aci:0.14"
 
 // Database versions
 resfinder_db_ver = "2.0.0"
